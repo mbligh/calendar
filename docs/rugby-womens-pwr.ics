@@ -1,0 +1,603 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mbligh/calendar//Spoiler-free calendar//EN
+X-WR-CALNAME:Rugby Womens PWR (No Spoilers)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:Loughborough Lightning vs Trailfinders Women
+DTSTART:20261120T193000Z
+DTEND:20261120T213000Z
+UID:pwr-295034@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 1
+LOCATION:DPD Stadium at Franklin's Gardens
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sale Sharks vs Gloucester Hartpury
+DTSTART:20261121T140000Z
+DTEND:20261121T160000Z
+UID:pwr-295035@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 1
+LOCATION:Morson Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Saracens vs Leicester Tigers
+DTSTART:20261122T130000Z
+DTEND:20261122T150000Z
+UID:pwr-295036@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 1
+LOCATION:StoneX Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harlequins vs Bristol Bears
+DTSTART:20261122T150000Z
+DTEND:20261122T170000Z
+UID:pwr-295037@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 1
+LOCATION:Twickenham Stoop
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gloucester Hartpury vs Loughborough Lightning
+DTSTART:20261128T140000Z
+DTEND:20261128T160000Z
+UID:pwr-295038@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 2
+LOCATION:Kingsholm Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bristol Bears vs Exeter Chiefs
+DTSTART:20261128T150000Z
+DTEND:20261128T170000Z
+UID:pwr-295039@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 2
+LOCATION:Shaftesbury Park
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Trailfinders Women vs Harlequins
+DTSTART:20261128T190000Z
+DTEND:20261128T210000Z
+UID:pwr-295040@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 2
+LOCATION:Trailfinders Sports Club
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leicester Tigers vs Sale Sharks
+DTSTART:20261129T130000Z
+DTEND:20261129T150000Z
+UID:pwr-295041@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 2
+LOCATION:Mattioli Woods Welford Road
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Trailfinders Women vs Bristol Bears
+DTSTART:20261204T193000Z
+DTEND:20261204T213000Z
+UID:pwr-295042@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 3
+LOCATION:Trailfinders Sports Club
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sale Sharks vs Saracens
+DTSTART:20261205T140000Z
+DTEND:20261205T160000Z
+UID:pwr-295043@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 3
+LOCATION:Morson Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Loughborough Lightning vs Exeter Chiefs
+DTSTART:20261206T121500Z
+DTEND:20261206T141500Z
+UID:pwr-295044@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 3
+LOCATION:DPD Stadium at Franklin's Gardens
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harlequins vs Leicester Tigers
+DTSTART:20261206T143000Z
+DTEND:20261206T163000Z
+UID:pwr-295045@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 3
+LOCATION:Twickenham Stoop
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bristol Bears vs Gloucester Hartpury
+DTSTART:20261211T194500Z
+DTEND:20261211T214500Z
+UID:pwr-295046@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 4
+LOCATION:Shaftesbury Park
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exeter Chiefs vs Harlequins
+DTSTART:20261212T150500Z
+DTEND:20261212T170500Z
+UID:pwr-295047@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 4
+LOCATION:Sandy Park
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leicester Tigers vs Trailfinders Women
+DTSTART:20261213T130000Z
+DTEND:20261213T150000Z
+UID:pwr-295048@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 4
+LOCATION:Mattioli Woods Welford Road
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Saracens vs Loughborough Lightning
+DTSTART:20261213T150000Z
+DTEND:20261213T170000Z
+UID:pwr-295049@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 4
+LOCATION:StoneX Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exeter Chiefs vs Sale Sharks
+DTSTART:20261219T120000Z
+DTEND:20261219T140000Z
+UID:pwr-295050@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 5
+LOCATION:Sandy Park
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leicester Tigers vs Bristol Bears
+DTSTART:20261220T140000Z
+DTEND:20261220T160000Z
+UID:pwr-295051@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 5
+LOCATION:Mattioli Woods Welford Road
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Saracens vs Gloucester Hartpury
+DTSTART:20261220T150000Z
+DTEND:20261220T170000Z
+UID:pwr-295052@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 5
+LOCATION:StoneX Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harlequins vs Loughborough Lightning
+DTSTART:20261228T140000Z
+DTEND:20261228T160000Z
+UID:pwr-295053@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 5
+LOCATION:Allianz Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Trailfinders Women vs Saracens
+DTSTART:20270102T150000Z
+DTEND:20270102T170000Z
+UID:pwr-295054@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 6
+LOCATION:Trailfinders Sports Club
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sale Sharks vs Harlequins (time TBC)
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+UID:pwr-295055@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gloucester Hartpury vs Exeter Chiefs
+DTSTART:20270103T121500Z
+DTEND:20270103T141500Z
+UID:pwr-295056@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 6
+LOCATION:Kingsholm Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Loughborough Lightning vs Leicester Tigers
+DTSTART:20270103T180000Z
+DTEND:20270103T200000Z
+UID:pwr-295057@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 6
+LOCATION:DPD Stadium at Franklin's Gardens
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Loughborough Lightning vs Sale Sharks
+DTSTART:20270109T130000Z
+DTEND:20270109T150000Z
+UID:pwr-295058@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 7
+LOCATION:DPD Stadium at Franklin's Gardens
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Saracens vs Bristol Bears
+DTSTART:20270109T150000Z
+DTEND:20270109T170000Z
+UID:pwr-295059@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 7
+LOCATION:StoneX Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exeter Chiefs vs Trailfinders Women
+DTSTART:20270110T130000Z
+DTEND:20270110T150000Z
+UID:pwr-295060@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 7
+LOCATION:Sandy Park
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harlequins vs Gloucester Hartpury
+DTSTART:20270110T150000Z
+DTEND:20270110T170000Z
+UID:pwr-295061@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 7
+LOCATION:Twickenham Stoop
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bristol Bears vs Loughborough Lightning
+DTSTART:20270115T194500Z
+DTEND:20270115T214500Z
+UID:pwr-295062@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 8
+LOCATION:Shaftesbury Park
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Saracens vs Exeter Chiefs
+DTSTART:20270116T150000Z
+DTEND:20270116T170000Z
+UID:pwr-295063@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 8
+LOCATION:StoneX Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Trailfinders Women vs Sale Sharks
+DTSTART:20270116T170000Z
+DTEND:20270116T190000Z
+UID:pwr-295064@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 8
+LOCATION:Trailfinders Sports Club
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leicester Tigers vs Gloucester Hartpury
+DTSTART:20270117T130000Z
+DTEND:20270117T150000Z
+UID:pwr-295065@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 8
+LOCATION:Mattioli Woods Welford Road
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gloucester Hartpury vs Trailfinders Women (time TBC)
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+UID:pwr-295066@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 9
+LOCATION:Kingsholm Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sale Sharks vs Leicester Tigers (time TBC)
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+UID:pwr-295067@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 9
+LOCATION:Morson Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exeter Chiefs vs Bristol Bears (time TBC)
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+UID:pwr-295068@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 9
+LOCATION:Sandy Park
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harlequins vs Saracens (time TBC)
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+UID:pwr-295069@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 9
+LOCATION:Twickenham Stoop
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bristol Bears vs Harlequins (time TBC)
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+UID:pwr-295070@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 10
+LOCATION:Shaftesbury Park
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Trailfinders Women vs Loughborough Lightning (time TBC)
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+UID:pwr-295071@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 10
+LOCATION:Trailfinders Sports Club
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gloucester Hartpury vs Sale Sharks (time TBC)
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+UID:pwr-295072@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 10
+LOCATION:Kingsholm Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leicester Tigers vs Saracens (time TBC)
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
+UID:pwr-295073@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 10
+LOCATION:Mattioli Woods Welford Road
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sale Sharks vs Bristol Bears (time TBC)
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+UID:pwr-295074@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 11
+LOCATION:Morson Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Loughborough Lightning vs Gloucester Hartpury (time TBC)
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+UID:pwr-295075@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 11
+LOCATION:DPD Stadium at Franklin's Gardens
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harlequins vs Trailfinders Women (time TBC)
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+UID:pwr-295076@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 11
+LOCATION:Twickenham Stoop
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exeter Chiefs vs Leicester Tigers (time TBC)
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+UID:pwr-295077@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 11
+LOCATION:Sandy Park
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bristol Bears vs Saracens (time TBC)
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+UID:pwr-295078@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 12
+LOCATION:Shaftesbury Park
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Trailfinders Women vs Exeter Chiefs (time TBC)
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+UID:pwr-295079@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 12
+LOCATION:Trailfinders Sports Club
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gloucester Hartpury vs Harlequins (time TBC)
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+UID:pwr-295080@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 12
+LOCATION:Kingsholm Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sale Sharks vs Loughborough Lightning (time TBC)
+DTSTART;VALUE=DATE:20270220
+DTEND;VALUE=DATE:20270221
+UID:pwr-295081@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 12
+LOCATION:Morson Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bristol Bears vs Trailfinders Women (time TBC)
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+UID:pwr-295082@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 13
+LOCATION:Shaftesbury Park
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exeter Chiefs vs Loughborough Lightning (time TBC)
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+UID:pwr-295083@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 13
+LOCATION:Sandy Park
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Saracens vs Sale Sharks (time TBC)
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+UID:pwr-295084@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 13
+LOCATION:StoneX Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leicester Tigers vs Harlequins (time TBC)
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+UID:pwr-295085@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 13
+LOCATION:Mattioli Woods Welford Road
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Trailfinders Women vs Leicester Tigers (time TBC)
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+UID:pwr-295086@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 14
+LOCATION:Trailfinders Sports Club
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gloucester Hartpury vs Bristol Bears (time TBC)
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+UID:pwr-295087@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 14
+LOCATION:Kingsholm Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Loughborough Lightning vs Saracens (time TBC)
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+UID:pwr-295088@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 14
+LOCATION:DPD Stadium at Franklin's Gardens
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harlequins vs Exeter Chiefs (time TBC)
+DTSTART;VALUE=DATE:20270313
+DTEND;VALUE=DATE:20270314
+UID:pwr-295089@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 14
+LOCATION:Twickenham Stoop
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bristol Bears vs Sale Sharks (time TBC)
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+UID:pwr-295090@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 15
+LOCATION:Shaftesbury Park
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Trailfinders Women vs Gloucester Hartpury (time TBC)
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+UID:pwr-295091@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 15
+LOCATION:Trailfinders Sports Club
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Saracens vs Harlequins (time TBC)
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+UID:pwr-295092@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 15
+LOCATION:StoneX Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leicester Tigers vs Exeter Chiefs (time TBC)
+DTSTART;VALUE=DATE:20270320
+DTEND;VALUE=DATE:20270321
+UID:pwr-295093@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 15
+LOCATION:Mattioli Woods Welford Road
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gloucester Hartpury vs Leicester Tigers (time TBC)
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+UID:pwr-295094@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 16
+LOCATION:Kingsholm Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sale Sharks vs Trailfinders Women (time TBC)
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+UID:pwr-295095@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 16
+LOCATION:Morson Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Loughborough Lightning vs Bristol Bears (time TBC)
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+UID:pwr-295096@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 16
+LOCATION:DPD Stadium at Franklin's Gardens
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exeter Chiefs vs Saracens (time TBC)
+DTSTART;VALUE=DATE:20270327
+DTEND;VALUE=DATE:20270328
+UID:pwr-295097@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 16
+LOCATION:Sandy Park
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Harlequins vs Sale Sharks (time TBC)
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+UID:pwr-295098@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 17
+LOCATION:Twickenham Stoop
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Exeter Chiefs vs Gloucester Hartpury (time TBC)
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+UID:pwr-295099@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 17
+LOCATION:Sandy Park
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Saracens vs Trailfinders Women (time TBC)
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+UID:pwr-295100@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 17
+LOCATION:StoneX Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Leicester Tigers vs Loughborough Lightning (time TBC)
+DTSTART;VALUE=DATE:20270529
+DTEND;VALUE=DATE:20270530
+UID:pwr-295101@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 17
+LOCATION:Mattioli Woods Welford Road
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bristol Bears vs Leicester Tigers (time TBC)
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+UID:pwr-295102@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 18
+LOCATION:Shaftesbury Park
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Gloucester Hartpury vs Saracens (time TBC)
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+UID:pwr-295103@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 18
+LOCATION:Kingsholm Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Sale Sharks vs Exeter Chiefs (time TBC)
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+UID:pwr-295104@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 18
+LOCATION:Morson Stadium
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Loughborough Lightning vs Harlequins (time TBC)
+DTSTART;VALUE=DATE:20270605
+DTEND;VALUE=DATE:20270606
+UID:pwr-295105@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 18
+LOCATION:DPD Stadium at Franklin's Gardens
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:None vs None (time TBC)
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+UID:pwr-295106@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:None vs None (time TBC)
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+UID:pwr-295107@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 19
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:None vs None (time TBC)
+DTSTART;VALUE=DATE:20270626
+DTEND;VALUE=DATE:20270627
+UID:pwr-295108@mbligh.github.io
+DESCRIPTION:Premiership Women's Rugby — Round 20
+LOCATION:Twickenham Stoop
+END:VEVENT
+END:VCALENDAR
