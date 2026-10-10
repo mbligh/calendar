@@ -1,0 +1,189 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mbligh/calendar//Spoiler-free calendar//EN
+X-WR-CALNAME:Rugby Mens 6N (No Spoilers)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland vs 🇮🇹 Italy
+DTSTART:20270206T141000Z
+DTEND:20270206T161000Z
+DTSTAMP:20260925T090010Z
+UID:0f5ba9d0dc78f33aaa0a1569d76398b7
+SEQUENCE:0
+DESCRIPTION:Match between Scotland and Italy\n\nSource: thesportsdb.com\nP
+ owered by https://rugbyfixture.com
+LAST-MODIFIED:20260925T090010Z
+LOCATION:Murrayfield\, Scotland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🏴󠁧󠁢󠁳󠁣󠁴
+ 󠁿 Scotland
+DTSTART:20270313T164000Z
+DTEND:20270313T184000Z
+DTSTAMP:20260925T090011Z
+UID:2156a377e2d262e8532800bbdf945800
+SEQUENCE:0
+DESCRIPTION:Match between England and Scotland\n\nSource: thesportsdb.com
+ \nPowered by https://rugbyfixture.com
+LAST-MODIFIED:20260925T090011Z
+LOCATION:Twickenham Stadium\, England
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland vs 🇮🇪 Ireland
+DTSTART:20270305T201000Z
+DTEND:20270305T221000Z
+DTSTAMP:20260925T090010Z
+UID:2b7f51249c69077301870f286fbf76a8
+SEQUENCE:0
+DESCRIPTION:Match between Scotland and Ireland\n\nSource: thesportsdb.com
+ \nPowered by https://rugbyfixture.com
+LAST-MODIFIED:20260925T090010Z
+LOCATION:Murrayfield\, Scotland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🇮🇹 Italy vs 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales
+DTSTART:20270313T141000Z
+DTEND:20270313T161000Z
+DTSTAMP:20260505T090012Z
+UID:4c8eb6badadb7aa03b33733f1b597cf5
+SEQUENCE:0
+DESCRIPTION:Match between Italy and Wales\n\nSource: thesportsdb.com\nPowe
+ red by https://rugbyfixture.com
+LAST-MODIFIED:20260505T090012Z
+LOCATION:Stadio Olimpico\, Italy
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🇫🇷 France vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland
+DTSTART:20270221T151000Z
+DTEND:20270221T171000Z
+DTSTAMP:20260505T090012Z
+UID:5b1284af57086c0b819894bde06f9d43
+SEQUENCE:0
+DESCRIPTION:Match between France and Scotland\n\nSource: thesportsdb.com\n
+ Powered by https://rugbyfixture.com
+LAST-MODIFIED:20260505T090012Z
+LOCATION:Stade de France\, France
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🇮🇹 Italy vs 🇮🇪 Ireland
+DTSTART:20270213T141000Z
+DTEND:20270213T161000Z
+DTSTAMP:20260505T090011Z
+UID:657e1e9c9e187282af472d17deb9dc24
+SEQUENCE:0
+DESCRIPTION:Match between Italy and Ireland\n\nSource: thesportsdb.com\nPo
+ wered by https://rugbyfixture.com
+LAST-MODIFIED:20260505T090011Z
+LOCATION:Stadio Olimpico\, Italy
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales vs 🏴󠁧󠁢󠁥󠁮󠁧󠁿
+  England
+DTSTART:20270306T164000Z
+DTEND:20270306T184000Z
+DTSTAMP:20260505T090012Z
+UID:670fff1750fec4c5c40bbc22a7051df4
+SEQUENCE:0
+DESCRIPTION:Match between Wales and England\n\nSource: thesportsdb.com\nPo
+ wered by https://rugbyfixture.com
+LAST-MODIFIED:20260505T090012Z
+LOCATION:Principality Stadium\, Wales
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales vs 🇮🇪 Ireland
+DTSTART:20270220T141000Z
+DTEND:20270220T161000Z
+DTSTAMP:20260505T090012Z
+UID:70a2124e555cb9c147c2cfa935184b36
+SEQUENCE:0
+DESCRIPTION:Match between Wales and Ireland\n\nSource: thesportsdb.com\nPo
+ wered by https://rugbyfixture.com
+LAST-MODIFIED:20260505T090012Z
+LOCATION:Principality Stadium\, Wales
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🇮🇹 Italy vs 🇫🇷 France
+DTSTART:20270306T141000Z
+DTEND:20270306T161000Z
+DTSTAMP:20260505T090012Z
+UID:71fd6bf3a917992c32425606b3ae04d5
+SEQUENCE:0
+DESCRIPTION:Match between Italy and France\n\nSource: thesportsdb.com\nPow
+ ered by https://rugbyfixture.com
+LAST-MODIFIED:20260505T090012Z
+LOCATION:Stadio Olimpico\, Italy
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🇮🇪 Ireland vs 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England
+DTSTART:20270205T201000Z
+DTEND:20270205T221000Z
+DTSTAMP:20260505T090011Z
+UID:78046275ae9812177988ed6989b9c248
+SEQUENCE:0
+DESCRIPTION:Match between Ireland and England\n\nSource: thesportsdb.com\n
+ Powered by https://rugbyfixture.com
+LAST-MODIFIED:20260505T090011Z
+LOCATION:Aviva Stadium\, Ireland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇫🇷 France
+DTSTART:20270214T151000Z
+DTEND:20270214T171000Z
+DTSTAMP:20260925T090010Z
+UID:813c40df159defa2ed47be4d77dff164
+SEQUENCE:0
+DESCRIPTION:Match between England and France\n\nSource: thesportsdb.com\nP
+ owered by https://rugbyfixture.com
+LAST-MODIFIED:20260925T090010Z
+LOCATION:Twickenham Stadium\, England
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland vs 🏴󠁧󠁢󠁷󠁬󠁳
+ 󠁿 Wales
+DTSTART:20270213T164000Z
+DTEND:20270213T184000Z
+DTSTAMP:20260925T090010Z
+UID:85330caa9bb77ed631133c0a0a5a36ac
+SEQUENCE:0
+DESCRIPTION:Match between Scotland and Wales\n\nSource: thesportsdb.com\nP
+ owered by https://rugbyfixture.com
+LAST-MODIFIED:20260925T090010Z
+LOCATION:Murrayfield\, Scotland
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🇫🇷 France vs 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales
+DTSTART:20270206T164000Z
+DTEND:20270206T184000Z
+DTSTAMP:20260505T090011Z
+UID:8ddd9ebcd8c75a5dce4fd39753891199
+SEQUENCE:0
+DESCRIPTION:Match between France and Wales\n\nSource: thesportsdb.com\nPow
+ ered by https://rugbyfixture.com
+LAST-MODIFIED:20260505T090011Z
+LOCATION:Stade de France\, France
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 England vs 🇮🇹 Italy
+DTSTART:20270220T164000Z
+DTEND:20270220T184000Z
+DTSTAMP:20260925T090010Z
+UID:b56bbac5ba06ff45c19b35c1921b6c3e
+SEQUENCE:0
+DESCRIPTION:Match between England and Italy\n\nSource: thesportsdb.com\nPo
+ wered by https://rugbyfixture.com
+LAST-MODIFIED:20260925T090010Z
+LOCATION:Twickenham Stadium\, England
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🇮🇪 Ireland vs 🇫🇷 France
+DTSTART:20270313T201000Z
+DTEND:20270313T221000Z
+DTSTAMP:20260505T090012Z
+UID:f1c07c9d1fe95e789fa8fdc6a2038bcb
+SEQUENCE:0
+DESCRIPTION:Match between Ireland and France\n\nSource: thesportsdb.com\nP
+ owered by https://rugbyfixture.com
+LAST-MODIFIED:20260505T090012Z
+LOCATION:Aviva Stadium\, Ireland
+END:VEVENT
+END:VCALENDAR

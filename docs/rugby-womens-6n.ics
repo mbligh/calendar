@@ -1,0 +1,194 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mbligh/calendar//Spoiler-free calendar//EN
+X-WR-CALNAME:Rugby Womens 6N (No Spoilers)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 England Rugby vs 🇮🇹 Italy Rugby
+DTSTART:20270424T160000Z
+DTEND:20270424T180000Z
+DTSTAMP:20260725T135135Z
+UID:000e868ce66c29fb5a3b10c1eb9df4c9
+SEQUENCE:0
+DESCRIPTION:Match between England Rugby Women and Italy Rugby Women\n\nSou
+ rce: manual\nPowered by https://rugbyfixture.com
+LAST-MODIFIED:20260725T135135Z
+LOCATION:Unknown
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland Rugby vs 🇮🇹 Italy Rugb
+ y
+DTSTART:20270508T160000Z
+DTEND:20270508T180000Z
+DTSTAMP:20260725T135136Z
+UID:1359c3135ea44386c7c53c770031d0d9
+SEQUENCE:0
+DESCRIPTION:Match between Scotland Rugby Women and Italy Rugby Women\n\nSo
+ urce: manual\nPowered by https://rugbyfixture.com
+LAST-MODIFIED:20260725T135136Z
+LOCATION:Unknown
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland Rugby vs 🇮🇪 Ireland Ru
+ gby
+DTSTART:20270410T160000Z
+DTEND:20270410T180000Z
+DTSTAMP:20260725T135134Z
+UID:45a38ca9f22e160a0d073d79dfd5f97f
+SEQUENCE:0
+DESCRIPTION:Match between Scotland Rugby Women and Ireland Rugby Women\n\n
+ Source: manual\nPowered by https://rugbyfixture.com
+LAST-MODIFIED:20260725T135134Z
+LOCATION:Unknown
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🇫🇷 France Rugby vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland Rug
+ by
+DTSTART:20270424T134500Z
+DTEND:20270424T154500Z
+DTSTAMP:20260725T135135Z
+UID:69d919371776ba1703d61b8a2826a6e5
+SEQUENCE:0
+DESCRIPTION:Match between France Rugby Women and Scotland Rugby Women\n\nS
+ ource: manual\nPowered by https://rugbyfixture.com
+LAST-MODIFIED:20260725T135135Z
+LOCATION:Unknown
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 England Rugby vs 🏴󠁧󠁢󠁳󠁣
+ 󠁴󠁿 Scotland Rugby
+DTSTART:20270417T154500Z
+DTEND:20270417T174500Z
+DTSTAMP:20260725T135134Z
+UID:7df98c7f343b6d752dfe54fe8a994f71
+SEQUENCE:0
+DESCRIPTION:Match between England Rugby Women and Scotland Rugby Women\n\n
+ Source: manual\nPowered by https://rugbyfixture.com
+LAST-MODIFIED:20260725T135134Z
+LOCATION:Unknown
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland Rugby vs 🏴󠁧󠁢󠁷
+ 󠁬󠁳󠁿 Wales Rugby
+DTSTART:20270515T133000Z
+DTEND:20270515T153000Z
+DTSTAMP:20260725T135136Z
+UID:88234155ce59453b9b87ddc8849d616e
+SEQUENCE:0
+DESCRIPTION:Match between Scotland Rugby Women and Wales Rugby Women\n\nSo
+ urce: manual\nPowered by https://rugbyfixture.com
+LAST-MODIFIED:20260725T135136Z
+LOCATION:Unknown
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 England Rugby vs 🇫🇷 France Rugb
+ y
+DTSTART:20270515T154500Z
+DTEND:20270515T174500Z
+DTSTAMP:20260725T135137Z
+UID:8f17283dc18e4d6104dc0f4cd6997f86
+SEQUENCE:0
+DESCRIPTION:Match between England Rugby Women and France Rugby Women\n\nSo
+ urce: manual\nPowered by https://rugbyfixture.com
+LAST-MODIFIED:20260725T135137Z
+LOCATION:Unknown
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🇮🇪 Ireland Rugby vs 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England Rug
+ by
+DTSTART:20270508T134500Z
+DTEND:20270508T154500Z
+DTSTAMP:20260725T135136Z
+UID:95776da697d88760abca73bb222cf6a7
+SEQUENCE:0
+DESCRIPTION:Match between Ireland Rugby Women and England Rugby Women\n\nS
+ ource: manual\nPowered by https://rugbyfixture.com
+LAST-MODIFIED:20260725T135136Z
+LOCATION:Unknown
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🇮🇹 Italy Rugby vs 🇫🇷 France Rugby
+DTSTART:20270410T113000Z
+DTEND:20270410T133000Z
+DTSTAMP:20260725T135133Z
+UID:a2dcc991982b668e7339673d19f72234
+SEQUENCE:0
+DESCRIPTION:Match between Italy Rugby Women and France Rugby Women\n\nSour
+ ce: manual\nPowered by https://rugbyfixture.com
+LAST-MODIFIED:20260725T135133Z
+LOCATION:Unknown
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales Rugby vs 🇮🇪 Ireland Rugby
+DTSTART:20270424T113000Z
+DTEND:20270424T133000Z
+DTSTAMP:20260725T135135Z
+UID:a63ae32feae2ed027c5ffe77520e74d0
+SEQUENCE:0
+DESCRIPTION:Match between Wales Rugby Women and Ireland Rugby Women\n\nSou
+ rce: manual\nPowered by https://rugbyfixture.com
+LAST-MODIFIED:20260725T135135Z
+LOCATION:Unknown
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales Rugby vs 🏴󠁧󠁢󠁥󠁮
+ 󠁧󠁿 England Rugby
+DTSTART:20270410T134500Z
+DTEND:20270410T154500Z
+DTSTAMP:20260725T135133Z
+UID:da5ea5025542583c6dcd90465d959c08
+SEQUENCE:0
+DESCRIPTION:Match between Wales Rugby Women and England Rugby Women\n\nSou
+ rce: manual\nPowered by https://rugbyfixture.com
+LAST-MODIFIED:20260725T135133Z
+LOCATION:Unknown
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🇮🇹 Italy Rugby vs 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales Rugby
+DTSTART:20270417T111500Z
+DTEND:20270417T131500Z
+DTSTAMP:20260725T135134Z
+UID:db2a783614efececbc87ac6495376194
+SEQUENCE:0
+DESCRIPTION:Match between Italy Rugby Women and Wales Rugby Women\n\nSourc
+ e: manual\nPowered by https://rugbyfixture.com
+LAST-MODIFIED:20260725T135134Z
+LOCATION:Unknown
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🇮🇹 Italy Rugby vs 🇮🇪 Ireland Rugby
+DTSTART:20270515T111500Z
+DTEND:20270515T131500Z
+DTSTAMP:20260725T135136Z
+UID:dce263bdebdf0d6766dbddbd9553bc64
+SEQUENCE:0
+DESCRIPTION:Match between Italy Rugby Women and Ireland Rugby Women\n\nSou
+ rce: manual\nPowered by https://rugbyfixture.com
+LAST-MODIFIED:20260725T135136Z
+LOCATION:Unknown
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🇮🇪 Ireland Rugby vs 🇫🇷 France Rugby
+DTSTART:20270417T133000Z
+DTEND:20270417T153000Z
+DTSTAMP:20260725T135134Z
+UID:e406cc613fa65fe6c7452a9193844d34
+SEQUENCE:0
+DESCRIPTION:Match between Ireland Rugby Women and France Rugby Women\n\nSo
+ urce: manual\nPowered by https://rugbyfixture.com
+LAST-MODIFIED:20260725T135134Z
+LOCATION:Unknown
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:🇫🇷 France Rugby vs 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales Rugby
+DTSTART:20270508T113000Z
+DTEND:20270508T133000Z
+DTSTAMP:20260725T135135Z
+UID:f91cdc80a13f685fd500b8acfd631cec
+SEQUENCE:0
+DESCRIPTION:Match between France Rugby Women and Wales Rugby Women\n\nSour
+ ce: manual\nPowered by https://rugbyfixture.com
+LAST-MODIFIED:20260725T135135Z
+LOCATION:Unknown
+END:VEVENT
+END:VCALENDAR
