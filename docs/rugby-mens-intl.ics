@@ -1,0 +1,1469 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mbligh/calendar//Spoiler-free calendar//EN
+X-WR-CALNAME:Rugby Mens Intl (No Spoilers)
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:Europe/London
+X-LIC-LOCATION:Europe/London
+BEGIN:DAYLIGHT
+DTSTART:19700329T010000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+TZNAME:GMT+1
+TZOFFSETFROM:+0000
+TZOFFSETTO:+0100
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:19701025T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+TZNAME:GMT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+SUMMARY:[RWC] Argentina v Fiji
+DTSTART:20271016T024500Z
+DTEND:20271016T041500Z
+DTSTAMP:20261010T004156Z
+UID:06o2ics90adc7ffr896h7u3mum@google.com
+SEQUENCE:2
+CREATED:20260413T232115Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool C\, Match 28<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021420Z
+LOCATION:Adelaide Oval\, War Memorial Dr\, North Adelaide SA 5006\, Austra
+ lia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Pool C Runner-Up v Pool F Runner-Up
+DTSTART:20271023T031500Z
+DTEND:20271023T044500Z
+DTSTAMP:20261010T004156Z
+UID:09c9cq73og15kjc0ue9fal4h52@google.com
+SEQUENCE:1
+CREATED:20260413T232837Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Round of 16 (1)\, Match 37<br><b
+ r>Match Centre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" 
+ target="_blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T004836Z
+LOCATION:Allianz Stadium\, 40/44 Driver Ave\, Moore Park NSW 2021\, Austra
+ lia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] England v Tonga
+DTSTART:20271002T101500Z
+DTEND:20271002T114500Z
+DTSTAMP:20261010T004156Z
+UID:0j7stvqkjam60sfplugmcelbs0@google.com
+SEQUENCE:1
+CREATED:20260413T225638Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool F\, Match 5<br><a href="htt
+ ps://www.rugbyworldcup.com/2027/en/match/5ff343b3-5114-4cf7-821f-a1fa2b358
+ eaa">https://www.rugbyworldcup.com/2027/en/match/5ff343b3-5114-4cf7-821f-a
+ 1fa2b358eaa</a><br><br>Match Centre<br><a href="https://www.rugbyworldcup.
+ com/2027/en/matches" target="_blank"><u>https://www.rugbyworldcup.com/2027
+ /en/matches</u></a>
+LAST-MODIFIED:20260416T040950Z
+LOCATION:Suncorp Stadium\, 40 Castlemaine St\, Milton QLD 4064\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Pool A Runner-Up v Pool E Runner-Up
+DTSTART:20271024T081500Z
+DTEND:20271024T094500Z
+DTSTAMP:20261010T004156Z
+UID:0r7ouklnuu1tqeakiob3umgp3o@google.com
+SEQUENCE:1
+CREATED:20260413T233331Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Round of 16 (7)\, Match 43<br><b
+ r>Match Centre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" 
+ target="_blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T004633Z
+LOCATION:Suncorp Stadium\, 40 Castlemaine St\, Milton QLD 4064\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Italy v Romania
+DTSTART:20271011T084500Z
+DTEND:20271011T101500Z
+DTSTAMP:20261010T004156Z
+UID:0uq8e40pq7cof4t96378avfphg@google.com
+SEQUENCE:1
+CREATED:20260413T231825Z
+DESCRIPTION:Men's Rugby World Cup 2027 <br>Pool B\, Match 24<br><br>Match
+  Centre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target=
+ "_blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021348Z
+LOCATION:Allianz Stadium\, 40/44 Driver Ave\, Moore Park NSW 2021\, Austra
+ lia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Winner R16 (7) v Winner R16 (8)
+DTSTART:20271031T090000Z
+DTEND:20271031T103000Z
+DTSTAMP:20261010T004156Z
+UID:12to0ror71arudb8eilnehp4nf@google.com
+SEQUENCE:1
+CREATED:20260413T233653Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Quarter-final 4\, Match 48<br><b
+ r>Match Centre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" 
+ target="_blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T004442Z
+LOCATION:Accor Stadium\, Edwin Flack Ave\, Sydney Olympic Park NSW 2127\, 
+ Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Runner-Up SF1 v Runner-Up SF2
+DTSTART:20271112T084500Z
+DTEND:20271112T101500Z
+DTSTAMP:20261010T004156Z
+UID:175n1jd20b40c2h9p74t0gun5r@google.com
+SEQUENCE:1
+CREATED:20260413T233846Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Bronze Final\, Match 51<br><br>M
+ atch Centre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" tar
+ get="_blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T004414Z
+LOCATION:Accor Stadium\, Edwin Flack Ave\, Sydney Olympic Park NSW 2127\, 
+ Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Japan v USA
+DTSTART:20271015T093000Z
+DTEND:20271015T110000Z
+DTSTAMP:20261010T004156Z
+UID:1a3512f2tdnm9nkf3uir6q8tc2@google.com
+SEQUENCE:1
+CREATED:20260413T231941Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool E\, Match 26<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021403Z
+LOCATION:Adelaide Oval\, War Memorial Dr\, North Adelaide SA 5006\, Austra
+ lia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] England v Wales
+DTSTART:20271016T084500Z
+DTEND:20271016T101500Z
+DTSTAMP:20261010T004156Z
+UID:1c950mn24rpbjs3m30qi645000@google.com
+SEQUENCE:1
+CREATED:20260413T232302Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool F\, Match 30<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021438Z
+LOCATION:Accor Stadium\, Edwin Flack Ave\, Sydney Olympic Park NSW 2127\, 
+ Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] New Zealand v Chile
+DTSTART:20271002T051500Z
+DTEND:20271002T064500Z
+DTSTAMP:20261010T004156Z
+UID:1dcspft6j0183u6r3pm3al6sr7@google.com
+SEQUENCE:1
+CREATED:20260413T225351Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool A\, Match 3<br><a href="htt
+ ps://www.rugbyworldcup.com/2027/en/match/0549415f-1fad-4afe-90a1-09e74b10c
+ 170">https://www.rugbyworldcup.com/2027/en/match/0549415f-1fad-4afe-90a1-0
+ 9e74b10c170</a><br><br>Match Centre<br><a href="https://www.rugbyworldcup.
+ com/2027/en/matches" target="_blank"><u>https://www.rugbyworldcup.com/2027
+ /en/matches</u></a>
+LAST-MODIFIED:20260416T040917Z
+LOCATION:Optus Stadium\, 333 Victoria Park Dr\, Burswood WA 6100\, Austral
+ ia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] New Zealand v Australia
+DTSTART:20271009T061000Z
+DTEND:20271009T074000Z
+DTSTAMP:20261010T004156Z
+UID:1hf9oth3o60muthr9she3mn735@google.com
+SEQUENCE:1
+CREATED:20260413T231146Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool A\, Match 16<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021210Z
+LOCATION:Accor Stadium\, Edwin Flack Ave\, Sydney Olympic Park NSW 2127\, 
+ Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Fiji v Canada
+DTSTART:20271010T014500Z
+DTEND:20271010T031500Z
+DTSTAMP:20261010T004156Z
+UID:1jl8u6vh24f1cc3nag983t2c7i@google.com
+SEQUENCE:1
+CREATED:20260413T231406Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool C\, Match 19<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021258Z
+LOCATION:Adelaide Oval\, War Memorial Dr\, North Adelaide SA 5006\, Austra
+ lia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Winner R16 (1) v Winner R16 (3)
+DTSTART:20271030T060000Z
+DTEND:20271030T073000Z
+DTSTAMP:20261010T004156Z
+UID:1k3h6ps641jgid6q96sa2nnsek@google.com
+SEQUENCE:1
+CREATED:20260413T233540Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Quarter-final 2\, Match 46<br><b
+ r>Match Centre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" 
+ target="_blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T004533Z
+LOCATION:Suncorp Stadium\, 40 Castlemaine St\, Milton QLD 4064\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Georgia v Romania
+DTSTART:20271003T101500Z
+DTEND:20271003T114500Z
+DTSTAMP:20261010T004156Z
+UID:1lc6bj6m971u5k56f3pc47u71b@google.com
+SEQUENCE:1
+CREATED:20260413T230607Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool B\, Match 9<br><a href="htt
+ ps://www.rugbyworldcup.com/2027/en/match/6d3403bc-8569-43b3-9ce8-1114cff2a
+ e4a">https://www.rugbyworldcup.com/2027/en/match/6d3403bc-8569-43b3-9ce8-1
+ 114cff2ae4a</a><br><br>Match Centre<br><a href="https://www.rugbyworldcup.
+ com/2027/en/matches" target="_blank"><u>https://www.rugbyworldcup.com/2027
+ /en/matches</u></a>
+LAST-MODIFIED:20260416T041107Z
+LOCATION:Queensland Country Bank Stadium\, 2 Pride Cl\, Railway Estate QLD
+  4810\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Australia v Chile
+DTSTART:20271016T051000Z
+DTEND:20271016T064000Z
+DTSTAMP:20261010T004156Z
+UID:1qsc5u7sjoqkujma0i6vdv8fu3@google.com
+SEQUENCE:1
+CREATED:20260413T232217Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool A\, Match 29<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021430Z
+LOCATION:Suncorp Stadium\, 40 Castlemaine St\, Milton QLD 4064\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Spain v Canada
+DTSTART:20271016T101500Z
+DTEND:20271016T114500Z
+DTSTAMP:20261010T004156Z
+UID:27968mhjo0n3p07i0tgsh06m1s@google.com
+SEQUENCE:1
+CREATED:20260413T232345Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool C\, Match 31<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021446Z
+LOCATION:Queensland Country Bank Stadium\, 2 Pride Cl\, Railway Estate QLD
+  4810\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Scotland v Portugal
+DTSTART:20271017T061500Z
+DTEND:20271017T074500Z
+DTSTAMP:20261010T004156Z
+UID:2944hfei12926rqommna75j8ts@google.com
+SEQUENCE:1
+CREATED:20260413T232557Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool D\, Match 34<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T005056Z
+LOCATION:Suncorp Stadium\, 40 Castlemaine St\, Milton QLD 4064\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Ireland v Uruguay
+DTSTART:20271017T034500Z
+DTEND:20271017T051500Z
+DTSTAMP:20261010T004156Z
+UID:2jujpkkao33coebebeehlsbb2d@google.com
+SEQUENCE:1
+CREATED:20260413T232514Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool D\, Match 33<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260413T235904Z
+LOCATION:Docklands Stadium\, Melbourne | Narrm\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] South Africa v Georgia
+DTSTART:20271010T064500Z
+DTEND:20271010T081500Z
+DTSTAMP:20261010T004156Z
+UID:2sddgrl8lih1ngtlj4haj0bcpg@google.com
+SEQUENCE:1
+CREATED:20260413T231539Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool B\, Match 21<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021317Z
+LOCATION:Suncorp Stadium\, 40 Castlemaine St\, Milton QLD 4064\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Australia 🇦🇺 v 🇳🇿 New Zealand
+DTSTART:20261017T050000Z
+DTEND:20261017T070000Z
+DTSTAMP:20261010T004156Z
+UID:2t19kgl4sj5rjjoulerv1th90p@google.com
+SEQUENCE:2
+CREATED:20251209T213931Z
+LAST-MODIFIED:20260811T044252Z
+LOCATION:Accor Stadium\, Edwin Flack Ave\, Sydney Olympic Park NSW 2127\, 
+ Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Pool E Winner v Pool D Runner-Up
+DTSTART:20271023T081500Z
+DTEND:20271023T094500Z
+DTSTAMP:20261010T004156Z
+UID:2vbi8lrlbf6qnak7k4u508ddcl@google.com
+SEQUENCE:1
+CREATED:20260413T233010Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Round of 16 (3)\, Match 39<br><b
+ r>Match Centre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" 
+ target="_blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T004815Z
+LOCATION:Marvel Stadium\, 740 Bourke St\, Docklands VIC 3008\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Wales v Zimbabwe
+DTSTART:20271002T024500Z
+DTEND:20271002T041500Z
+DTSTAMP:20261010T004156Z
+UID:33ba2ts7osu4ntr2e3eqe5ke66@google.com
+SEQUENCE:0
+CREATED:20260413T035636Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool F\, Match 2<br><a href="htt
+ ps://www.rugbyworldcup.com/2027/en/match/bb326cf6-b2a3-417d-8c56-1981566bb
+ 3f2">https://www.rugbyworldcup.com/2027/en/match/bb326cf6-b2a3-417d-8c56-1
+ 981566bb3f2</a><br><br>Match Centre<br><a href="https://www.rugbyworldcup.
+ com/2027/en/matches" target="_blank"><u>https://www.rugbyworldcup.com/2027
+ /en/matches</u></a>
+LAST-MODIFIED:20260415T010115Z
+LOCATION:Adelaide Oval\, War Memorial Dr\, North Adelaide SA 5006\, Austra
+ lia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] France v Japan
+DTSTART:20271009T084500Z
+DTEND:20271009T101500Z
+DTSTAMP:20261010T004156Z
+UID:3e9ibfs2rsdrt0qqmf00bkp38p@google.com
+SEQUENCE:1
+CREATED:20260413T231230Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool E\, Match 17<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021223Z
+LOCATION:Suncorp Stadium\, 40 Castlemaine St\, Milton QLD 4064\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Fiji v Spain
+DTSTART:20271004T031500Z
+DTEND:20271004T044500Z
+DTSTAMP:20261010T004156Z
+UID:3hh8kepe27mdvbq1tetpl7v6hd@google.com
+SEQUENCE:1
+CREATED:20260413T230702Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool C\, Match 10<br><a href="ht
+ tps://www.rugbyworldcup.com/2027/en/match/1c9c84d0-1127-44f8-bb97-62751b26
+ 252a">https://www.rugbyworldcup.com/2027/en/match/1c9c84d0-1127-44f8-bb97-
+ 62751b26252a</a><br><br>Match Centre<br><a href="https://www.rugbyworldcup
+ .com/2027/en/matches" target="_blank"><u>https://www.rugbyworldcup.com/202
+ 7/en/matches</u></a>
+LAST-MODIFIED:20260416T041129Z
+LOCATION:McDonald Jones Stadium\, 294 Turton Rd\, Broadmeadow NSW 2292\, A
+ ustralia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Winner R16 (2) v Winner R16 (4)
+DTSTART:20271030T054500Z
+DTEND:20271030T071500Z
+DTSTAMP:20261010T004156Z
+UID:4c8sck5umhdklma975bhbu97da@google.com
+SEQUENCE:1
+CREATED:20260413T233501Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Quarter-final 1\, Match 45<br><b
+ r>Match Centre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" 
+ target="_blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T004544Z
+LOCATION:Accor Stadium\, Edwin Flack Ave\, Sydney Olympic Park NSW 2127\, 
+ Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 v 🇳🇿 New Zealand
+DTSTART:20261121T141000Z
+DTEND:20261121T161000Z
+DTSTAMP:20261010T004156Z
+UID:4fmjuu0ipkbu93h1bv1m69ok1s@google.com
+SEQUENCE:2
+CREATED:20260513T222232Z
+LAST-MODIFIED:20260519T163036Z
+LOCATION:Allianz Stadium\, London
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Argentina v Spain
+DTSTART:20271010T041500Z
+DTEND:20271010T054500Z
+DTSTAMP:20261010T004156Z
+UID:4i709653pccfolggfrs17omftn@google.com
+SEQUENCE:1
+CREATED:20260413T231450Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool C\, Match 20<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021308Z
+LOCATION:Marvel Stadium\, 740 Bourke St\, Docklands VIC 3008\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: Italy 🇮🇹 v 🇦🇷 Argentina
+DTSTART:20261114T114000Z
+DTEND:20261114T134000Z
+DTSTAMP:20261010T004156Z
+UID:4i7nosoufcb9vskb1urul4q5ko@google.com
+SEQUENCE:4
+CREATED:20260513T222232Z
+LAST-MODIFIED:20260519T163348Z
+LOCATION:Luigi Ferraris Stadium\, Via Giovanni de Prà\, 1\, 16139 Genova 
+ GE\, Italy
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Argentina v Canada
+DTSTART:20271004T084500Z
+DTEND:20271004T101500Z
+DTSTAMP:20261010T004156Z
+UID:4m4p42ncd0cvimj4r6ftioodls@google.com
+SEQUENCE:1
+CREATED:20260413T230839Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool C\, Match 12<br><a href="ht
+ tps://www.rugbyworldcup.com/2027/en/match/62ce4521-5e70-449c-b175-4ff34f9e
+ 1ff6">https://www.rugbyworldcup.com/2027/en/match/62ce4521-5e70-449c-b175-
+ 4ff34f9e1ff6</a><br><br>Match Centre<br><a href="https://www.rugbyworldcup
+ .com/2027/en/matches" target="_blank"><u>https://www.rugbyworldcup.com/202
+ 7/en/matches</u></a>
+LAST-MODIFIED:20260416T041205Z
+LOCATION:Suncorp Stadium\, 40 Castlemaine St\, Milton QLD 4064\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Ireland v Portugal
+DTSTART:20271004T061500Z
+DTEND:20271004T074500Z
+DTSTAMP:20261010T004156Z
+UID:4ms4fa1036350s4un3vpueo5ep@google.com
+SEQUENCE:1
+CREATED:20260413T230756Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool D\, Match 11<br><a href="ht
+ tps://www.rugbyworldcup.com/2027/en/match/a1af6a62-a45a-40e5-b76e-88238235
+ a732">https://www.rugbyworldcup.com/2027/en/match/a1af6a62-a45a-40e5-b76e-
+ 88238235a732</a><br><br>Match Centre<br><a href="https://www.rugbyworldcup
+ .com/2027/en/matches" target="_blank"><u>https://www.rugbyworldcup.com/202
+ 7/en/matches</u></a>
+LAST-MODIFIED:20260416T041147Z
+LOCATION:Allianz Stadium\, 40/44 Driver Ave\, Moore Park NSW 2021\, Austra
+ lia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Uruguay v Portugal
+DTSTART:20271011T061500Z
+DTEND:20271011T074500Z
+DTSTAMP:20261010T004156Z
+UID:4s1k5n2i6abd5nj3nbj4gcj5m7@google.com
+SEQUENCE:1
+CREATED:20260413T231717Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool D\, Match 23<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021340Z
+LOCATION:McDonald Jones Stadium\, 294 Turton Rd\, Broadmeadow NSW 2292\, A
+ ustralia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Italy v Georgia
+DTSTART:20271017T011500Z
+DTEND:20271017T024500Z
+DTSTAMP:20261010T004156Z
+UID:4t2kbq3usfsfhahepo72kpubrn@google.com
+SEQUENCE:1
+CREATED:20260413T232430Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool B\, Match 32<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021454Z
+LOCATION:McDonald Jones Stadium\, 294 Turton Rd\, Broadmeadow NSW 2292\, A
+ ustralia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] USA v Samoa
+DTSTART:20271009T041500Z
+DTEND:20271009T054500Z
+DTSTAMP:20261010T004156Z
+UID:546rsvpndsqn8auh35ulgcl9n9@google.com
+SEQUENCE:1
+CREATED:20260413T231054Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool E\, Match 15<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021201Z
+LOCATION:Optus Stadium\, 333 Victoria Park Dr\, Burswood WA 6100\, Austral
+ ia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Ireland v Scotland
+DTSTART:20271010T094500Z
+DTEND:20271010T111500Z
+DTSTAMP:20261010T004156Z
+UID:55bg2el6ueplsmsqn10i4ika4q@google.com
+SEQUENCE:1
+CREATED:20260413T231619Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool D\, Match 22<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021325Z
+LOCATION:Optus Stadium\, 333 Victoria Park Dr\, Burswood WA 6100\, Austral
+ ia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Wales v Tonga
+DTSTART:20271008T071500Z
+DTEND:20271008T084500Z
+DTSTAMP:20261010T004156Z
+UID:599emncal7nogvb4es92bv689r@google.com
+SEQUENCE:1
+CREATED:20260413T230929Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool F\, Match 13<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021143Z
+LOCATION:Marvel Stadium\, 740 Bourke St\, Docklands VIC 3008\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] South Africa v Romania
+DTSTART:20271017T111500Z
+DTEND:20271017T124500Z
+DTSTAMP:20261010T004156Z
+UID:5d1p7l7g47rpod4dc3vs8nv5m8@google.com
+SEQUENCE:1
+CREATED:20260413T232725Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool B\, Match 36<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T005037Z
+LOCATION:Optus Stadium\, 333 Victoria Park Dr\, Burswood WA 6100\, Austral
+ ia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] France v USA
+DTSTART:20271002T074500Z
+DTEND:20271002T091500Z
+DTSTAMP:20261010T004156Z
+UID:5g8u6i74167qm1usbbpuks4o3a@google.com
+SEQUENCE:1
+CREATED:20260413T225549Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool E\, Match 4<br><a href="htt
+ ps://www.rugbyworldcup.com/2027/en/match/ad7110fd-1629-4e93-af79-60968eb0a
+ 85b">https://www.rugbyworldcup.com/2027/en/match/ad7110fd-1629-4e93-af79-6
+ 0968eb0a85b</a><br><br>Match Centre<br><a href="https://www.rugbyworldcup.
+ com/2027/en/matches" target="_blank"><u>https://www.rugbyworldcup.com/2027
+ /en/matches</u></a>
+LAST-MODIFIED:20260416T040933Z
+LOCATION:Marvel Stadium\, 740 Bourke St\, Docklands VIC 3008\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Pool A Winner v Pool C/E/F/ Best 3RD
+DTSTART:20271023T054500Z
+DTEND:20271023T071500Z
+DTSTAMP:20261010T004156Z
+UID:5i4bhj447772idlf52srlricv0@google.com
+SEQUENCE:1
+CREATED:20260413T232928Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Round of 16 (2)\, Match 38<br><b
+ r>Match Centre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" 
+ target="_blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T004825Z
+LOCATION:Suncorp Stadium\, 40 Castlemaine St\, Milton QLD 4064\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Winner QF3 v Winner QF4
+DTSTART:20271106T090000Z
+DTEND:20271106T103000Z
+DTSTAMP:20261010T004156Z
+UID:5mdkohbeug1hhsi7uaiiatcc26@google.com
+SEQUENCE:1
+CREATED:20260413T233804Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Semi-final 2\, Match 50<br><br>M
+ atch Centre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" tar
+ get="_blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T004425Z
+LOCATION:Accor Stadium\, Edwin Flack Ave\, Sydney Olympic Park NSW 2127\, 
+ Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Tonga v Zimbabwe
+DTSTART:20271015T101500Z
+DTEND:20271015T114500Z
+DTSTAMP:20261010T004156Z
+UID:5n0jph29b1eqsd6u15lhveca3b@google.com
+SEQUENCE:1
+CREATED:20260413T232027Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool F\, Match 27<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021412Z
+LOCATION:Queensland Country Bank Stadium\, 2 Pride Cl\, Railway Estate QLD
+  4810\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Pool D Winner v Pool B/E/F Best 3RD
+DTSTART:20271024T054500Z
+DTEND:20271024T071500Z
+DTSTAMP:20261010T004156Z
+UID:5pvk539812b2daqr1k603io87b@google.com
+SEQUENCE:1
+CREATED:20260413T233249Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Round of 16 (6)\, Match 42<br><b
+ r>Match Centre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" 
+ target="_blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T004641Z
+LOCATION:Marvel Stadium\, 740 Bourke St\, Docklands VIC 3008\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Pool C Winner v Pool A/E/F Best 3RD
+DTSTART:20271024T031500Z
+DTEND:20271024T044500Z
+DTSTAMP:20261010T004156Z
+UID:5qg7r5sca8isqo00pfl4fvlbgs@google.com
+SEQUENCE:1
+CREATED:20260413T233205Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Round of 16 (5)\, Match 41<br><b
+ r>Match Centre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" 
+ target="_blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T004654Z
+LOCATION:Allianz Stadium\, 40/44 Driver Ave\, Moore Park NSW 2021\, Austra
+ lia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Winner QF1 v Winner QF2
+DTSTART:20271105T090000Z
+DTEND:20271105T103000Z
+DTSTAMP:20261010T004156Z
+UID:5qolq8l6mvbvqbla0140amrlgq@google.com
+SEQUENCE:1
+CREATED:20260413T233730Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Semi-final 1\, Match 49<br><br>M
+ atch Centre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" tar
+ get="_blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T004433Z
+LOCATION:Accor Stadium\, Edwin Flack Ave\, Sydney Olympic Park NSW 2127\, 
+ Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Scotland v Uruguay
+DTSTART:20271003T061500Z
+DTEND:20271003T074500Z
+DTSTAMP:20261010T004156Z
+UID:5siu748j46v7ad9n39tp1ci3gf@google.com
+SEQUENCE:1
+CREATED:20260413T230511Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool D\, Match 8<br><a href="htt
+ ps://www.rugbyworldcup.com/2027/en/match/0e20d493-8aba-4770-a99c-9d6bbab7e
+ 2fa">https://www.rugbyworldcup.com/2027/en/match/0e20d493-8aba-4770-a99c-9
+ d6bbab7e2fa</a><br><br>Match Centre<br><a href="https://www.rugbyworldcup.
+ com/2027/en/matches" target="_blank"><u>https://www.rugbyworldcup.com/2027
+ /en/matches</u></a>
+LAST-MODIFIED:20260416T041048Z
+LOCATION:Marvel Stadium\, 740 Bourke St\, Docklands VIC 3008\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Pool F Winner v Pool B Runner-Up
+DTSTART:20271024T104500Z
+DTEND:20271024T121500Z
+DTSTAMP:20261010T004156Z
+UID:6csrn4mkkh1mr1ua2939jbshrf@google.com
+SEQUENCE:1
+CREATED:20260413T233415Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Round of 16 (8)\, Match 44<br><b
+ r>Match Centre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" 
+ target="_blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T004625Z
+LOCATION:Optus Stadium\, 333 Victoria Park Dr\, Burswood WA 6100\, Austral
+ ia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Winner SF1 v Winner SF2
+DTSTART:20271113T090000Z
+DTEND:20271113T103000Z
+DTSTAMP:20261010T004156Z
+UID:6k6bm7rff8v1apu6sn8e1ekhcs@google.com
+SEQUENCE:1
+CREATED:20260413T233928Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Final\, Match 52<br><br>Match Ce
+ ntre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_b
+ lank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T004359Z
+LOCATION:Accor Stadium\, Edwin Flack Ave\, Sydney Olympic Park NSW 2127\, 
+ Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] France v Samoa
+DTSTART:20271017T084500Z
+DTEND:20271017T101500Z
+DTSTAMP:20261010T004156Z
+UID:6l21h7ui1rcqif0qglt9eek91l@google.com
+SEQUENCE:1
+CREATED:20260413T232636Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool E\, Match 35<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T005044Z
+LOCATION:Allianz Stadium\, 40/44 Driver Ave\, Moore Park NSW 2021\, Austra
+ lia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Australia v Hong Kong China
+DTSTART:20271001T104500Z
+DTEND:20271001T121500Z
+DTSTAMP:20261010T004156Z
+UID:6li6ae1p65h3gbb66pi3gb9kcpgm6bb270s3eb9n6lhj6phl6thm6dpk6c@google.com
+SEQUENCE:2
+CREATED:20260412T010847Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool A\, Match 1<br><a href="htt
+ ps://www.rugbyworldcup.com/2027/en/match/eee1f301-a63f-49d3-9744-4f83bf1ee
+ 151">https://www.rugbyworldcup.com/2027/en/match/eee1f301-a63f-49d3-9744-4
+ f83bf1ee151</a><br><br>Match Centre<br><a href="https://www.rugbyworldcup.
+ com/2027/en/matches" target="_blank">https://www.rugbyworldcup.com/2027/en
+ /matches</a>
+LAST-MODIFIED:20260415T010031Z
+LOCATION:Optus Stadium\, 333 Victoria Park Dr\, Burswood WA 6100\, Austral
+ ia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Japan v Samoa
+DTSTART:20271003T011500Z
+DTEND:20271003T024500Z
+DTSTAMP:20261010T004156Z
+UID:6q5bp5domsa6vnjk7m7lqhkr6g@google.com
+SEQUENCE:2
+CREATED:20260413T230322Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool E\, Match 6<br><a href="htt
+ ps://www.rugbyworldcup.com/2027/en/match/a76e6778-f8df-4ac7-a48c-384c930c6
+ 428">https://www.rugbyworldcup.com/2027/en/match/a76e6778-f8df-4ac7-a48c-3
+ 84c930c6428</a><br><br>Match Centre<br><a href="https://www.rugbyworldcup.
+ com/2027/en/matches" target="_blank"><u>https://www.rugbyworldcup.com/2027
+ /en/matches</u></a>
+LAST-MODIFIED:20260416T041018Z
+LOCATION:McDonald Jones Stadium\, 282 Turton Rd\, New Lambton NSW 2305\, A
+ ustralia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:New Zealand 🇳🇿 v 🇦🇺 Australia
+DTSTART:20261010T061000Z
+DTEND:20261010T081000Z
+DTSTAMP:20261010T004156Z
+UID:6r5jimspnf2teu16ntbrc4e2km@google.com
+SEQUENCE:1
+CREATED:20251209T213856Z
+LAST-MODIFIED:20260528T231328Z
+LOCATION:Eden Park\, 42 Reimers Avenue\, Kingsland\, Auckland 1024\, New Z
+ ealand
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Pool B Winner v Pool D/E/F Best 3RD
+DTSTART:20271023T104500Z
+DTEND:20271023T121500Z
+DTSTAMP:20261010T004156Z
+UID:6t8levcjqd706iefhfs1glmc31@google.com
+SEQUENCE:1
+CREATED:20260413T233120Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Round of 16 (4)\, Match 40<br><b
+ r>Match Centre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" 
+ target="_blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T004801Z
+LOCATION:Optus Stadium\, 333 Victoria Park Dr\, Burswood WA 6100\, Austral
+ ia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] England v Zimbabwe
+DTSTART:20271008T094500Z
+DTEND:20271008T111500Z
+DTSTAMP:20261010T004156Z
+UID:77schri6fl975e9ajq8hi44lbs@google.com
+SEQUENCE:1
+CREATED:20260413T231011Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool F\, Match 14<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021153Z
+LOCATION:Adelaide Oval\, War Memorial Dr\, North Adelaide SA 5006\, Austra
+ lia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Winner R16 (5) v Winner R16 (6)
+DTSTART:20271031T060000Z
+DTEND:20271031T073000Z
+DTSTAMP:20261010T004156Z
+UID:781d1pc1il5of86a8ugpkrid9s@google.com
+SEQUENCE:1
+CREATED:20260413T233617Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Quarter-final 3\, Match 47<br><b
+ r>Match Centre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" 
+ target="_blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T004527Z
+LOCATION:Suncorp Stadium\, 40 Castlemaine St\, Milton QLD 4064\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] Chile v Hong Kong China
+DTSTART:20271009T101500Z
+DTEND:20271009T114500Z
+DTSTAMP:20261010T004156Z
+UID:78g81h7982ec23c5f36g0tagm6@google.com
+SEQUENCE:1
+CREATED:20260413T231319Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool A\, Match 18<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021241Z
+LOCATION:Queensland Country Bank Stadium\, 2 Pride Cl\, Railway Estate QLD
+  4810\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] South Africa v Italy
+DTSTART:20271003T034500Z
+DTEND:20271003T051500Z
+DTSTAMP:20261010T004156Z
+UID:7amgq0c9m89v3fde4c53ldbbt0@google.com
+SEQUENCE:1
+CREATED:20260413T230429Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool B\, Match 7<br><a href="htt
+ ps://www.rugbyworldcup.com/2027/en/match/78579780-d863-403f-aa8a-f88d0d00c
+ e86">https://www.rugbyworldcup.com/2027/en/match/78579780-d863-403f-aa8a-f
+ 88d0d00ce86</a><br><br>Match Centre<br><a href="https://www.rugbyworldcup.
+ com/2027/en/matches" target="_blank"><u>https://www.rugbyworldcup.com/2027
+ /en/matches</u></a>
+LAST-MODIFIED:20260416T041032Z
+LOCATION:Adelaide Oval\, War Memorial Dr\, North Adelaide SA 5006\, Austra
+ lia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:[RWC] New Zealand v Hong Kong China
+DTSTART:20271015T061500Z
+DTEND:20271015T074500Z
+DTSTAMP:20261010T004156Z
+UID:7apotckfrivdba2df1mnkm6vsn@google.com
+SEQUENCE:1
+CREATED:20260413T231904Z
+DESCRIPTION:Men's Rugby World Cup 2027<br>Pool A\, Match 25<br><br>Match C
+ entre<br><a href="https://www.rugbyworldcup.com/2027/en/matches" target="_
+ blank"><u>https://www.rugbyworldcup.com/2027/en/matches</u></a>
+LAST-MODIFIED:20260414T021355Z
+LOCATION:Marvel Stadium\, 740 Bourke St\, Docklands VIC 3008\, Australia
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿 v 🇳🇿 New Zealand
+DTSTART:20261114T141000Z
+DTEND:20261114T161000Z
+DTSTAMP:20261010T004156Z
+UID:8bnbv7jcivtdpt27qpl06fr6mo@google.com
+SEQUENCE:3
+CREATED:20260513T222232Z
+LAST-MODIFIED:20260519T163355Z
+LOCATION:Principality Stadium\, Cardiff
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: Italy 🇮🇹 v 🇫🇯 Fiji
+DTSTART:20261121T164000Z
+DTEND:20261121T184000Z
+DTSTAMP:20261010T004156Z
+UID:8m4go4knq42tai5vv0vejcqfdk@google.com
+SEQUENCE:2
+CREATED:20260513T222232Z
+LAST-MODIFIED:20260519T163013Z
+LOCATION:Bluenergy Stadium\, Piazzale Repubblica Argentina\, 3\, 33100 Udi
+ ne UD\, Italy
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6N: Italy 🇮🇹 v ☘️ Ireland
+DTSTART:20270213T141000Z
+DTEND:20270213T161000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvert03dc924dbd49ce60b69e46a7fa23705d
+SEQUENCE:2
+CREATED:20260401T092301Z
+LAST-MODIFIED:20260401T092937Z
+LOCATION:Stadio Olimpico\, Rome
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6N: Italy 🇮🇹 v 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales
+DTSTART:20270313T141000Z
+DTEND:20270313T161000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvert14bdb21d0dd2c87064d840818272c9d3
+SEQUENCE:0
+CREATED:20260401T092301Z
+LAST-MODIFIED:20260401T092302Z
+LOCATION:Stadio Olimpico\, Rome
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: Northern 2 v Southern 2
+DTSTART:20261128T164000Z
+DTEND:20261128T184000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvert1806be3da9f81fe8f2cb0e7b9448e78a
+SEQUENCE:0
+CREATED:20260401T135853Z
+LAST-MODIFIED:20260701T103815Z
+LOCATION:Twickenham Stadium\, London\, England
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: Ireland ☘️ v 🇦🇷 Argentina
+DTSTART:20261106T201000Z
+DTEND:20261106T221000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvert180c444b845ea0d813d0750d2b49536e
+SEQUENCE:3
+CREATED:20260401T141459Z
+LAST-MODIFIED:20260513T223111Z
+LOCATION:Aviva Stadium\, Lansdowne Rd\, Dublin 4\, D04 K5F9\, Ireland
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6N: England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 v 🇫🇷 France
+DTSTART:20270214T151000Z
+DTEND:20270214T171000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvert2340d2b87c6ac2ff38f4e9f6e6943ba8
+SEQUENCE:5
+CREATED:20260401T092301Z
+LAST-MODIFIED:20260413T225139Z
+LOCATION:Twickenham Stadium\, 200 Whitton Rd\, Twickenham TW2 7BA\, UK
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6N: Italy 🇮🇹 v 🇫🇷 France
+DTSTART:20270306T141000Z
+DTEND:20270306T161000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvert2ef4355e2a090362eccac7c0d3ee0635
+SEQUENCE:0
+CREATED:20260401T092301Z
+LAST-MODIFIED:20260401T092302Z
+LOCATION:Stadio Olimpico\, Rome
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 v 🇳🇿 New Zealand
+DTSTART:20261107T141000Z
+DTEND:20261107T161000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvert3966029bc7d1004c2f95d141844749b0
+SEQUENCE:0
+CREATED:20260401T141459Z
+LAST-MODIFIED:20260413T225158Z
+LOCATION:Scottish Gas Murrayfield Stadium\, Roseburn St\, Edinburgh EH12 5
+ PJ\, UK
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: Northern 5 v Southern 5
+DTSTART:20261128T131000Z
+DTEND:20261128T151000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvert3e108eac5167fbf575466c6f2153cc85
+SEQUENCE:0
+CREATED:20260401T135853Z
+LAST-MODIFIED:20260701T103806Z
+LOCATION:Twickenham Stadium\, London\, England
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: Northern 4 v Southern 4
+DTSTART:20261129T131000Z
+DTEND:20261129T151000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvert5d1f56da2998e4e08862d942f4e4465d
+SEQUENCE:0
+CREATED:20260401T135853Z
+LAST-MODIFIED:20260701T103835Z
+LOCATION:Twickenham Stadium\, London\, England
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: Northern 6 v Southern 6
+DTSTART:20261127T164000Z
+DTEND:20261127T184000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvert7840e4de13dab2a9843f7a167821c093
+SEQUENCE:0
+CREATED:20260401T135853Z
+LAST-MODIFIED:20260701T103655Z
+LOCATION:Twickenham Stadium\, London\, England
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6N: Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 v 🇮🇹 Italy
+DTSTART:20270206T141000Z
+DTEND:20270206T161000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvert7f2878619254e8ac370469015436c8eb
+SEQUENCE:1
+CREATED:20260401T092301Z
+LAST-MODIFIED:20260401T092918Z
+LOCATION:Murrayfield Stadium\, Edinburgh
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 v 🇯🇵 Japan
+DTSTART:20261114T164000Z
+DTEND:20261114T184000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvert82b099bd2fec0045b23999e4323528a1
+SEQUENCE:0
+CREATED:20260401T141459Z
+LAST-MODIFIED:20260401T141501Z
+LOCATION:Twickenham Stadium\, London\, England
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: Northern 1 v Southern 1
+DTSTART:20261129T164000Z
+DTEND:20261129T184000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvert82fa5667cc51ff059ecef5fdef30f3d0
+SEQUENCE:0
+CREATED:20260401T135854Z
+LAST-MODIFIED:20260701T103845Z
+LOCATION:Twickenham Stadium\, London\, England
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 v 🇦🇺 Australia
+DTSTART:20261108T151000Z
+DTEND:20261108T171000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvert8625ee0cf01ae703249f14369cb390b3
+SEQUENCE:0
+CREATED:20260401T141500Z
+LAST-MODIFIED:20260401T141501Z
+LOCATION:Twickenham Stadium\, London\, England
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6N: England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 v 🇮🇹 Italy
+DTSTART:20270220T164000Z
+DTEND:20270220T184000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvert8d74b5ded91568d618cfef45cf84c918
+SEQUENCE:1
+CREATED:20260401T092301Z
+LAST-MODIFIED:20260401T093202Z
+LOCATION:Twickenham Stadium\, London
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6N: Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿 v 🏴󠁧󠁢󠁥󠁮󠁧
+ 󠁿 England
+DTSTART:20270306T164000Z
+DTEND:20270306T184000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvert9148121b0abd2029fb2d47563d907db7
+SEQUENCE:1
+CREATED:20260401T092301Z
+LAST-MODIFIED:20260401T093330Z
+LOCATION:Millennium Stadium\, Cardiff
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6N: England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 v 🏴󠁧󠁢󠁳󠁣
+ 󠁴󠁿 Scotland
+DTSTART:20270313T164000Z
+DTEND:20270313T184000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConverta137ed24ef46b1d8324be00c901786ec
+SEQUENCE:1
+CREATED:20260401T092301Z
+LAST-MODIFIED:20260401T093421Z
+LOCATION:Twickenham Stadium\, London
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6N: France 🇫🇷 v 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland
+DTSTART:20270221T151000Z
+DTEND:20270221T171000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvertb322a17490dd56ecaba6111b1780fb63
+SEQUENCE:0
+CREATED:20260401T092301Z
+LAST-MODIFIED:20260401T092302Z
+LOCATION:Stade de France\, Saint-Denis
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 v 🇯🇵 Japan
+DTSTART:20261121T141000Z
+DTEND:20261121T161000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvertb5baee1cac2d33629a130c98dc1fbd47
+SEQUENCE:2
+CREATED:20260401T141500Z
+LAST-MODIFIED:20260519T162549Z
+LOCATION:Murrayfield\, Edinburgh\, Scotland
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: France 🇫🇷 v 🇿🇦 South Africa
+DTSTART:20261113T201000Z
+DTEND:20261113T221000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvertb8e00a0b332aca369456aee3482e3603
+SEQUENCE:1
+CREATED:20260401T141500Z
+LAST-MODIFIED:20260519T162015Z
+LOCATION:Stade de France\, 93200 Saint-Denis\, France
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿 v 🇦🇺 Australia
+DTSTART:20261121T201000Z
+DTEND:20261121T221000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvertc36feb3889f4a2624d2238f12d7780eb
+SEQUENCE:1
+CREATED:20260401T141500Z
+LAST-MODIFIED:20260519T162316Z
+LOCATION:Principality Stadium\, Cardiff\, Wales
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: Northern 3 v Southern 3
+DTSTART:20261127T201000Z
+DTEND:20261127T221000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvertc671d9efeb49493a516f25704f9dfdfa
+SEQUENCE:0
+CREATED:20260401T135854Z
+LAST-MODIFIED:20260401T141501Z
+LOCATION:Twickenham Stadium\, London\, England
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 v 🇦🇺 Australia
+DTSTART:20261115T151000Z
+DTEND:20261115T171000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvertcc538744538a6b6553ed956b1576d06f
+SEQUENCE:0
+CREATED:20260401T141500Z
+LAST-MODIFIED:20260401T141501Z
+LOCATION:Murrayfield\, Edinburgh\, Scotland
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6N: Ireland ☘️ v 🇫🇷 France
+DTSTART:20270313T201000Z
+DTEND:20270313T221000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvertd3547c8c5d0fdeb6560d4da62fa6b715
+SEQUENCE:1
+CREATED:20260401T092301Z
+LAST-MODIFIED:20260401T093440Z
+LOCATION:Aviva Stadium\, Dublin
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6N: Ireland ☘️ v 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England
+DTSTART:20270205T201000Z
+DTEND:20270205T221000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConverte0cc5629d98a9d98ecb20440567a48ac
+SEQUENCE:1
+CREATED:20260401T092301Z
+LAST-MODIFIED:20260401T093025Z
+LOCATION:Aviva Stadium\, Dublin
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6N: Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 v 🏴󠁧󠁢󠁷󠁬
+ 󠁳󠁿 Wales
+DTSTART:20270213T164000Z
+DTEND:20270213T184000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvertf66a4652a45ce44f92b735e8e8c48780
+SEQUENCE:1
+CREATED:20260401T092301Z
+LAST-MODIFIED:20260401T093015Z
+LOCATION:Murrayfield Stadium\, Edinburgh
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6N: Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 v ☘️ Ireland
+DTSTART:20270305T201000Z
+DTEND:20270305T221000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvertf68e48113933696de9dcb6f11465be5c
+SEQUENCE:1
+CREATED:20260401T092301Z
+LAST-MODIFIED:20260401T093256Z
+LOCATION:Murrayfield Stadium\, Edinburgh
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6N: France 🇫🇷 v 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales
+DTSTART:20270206T164000Z
+DTEND:20270206T184000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvertf7856e6f9da912f551fa91888128afe1
+SEQUENCE:0
+CREATED:20260401T092301Z
+LAST-MODIFIED:20260401T092302Z
+LOCATION:Stade de France\, Saint-Denis
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:6N: Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿 v ☘️ Ireland
+DTSTART:20270220T141000Z
+DTEND:20270220T161000Z
+DTSTAMP:20261010T004156Z
+UID:CSVConvertfad24a77f4c9dc65242ecd3d8741ff0b
+SEQUENCE:1
+CREATED:20260401T092301Z
+LAST-MODIFIED:20260401T093140Z
+LOCATION:Millennium Stadium\, Cardiff
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: Ireland ☘️ v 🇫🇯 Fiji
+DTSTART:20261114T201000Z
+DTEND:20261114T221000Z
+DTSTAMP:20261010T004156Z
+UID:b6lcms3n4qbt1970vcu3b9u92o@google.com
+SEQUENCE:3
+CREATED:20260513T222232Z
+LAST-MODIFIED:20260519T163404Z
+LOCATION:Aviva Stadium\, Dublin
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: France 🇫🇷 v 🇫🇯 Fiji
+DTSTART:20261107T201000Z
+DTEND:20261107T221000Z
+DTSTAMP:20261010T004156Z
+UID:iji36pvvb5pajfcknsaf4f5mb4@google.com
+SEQUENCE:2
+CREATED:20260513T222232Z
+LAST-MODIFIED:20260623T140002Z
+LOCATION:Groupama Stadium\, 10 Av. Simone Veil\, 69150 Décines-Charpieu\,
+  France
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: Ireland ☘️ v 🇿🇦 South Africa
+DTSTART:20261121T164000Z
+DTEND:20261121T184000Z
+DTSTAMP:20261010T004156Z
+UID:nirdd0538i7mfgcascb6g4gac4@google.com
+SEQUENCE:1
+CREATED:20260513T222232Z
+LAST-MODIFIED:20260519T162832Z
+LOCATION:Aviva Stadium\, Dublin
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: France 🇫🇷 v 🇦🇷 Argentina
+DTSTART:20261121T201000Z
+DTEND:20261121T221000Z
+DTSTAMP:20261010T004156Z
+UID:or4jtorqkpss92677vojgrhtsg@google.com
+SEQUENCE:2
+CREATED:20260513T222232Z
+LAST-MODIFIED:20260519T162909Z
+LOCATION:Stade de France\, Paris
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: Italy 🇮🇹 v 🇿🇦 South Africa
+DTSTART:20261107T114000Z
+DTEND:20261107T134000Z
+DTSTAMP:20261010T004156Z
+UID:s8b0b0uffgmlm77j4kr0dkdt14@google.com
+SEQUENCE:2
+CREATED:20260513T222348Z
+LAST-MODIFIED:20260623T135928Z
+LOCATION:Allianz Stadium\, Corso Gaetano Scirea\, 50\, 10151 Torino TO\, I
+ taly
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:NC: Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿 v 🇯🇵 Japan
+DTSTART:20261107T164000Z
+DTEND:20261107T184000Z
+DTSTAMP:20261010T004156Z
+UID:vbb3itggc7tr3hksa248lv79oo@google.com
+SEQUENCE:2
+CREATED:20260513T222232Z
+LAST-MODIFIED:20260623T135941Z
+LOCATION:Principality Stadium\, Cardiff
+STATUS:CONFIRMED
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
