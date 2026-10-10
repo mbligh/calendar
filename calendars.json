@@ -9,17 +9,20 @@
     {
       "slug": "rugby-mens-prem",
       "name": "Rugby Mens Prem",
-      "id": "tabtklk5mnmg80rau47c0mjff3b6r08u@import.calendar.google.com"
+      "id": "tabtklk5mnmg80rau47c0mjff3b6r08u@import.calendar.google.com",
+      "url": "https://data.rugbyfixture.io/ical/v1/premiership.ics?uid=qsadkjhi"
     },
     {
       "slug": "rugby-mens-6n",
       "name": "Rugby Mens 6N",
-      "id": "vltlimfim9horepqch3uve5tdntn7nen@import.calendar.google.com"
+      "id": "vltlimfim9horepqch3uve5tdntn7nen@import.calendar.google.com",
+      "url": "https://data.rugbyfixture.io/ical/v1/six-nations.ics?uid=qsadkjhi"
     },
     {
       "slug": "rugby-womens-6n",
       "name": "Rugby Womens 6N",
-      "id": "vo97b4mr9uiv5lhp0ggqkqkvp6dq3an2@import.calendar.google.com"
+      "id": "vo97b4mr9uiv5lhp0ggqkqkvp6dq3an2@import.calendar.google.com",
+      "url": "https://data.rugbyfixture.io/ical/v1/six-nations-womens.ics?uid=qsadkjhi"
     },
     {
       "slug": "rugby-womens-intl",
