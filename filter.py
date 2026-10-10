@@ -122,7 +122,7 @@ def main():
     for entry in config["calendars"]:
         slug = entry["slug"]
         path = args.output / (slug + ".ics")
-        url = "https://calendar.google.com/calendar/ical/" + urllib.parse.quote(entry["id"], safe="") + "/public/basic.ics"
+        url = entry.get("url") or ("https://calendar.google.com/calendar/ical/" + urllib.parse.quote(entry["id"], safe="") + "/public/basic.ics")
         try:
             source = fetch(url)
             previous = read_existing(path)
