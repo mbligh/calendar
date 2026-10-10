@@ -8,7 +8,7 @@ SUMMARY:Loughborough Lightning vs Trailfinders Women
 DTSTART:20261120T193000Z
 DTEND:20261120T213000Z
 UID:pwr-295034@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 1
+DESCRIPTION:Premiership Women's Rugby — Round 1\\nWatch on: iPlayer
 LOCATION:DPD Stadium at Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
@@ -16,7 +16,7 @@ SUMMARY:Sale Sharks vs Gloucester Hartpury
 DTSTART:20261121T140000Z
 DTEND:20261121T160000Z
 UID:pwr-295035@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 1
+DESCRIPTION:Premiership Women's Rugby — Round 1\\nWatch on: Youtube
 LOCATION:Morson Stadium
 END:VEVENT
 BEGIN:VEVENT
@@ -24,7 +24,7 @@ SUMMARY:Saracens vs Leicester Tigers
 DTSTART:20261122T130000Z
 DTEND:20261122T150000Z
 UID:pwr-295036@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 1
+DESCRIPTION:Premiership Women's Rugby — Round 1\\nWatch on: Youtube
 LOCATION:StoneX Stadium
 END:VEVENT
 BEGIN:VEVENT
@@ -32,7 +32,7 @@ SUMMARY:Harlequins vs Bristol Bears
 DTSTART:20261122T150000Z
 DTEND:20261122T170000Z
 UID:pwr-295037@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 1
+DESCRIPTION:Premiership Women's Rugby — Round 1\\nWatch on: TNT
 LOCATION:Twickenham Stoop
 END:VEVENT
 BEGIN:VEVENT
@@ -40,7 +40,7 @@ SUMMARY:Gloucester Hartpury vs Loughborough Lightning
 DTSTART:20261128T140000Z
 DTEND:20261128T160000Z
 UID:pwr-295038@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 2
+DESCRIPTION:Premiership Women's Rugby — Round 2\\nWatch on: Youtube
 LOCATION:Kingsholm Stadium
 END:VEVENT
 BEGIN:VEVENT
@@ -48,7 +48,7 @@ SUMMARY:Bristol Bears vs Exeter Chiefs
 DTSTART:20261128T150000Z
 DTEND:20261128T170000Z
 UID:pwr-295039@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 2
+DESCRIPTION:Premiership Women's Rugby — Round 2\\nWatch on: iPlayer
 LOCATION:Shaftesbury Park
 END:VEVENT
 BEGIN:VEVENT
@@ -56,7 +56,7 @@ SUMMARY:Trailfinders Women vs Harlequins
 DTSTART:20261128T190000Z
 DTEND:20261128T210000Z
 UID:pwr-295040@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 2
+DESCRIPTION:Premiership Women's Rugby — Round 2\\nWatch on: TNT
 LOCATION:Trailfinders Sports Club
 END:VEVENT
 BEGIN:VEVENT
@@ -64,7 +64,7 @@ SUMMARY:Leicester Tigers vs Sale Sharks
 DTSTART:20261129T130000Z
 DTEND:20261129T150000Z
 UID:pwr-295041@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 2
+DESCRIPTION:Premiership Women's Rugby — Round 2\\nWatch on: Youtube
 LOCATION:Mattioli Woods Welford Road
 END:VEVENT
 BEGIN:VEVENT
@@ -72,7 +72,7 @@ SUMMARY:Trailfinders Women vs Bristol Bears
 DTSTART:20261204T193000Z
 DTEND:20261204T213000Z
 UID:pwr-295042@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 3
+DESCRIPTION:Premiership Women's Rugby — Round 3\\nWatch on: iPlayer
 LOCATION:Trailfinders Sports Club
 END:VEVENT
 BEGIN:VEVENT
@@ -80,7 +80,7 @@ SUMMARY:Sale Sharks vs Saracens
 DTSTART:20261205T140000Z
 DTEND:20261205T160000Z
 UID:pwr-295043@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 3
+DESCRIPTION:Premiership Women's Rugby — Round 3\\nWatch on: Youtube
 LOCATION:Morson Stadium
 END:VEVENT
 BEGIN:VEVENT
@@ -88,7 +88,7 @@ SUMMARY:Loughborough Lightning vs Exeter Chiefs
 DTSTART:20261206T121500Z
 DTEND:20261206T141500Z
 UID:pwr-295044@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 3
+DESCRIPTION:Premiership Women's Rugby — Round 3\\nWatch on: TNT
 LOCATION:DPD Stadium at Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
@@ -96,7 +96,7 @@ SUMMARY:Harlequins vs Leicester Tigers
 DTSTART:20261206T143000Z
 DTEND:20261206T163000Z
 UID:pwr-295045@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 3
+DESCRIPTION:Premiership Women's Rugby — Round 3\\nWatch on: Youtube
 LOCATION:Twickenham Stoop
 END:VEVENT
 BEGIN:VEVENT
@@ -104,7 +104,7 @@ SUMMARY:Bristol Bears vs Gloucester Hartpury
 DTSTART:20261211T194500Z
 DTEND:20261211T214500Z
 UID:pwr-295046@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 4
+DESCRIPTION:Premiership Women's Rugby — Round 4\\nWatch on: Youtube
 LOCATION:Shaftesbury Park
 END:VEVENT
 BEGIN:VEVENT
@@ -112,7 +112,7 @@ SUMMARY:Exeter Chiefs vs Harlequins
 DTSTART:20261212T150500Z
 DTEND:20261212T170500Z
 UID:pwr-295047@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 4
+DESCRIPTION:Premiership Women's Rugby — Round 4\\nWatch on: TNT
 LOCATION:Sandy Park
 END:VEVENT
 BEGIN:VEVENT
@@ -120,7 +120,7 @@ SUMMARY:Leicester Tigers vs Trailfinders Women
 DTSTART:20261213T130000Z
 DTEND:20261213T150000Z
 UID:pwr-295048@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 4
+DESCRIPTION:Premiership Women's Rugby — Round 4\\nWatch on: Youtube
 LOCATION:Mattioli Woods Welford Road
 END:VEVENT
 BEGIN:VEVENT
@@ -128,7 +128,7 @@ SUMMARY:Saracens vs Loughborough Lightning
 DTSTART:20261213T150000Z
 DTEND:20261213T170000Z
 UID:pwr-295049@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 4
+DESCRIPTION:Premiership Women's Rugby — Round 4\\nWatch on: iPlayer
 LOCATION:StoneX Stadium
 END:VEVENT
 BEGIN:VEVENT
@@ -136,7 +136,7 @@ SUMMARY:Exeter Chiefs vs Sale Sharks
 DTSTART:20261219T120000Z
 DTEND:20261219T140000Z
 UID:pwr-295050@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 5
+DESCRIPTION:Premiership Women's Rugby — Round 5\\nWatch on: Youtube
 LOCATION:Sandy Park
 END:VEVENT
 BEGIN:VEVENT
@@ -144,7 +144,7 @@ SUMMARY:Leicester Tigers vs Bristol Bears
 DTSTART:20261220T140000Z
 DTEND:20261220T160000Z
 UID:pwr-295051@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 5
+DESCRIPTION:Premiership Women's Rugby — Round 5\\nWatch on: Youtube
 LOCATION:Mattioli Woods Welford Road
 END:VEVENT
 BEGIN:VEVENT
@@ -152,7 +152,7 @@ SUMMARY:Saracens vs Gloucester Hartpury
 DTSTART:20261220T150000Z
 DTEND:20261220T170000Z
 UID:pwr-295052@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 5
+DESCRIPTION:Premiership Women's Rugby — Round 5\\nWatch on: iPlayer
 LOCATION:StoneX Stadium
 END:VEVENT
 BEGIN:VEVENT
@@ -160,7 +160,7 @@ SUMMARY:Harlequins vs Loughborough Lightning
 DTSTART:20261228T140000Z
 DTEND:20261228T160000Z
 UID:pwr-295053@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 5
+DESCRIPTION:Premiership Women's Rugby — Round 5\\nWatch on: TNT
 LOCATION:Allianz Stadium
 END:VEVENT
 BEGIN:VEVENT
@@ -168,7 +168,7 @@ SUMMARY:Trailfinders Women vs Saracens
 DTSTART:20270102T150000Z
 DTEND:20270102T170000Z
 UID:pwr-295054@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 6
+DESCRIPTION:Premiership Women's Rugby — Round 6\\nWatch on: iPlayer
 LOCATION:Trailfinders Sports Club
 END:VEVENT
 BEGIN:VEVENT
@@ -176,14 +176,14 @@ SUMMARY:Sale Sharks vs Harlequins (time TBC)
 DTSTART;VALUE=DATE:20270102
 DTEND;VALUE=DATE:20270103
 UID:pwr-295055@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 6
+DESCRIPTION:Premiership Women's Rugby — Round 6\\nWatch on: Youtube
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Gloucester Hartpury vs Exeter Chiefs
 DTSTART:20270103T121500Z
 DTEND:20270103T141500Z
 UID:pwr-295056@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 6
+DESCRIPTION:Premiership Women's Rugby — Round 6\\nWatch on: TNT
 LOCATION:Kingsholm Stadium
 END:VEVENT
 BEGIN:VEVENT
@@ -191,7 +191,7 @@ SUMMARY:Loughborough Lightning vs Leicester Tigers
 DTSTART:20270103T180000Z
 DTEND:20270103T200000Z
 UID:pwr-295057@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 6
+DESCRIPTION:Premiership Women's Rugby — Round 6\\nWatch on: Youtube
 LOCATION:DPD Stadium at Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
@@ -199,7 +199,7 @@ SUMMARY:Loughborough Lightning vs Sale Sharks
 DTSTART:20270109T130000Z
 DTEND:20270109T150000Z
 UID:pwr-295058@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 7
+DESCRIPTION:Premiership Women's Rugby — Round 7\\nWatch on: Youtube
 LOCATION:DPD Stadium at Franklin's Gardens
 END:VEVENT
 BEGIN:VEVENT
@@ -207,7 +207,7 @@ SUMMARY:Saracens vs Bristol Bears
 DTSTART:20270109T150000Z
 DTEND:20270109T170000Z
 UID:pwr-295059@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 7
+DESCRIPTION:Premiership Women's Rugby — Round 7\\nWatch on: TNT
 LOCATION:StoneX Stadium
 END:VEVENT
 BEGIN:VEVENT
@@ -215,7 +215,7 @@ SUMMARY:Exeter Chiefs vs Trailfinders Women
 DTSTART:20270110T130000Z
 DTEND:20270110T150000Z
 UID:pwr-295060@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 7
+DESCRIPTION:Premiership Women's Rugby — Round 7\\nWatch on: Youtube
 LOCATION:Sandy Park
 END:VEVENT
 BEGIN:VEVENT
@@ -223,7 +223,7 @@ SUMMARY:Harlequins vs Gloucester Hartpury
 DTSTART:20270110T150000Z
 DTEND:20270110T170000Z
 UID:pwr-295061@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 7
+DESCRIPTION:Premiership Women's Rugby — Round 7\\nWatch on: iPlayer
 LOCATION:Twickenham Stoop
 END:VEVENT
 BEGIN:VEVENT
@@ -231,7 +231,7 @@ SUMMARY:Bristol Bears vs Loughborough Lightning
 DTSTART:20270115T194500Z
 DTEND:20270115T214500Z
 UID:pwr-295062@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 8
+DESCRIPTION:Premiership Women's Rugby — Round 8\\nWatch on: Youtube
 LOCATION:Shaftesbury Park
 END:VEVENT
 BEGIN:VEVENT
@@ -239,7 +239,7 @@ SUMMARY:Saracens vs Exeter Chiefs
 DTSTART:20270116T150000Z
 DTEND:20270116T170000Z
 UID:pwr-295063@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 8
+DESCRIPTION:Premiership Women's Rugby — Round 8\\nWatch on: TNT
 LOCATION:StoneX Stadium
 END:VEVENT
 BEGIN:VEVENT
@@ -247,7 +247,7 @@ SUMMARY:Trailfinders Women vs Sale Sharks
 DTSTART:20270116T170000Z
 DTEND:20270116T190000Z
 UID:pwr-295064@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 8
+DESCRIPTION:Premiership Women's Rugby — Round 8\\nWatch on: iPlayer
 LOCATION:Trailfinders Sports Club
 END:VEVENT
 BEGIN:VEVENT
@@ -255,7 +255,7 @@ SUMMARY:Leicester Tigers vs Gloucester Hartpury
 DTSTART:20270117T130000Z
 DTEND:20270117T150000Z
 UID:pwr-295065@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 8
+DESCRIPTION:Premiership Women's Rugby — Round 8\\nWatch on: Youtube
 LOCATION:Mattioli Woods Welford Road
 END:VEVENT
 BEGIN:VEVENT
