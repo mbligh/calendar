@@ -40,7 +40,11 @@ def fetch_pwr(url):
         venue = (match.get("venue") or {}).get("name")
         if venue and venue.upper() not in {"TBD", "TBC"}:
             event.add("location", venue)
-        event.add("description", "Premiership Women's Rugby" + (f" — Round {match['round']}" if match.get("round") is not None else ""))
+        description = "Premiership Women's Rugby" + (f" — Round {match['round']}" if match.get("round") is not None else "")
+        broadcaster = match.get("broadcaster")
+        if isinstance(broadcaster, str) and broadcaster.strip():
+            description += f"\\nWatch on: {broadcaster.strip()}"
+        event.add("description", description)
         # The PWR API has no reliable last-modified field in the supplied
         # fixture records. The shared merge filter uses saved kickoff cutoffs.
         calendar.add_component(event)
