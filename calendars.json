@@ -28,6 +28,12 @@
       "slug": "rugby-womens-intl",
       "name": "Rugby Womens Intl",
       "id": "etoe060h4mbvuqugjmkcn340nk@group.calendar.google.com"
+    },
+    {
+      "slug": "rugby-womens-pwr",
+      "name": "Rugby Womens PWR",
+      "type": "pwr",
+      "url": "https://www.thepwr.com/api/oval/fixtures?compId=1095&seasonId=202601"
     }
   ]
 }
