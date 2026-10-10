@@ -1,0 +1,30 @@
+{
+  "timezone": "America/New_York",
+  "calendars": [
+    {
+      "slug": "rugby-mens-intl",
+      "name": "Rugby Mens Intl",
+      "id": "ct240d39oc9kq21cq3bn70jii8@group.calendar.google.com"
+    },
+    {
+      "slug": "rugby-mens-prem",
+      "name": "Rugby Mens Prem",
+      "id": "tabtklk5mnmg80rau47c0mjff3b6r08u@import.calendar.google.com"
+    },
+    {
+      "slug": "rugby-mens-6n",
+      "name": "Rugby Mens 6N",
+      "id": "vltlimfim9horepqch3uve5tdntn7nen@import.calendar.google.com"
+    },
+    {
+      "slug": "rugby-womens-6n",
+      "name": "Rugby Womens 6N",
+      "id": "vo97b4mr9uiv5lhp0ggqkqkvp6dq3an2@import.calendar.google.com"
+    },
+    {
+      "slug": "rugby-womens-intl",
+      "name": "Rugby Womens Intl",
+      "id": "etoe060h4mbvuqugjmkcn340nk@group.calendar.google.com"
+    }
+  ]
+}
