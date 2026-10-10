@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Spoiler-free rugby calendars</title>
+<style>
+:root{color-scheme:light dark}body{font:16px/1.55 system-ui,sans-serif;max-width:1100px;margin:3rem auto;padding:0 1.25rem}h1{line-height:1.2}table{border-collapse:collapse;width:100%}th,td{text-align:left;padding:.85rem;border-bottom:1px solid #8886}td a{overflow-wrap:anywhere}button{font:inherit;padding:.35rem .7rem;cursor:pointer}p{max-width:75ch}small{opacity:.75}@media(max-width:650px){table,tbody,tr,th,td{display:block}thead{display:none}tr{padding:1rem 0;border-bottom:1px solid #8886}th,td{border:0;padding:.2rem 0}}
+</style>
+</head>
+<body>
+<h1>Spoiler-free rugby calendars</h1>
+<p>Subscribe using the complete ICS URL for each competition. Match details are frozen at the previously accepted kickoff time to avoid post-match score spoilers. The source calendars are checked every two hours; your calendar app controls its own subscription refresh schedule.</p>
+<table><thead><tr><th>Calendar</th><th>Public ICS subscription URL</th><th></th></tr></thead><tbody>
+<tr><th scope="row">Men’s Premiership</th><td><a href="https://mbligh.github.io/calendar/rugby-mens-prem.ics">https://mbligh.github.io/calendar/rugby-mens-prem.ics</a></td><td><button type="button" data-url="https://mbligh.github.io/calendar/rugby-mens-prem.ics">Copy URL</button></td></tr>
+<tr><th scope="row">Men’s Six Nations</th><td><a href="https://mbligh.github.io/calendar/rugby-mens-6n.ics">https://mbligh.github.io/calendar/rugby-mens-6n.ics</a></td><td><button type="button" data-url="https://mbligh.github.io/calendar/rugby-mens-6n.ics">Copy URL</button></td></tr>
+<tr><th scope="row">Women’s Six Nations</th><td><a href="https://mbligh.github.io/calendar/rugby-womens-6n.ics">https://mbligh.github.io/calendar/rugby-womens-6n.ics</a></td><td><button type="button" data-url="https://mbligh.github.io/calendar/rugby-womens-6n.ics">Copy URL</button></td></tr>
+<tr><th scope="row">Men’s International</th><td><a href="https://mbligh.github.io/calendar/rugby-mens-intl.ics">https://mbligh.github.io/calendar/rugby-mens-intl.ics</a></td><td><button type="button" data-url="https://mbligh.github.io/calendar/rugby-mens-intl.ics">Copy URL</button></td></tr>
+<tr><th scope="row">Women’s International</th><td><a href="https://mbligh.github.io/calendar/rugby-womens-intl.ics">https://mbligh.github.io/calendar/rugby-womens-intl.ics</a></td><td><button type="button" data-url="https://mbligh.github.io/calendar/rugby-womens-intl.ics">Copy URL</button></td></tr>
+</tbody></table>
+<p><small>In Google Calendar, select Other calendars → + → From URL and paste the ICS URL. These feeds are public and read-only. <a href="https://github.com/mbligh/calendar">Source code on GitHub</a>.</small></p>
+<script>
+document.querySelectorAll('button[data-url]').forEach(button => button.addEventListener('click', async () => {
+  try { await navigator.clipboard.writeText(button.dataset.url); button.textContent='Copied'; setTimeout(() => button.textContent='Copy URL', 1800); }
+  catch { window.prompt('Copy calendar URL:', button.dataset.url); }
+}));
+</script>
+</body>
+</html>
