@@ -34,6 +34,12 @@
       "name": "Rugby Womens PWR",
       "type": "pwr",
       "url": "https://www.thepwr.com/api/oval/fixtures?compId=1095&seasonId=202601"
+    },
+    {
+      "slug": "rugby-eu",
+      "name": "Rugby EU",
+      "type": "epcr",
+      "url": "https://d3ceaa8fhf27fg.cloudfront.net/broadcasters/seasons/202601.json"
     }
   ],
   "plex_sources": [
