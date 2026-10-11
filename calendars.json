@@ -35,5 +35,15 @@
       "type": "pwr",
       "url": "https://www.thepwr.com/api/oval/fixtures?compId=1095&seasonId=202601"
     }
+  ],
+  "plex_sources": [
+    {
+      "slug": "gallagher-prem",
+      "name": "Gallagher PREM",
+      "type": "prem",
+      "compId": 1011,
+      "season": 202601,
+      "url": "https://rugby-union-feeds.incrowdsports.com/v1/matches?provider=rugbyviz&season=202601&compId=1011&sort=date"
+    }
   ]
 }
