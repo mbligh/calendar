@@ -4,7 +4,15 @@
     {
       "slug": "rugby-mens-intl",
       "name": "Rugby Mens Intl",
-      "id": "ct240d39oc9kq21cq3bn70jii8@group.calendar.google.com"
+      "id": "ct240d39oc9kq21cq3bn70jii8@group.calendar.google.com",
+      "type": "world-rugby",
+      "group": "mens-intl"
+    },
+    {
+      "slug": "rugby-nations",
+      "name": "Rugby Nations",
+      "type": "world-rugby",
+      "group": "nations"
     },
     {
       "slug": "rugby-mens-prem",
@@ -27,7 +35,9 @@
     {
       "slug": "rugby-womens-intl",
       "name": "Rugby Womens Intl",
-      "id": "etoe060h4mbvuqugjmkcn340nk@group.calendar.google.com"
+      "id": "etoe060h4mbvuqugjmkcn340nk@group.calendar.google.com",
+      "type": "world-rugby",
+      "group": "womens-intl"
     },
     {
       "slug": "rugby-womens-pwr",
