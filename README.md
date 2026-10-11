@@ -87,3 +87,7 @@ to a **metadata-only** directory, never with `rsync --delete` into the Plex
 video library. Use the manifest to reconcile managed NFOs alongside videos;
 never delete or overwrite video files. A corresponding video must share the
 NFO basename for Plex to associate the metadata.
+
+### Gallagher PREM direct feed
+
+Plex metadata for Gallagher PREM uses the official site's RugbyViz match feed (competition 1011, season 202601), configured in `plex_sources`. This is independent of the existing mens Premiership ICS calendar. The adapter allowlists only fixture ID, teams, round, date, and venue; scores, results, form and images are never included. Matches with provisional (`tbc`) kickoff times are excluded until confirmed. `form=true` and `images=true` are intentionally omitted. A feed failure aborts publication rather than replacing the archive with incomplete data.

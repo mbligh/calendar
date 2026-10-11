@@ -18,6 +18,7 @@ from zoneinfo import ZoneInfo
 
 from icalendar import Calendar
 from filter import ROOT, start_time
+from prem import fetch_prem
 
 UK = ZoneInfo("Europe/London")
 ROUND = re.compile(r"\bRound\s+(\d+)\b", re.I)
@@ -45,11 +46,14 @@ def xml_bytes(tag, fields):
 def build(config, source_dir, now):
     output = {}
     manifest = {"schema_version": 1, "generated_at": now.isoformat(), "fixtures": []}
-    for entry in config["calendars"]:
-        path = source_dir / (entry["slug"] + ".ics")
-        if not path.exists():
-            raise ValueError(f"Missing source snapshot: {path}")
-        calendar = Calendar.from_ical(path.read_bytes())
+    for entry in config["calendars"] + config.get("plex_sources", []):
+        if entry.get("type") == "prem":
+            calendar = fetch_prem(entry["url"], comp_id=entry["compId"], season=entry["season"])
+        else:
+            path = source_dir / (entry["slug"] + ".ics")
+            if not path.exists():
+                raise ValueError(f"Missing source snapshot: {path}")
+            calendar = Calendar.from_ical(path.read_bytes())
         grouped = defaultdict(list)
         for event in calendar.walk("VEVENT"):
             kickoff = start_time(event, UK)
