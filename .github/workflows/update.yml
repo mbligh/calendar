@@ -1,7 +1,7 @@
 name: Update spoiler-free calendars
 on:
   schedule:
-    - cron: "17 */2 * * *"
+    - cron: "17 * * * *"
   workflow_dispatch:
 permissions:
   contents: write
@@ -20,8 +20,10 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - run: python filter.py
-      - name: Commit changed calendars
-        if: always()
+      - name: Build Plex NFO metadata
+        run: python plex_nfo.py
+      - name: Commit calendars and Plex metadata
+        if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"

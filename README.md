@@ -25,7 +25,7 @@ These links won't work until the initial updater run succeeds and Pages is enabl
 - Events already past kickoff are preserved indefinitely, even if the source
   modifies or deletes them.
 - Fetch failures leave the existing published calendar untouched.
-- A scheduled GitHub Action polls every two hours. A manual run is also available.
+- A scheduled GitHub Action polls hourly. A manual run is also available.
 
 **Limitations:** This is deliberately conservative. An event first seen after
 kickoff is skipped; a reschedule after the saved kickoff cannot be accepted.
@@ -56,3 +56,34 @@ and public Google Calendar ID.
 2. Actions → Update spoiler-free calendars → Run workflow.
 3. Confirm that `docs/*.ics` are committed to the default branch.
 4. Settings → Pages → Deploy from a branch → `main` → `/docs` → Save.
+
+## Plex rugby metadata (experimental)
+
+The hourly updater also runs `plex_nfo.py` against the **existing spoiler-free
+ICS snapshots**. It publishes:
+
+- [rugby-metadata.tar.gz](https://mbligh.github.io/calendar/rugby-metadata.tar.gz):
+  NFO directory tree and a `manifest.json`.
+- [rugby-metadata-manifest.json](https://mbligh.github.io/calendar/rugby-metadata-manifest.json):
+  fixture IDs, filenames and SHA-256 checksums.
+
+NFOs contain neutral team names, kickoff date, venue, and round number;
+they deliberately exclude scores and results. Show directories use the
+competition slug and season start year, with `Season_XX` representing the
+round and `sXXeYY` the kickoff-ordered fixture within that round. All
+generated paths use underscores instead of spaces.
+
+**Current source limitation:** only matches whose source calendar includes an
+explicit `Round N` in the event description can be numbered. Currently this
+is supplied by the PWR API conversion. Other calendars continue to publish
+ICS, but their matches are skipped for NFO until a reliable round mapping
+is added. A postponed fixture may be frozen at its previously accepted
+kickoff by the existing spoiler-free calendar policy. Do not treat the
+generated NFO ordering as authoritative in that case.
+
+**Safe server synchronization:** download and validate the complete archive
+into a staging directory before changing local files. Mirror the archive only
+to a **metadata-only** directory, never with `rsync --delete` into the Plex
+video library. Use the manifest to reconcile managed NFOs alongside videos;
+never delete or overwrite video files. A corresponding video must share the
+NFO basename for Plex to associate the metadata.
