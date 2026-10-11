@@ -17,6 +17,7 @@ from zoneinfo import ZoneInfo
 
 from icalendar import Calendar, Event
 from pwr import fetch_pwr
+from epcr import fetch_epcr
 
 ROOT = pathlib.Path(__file__).resolve().parent
 UTC = dt.timezone.utc
@@ -125,7 +126,8 @@ def main():
         path = args.output / (slug + ".ics")
         url = entry.get("url") or ("https://calendar.google.com/calendar/ical/" + urllib.parse.quote(entry["id"], safe="") + "/public/basic.ics")
         try:
-            source = fetch_pwr(url) if entry.get("type") == "pwr" else fetch(url)
+            source = (fetch_pwr(url) if entry.get("type") == "pwr" else
+                      fetch_epcr(url) if entry.get("type") == "epcr" else fetch(url))
             previous = read_existing(path)
             result = merge(source, previous, now, tz, entry["name"])
             payload = result.to_ical()
