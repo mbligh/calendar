@@ -68,20 +68,23 @@ def build(config, source_dir, now):
                 continue
             description = str(event.get("DESCRIPTION", ""))
             round_match = ROUND.search(description)
-            if not round_match:
-                # Do not invent rounds for feeds which do not provide them.
-                continue
-            round_no = int(round_match.group(1))
-            if not 1 <= round_no <= 99:
-                continue
-            year = season_year(kickoff)
+            if entry.get("type") == "world-rugby":
+                round_no = 1  # No real rounds: one chronological season per calendar year.
+                year = kickoff.astimezone(UK).year
+            else:
+                if not round_match:
+                    continue
+                round_no = int(round_match.group(1))
+                if not 1 <= round_no <= 99:
+                    continue
+                year = season_year(kickoff)
             grouped[(year, round_no)].append((kickoff.astimezone(dt.timezone.utc), str(event.get("UID", "")), teams, event))
         for (year, round_no), matches in sorted(grouped.items()):
             show = f"{slug(entry['slug'])}_{year}"
             # Keep show identifiers stable and filesystem-safe.
             show_dir = f"{show}/"
             output[show_dir + "tvshow.nfo"] = xml_bytes("tvshow", [
-                ("title", f"{entry['name']} {year}-{str((year + 1) % 100).zfill(2)}"),
+                ("title", f"{entry['name']} {year}" if entry.get("type") == "world-rugby" else f"{entry['name']} {year}-{str((year + 1) % 100).zfill(2)}"),
                 ("plot", "Spoiler-free rugby fixture metadata"),
             ])
             # Deterministic order for simultaneous kickoffs.
@@ -99,7 +102,7 @@ def build(config, source_dir, now):
                     ("season", round_no),
                     ("episode", number),
                     ("aired", kickoff.astimezone(UK).date().isoformat()),
-                    ("plot", f"{entry['name']}, Round {round_no}" + (f". Venue: {venue}" if venue else "")),
+                    ("plot", (str(event.get("DESCRIPTION", entry["name"])) if entry.get("type") == "world-rugby" else f"{entry['name']}, Round {round_no}") + (f". Venue: {venue}" if venue else "")),
                 ]
                 output[relative] = xml_bytes("episodedetails", fields)
                 manifest["fixtures"].append({
