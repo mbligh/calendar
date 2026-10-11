@@ -14,7 +14,7 @@ COMPETITIONS = {
     "mens-intl": ("MRU", {"Men's Internationals"}),
     "womens-intl": ("WRU", {"Women's Internationals", "WXV"}),
 }
-YEAR_SUFFIX = re.compile(r"\\s+20\\d{2}$")
+YEAR_SUFFIX = re.compile(r"\s+20\d{2}$")
 
 
 def competition_base(label):
