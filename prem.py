@@ -1,0 +1,58 @@
+"""Allowlisted, spoiler-free adapter for the official Gallagher PREM match feed."""
+import datetime as dt
+import json
+import urllib.request
+
+from icalendar import Calendar, Event
+
+
+def convert_prem(payload, *, comp_id=1011, season=202601):
+    matches = payload["data"]
+    if not isinstance(matches, list) or not matches:
+        raise ValueError("Empty Gallagher PREM match feed")
+    calendar = Calendar()
+    calendar.add("prodid", "-//mbligh/calendar//Gallagher PREM metadata//EN")
+    calendar.add("version", "2.0")
+    seen = set()
+    for match in matches:
+        if match["compId"] != comp_id or match["season"] != season:
+            raise ValueError("Unexpected competition or season in Gallagher PREM feed")
+        match_id = int(match["id"])
+        if match_id in seen:
+            raise ValueError(f"Duplicate Gallagher PREM fixture {match_id}")
+        seen.add(match_id)
+        round_no = int(match["round"])
+        if not 1 <= round_no <= 99:
+            raise ValueError(f"Invalid Gallagher PREM round {round_no}")
+        kickoff = dt.datetime.fromisoformat(match["date"].replace("Z", "+00:00"))
+        if kickoff.tzinfo is None:
+            raise ValueError(f"Naive kickoff for {match_id}")
+        home = match["homeTeam"]["name"]
+        away = match["awayTeam"]["name"]
+        event = Event()
+        event.add("uid", f"prem-{match_id}@mbligh.github.io")
+        event.add("summary", f"{home} vs {away}")
+        if match.get("tbc"):
+            # Skip TBC fixtures until kickoff is confirmed; the provided date
+            # may be a placeholder and must not determine episode order.
+            continue
+        event.add("dtstart", kickoff)
+        event.add("dtend", kickoff + dt.timedelta(hours=2))
+        event.add("description", f"Gallagher PREM — Round {round_no}")
+        venue = (match.get("venue") or {}).get("name")
+        if venue:
+            event.add("location", venue)
+        # Never read or copy score, form, status, winner, events or images.
+        calendar.add_component(event)
+    if not calendar.walk("VEVENT"):
+        raise ValueError("No confirmed Gallagher PREM fixtures")
+    return calendar
+
+
+def fetch_prem(url, *, comp_id=1011, season=202601):
+    request = urllib.request.Request(url, headers={
+        "User-Agent": "calendar-spoiler-filter/1.0",
+        "Accept": "application/json",
+    })
+    with urllib.request.urlopen(request, timeout=45) as response:
+        return convert_prem(json.load(response), comp_id=comp_id, season=season)
