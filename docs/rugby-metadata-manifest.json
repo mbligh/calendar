@@ -176,9 +176,9 @@
     "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e01-20261017-Canada_v_England.nfo": "7ba3271bb86917b922918685a84e367ef60d45954a6a8e9fb22fdda9a996ee0e",
     "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e02-20261017-Canada_v_England.nfo": "3719b1762cd4a6fbe8448850839e7b08f981f33e83959f9d14ac8db2c904a295",
     "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e03-20261017-Australia_v_Scotland.nfo": "4fc57175e8c5ce607d4e79e3ae6530ab6c6f6652eaa8e1135b9e7eb54eb96c57",
-    "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e04-20261017-Australia_v_Scotland.nfo": "d7eadb49bc09b2282c29ccd56cf173ce768a542430b50b47e78e209da200f9aa",
-    "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e05-20261017-New_Zealand_v_France.nfo": "cfb5539c4d1198cb69bc12260be1dad3dc2e7e5ee53d7f293d0dae1d11c06df4",
-    "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e06-20261017-New_Zealand_v_France.nfo": "150570237cf86e97b4d2ac1016ffa0326c0c5f4356d448f2e69686ce0827c748",
+    "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e04-20261017-New_Zealand_v_France.nfo": "1a22f52ff780540d3f29fd0f08481d57b5cdf4bf8dda140c5b4774281a73a856",
+    "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e05-20261017-New_Zealand_v_France.nfo": "b30c5567077e2edf1d37c60a15cd93bf29b7b1d91e377304658ed8eaab866e87",
+    "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e06-20261017-Australia_v_Scotland.nfo": "b59da76352ca890f15937686cdb6f079607f726a3cd71981559a5829e60ab523",
     "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e07-20261017-USA_v_Italy.nfo": "2eeb7168c5f22f6172ee3f8e1abada06817835b422867e505319de3716559d18",
     "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e08-20261017-USA_v_Italy.nfo": "6d428b19120197e80b2cf41f381ae447c2c40ea0e54e0c58b9da5fd3a99f86f4",
     "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e09-20261023-Australia_v_Scotland.nfo": "01dfa9e46f02c3efcc56f1b21e618d5a62e0573794bb4a4ed7dd45481f8ca0fb",
@@ -2152,35 +2152,35 @@
       "season": 2026
     },
     {
-      "away": "Scotland",
-      "competition": "rugby-womens-intl",
-      "episode": 4,
-      "home": "Australia",
-      "id": "rugby-womens-intl:world-rugby-4c2f4d2c-bf9b-4874-9ca5-94efe8a4946f@mbligh.github.io",
-      "kickoff_utc": "2026-10-17T02:00:00+00:00",
-      "nfo": "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e04-20261017-Australia_v_Scotland.nfo",
-      "round": 1,
-      "season": 2026
-    },
-    {
       "away": "\ud83c\uddeb\ud83c\uddf7 France",
       "competition": "rugby-womens-intl",
-      "episode": 5,
+      "episode": 4,
       "home": "\u2640\ufe0fNew Zealand \ud83c\uddf3\ud83c\uddff",
       "id": "rugby-womens-intl:cfbjf5qt1had1hhqlluapk9dl4@google.com",
       "kickoff_utc": "2026-10-17T02:05:00+00:00",
-      "nfo": "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e05-20261017-New_Zealand_v_France.nfo",
+      "nfo": "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e04-20261017-New_Zealand_v_France.nfo",
       "round": 1,
       "season": 2026
     },
     {
       "away": "France",
       "competition": "rugby-womens-intl",
-      "episode": 6,
+      "episode": 5,
       "home": "New Zealand",
       "id": "rugby-womens-intl:world-rugby-8cb0eeda-d003-44ab-8e29-cb738bcdfdd7@mbligh.github.io",
       "kickoff_utc": "2026-10-17T02:05:00+00:00",
-      "nfo": "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e06-20261017-New_Zealand_v_France.nfo",
+      "nfo": "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e05-20261017-New_Zealand_v_France.nfo",
+      "round": 1,
+      "season": 2026
+    },
+    {
+      "away": "Scotland",
+      "competition": "rugby-womens-intl",
+      "episode": 6,
+      "home": "Australia",
+      "id": "rugby-womens-intl:world-rugby-4c2f4d2c-bf9b-4874-9ca5-94efe8a4946f@mbligh.github.io",
+      "kickoff_utc": "2026-10-17T03:00:00+00:00",
+      "nfo": "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e06-20261017-Australia_v_Scotland.nfo",
       "round": 1,
       "season": 2026
     },
@@ -3010,6 +3010,6 @@
       "season": 2026
     }
   ],
-  "generated_at": "2026-10-12T09:13:00.999524+00:00",
+  "generated_at": "2026-10-12T19:04:07.027253+00:00",
   "schema_version": 1
 }
