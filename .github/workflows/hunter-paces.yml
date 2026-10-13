@@ -1,0 +1,51 @@
+name: Update NJ hunter paces
+on:
+  schedule:
+    - cron: "43 10 * * *"
+  push:
+    branches: [main]
+    paths:
+      - hunter_paces
+      - test_hunter_paces
+      - requirements.txt
+      - docs/index.html
+      - .github/workflows/hunter-paces.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: calendar-update
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python test_hunter_paces
+      - run: python hunter_paces
+      - name: Commit changed calendar
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs/hunter-paces-nj.ics
+          if ! git diff --cached --quiet; then
+            git commit -m "Update NJ hunter pace calendar"
+            git push
+          fi
+      # Explicit deployment: commits made with GITHUB_TOKEN do not trigger
+      # the branch-based Pages build. Publish all calendars in docs together.
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+      - uses: actions/deploy-pages@v4
+        id: deployment

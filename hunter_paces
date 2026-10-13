@@ -1,0 +1,136 @@
+#!/usr/bin/env python3
+"""Mirror the NJ hunter pace listings as a subscribable, all-day ICS feed."""
+import argparse
+import datetime as dt
+import hashlib
+import pathlib
+import re
+import urllib.request
+
+from bs4 import BeautifulSoup, Comment
+from icalendar import Calendar, Event
+
+ROOT = pathlib.Path(__file__).resolve().parent
+SOURCE = 'http://www.findahunterpace.com/pacenj.html'
+MONTHS = {name.lower(): index for index, name in enumerate(
+    ['January', 'February', 'March', 'April', 'May', 'June', 'July',
+     'August', 'September', 'October', 'November', 'December'], 1)}
+DATE = re.compile(r'([A-Za-z]+)\.?\s+(\d{1,2}),?\s+(\d{4})')
+
+
+def clean(value):
+    return ' '.join(value.split())
+
+
+def parse(html):
+    soup = BeautifulSoup(html, 'html.parser')
+    content = soup.select_one('.content')
+    if content is None:
+        raise ValueError('Missing event content; preserving published feed')
+    found = {}
+    for row in content.find_all('tr'):
+        cells = row.find_all('td', recursive=False)
+        if len(cells) != 2:
+            continue
+        date_text = clean(cells[0].get_text(' ', strip=True))
+        match = DATE.search(date_text)
+        if not match:
+            if re.search(r'\b\d{4}\b', date_text):
+                raise ValueError(f'Unrecognized event date: {date_text}')
+            continue
+        month, day, year = match.groups()
+        matches = [number for name, number in MONTHS.items()
+                   if name.startswith(month.lower())]
+        if len(matches) != 1:
+            raise ValueError(f'Unrecognized month: {month}')
+        date = dt.date(int(year), matches[0], int(day))
+        detail = cells[1]
+        title = detail.find('strong')
+        if title is None or not clean(title.get_text(' ', strip=True)):
+            raise ValueError(f'Missing event title on {date}')
+        title = clean(title.get_text(' ', strip=True))
+        # Dreamweaver library identity survives date/title corrections. Year
+        # distinguishes annual editions; different seasonal items have own IDs.
+        comments = detail.find_all(string=lambda s: isinstance(s, Comment))
+        library = next((str(s).split('"')[1] for s in comments
+                        if '#BeginLibraryItem' in str(s) and '"' in str(s)), title)
+        identity = f'{library}|{year}'
+        uid = hashlib.sha256(identity.encode()).hexdigest()[:32] + '@findahunterpace-nj'
+        lines = [clean(line) for line in detail.get_text('\n', strip=True).splitlines()]
+        location = next((line for line in lines if re.search(r'\bNJ\b', line) and not re.search(r'(?:https?://|www\.|@)', line) or line.startswith('Location:')), '')
+        links = list(dict.fromkeys(a['href'] for a in detail.find_all('a', href=True)
+                                  if a['href'].startswith(('http://', 'https://'))))
+        description = '\n'.join(lines)
+        description += '\n\nDate listing: ' + date_text
+        description += '\n\nOrganizer links:\n' + '\n'.join(links)
+        description += '\n\nSource: ' + SOURCE
+        description += "\nAll dates are subject to change. Check the sponsoring organization's website."
+        event = Event()
+        for key, value in [('uid', uid), ('summary', title), ('dtstart', date),
+                           ('dtend', date + dt.timedelta(days=1)),
+                           ('description', description), ('url', links[0] if links else SOURCE),
+                           ('transp', 'TRANSPARENT')]:
+            event.add(key, value)
+        if location:
+            event.add('location', re.sub(r'^Location:\s*', '', location))
+        if re.search(r'cancelled|canceled', date_text + ' ' + title, re.I):
+            event.add('status', 'CANCELLED')
+        if uid in found and found[uid].to_ical() != event.to_ical():
+            raise ValueError(f'Conflicting duplicate event: {title}')
+        found[uid] = event
+    if not found:
+        raise ValueError('No dated events found; preserving published feed')
+    return found
+
+
+def publish(html, path, now=None):
+    incoming = parse(html)  # Validate completely before touching the output.
+    previous = {}
+    if path.exists():
+        previous = {str(e['UID']): e for e in Calendar.from_ical(path.read_bytes()).walk('VEVENT')}
+    now = now or dt.datetime.now(dt.timezone.utc).replace(microsecond=0)
+    calendar = Calendar()
+    calendar.add('prodid', '-//mbligh/calendar//NJ Hunter Paces//EN')
+    calendar.add('version', '2.0')
+    calendar.add('x-wr-calname', 'New Jersey Hunter Paces')
+    calendar.add('x-wr-timezone', 'America/New_York')
+    calendar.add('refresh-interval', dt.timedelta(days=1))
+    for uid, event in sorted(incoming.items(), key=lambda pair: (pair[1].decoded('DTSTART'), pair[0])):
+        old = previous.get(uid)
+        comparable = Event.from_ical(old.to_ical()) if old is not None else None
+        if comparable is not None:
+            for field in ('DTSTAMP', 'LAST-MODIFIED', 'SEQUENCE'):
+                comparable.pop(field, None)
+        if comparable is not None and comparable.to_ical() == event.to_ical():
+            event = old
+        else:
+            event.add('dtstamp', now)
+            event.add('last-modified', now)
+            event.add('sequence', int(old.get('SEQUENCE', 0)) + 1 if old is not None else 0)
+        calendar.add_component(event)
+    payload = calendar.to_ical()
+    if path.exists() and path.read_bytes() == payload:
+        print(f'NJ hunter paces: unchanged ({len(incoming)} events)')
+        return False
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_bytes(payload)
+    print(f'NJ hunter paces: updated ({len(incoming)} events)')
+    return True
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--html', type=pathlib.Path, help='Use a local source snapshot')
+    parser.add_argument('--output', type=pathlib.Path, default=ROOT / 'docs/hunter-paces-nj.ics')
+    args = parser.parse_args()
+    if args.html:
+        html = args.html.read_bytes()
+    else:
+        request = urllib.request.Request(SOURCE, headers={'User-Agent': 'mbligh/calendar hunter-pace mirror'})
+        with urllib.request.urlopen(request, timeout=60) as response:
+            html = response.read()
+    publish(html, args.output)
+
+
+if __name__ == '__main__':
+    main()

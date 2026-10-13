@@ -1,0 +1,213 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//mbligh/calendar//NJ Hunter Paces//EN
+X-WR-CALNAME:New Jersey Hunter Paces
+REFRESH-INTERVAL:P1D
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:Tewksbury Trail Association Trail Pace
+DTSTART;VALUE=DATE:20250921
+DTEND;VALUE=DATE:20250922
+DTSTAMP:20261013T011318Z
+UID:1e328b136b1fc0b64bd919ef3b0e3b14@findahunterpace-nj
+SEQUENCE:1
+DESCRIPTION:Tewksbury Trail Association Trail Pace\nwww.TTA-NJ.org\nChrist
+ ie Hoffman Park 108 Fairmount Rd W\, Tewksbury\, NJ 07830\nContact : Emmer
+  Bernardd:\ntewksburytrail@gmail.com\n\nDate listing: Sept. 21\, 2025 Sund
+ ay\n\nOrganizer links:\nhttp://www.tta-nj.org/\nhttp://www.njhorsecouncil.
+ com/\n\nSource: http://www.findahunterpace.com/pacenj.html\nAll dates are 
+ subject to change. Check the sponsoring organization's website.
+LAST-MODIFIED:20261013T011318Z
+LOCATION:Christie Hoffman Park 108 Fairmount Rd W\, Tewksbury\, NJ 07830
+TRANSP:TRANSPARENT
+URL:http://www.tta-nj.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Essex Fox Hounds Fall Hunter Pace
+DTSTART;VALUE=DATE:20251019
+DTEND;VALUE=DATE:20251020
+DTSTAMP:20261013T011240Z
+UID:08ecc8e72fb601fa3d4d747bc1a09987@findahunterpace-nj
+SEQUENCE:0
+DESCRIPTION:Essex Fox Hounds Fall Hunter Pace\nhttp://essexfoxhounds.org/
+ \nEssex Fox Hound Kennels\, 48 Holland Road\, Peapack\, NJ\nContact:\ninfo
+ @essexfoxhounds.org\n\, Ruth Beesch\nrbeesch@gmail.com\n(347) 947-0704\n\n
+ Date listing: Oct. 19\, 2025 Sunday\n\nOrganizer links:\nhttp://essexfoxho
+ unds.org/\n\nSource: http://www.findahunterpace.com/pacenj.html\nAll dates
+  are subject to change. Check the sponsoring organization's website.
+LAST-MODIFIED:20261013T011240Z
+LOCATION:Essex Fox Hound Kennels\, 48 Holland Road\, Peapack\, NJ
+TRANSP:TRANSPARENT
+URL:http://essexfoxhounds.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Amwell Valley Hounds Foxtober Halloween Costume Contest Hunter Pac
+ e
+DTSTART;VALUE=DATE:20251025
+DTEND;VALUE=DATE:20251026
+DTSTAMP:20261013T011240Z
+UID:a5d95e70597c148e59d6ea6a06684038@findahunterpace-nj
+SEQUENCE:0
+DESCRIPTION:Amwell Valley Hounds Foxtober Halloween Costume Contest Hunter
+  Pace\nhttp://www.avhounds.org/\nhttp://www.amwellvalleyhounds.org/events.
+ html\nLocation: TBD\nContact: Cindy D\nAvh.hontreasurer@gmail.com\n267 221
+ -8570\n\nDate listing: Oct. 25\, 2025 Saturday\n\nOrganizer links:\nhttp:/
+ /www.avhounds.org/\nhttp://www.amwellvalleyhounds.org/events.html\n\nSourc
+ e: http://www.findahunterpace.com/pacenj.html\nAll dates are subject to ch
+ ange. Check the sponsoring organization's website.
+LAST-MODIFIED:20261013T011240Z
+LOCATION:TBD
+TRANSP:TRANSPARENT
+URL:http://www.avhounds.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Quiet Creek Halloween Hunter Pace
+DTSTART;VALUE=DATE:20251026
+DTEND;VALUE=DATE:20251027
+DTSTAMP:20261013T011240Z
+UID:4a674498330f07c4a45b1782eea84583@findahunterpace-nj
+SEQUENCE:0
+DESCRIPTION:Quiet Creek Halloween Hunter Pace\nwww.quietcreekstable.com\nQ
+ uiet Creek Stable 539 ROUTE 94 Vernon NJ\, 07462\nContact :\nquietcreek@op
+ timum.net\n\nDate listing: Oct. 26\, 2025 Sunday\n\nOrganizer links:\nhttp
+ ://www.quietcreekstable.com\n\nSource: http://www.findahunterpace.com/pace
+ nj.html\nAll dates are subject to change. Check the sponsoring organizatio
+ n's website.
+LAST-MODIFIED:20261013T011240Z
+LOCATION:Quiet Creek Stable 539 ROUTE 94 Vernon NJ\, 07462
+TRANSP:TRANSPARENT
+URL:http://www.quietcreekstable.com
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Quiet Creek Thanksgiving Hunter Pace
+DTSTART;VALUE=DATE:20251123
+DTEND;VALUE=DATE:20251124
+DTSTAMP:20261013T011240Z
+UID:f6e33e6a2a4dfa9be6ee7842212bc4c4@findahunterpace-nj
+SEQUENCE:0
+DESCRIPTION:Quiet Creek Thanksgiving Hunter Pace\nwww.quietcreekstable.com
+ \nQuiet Creek Stable 539 ROUTE 94 Vernon NJ\, 07462\nContact :\nquietcreek
+ @optimum.net\n\nDate listing: Nov. 23\, 2025 Sunday\n\nOrganizer links:\nh
+ ttp://www.quietcreekstable.com\n\nSource: http://www.findahunterpace.com/p
+ acenj.html\nAll dates are subject to change. Check the sponsoring organiza
+ tion's website.
+LAST-MODIFIED:20261013T011240Z
+LOCATION:Quiet Creek Stable 539 ROUTE 94 Vernon NJ\, 07462
+TRANSP:TRANSPARENT
+URL:http://www.quietcreekstable.com
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Bayonet Farm /Holmdel Park Pace
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261005
+DTSTAMP:20261013T011240Z
+UID:ab7559f7d5144fa6a638620d96c46303@findahunterpace-nj
+SEQUENCE:0
+DESCRIPTION:Bayonet Farm /Holmdel Park Pace\nColt's Neck Trail Riders Club
+ \nhttp://www.cntrc.org/\n~\nhttps://www.facebook.com/TheCNTRC/\nBayonet Fa
+ rm 41 Middletown Road\, Holmdel\, NJ\nContact : Ronnie Sullivan\ninfo@cntr
+ c.org\n732-890-1391\n\nDate listing: Oct. 4\, 2026 Sunday\n\nOrganizer lin
+ ks:\nhttp://www.cntrc.org/\nhttps://www.facebook.com/TheCNTRC/\n\nSource: 
+ http://www.findahunterpace.com/pacenj.html\nAll dates are subject to chang
+ e. Check the sponsoring organization's website.
+LAST-MODIFIED:20261013T011240Z
+LOCATION:Bayonet Farm 41 Middletown Road\, Holmdel\, NJ
+TRANSP:TRANSPARENT
+URL:http://www.cntrc.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Covered Bridge Trail Association Hunter Pace
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+DTSTAMP:20261013T011240Z
+UID:785a95cbcdab25a815d44d218a423363@findahunterpace-nj
+SEQUENCE:0
+DESCRIPTION:Covered Bridge Trail Association Hunter Pace\nhttp://\nwww.cov
+ eredbridgetrail.com\nLocation: 119 Kingwood Stockton Road (Rt 519 N) Stock
+ ton NJ (NJCF Field) 1/4 mile north of Cane Farm\nContact: Leslie Pittman S
+ mith\nlpittmansmith@gmail.com\n215-794-8373\n\nDate listing: Oct. 18\, 202
+ 6 Sunday\n\nOrganizer links:\nhttp://www.coveredbridgetrail.com/fallhunter
+ pace.html\nhttp://www.coveredbridgetrail.com\n\nSource: http://www.findahu
+ nterpace.com/pacenj.html\nAll dates are subject to change. Check the spons
+ oring organization's website.
+LAST-MODIFIED:20261013T011240Z
+LOCATION:119 Kingwood Stockton Road (Rt 519 N) Stockton NJ (NJCF Field) 1/
+ 4 mile north of Cane Farm
+TRANSP:TRANSPARENT
+URL:http://www.coveredbridgetrail.com/fallhunterpace.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Essex Fox Hounds Fall Hunter Pace
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+DTSTAMP:20261013T011240Z
+UID:c9f069c1e67034c46926bbc97bded4e3@findahunterpace-nj
+SEQUENCE:0
+DESCRIPTION:Essex Fox Hounds Fall Hunter Pace\nhttp://essexfoxhounds.org/
+ \nEssex Fox Hound Kennels\, 48 Holland Road\, Peapack\, NJ\nContact:\ninfo
+ @essexfoxhounds.org\n\, Ruth Beesch\nrbeesch@gmail.com\n(347) 947-0704\n\n
+ Date listing: Oct. 18\, 2026 Sunday\n\nOrganizer links:\nhttp://essexfoxho
+ unds.org/\n\nSource: http://www.findahunterpace.com/pacenj.html\nAll dates
+  are subject to change. Check the sponsoring organization's website.
+LAST-MODIFIED:20261013T011240Z
+LOCATION:Essex Fox Hound Kennels\, 48 Holland Road\, Peapack\, NJ
+TRANSP:TRANSPARENT
+URL:http://essexfoxhounds.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Alexandria Equestrian Association Trail Pace
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261026
+DTSTAMP:20261013T011240Z
+UID:e279f8c0d8e939079463a995bb547d86@findahunterpace-nj
+SEQUENCE:0
+DESCRIPTION:Alexandria Equestrian Association Trail Pace\nwww.aeanj.com\nC
+ orner of Airport Rd & Schoolhouse Rd Pittstown\, NJ\nContact:\nalexandriae
+ questrian@gmail.com\n\nDate listing: Oct. 25\, 2026 Sunday\n\nOrganizer li
+ nks:\nhttp://www.aeanj.com/trailpace.html\n\nSource: http://www.findahunte
+ rpace.com/pacenj.html\nAll dates are subject to change. Check the sponsori
+ ng organization's website.
+LAST-MODIFIED:20261013T011240Z
+LOCATION:Corner of Airport Rd & Schoolhouse Rd Pittstown\, NJ
+TRANSP:TRANSPARENT
+URL:http://www.aeanj.com/trailpace.html
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Crystal Lake Pace
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+DTSTAMP:20261013T011240Z
+UID:10cde8645b490ffbdb35f98651ed6044@findahunterpace-nj
+SEQUENCE:0
+DESCRIPTION:Crystal Lake Pace\nColt's Neck Trail Riders Club\nhttp://www.c
+ ntrc.org/\n~\nhttps://www.facebook.com/TheCNTRC\n/\nCrystal Lake Park - Bu
+ rlington County 2401 Axe Factory Road\, Bordentown\, NJ\nContact : Ronnie 
+ Sullivan\ninfo@cntrc.org\n732-890-1391\n\nDate listing: Nov. 1\, 2026 Sund
+ ay\n\nOrganizer links:\nhttp://www.cntrc.org/\nhttps://www.facebook.com/Th
+ eCNTRC\n\nSource: http://www.findahunterpace.com/pacenj.html\nAll dates ar
+ e subject to change. Check the sponsoring organization's website.
+LAST-MODIFIED:20261013T011240Z
+LOCATION:Crystal Lake Park - Burlington County 2401 Axe Factory Road\, Bor
+ dentown\, NJ
+TRANSP:TRANSPARENT
+URL:http://www.cntrc.org/
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Hunter Pace at Lord Stirling Stable
+DTSTART;VALUE=DATE:20261108
+DTEND;VALUE=DATE:20261109
+DTSTAMP:20261013T011240Z
+UID:e59987e97f122da92f9acbd19629e213@findahunterpace-nj
+SEQUENCE:0
+DESCRIPTION:Hunter Pace at Lord Stirling Stable\nwww.flss.org\n256 Maple A
+ ve. Basking Ridge\, NJ 07920\nContact: Carol Weingaertner\nsecretary@flss.
+ org\n\nDate listing: RESCHEDULED DATE! November 8\, 2026 Sunday\n\nOrganiz
+ er links:\nhttp://www.flss.org\n\nSource: http://www.findahunterpace.com/p
+ acenj.html\nAll dates are subject to change. Check the sponsoring organiza
+ tion's website.
+LAST-MODIFIED:20261013T011240Z
+LOCATION:256 Maple Ave. Basking Ridge\, NJ 07920
+TRANSP:TRANSPARENT
+URL:http://www.flss.org
+END:VEVENT
+END:VCALENDAR

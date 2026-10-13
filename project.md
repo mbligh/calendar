@@ -1,0 +1,25 @@
+# Public calendar publishing
+
+## Requirements
+- Publish public ICS subscriptions via GitHub Pages from `docs/`.
+- Rugby calendars prevent score spoilers by freezing accepted events at kickoff.
+- Generate Plex rugby NFO metadata from neutral fixture details.
+- Mirror New Jersey hunter paces from Find a Hunter Pace daily, updating only
+  when event data changes. Include locations, organizer links and contacts;
+  handle duplicate entries, reschedules, cancellations and source removals.
+- Preserve published feeds on fetch/parse failure. Google Calendar controls
+  subscription refresh latency.
+
+## Implementation
+`calendars.json` configures rugby adapters used by `filter.py`; `plex_nfo.py`
+builds metadata. The existing hourly workflow commits generated snapshots.
+`hunter_paces` independently parses dated two-cell rows in the source page's
+content area using BeautifulSoup and emits all-day events with `icalendar`.
+Dreamweaver library identifiers plus year supply stable event UIDs; exact
+duplicates collapse and conflicting duplicates fail validation. Every dated
+source listing is included, including older years. Event timestamps and
+sequences change only when event properties change. Invalid or empty pages
+fail before writing. The dedicated daily workflow commits changed ICS and
+explicitly deploys all of `docs/` using Pages Actions. Both workflows share a
+concurrency group. `test_hunter_paces` checks parsing and snapshot semantics.
+No database is needed: committed ICS files are the persistent state.

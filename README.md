@@ -91,3 +91,28 @@ NFO basename for Plex to associate the metadata.
 ### Gallagher PREM direct feed
 
 Plex metadata for Gallagher PREM uses the official site's RugbyViz match feed (competition 1011, season 202601), configured in `plex_sources`. This is independent of the existing mens Premiership ICS calendar. The adapter allowlists only fixture ID, teams, round, date, and venue; scores, results, form and images are never included. Matches with provisional (`tbc`) kickoff times are excluded until confirmed. `form=true` and `images=true` are intentionally omitted. A feed failure aborts publication rather than replacing the archive with incomplete data.
+
+## New Jersey hunter paces
+
+Subscribe in Google Calendar using **Other calendars → + → From URL**:
+
+https://mbligh.github.io/calendar/hunter-paces-nj.ics
+
+`hunter_paces` reads http://www.findahunterpace.com/pacenj.html daily at
+10:43 UTC (06:43 EDT / 05:43 EST), on relevant pushes, or on manual dispatch.
+Events are all-day because the source does not specify start times. Includes
+all dated listings (including the source's historical sections), organizer
+links, location and contact details. Duplicate entries collapse; source library
+identity plus year keeps UIDs stable across reschedules and title corrections.
+Seasonal editions have distinct source library identities. Valid source changes
+replace the snapshot, including removing events no longer listed. Unlike rugby,
+hunter pace details are not frozen after their date. If fetching or parsing
+fails, the last published calendar survives and the Action reports failure.
+Unchanged events retain timestamps and sequence numbers, so unchanged source
+content does not produce new commits. Google controls its own refresh timing.
+
+The separate workflow explicitly deploys the complete `docs/` directory to
+Pages, since bot commits do not trigger branch-based Pages builds. It shares
+concurrency with the rugby workflow to avoid simultaneous repository writes.
+
+Local use: `python hunter_paces`; regression checks: `python test_hunter_paces`.

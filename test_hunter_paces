@@ -1,0 +1,55 @@
+#!/usr/bin/env python3
+"""Regression checks for duplicates, reschedules, unchanged feeds and failures."""
+import datetime as dt
+import pathlib
+import runpy
+import tempfile
+import unittest
+from icalendar import Calendar
+
+module = runpy.run_path(str(pathlib.Path(__file__).with_name('hunter_paces')))
+
+def page(date='Oct. 18, 2026', title='Test Hunter Pace', duplicate=False):
+    row = f'''<tr><td>{date}<br>Sunday</td><td>
+    <!-- #BeginLibraryItem "/Library/test fall.lbi" -->
+    <strong>{title}</strong><br><a href="https://example.com/">Organizer</a><br>
+    Test Farm, 123 Road, Stockton NJ<br>Contact: test@example.com</td></tr>'''
+    return '<div class="content"><table>' + row * (2 if duplicate else 1) + '</table></div>'
+
+class Tests(unittest.TestCase):
+    def test_duplicates_and_reschedule_identity(self):
+        events = module['parse'](page(duplicate=True))
+        self.assertEqual(len(events), 1)
+        revised = module['parse'](page('RESCHEDULED DATE! November 8, 2026', 'Corrected Hunter Pace'))
+        self.assertEqual(set(events), set(revised))
+        event = next(iter(revised.values()))
+        self.assertEqual(event.decoded('DTSTART'), dt.date(2026, 11, 8))
+        self.assertEqual(event.decoded('DTEND'), dt.date(2026, 11, 9))
+        self.assertIn('Stockton NJ', str(event['LOCATION']))
+        self.assertIn('test@example.com', str(event['DESCRIPTION']))
+
+    def test_idempotence_revision_removal_and_failure(self):
+        with tempfile.TemporaryDirectory() as directory:
+            path = pathlib.Path(directory) / 'out.ics'
+            publish = module['publish']
+            publish(page(), path)
+            original = path.read_bytes()
+            self.assertFalse(publish(page(), path, dt.datetime(2030, 1, 1, tzinfo=dt.timezone.utc)))
+            self.assertEqual(original, path.read_bytes())
+            publish(page('Nov. 8, 2026'), path)
+            events = Calendar.from_ical(path.read_bytes()).walk('VEVENT')
+            self.assertEqual(len(events), 1)
+            self.assertEqual(int(events[0]['SEQUENCE']), 1)
+            saved = path.read_bytes()
+            for html in ('<html>error</html>', '<div class="content"></div>', page('Someday 2026')):
+                with self.assertRaises(ValueError):
+                    publish(html, path)
+                self.assertEqual(saved, path.read_bytes())
+            # A valid source removing an event removes it from the mirror.
+            publish(page().replace('</table>', page('Oct. 25, 2027').split('<table>')[1].split('</table>')[0] + '</table>'), path)
+            self.assertEqual(len(Calendar.from_ical(path.read_bytes()).walk('VEVENT')), 2)
+            publish(page(), path)
+            self.assertEqual(len(Calendar.from_ical(path.read_bytes()).walk('VEVENT')), 1)
+
+if __name__ == '__main__':
+    unittest.main()
