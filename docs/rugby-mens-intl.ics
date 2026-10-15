@@ -1514,4 +1514,12 @@ UID:world-rugby-bcb19987-83c8-4818-b10d-141430777d77@mbligh.github.io
 DESCRIPTION:Men's Internationals 2026
 LOCATION:Geodis Park
 END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Zimbabwe vs Namibia
+DTSTART:20261024T130000Z
+DTEND:20261024T150000Z
+UID:world-rugby-d6a40697-087d-4a6b-90b8-c3fe47585845@mbligh.github.io
+DESCRIPTION:Men's Internationals 2026
+LOCATION:National Sports Stadium
+END:VEVENT
 END:VCALENDAR
