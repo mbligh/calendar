@@ -2264,7 +2264,7 @@
       "episode": 8,
       "home": "Australia",
       "id": "rugby-womens-intl:world-rugby-731beb0c-e76a-4137-a739-cbeac9e1d862@mbligh.github.io",
-      "kickoff_utc": "2026-10-23T08:45:00+00:00",
+      "kickoff_utc": "2026-10-23T08:30:00+00:00",
       "nfo": "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e08-20261023-Australia_v_Scotland.nfo",
       "round": 1,
       "season": 2026
@@ -2974,6 +2974,6 @@
       "season": 2026
     }
   ],
-  "generated_at": "2026-10-21T10:08:27.623074+00:00",
+  "generated_at": "2026-10-21T15:14:33.588301+00:00",
   "schema_version": 1
 }
