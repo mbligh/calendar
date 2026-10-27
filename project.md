@@ -24,6 +24,15 @@ explicitly deploys all of `docs/` using Pages Actions. Both workflows share a
 concurrency group. `test_hunter_paces` checks parsing and snapshot semantics.
 No database is needed: committed ICS files are the persistent state.
 
+The Gallagher PREM Plex source uses the Cortex/InCrowd RugbyViz match API.
+The updater accepts optional `PREM_APP_ID`, `PREM_API_KEY`, and `PREM_REALM`
+environment variables, passed from GitHub Actions secrets of the same names.
+Cortex now requires authenticated requests; use credentials issued for this
+integration, not credentials copied from a third-party website. A failed Plex
+fetch never replaces the previously published metadata. The hourly workflow
+still commits successfully updated ICS calendars, but finishes red if Plex
+generation fails so the failure remains visible.
+
 ## Rugby calendar source migrations
 
 The committed `docs/*.ics` snapshots are persistent state for spoiler protection.
