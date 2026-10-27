@@ -1,6 +1,7 @@
 """Allowlisted, spoiler-free adapter for the official Gallagher PREM match feed."""
 import datetime as dt
 import json
+import os
 import urllib.error
 import urllib.request
 
@@ -55,6 +56,13 @@ def fetch_prem(url, *, comp_id=1011, season=202601):
         "User-Agent": "calendar-spoiler-filter/1.0",
         "Accept": "application/json",
     })
+    for header, variable in (
+        ("X-APP-ID", "PREM_APP_ID"),
+        ("X-API-KEY", "PREM_API_KEY"),
+        ("X-REALM", "PREM_REALM"),
+    ):
+        if value := os.environ.get(variable):
+            request.add_header(header, value)
     try:
         with urllib.request.urlopen(request, timeout=45) as response:
             return convert_prem(json.load(response), comp_id=comp_id, season=season)
