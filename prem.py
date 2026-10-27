@@ -1,6 +1,7 @@
 """Allowlisted, spoiler-free adapter for the official Gallagher PREM match feed."""
 import datetime as dt
 import json
+import urllib.error
 import urllib.request
 
 from icalendar import Calendar, Event
@@ -54,5 +55,15 @@ def fetch_prem(url, *, comp_id=1011, season=202601):
         "User-Agent": "calendar-spoiler-filter/1.0",
         "Accept": "application/json",
     })
-    with urllib.request.urlopen(request, timeout=45) as response:
-        return convert_prem(json.load(response), comp_id=comp_id, season=season)
+    try:
+        with urllib.request.urlopen(request, timeout=45) as response:
+            return convert_prem(json.load(response), comp_id=comp_id, season=season)
+    except urllib.error.HTTPError as exc:
+        # The upstream API includes validation details in the error response.
+        # Include a bounded excerpt so scheduled failures are actionable.
+        detail = exc.read(1024).decode("utf-8", errors="replace").strip()
+        detail = " ".join(detail.split())[:500]
+        raise RuntimeError(
+            f"Gallagher PREM API returned HTTP {exc.code}"
+            + (f": {detail}" if detail else " (no response body)")
+        ) from exc
