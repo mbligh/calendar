@@ -24,6 +24,12 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python filter.py
       - name: Build Plex NFO metadata
+        id: plex
+        continue-on-error: true
+        env:
+          PREM_APP_ID: ${{ secrets.PREM_APP_ID }}
+          PREM_API_KEY: ${{ secrets.PREM_API_KEY }}
+          PREM_REALM: ${{ secrets.PREM_REALM }}
         run: python plex_nfo.py
       - name: Commit calendars and Plex metadata
         if: success()
@@ -35,3 +41,8 @@ jobs:
             git commit -m "Update spoiler-free calendars"
             git push
           fi
+      - name: Report Plex metadata failure
+        if: steps.plex.outcome == 'failure'
+        run: |
+          echo "::error::Plex metadata could not be refreshed; existing publication retained."
+          exit 1
