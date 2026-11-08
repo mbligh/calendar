@@ -7,12 +7,14 @@ BEGIN:VEVENT
 SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 England Rugby vs 🇮🇹 Italy Rugby
 DTSTART:20270424T160000Z
 DTEND:20270424T180000Z
-DTSTAMP:20260725T135135Z
+DTSTAMP:20260810T204104Z
 UID:000e868ce66c29fb5a3b10c1eb9df4c9
-SEQUENCE:0
-DESCRIPTION:Match between England Rugby Women and Italy Rugby Women\n\nSou
- rce: manual\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260725T135135Z
+SEQUENCE:1786394464
+DESCRIPTION:Womens Six Nations\n\nEngland Rugby Women\, every competition:
+ \nhttps://www.rugbyfixture.com/team/england-rugby-women\n\nItaly Rugby Wom
+ en\, every competition:\nhttps://www.rugbyfixture.com/team/italy-rugby-wom
+ en
+LAST-MODIFIED:20260810T204104Z
 LOCATION:Unknown
 END:VEVENT
 BEGIN:VEVENT
@@ -20,12 +22,14 @@ SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland Rugby vs 🇮🇹 Italy Rugb
  y
 DTSTART:20270508T160000Z
 DTEND:20270508T180000Z
-DTSTAMP:20260725T135136Z
+DTSTAMP:20260810T204105Z
 UID:1359c3135ea44386c7c53c770031d0d9
-SEQUENCE:0
-DESCRIPTION:Match between Scotland Rugby Women and Italy Rugby Women\n\nSo
- urce: manual\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260725T135136Z
+SEQUENCE:1786394465
+DESCRIPTION:Womens Six Nations\n\nScotland Rugby Women\, every competition
+ :\nhttps://www.rugbyfixture.com/team/scotland-rugby-women\n\nItaly Rugby W
+ omen\, every competition:\nhttps://www.rugbyfixture.com/team/italy-rugby-w
+ omen
+LAST-MODIFIED:20260810T204105Z
 LOCATION:Unknown
 END:VEVENT
 BEGIN:VEVENT
@@ -33,12 +37,14 @@ SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland Rugby vs 🇮🇪 Ireland Ru
  gby
 DTSTART:20270410T160000Z
 DTEND:20270410T180000Z
-DTSTAMP:20260725T135134Z
+DTSTAMP:20260810T204105Z
 UID:45a38ca9f22e160a0d073d79dfd5f97f
-SEQUENCE:0
-DESCRIPTION:Match between Scotland Rugby Women and Ireland Rugby Women\n\n
- Source: manual\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260725T135134Z
+SEQUENCE:1786394465
+DESCRIPTION:Womens Six Nations\n\nScotland Rugby Women\, every competition
+ :\nhttps://www.rugbyfixture.com/team/scotland-rugby-women\n\nIreland Rugby
+  Women\, every competition:\nhttps://www.rugbyfixture.com/team/ireland-rug
+ by-women
+LAST-MODIFIED:20260810T204105Z
 LOCATION:Unknown
 END:VEVENT
 BEGIN:VEVENT
@@ -46,12 +52,14 @@ SUMMARY:🇫🇷 France Rugby vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland Rug
  by
 DTSTART:20270424T134500Z
 DTEND:20270424T154500Z
-DTSTAMP:20260725T135135Z
+DTSTAMP:20260810T204105Z
 UID:69d919371776ba1703d61b8a2826a6e5
-SEQUENCE:0
-DESCRIPTION:Match between France Rugby Women and Scotland Rugby Women\n\nS
- ource: manual\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260725T135135Z
+SEQUENCE:1786394465
+DESCRIPTION:Womens Six Nations\n\nFrance Rugby Women\, every competition:
+ \nhttps://www.rugbyfixture.com/team/france-rugby-women\n\nScotland Rugby W
+ omen\, every competition:\nhttps://www.rugbyfixture.com/team/scotland-rugb
+ y-women
+LAST-MODIFIED:20260810T204105Z
 LOCATION:Unknown
 END:VEVENT
 BEGIN:VEVENT
@@ -59,12 +67,14 @@ SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 England Rugby vs 🏴󠁧󠁢󠁳󠁣
  󠁴󠁿 Scotland Rugby
 DTSTART:20270417T154500Z
 DTEND:20270417T174500Z
-DTSTAMP:20260725T135134Z
+DTSTAMP:20260810T204105Z
 UID:7df98c7f343b6d752dfe54fe8a994f71
-SEQUENCE:0
-DESCRIPTION:Match between England Rugby Women and Scotland Rugby Women\n\n
- Source: manual\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260725T135134Z
+SEQUENCE:1786394465
+DESCRIPTION:Womens Six Nations\n\nEngland Rugby Women\, every competition:
+ \nhttps://www.rugbyfixture.com/team/england-rugby-women\n\nScotland Rugby 
+ Women\, every competition:\nhttps://www.rugbyfixture.com/team/scotland-rug
+ by-women
+LAST-MODIFIED:20260810T204105Z
 LOCATION:Unknown
 END:VEVENT
 BEGIN:VEVENT
@@ -72,12 +82,14 @@ SUMMARY:🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland Rugby vs 🏴󠁧󠁢󠁷
  󠁬󠁳󠁿 Wales Rugby
 DTSTART:20270515T133000Z
 DTEND:20270515T153000Z
-DTSTAMP:20260725T135136Z
+DTSTAMP:20260810T204105Z
 UID:88234155ce59453b9b87ddc8849d616e
-SEQUENCE:0
-DESCRIPTION:Match between Scotland Rugby Women and Wales Rugby Women\n\nSo
- urce: manual\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260725T135136Z
+SEQUENCE:1786394465
+DESCRIPTION:Womens Six Nations\n\nScotland Rugby Women\, every competition
+ :\nhttps://www.rugbyfixture.com/team/scotland-rugby-women\n\nWales Rugby W
+ omen\, every competition:\nhttps://www.rugbyfixture.com/team/wales-rugby-w
+ omen
+LAST-MODIFIED:20260810T204105Z
 LOCATION:Unknown
 END:VEVENT
 BEGIN:VEVENT
@@ -85,12 +97,14 @@ SUMMARY:🏴󠁧󠁢󠁥󠁮󠁧󠁿 England Rugby vs 🇫🇷 France Rugb
  y
 DTSTART:20270515T154500Z
 DTEND:20270515T174500Z
-DTSTAMP:20260725T135137Z
+DTSTAMP:20260810T204103Z
 UID:8f17283dc18e4d6104dc0f4cd6997f86
-SEQUENCE:0
-DESCRIPTION:Match between England Rugby Women and France Rugby Women\n\nSo
- urce: manual\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260725T135137Z
+SEQUENCE:1786394463
+DESCRIPTION:Womens Six Nations\n\nEngland Rugby Women\, every competition:
+ \nhttps://www.rugbyfixture.com/team/england-rugby-women\n\nFrance Rugby Wo
+ men\, every competition:\nhttps://www.rugbyfixture.com/team/france-rugby-w
+ omen
+LAST-MODIFIED:20260810T204103Z
 LOCATION:Unknown
 END:VEVENT
 BEGIN:VEVENT
@@ -98,36 +112,42 @@ SUMMARY:🇮🇪 Ireland Rugby vs 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England Rug
  by
 DTSTART:20270508T134500Z
 DTEND:20270508T154500Z
-DTSTAMP:20260725T135136Z
+DTSTAMP:20260810T204104Z
 UID:95776da697d88760abca73bb222cf6a7
-SEQUENCE:0
-DESCRIPTION:Match between Ireland Rugby Women and England Rugby Women\n\nS
- ource: manual\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260725T135136Z
+SEQUENCE:1786394464
+DESCRIPTION:Womens Six Nations\n\nIreland Rugby Women\, every competition:
+ \nhttps://www.rugbyfixture.com/team/ireland-rugby-women\n\nEngland Rugby W
+ omen\, every competition:\nhttps://www.rugbyfixture.com/team/england-rugby
+ -women
+LAST-MODIFIED:20260810T204104Z
 LOCATION:Unknown
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🇮🇹 Italy Rugby vs 🇫🇷 France Rugby
 DTSTART:20270410T113000Z
 DTEND:20270410T133000Z
-DTSTAMP:20260725T135133Z
+DTSTAMP:20260810T204104Z
 UID:a2dcc991982b668e7339673d19f72234
-SEQUENCE:0
-DESCRIPTION:Match between Italy Rugby Women and France Rugby Women\n\nSour
- ce: manual\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260725T135133Z
+SEQUENCE:1786394464
+DESCRIPTION:Womens Six Nations\n\nItaly Rugby Women\, every competition:\n
+ https://www.rugbyfixture.com/team/italy-rugby-women\n\nFrance Rugby Women
+ \, every competition:\nhttps://www.rugbyfixture.com/team/france-rugby-wome
+ n
+LAST-MODIFIED:20260810T204104Z
 LOCATION:Unknown
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales Rugby vs 🇮🇪 Ireland Rugby
 DTSTART:20270424T113000Z
 DTEND:20270424T133000Z
-DTSTAMP:20260725T135135Z
+DTSTAMP:20260810T204105Z
 UID:a63ae32feae2ed027c5ffe77520e74d0
-SEQUENCE:0
-DESCRIPTION:Match between Wales Rugby Women and Ireland Rugby Women\n\nSou
- rce: manual\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260725T135135Z
+SEQUENCE:1786394465
+DESCRIPTION:Womens Six Nations\n\nWales Rugby Women\, every competition:\n
+ https://www.rugbyfixture.com/team/wales-rugby-women\n\nIreland Rugby Women
+ \, every competition:\nhttps://www.rugbyfixture.com/team/ireland-rugby-wom
+ en
+LAST-MODIFIED:20260810T204105Z
 LOCATION:Unknown
 END:VEVENT
 BEGIN:VEVENT
@@ -135,60 +155,69 @@ SUMMARY:🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales Rugby vs 🏴󠁧󠁢󠁥󠁮
  󠁧󠁿 England Rugby
 DTSTART:20270410T134500Z
 DTEND:20270410T154500Z
-DTSTAMP:20260725T135133Z
+DTSTAMP:20260810T204105Z
 UID:da5ea5025542583c6dcd90465d959c08
-SEQUENCE:0
-DESCRIPTION:Match between Wales Rugby Women and England Rugby Women\n\nSou
- rce: manual\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260725T135133Z
+SEQUENCE:1786394465
+DESCRIPTION:Womens Six Nations\n\nWales Rugby Women\, every competition:\n
+ https://www.rugbyfixture.com/team/wales-rugby-women\n\nEngland Rugby Women
+ \, every competition:\nhttps://www.rugbyfixture.com/team/england-rugby-wom
+ en
+LAST-MODIFIED:20260810T204105Z
 LOCATION:Unknown
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🇮🇹 Italy Rugby vs 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales Rugby
 DTSTART:20270417T111500Z
 DTEND:20270417T131500Z
-DTSTAMP:20260725T135134Z
+DTSTAMP:20260810T204105Z
 UID:db2a783614efececbc87ac6495376194
-SEQUENCE:0
-DESCRIPTION:Match between Italy Rugby Women and Wales Rugby Women\n\nSourc
- e: manual\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260725T135134Z
+SEQUENCE:1786394465
+DESCRIPTION:Womens Six Nations\n\nItaly Rugby Women\, every competition:\n
+ https://www.rugbyfixture.com/team/italy-rugby-women\n\nWales Rugby Women\,
+  every competition:\nhttps://www.rugbyfixture.com/team/wales-rugby-women
+LAST-MODIFIED:20260810T204105Z
 LOCATION:Unknown
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🇮🇹 Italy Rugby vs 🇮🇪 Ireland Rugby
 DTSTART:20270515T111500Z
 DTEND:20270515T131500Z
-DTSTAMP:20260725T135136Z
+DTSTAMP:20260810T204104Z
 UID:dce263bdebdf0d6766dbddbd9553bc64
-SEQUENCE:0
-DESCRIPTION:Match between Italy Rugby Women and Ireland Rugby Women\n\nSou
- rce: manual\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260725T135136Z
+SEQUENCE:1786394464
+DESCRIPTION:Womens Six Nations\n\nItaly Rugby Women\, every competition:\n
+ https://www.rugbyfixture.com/team/italy-rugby-women\n\nIreland Rugby Women
+ \, every competition:\nhttps://www.rugbyfixture.com/team/ireland-rugby-wom
+ en
+LAST-MODIFIED:20260810T204104Z
 LOCATION:Unknown
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🇮🇪 Ireland Rugby vs 🇫🇷 France Rugby
 DTSTART:20270417T133000Z
 DTEND:20270417T153000Z
-DTSTAMP:20260725T135134Z
+DTSTAMP:20260810T204104Z
 UID:e406cc613fa65fe6c7452a9193844d34
-SEQUENCE:0
-DESCRIPTION:Match between Ireland Rugby Women and France Rugby Women\n\nSo
- urce: manual\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260725T135134Z
+SEQUENCE:1786394464
+DESCRIPTION:Womens Six Nations\n\nIreland Rugby Women\, every competition:
+ \nhttps://www.rugbyfixture.com/team/ireland-rugby-women\n\nFrance Rugby Wo
+ men\, every competition:\nhttps://www.rugbyfixture.com/team/france-rugby-w
+ omen
+LAST-MODIFIED:20260810T204104Z
 LOCATION:Unknown
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:🇫🇷 France Rugby vs 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales Rugby
 DTSTART:20270508T113000Z
 DTEND:20270508T133000Z
-DTSTAMP:20260725T135135Z
+DTSTAMP:20260810T204105Z
 UID:f91cdc80a13f685fd500b8acfd631cec
-SEQUENCE:0
-DESCRIPTION:Match between France Rugby Women and Wales Rugby Women\n\nSour
- ce: manual\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260725T135135Z
+SEQUENCE:1786394465
+DESCRIPTION:Womens Six Nations\n\nFrance Rugby Women\, every competition:
+ \nhttps://www.rugbyfixture.com/team/france-rugby-women\n\nWales Rugby Wome
+ n\, every competition:\nhttps://www.rugbyfixture.com/team/wales-rugby-wome
+ n
+LAST-MODIFIED:20260810T204105Z
 LOCATION:Unknown
 END:VEVENT
 END:VCALENDAR
