@@ -78,10 +78,11 @@
     "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e29-20261121-NC_Wales_v_Australia.nfo": "aa014abd2b13a1878de8654e4e70f32928fe59b120104e137c7e67b7f0f3db70",
     "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e30-20261127-NC_Northern_6_v_Southern_6.nfo": "d3ce8a197e82ef22fe228b5c85a445b029dd74c5e0576275481d10b399c5aa05",
     "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e31-20261127-NC_Northern_3_v_Southern_3.nfo": "076cf2e8ebb1723585f0111ae3bfbde3fc865788e9a295333ef49191634ff885",
-    "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e32-20261128-NC_Northern_5_v_Southern_5.nfo": "5623566377603930798d89912cad515db139679ecdee3e530fc39fbdaf435d9a",
-    "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e33-20261128-NC_Northern_2_v_Southern_2.nfo": "64482f8970f2a42eee1d372ab56f8c7b8996dd1faf8bec13a3a1c57f36ae6534",
-    "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e34-20261129-NC_Northern_4_v_Southern_4.nfo": "2c72e4ff60e739ee05c1456d0d2a24ff192b9957c596b047e330788be73fb021",
-    "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e35-20261129-NC_Northern_1_v_Southern_1.nfo": "8813a46c2a80f02e24a2db6aabcdef9966770e362245d6c22867a2bff15567e9",
+    "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e32-20261127-Rwanda_v_Burundi.nfo": "323a8ffa9d2bce1c071607a6ae2fe164e665d86c665c013b8d41bef10c5c23e0",
+    "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e33-20261128-NC_Northern_5_v_Southern_5.nfo": "b841d651e1c8a96b71d1363b755694e8c13aff58dd8bb1274bfcfea050544db0",
+    "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e34-20261128-NC_Northern_2_v_Southern_2.nfo": "7d5c05f84a24eb646b72b9f9829022fe79ca38428a3ea17423b27dc2d207126c",
+    "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e35-20261129-NC_Northern_4_v_Southern_4.nfo": "dca8777e360609e1f4cc06c73472a89f46adb5d357ef133e078ca14e5433078c",
+    "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e36-20261129-NC_Northern_1_v_Southern_1.nfo": "294a7b6960de2ef7c5d645cd0d1027aa335eb10d4834eda454d214a1054d9778",
     "rugby_mens_intl_2026/tvshow.nfo": "1dd2517a40939d729956bbf9a1c23ee45cafc1982112b714f6a5f7da8d535077",
     "rugby_mens_intl_2027/Season_01/rugby_mens_intl_2027-s01e01-20270205-6N_Ireland_v_England.nfo": "5ad5bb97af744a64b2391a7eaf97dae3375733a3b4561cd53f8e1588803b5f43",
     "rugby_mens_intl_2027/Season_01/rugby_mens_intl_2027-s01e02-20270206-6N_Scotland_v_Italy.nfo": "8aa20f234ee66416bf8294bc33d059bbbd98b455e15ea74c2c550e868a3fecc5",
@@ -199,6 +200,7 @@
     "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e17-20261031-New_Zealand_v_France.nfo": "52bad36d1a6d897e8affcfc20bf28df5d6eeae7f84d5eca361e78cb76adcc628",
     "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e18-20261031-Japan_v_Wales.nfo": "5bee2c8a7325d9e5c192c0aabe47d65b8610040c5f3ddc04b17cf0b3a2f0c610",
     "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e19-20261031-South_Africa_v_Ireland.nfo": "541b770a72e0506c373e0c7314608193c8bd2f2302f38162bc8f734a0111844b",
+    "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e20-20261130-Portugal_v_Georgia.nfo": "bf36740d426ede506053bb102a31693c80c3aeba6b6f58ad63d6664c7b92c8c8",
     "rugby_womens_intl_2026/tvshow.nfo": "994791fa272308c9313e0b9cee57a7c70aeb534dabadbc91363063bade0e5183",
     "rugby_womens_intl_2027/Season_01/rugby_womens_intl_2027-s01e01-20270410-Italy_v_France.nfo": "bbc409eb0e1c15f08ce58a0cbd4c3d8e25676d265b9e2f54acb8e6e9b98f7903",
     "rugby_womens_intl_2027/Season_01/rugby_womens_intl_2027-s01e02-20270410-Wales_v_England.nfo": "a74df55a7195479f30770fd0a1a1f85db0b078cd9c5b4c7db21ef284775d2368",
@@ -1105,46 +1107,57 @@
       "season": 2026
     },
     {
-      "away": "Southern 5",
+      "away": "Burundi",
       "competition": "rugby-mens-intl",
       "episode": 32,
+      "home": "Rwanda",
+      "id": "rugby-mens-intl:world-rugby-c0bd7049-5294-4f47-aa02-dc43366d69ba@mbligh.github.io",
+      "kickoff_utc": "2026-11-27T22:00:00+00:00",
+      "nfo": "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e32-20261127-Rwanda_v_Burundi.nfo",
+      "round": 1,
+      "season": 2026
+    },
+    {
+      "away": "Southern 5",
+      "competition": "rugby-mens-intl",
+      "episode": 33,
       "home": "NC: Northern 5",
       "id": "rugby-mens-intl:CSVConvert3e108eac5167fbf575466c6f2153cc85",
       "kickoff_utc": "2026-11-28T13:10:00+00:00",
-      "nfo": "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e32-20261128-NC_Northern_5_v_Southern_5.nfo",
+      "nfo": "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e33-20261128-NC_Northern_5_v_Southern_5.nfo",
       "round": 1,
       "season": 2026
     },
     {
       "away": "Southern 2",
       "competition": "rugby-mens-intl",
-      "episode": 33,
+      "episode": 34,
       "home": "NC: Northern 2",
       "id": "rugby-mens-intl:CSVConvert1806be3da9f81fe8f2cb0e7b9448e78a",
       "kickoff_utc": "2026-11-28T16:40:00+00:00",
-      "nfo": "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e33-20261128-NC_Northern_2_v_Southern_2.nfo",
+      "nfo": "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e34-20261128-NC_Northern_2_v_Southern_2.nfo",
       "round": 1,
       "season": 2026
     },
     {
       "away": "Southern 4",
       "competition": "rugby-mens-intl",
-      "episode": 34,
+      "episode": 35,
       "home": "NC: Northern 4",
       "id": "rugby-mens-intl:CSVConvert5d1f56da2998e4e08862d942f4e4465d",
       "kickoff_utc": "2026-11-29T13:10:00+00:00",
-      "nfo": "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e34-20261129-NC_Northern_4_v_Southern_4.nfo",
+      "nfo": "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e35-20261129-NC_Northern_4_v_Southern_4.nfo",
       "round": 1,
       "season": 2026
     },
     {
       "away": "Southern 1",
       "competition": "rugby-mens-intl",
-      "episode": 35,
+      "episode": 36,
       "home": "NC: Northern 1",
       "id": "rugby-mens-intl:CSVConvert82fa5667cc51ff059ecef5fdef30f3d0",
       "kickoff_utc": "2026-11-29T16:40:00+00:00",
-      "nfo": "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e35-20261129-NC_Northern_1_v_Southern_1.nfo",
+      "nfo": "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e36-20261129-NC_Northern_1_v_Southern_1.nfo",
       "round": 1,
       "season": 2026
     },
@@ -2403,6 +2416,17 @@
       "season": 2026
     },
     {
+      "away": "Georgia",
+      "competition": "rugby-womens-intl",
+      "episode": 20,
+      "home": "Portugal",
+      "id": "rugby-womens-intl:world-rugby-f0f37952-8ef8-4846-b0ad-31c6ed88b460@mbligh.github.io",
+      "kickoff_utc": "2026-11-30T00:00:00+00:00",
+      "nfo": "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e20-20261130-Portugal_v_Georgia.nfo",
+      "round": 1,
+      "season": 2026
+    },
+    {
       "away": "\ud83c\uddeb\ud83c\uddf7 France",
       "competition": "rugby-womens-intl",
       "episode": 1,
@@ -2986,6 +3010,6 @@
       "season": 2026
     }
   ],
-  "generated_at": "2026-11-09T06:27:39.182049+00:00",
+  "generated_at": "2026-11-09T17:29:25.437206+00:00",
   "schema_version": 1
 }
