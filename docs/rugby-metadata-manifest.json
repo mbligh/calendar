@@ -45,6 +45,11 @@
     "gallagher_prem_2026/Season_09/gallagher_prem_2026-s09e03-20270102-Leicester_Tigers_v_Exeter_Chiefs.nfo": "ae5b07b24abf47edcacd3e219d119f783365adda2b6f81c9a3715a7333d8e225",
     "gallagher_prem_2026/Season_09/gallagher_prem_2026-s09e04-20270102-Newcastle_Red_Bulls_v_Harlequins.nfo": "130c8aa8caa1723cbbf517c31bee2c9030b1c58093efed60ba3a6ef5fc4be3ba",
     "gallagher_prem_2026/Season_09/gallagher_prem_2026-s09e05-20270103-Northampton_Saints_v_Sale_Sharks.nfo": "280460ed6ed86710785c750f7e6754d46a757a20d340a9f9f9ef80f9809ae486",
+    "gallagher_prem_2026/Season_10/gallagher_prem_2026-s10e01-20270122-Harlequins_v_Gloucester_Rugby.nfo": "e7cdf50848d381e7f9e70f8232065347ce697f219925fc723ed2643cdc33304a",
+    "gallagher_prem_2026/Season_10/gallagher_prem_2026-s10e02-20270123-Bath_Rugby_v_Northampton_Saints.nfo": "896488da06b2d8e8bcdc587e2c4b2b9675ed89faeaec993c0d5b9d2393fa00a6",
+    "gallagher_prem_2026/Season_10/gallagher_prem_2026-s10e03-20270123-Exeter_Chiefs_v_Bristol_Bears.nfo": "335dd57ec182e9d94651dd492ef34df33e278e7266edd0fb0244992c9d9dc6ce",
+    "gallagher_prem_2026/Season_10/gallagher_prem_2026-s10e04-20270123-Sale_Sharks_v_Leicester_Tigers.nfo": "03e69b65921c73ddcad562d3dab4fb105d231372d364682406b532de1e4430c5",
+    "gallagher_prem_2026/Season_10/gallagher_prem_2026-s10e05-20270123-Newcastle_Red_Bulls_v_Saracens.nfo": "2b54d224dbc5b753e5ed399f95dfcede5cae2866f931d7c26a394ec0cff06b49",
     "gallagher_prem_2026/Season_20/gallagher_prem_2026-s20e01-20270619-TBC_v_TBC.nfo": "efc6908381f7cd4862d0bd8e239f6a789bc458c49afcb64bc173cd802a6fe639",
     "gallagher_prem_2026/tvshow.nfo": "bdce185a63c5680d9608abe20b4e0415b422ff0c50b08e52daaaa65e88e98829",
     "rugby_mens_intl_2026/Season_01/rugby_mens_intl_2026-s01e01-20261010-New_Zealand_v_Australia.nfo": "edac1ab48e3431e68996a10ffef57077811d3b040eb1d9e8801999ca6be86cd1",
@@ -200,7 +205,8 @@
     "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e17-20261031-New_Zealand_v_France.nfo": "52bad36d1a6d897e8affcfc20bf28df5d6eeae7f84d5eca361e78cb76adcc628",
     "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e18-20261031-Japan_v_Wales.nfo": "5bee2c8a7325d9e5c192c0aabe47d65b8610040c5f3ddc04b17cf0b3a2f0c610",
     "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e19-20261031-South_Africa_v_Ireland.nfo": "541b770a72e0506c373e0c7314608193c8bd2f2302f38162bc8f734a0111844b",
-    "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e20-20261130-Portugal_v_Georgia.nfo": "bf36740d426ede506053bb102a31693c80c3aeba6b6f58ad63d6664c7b92c8c8",
+    "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e20-20261121-Switzerland_v_Denmark.nfo": "354560a2aaa86f4666b8b152d193e7bf1c6d1e04d36d4a87f39349390f469aee",
+    "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e21-20261130-Portugal_v_Georgia.nfo": "13aa16c27d7b175ef84dc39c5db688588ea2fb5b1198bce904de2c7140252ee2",
     "rugby_womens_intl_2026/tvshow.nfo": "994791fa272308c9313e0b9cee57a7c70aeb534dabadbc91363063bade0e5183",
     "rugby_womens_intl_2027/Season_01/rugby_womens_intl_2027-s01e01-20270410-Italy_v_France.nfo": "bbc409eb0e1c15f08ce58a0cbd4c3d8e25676d265b9e2f54acb8e6e9b98f7903",
     "rugby_womens_intl_2027/Season_01/rugby_womens_intl_2027-s01e02-20270410-Wales_v_England.nfo": "a74df55a7195479f30770fd0a1a1f85db0b078cd9c5b4c7db21ef284775d2368",
@@ -752,6 +758,61 @@
       "kickoff_utc": "2027-01-03T15:00:00+00:00",
       "nfo": "gallagher_prem_2026/Season_09/gallagher_prem_2026-s09e05-20270103-Northampton_Saints_v_Sale_Sharks.nfo",
       "round": 9,
+      "season": 2026
+    },
+    {
+      "away": "Gloucester Rugby",
+      "competition": "gallagher-prem",
+      "episode": 1,
+      "home": "Harlequins",
+      "id": "gallagher-prem:prem-294955@mbligh.github.io",
+      "kickoff_utc": "2027-01-22T19:45:00+00:00",
+      "nfo": "gallagher_prem_2026/Season_10/gallagher_prem_2026-s10e01-20270122-Harlequins_v_Gloucester_Rugby.nfo",
+      "round": 10,
+      "season": 2026
+    },
+    {
+      "away": "Northampton Saints",
+      "competition": "gallagher-prem",
+      "episode": 2,
+      "home": "Bath Rugby",
+      "id": "gallagher-prem:prem-294953@mbligh.github.io",
+      "kickoff_utc": "2027-01-23T14:00:00+00:00",
+      "nfo": "gallagher_prem_2026/Season_10/gallagher_prem_2026-s10e02-20270123-Bath_Rugby_v_Northampton_Saints.nfo",
+      "round": 10,
+      "season": 2026
+    },
+    {
+      "away": "Bristol Bears",
+      "competition": "gallagher-prem",
+      "episode": 3,
+      "home": "Exeter Chiefs",
+      "id": "gallagher-prem:prem-294954@mbligh.github.io",
+      "kickoff_utc": "2027-01-23T15:00:00+00:00",
+      "nfo": "gallagher_prem_2026/Season_10/gallagher_prem_2026-s10e03-20270123-Exeter_Chiefs_v_Bristol_Bears.nfo",
+      "round": 10,
+      "season": 2026
+    },
+    {
+      "away": "Leicester Tigers",
+      "competition": "gallagher-prem",
+      "episode": 4,
+      "home": "Sale Sharks",
+      "id": "gallagher-prem:prem-294957@mbligh.github.io",
+      "kickoff_utc": "2027-01-23T16:15:00+00:00",
+      "nfo": "gallagher_prem_2026/Season_10/gallagher_prem_2026-s10e04-20270123-Sale_Sharks_v_Leicester_Tigers.nfo",
+      "round": 10,
+      "season": 2026
+    },
+    {
+      "away": "Saracens",
+      "competition": "gallagher-prem",
+      "episode": 5,
+      "home": "Newcastle Red Bulls",
+      "id": "gallagher-prem:prem-294956@mbligh.github.io",
+      "kickoff_utc": "2027-01-23T17:30:00+00:00",
+      "nfo": "gallagher_prem_2026/Season_10/gallagher_prem_2026-s10e05-20270123-Newcastle_Red_Bulls_v_Saracens.nfo",
+      "round": 10,
       "season": 2026
     },
     {
@@ -2416,13 +2477,24 @@
       "season": 2026
     },
     {
-      "away": "Georgia",
+      "away": "Denmark",
       "competition": "rugby-womens-intl",
       "episode": 20,
+      "home": "Switzerland",
+      "id": "rugby-womens-intl:world-rugby-2f6b2606-95de-41ac-ade3-56e52f81c683@mbligh.github.io",
+      "kickoff_utc": "2026-11-21T13:00:00+00:00",
+      "nfo": "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e20-20261121-Switzerland_v_Denmark.nfo",
+      "round": 1,
+      "season": 2026
+    },
+    {
+      "away": "Georgia",
+      "competition": "rugby-womens-intl",
+      "episode": 21,
       "home": "Portugal",
       "id": "rugby-womens-intl:world-rugby-f0f37952-8ef8-4846-b0ad-31c6ed88b460@mbligh.github.io",
       "kickoff_utc": "2026-11-30T00:00:00+00:00",
-      "nfo": "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e20-20261130-Portugal_v_Georgia.nfo",
+      "nfo": "rugby_womens_intl_2026/Season_01/rugby_womens_intl_2026-s01e21-20261130-Portugal_v_Georgia.nfo",
       "round": 1,
       "season": 2026
     },
@@ -3010,6 +3082,6 @@
       "season": 2026
     }
   ],
-  "generated_at": "2026-11-10T01:30:49.308750+00:00",
+  "generated_at": "2026-11-10T09:50:04.419008+00:00",
   "schema_version": 1
 }
