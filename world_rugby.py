@@ -17,6 +17,12 @@ COMPETITIONS = {
 YEAR_SUFFIX = re.compile(r"\s+20\d{2}$")
 
 
+def is_cancelled(match):
+    """Only explicit cancellation states; C is a completed match, not cancelled."""
+    return str(match.get("status") or match.get("state") or "").upper() in {"CC", "CANCELLED", "CANCELED"}
+
+
+
 def competition_base(label):
     return YEAR_SUFFIX.sub("", label or "")
 
@@ -96,6 +102,11 @@ def fetch_world_rugby(group, now=None):
     result.add("prodid", "-//mbligh/calendar//World Rugby fixtures//EN")
     result.add("version", "2.0")
     for match in sorted(matches.values(), key=lambda m: (m["time"]["millis"], m["matchId"])):
+        if is_cancelled(match):
+            # Carry the explicit cancellation ID to the merger, but do not
+            # publish an event for the cancelled fixture.
+            result.add("x-wr-cancelled-uid", f"world-rugby-{match['matchId']}@mbligh.github.io")
+            continue
         event = convert_match(match)
         if event is not None:
             result.add_component(event)
