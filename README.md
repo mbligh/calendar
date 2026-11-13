@@ -23,7 +23,10 @@ These links won't work until the initial updater run succeeds and Pages is enabl
 - An event's source `LAST-MODIFIED` or `DTSTAMP` later than kickoff causes
   the revision to be rejected.
 - Events already past kickoff are preserved indefinitely, even if the source
-  modifies or deletes them.
+  modifies or deletes them, **except explicit World Rugby cancellations**.
+- Explicitly cancelled World Rugby fixture IDs are excluded from new output and
+  removed from previous snapshots; a fixture merely missing from the source
+  is retained. Completed matches are not cancellations.
 - Fetch failures leave the existing published calendar untouched.
 - A scheduled GitHub Action polls hourly. A manual run is also available.
 
