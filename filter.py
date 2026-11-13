@@ -72,6 +72,13 @@ def merge(source, previous, now, tz, name):
     old = events(previous) if previous else {}
     current = events(source)
     accepted = dict(old)
+    # An explicit World Rugby cancellation is authoritative even after kickoff;
+    # merely absent source fixtures are deliberately retained.
+    cancelled = source.get("x-wr-cancelled-uid", [])
+    if not isinstance(cancelled, list):
+        cancelled = [cancelled]
+    for uid in cancelled:
+        accepted.pop((str(uid), ""), None)
     for key, incoming in current.items():
         start = start_time(incoming, tz)
         if start is None:
