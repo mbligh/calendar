@@ -7,7 +7,7 @@
 - Mirror New Jersey hunter paces from Find a Hunter Pace daily, updating only
   when event data changes. Include locations, organizer links and contacts;
   handle duplicate entries, reschedules, cancellations and source removals.
-- Preserve published feeds on fetch/parse failure. Google Calendar controls
+- Remove fixtures only when World Rugby explicitly marks their match ID cancelled; retain merely missing fixtures. Cancelled matches do not enter published feeds, and previously published cancellations are removed even after kickoff (no result data is imported).\n- Preserve published feeds on fetch/parse failure. Google Calendar controls
   subscription refresh latency.
 
 ## Implementation
