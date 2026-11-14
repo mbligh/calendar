@@ -1,0 +1,3512 @@
+{
+  "schema_version": 1,
+  "source": "rugbypass",
+  "generated_at": "2026-11-14T01:07:19.945855+00:00",
+  "sections": [
+    {
+      "exid": "etUE",
+      "name": "Watch Live",
+      "type": "UPCOMING",
+      "item_types": {
+        "LIVE": 12
+      },
+      "count": 12
+    },
+    {
+      "exid": "3kcE",
+      "name": "Trending",
+      "type": "VOD_PLAYLIST",
+      "item_types": {
+        "VOD": 32
+      },
+      "count": 32
+    },
+    {
+      "exid": "Usxc",
+      "name": "Nations Championship 2026",
+      "type": "VOD_PLAYLIST",
+      "item_types": {
+        "VOD": 25
+      },
+      "count": 25
+    },
+    {
+      "exid": "n.eg",
+      "name": "Highlights | Nations Championship 2026",
+      "type": "VOD_PLAYLIST",
+      "item_types": {
+        "VOD": 25
+      },
+      "count": 25
+    },
+    {
+      "exid": "4L3U",
+      "name": "Latest Shows",
+      "type": "VOD_PLAYLIST",
+      "item_types": {
+        "VOD": 15
+      },
+      "count": 15
+    },
+    {
+      "exid": "ihEc",
+      "name": "Highlights & Replays",
+      "type": "VOD_PLAYLIST",
+      "item_types": {
+        "VOD": 28
+      },
+      "count": 28
+    },
+    {
+      "exid": "M.ho",
+      "name": "Nations Cup 2026 | Replays",
+      "type": "VOD_PLAYLIST",
+      "item_types": {
+        "VOD": 24
+      },
+      "count": 24
+    },
+    {
+      "exid": "xqjK",
+      "name": "Nations Cup 2026 | Highlights",
+      "type": "VOD_PLAYLIST",
+      "item_types": {
+        "VOD": 24
+      },
+      "count": 24
+    },
+    {
+      "exid": "a3y3",
+      "name": "RugbyPass Top 50 | 2026",
+      "type": "VOD_PLAYLIST",
+      "item_types": {
+        "VOD": 10
+      },
+      "count": 10
+    },
+    {
+      "exid": "Wjqf",
+      "name": "Continue Watching",
+      "type": "VOD_RESUME",
+      "item_types": {
+        "VOD": 8
+      },
+      "count": 8
+    },
+    {
+      "exid": "u_Aj",
+      "name": "Rugby's Greatest Rivalry",
+      "type": "VOD_PLAYLIST",
+      "item_types": {
+        "VOD": 16
+      },
+      "count": 16
+    },
+    {
+      "exid": "CkUh",
+      "name": "Series",
+      "type": "PLAYLISTS",
+      "item_types": {
+        "PLAYLIST": 12
+      },
+      "count": 12
+    },
+    {
+      "exid": "EVLh",
+      "name": "Documentaries",
+      "type": "VOD_VIDEO",
+      "item_types": {
+        "VOD": 12
+      },
+      "count": 12
+    },
+    {
+      "exid": "ANmU",
+      "name": "Recommended for you",
+      "type": "VOD_RECOMMENDATIONS",
+      "item_types": {
+        "VOD": 12
+      },
+      "count": 12
+    },
+    {
+      "exid": "r9Yy",
+      "name": "Tournaments",
+      "type": "PLAYLISTS",
+      "item_types": {
+        "PLAYLIST": 12
+      },
+      "count": 12
+    },
+    {
+      "exid": "Kc~X",
+      "name": "HSBC SVNS Series 2025",
+      "type": "PLAYLISTS",
+      "item_types": {
+        "PLAYLIST": 12
+      },
+      "count": 12
+    },
+    {
+      "exid": "dNce",
+      "name": "Women's Rugby World Cup 2025",
+      "type": "VOD_PLAYLIST",
+      "item_types": {
+        "VOD": 60
+      },
+      "count": 60
+    },
+    {
+      "exid": "hMfv",
+      "name": "Rugby World Cup 2027 Draw",
+      "type": "VOD_PLAYLIST",
+      "item_types": {
+        "VOD": 9
+      },
+      "count": 9
+    },
+    {
+      "exid": "Eeqc",
+      "name": "Rugby World Cup Archive",
+      "type": "PLAYLISTS",
+      "item_types": {
+        "PLAYLIST": 12
+      },
+      "count": 12
+    },
+    {
+      "exid": "b.ku",
+      "name": "Countries and Regions",
+      "type": "SECTION_LINK",
+      "item_types": {
+        "SECTION_LINK": 12
+      },
+      "count": 12
+    },
+    {
+      "exid": "w4Te",
+      "name": "British & Irish Lions 2025 Video",
+      "type": "VOD_PLAYLIST",
+      "item_types": {
+        "VOD": 41
+      },
+      "count": 41
+    },
+    {
+      "exid": "Neza",
+      "name": "Latest",
+      "type": "VOD_VIDEO",
+      "item_types": {
+        "VOD": 12
+      },
+      "count": 12
+    }
+  ],
+  "records": [
+    {
+      "id": "315806",
+      "type": "LIVE",
+      "title": "Italy v Argentina | Nations Championship",
+      "description": "",
+      "startDate": 1794656400000,
+      "endDate": 1794667200000,
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "315807",
+      "type": "LIVE",
+      "title": "Wales v New Zealand | Nations Championship",
+      "description": "",
+      "startDate": 1794665400000,
+      "endDate": 1794676200000,
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "315808",
+      "type": "LIVE",
+      "title": "England v Japan | Nations Championship",
+      "description": "",
+      "startDate": 1794674400000,
+      "endDate": 1794685200000,
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "315809",
+      "type": "LIVE",
+      "title": "Ireland v Fiji | Nations Championship",
+      "description": "",
+      "startDate": 1794687000000,
+      "endDate": 1794697800000,
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "315810",
+      "type": "LIVE",
+      "title": "Scotland v Australia | Nations Championship",
+      "description": "",
+      "startDate": 1794755400000,
+      "endDate": 1794766200000,
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "315811",
+      "type": "LIVE",
+      "title": "England v New Zealand | Nations Championship",
+      "description": "",
+      "startDate": 1795270200000,
+      "endDate": 1795281000000,
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "315812",
+      "type": "LIVE",
+      "title": "Scotland v Japan | Nations Championship",
+      "description": "",
+      "startDate": 1795270200000,
+      "endDate": 1795281000000,
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "315813",
+      "type": "LIVE",
+      "title": "Ireland v South Africa | Nations Championship",
+      "description": "",
+      "startDate": 1795279200000,
+      "endDate": 1795290000000,
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "315814",
+      "type": "LIVE",
+      "title": "Italy v Fiji | Nations Championship",
+      "description": "",
+      "startDate": 1795279200000,
+      "endDate": 1795290000000,
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "315815",
+      "type": "LIVE",
+      "title": "France v Argentina | Nations Championship",
+      "description": "",
+      "startDate": 1795291800000,
+      "endDate": 1795302600000,
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "315816",
+      "type": "LIVE",
+      "title": "Wales v Australia | Nations Championship",
+      "description": "",
+      "startDate": 1795291800000,
+      "endDate": 1795302600000,
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "320983",
+      "type": "LIVE",
+      "title": "Hong Kong China v Tonga | Women's International",
+      "description": "",
+      "startDate": 1795240800000,
+      "endDate": 1795251600000,
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "16498",
+      "type": "PLAYLIST",
+      "title": "RUGBY WORLD CUP 2021 | NEW ZEALAND",
+      "description": "Re-live some of the most iconic matches from Rugby World Cup 2021 in New Zealand.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "16499",
+      "type": "PLAYLIST",
+      "title": "RUGBY WORLD CUP 2019 | JAPAN",
+      "description": "A historic first ever Rugby World Cup in Asia, travel back to 2019 and enjoy some of the best match-ups from an action-packed tournament.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "17699",
+      "type": "PLAYLIST",
+      "title": "RUGBY WORLD CUP 2015 | ENGLAND",
+      "description": "With the All Blacks chasing back-to-back RWC victories, Rugby World Cup 2015 was a spectacle of outstanding rugby. Re-live some of the biggest clashes here with our extended highlights.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "17700",
+      "type": "PLAYLIST",
+      "title": "RUGBY WORLD CUP 2011 | NEW ZEALAND",
+      "description": "A first Rugby World Cup back on home soil since co-hosting the tournament in 1987, the pressure was on for the All Blacks as they chased victory in front of an expectant crowd. Re-live the action with our special extended highlights packages.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "17701",
+      "type": "PLAYLIST",
+      "title": "RUGBY WORLD CUP 2007 | FRANCE",
+      "description": "A first Rugby World Cup fully hosted by France, RWC 2007 was choc full of incredible matches, and plenty of upsets. Sit back and enjoy our collection of extended highlights.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "17724",
+      "type": "PLAYLIST",
+      "title": "RUGBY WORLD CUP 1991 | UNITED KINGDOM, IRELAND & FRANCE",
+      "description": "Held amongst the Five Nations Championship teams at the time, the 1991 Rugby World Cup saw Australia claim victory, defeating England in the final to become the competitions second ever champions.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "17725",
+      "type": "PLAYLIST",
+      "title": "RUGBY WORLD CUP 1987 | NEW ZEALAND",
+      "description": "The inaugural Rugby World Cup, hosted in New Zealand, featured 16 teams battling it out to lift the Webb Ellis Cup. Re-live some of the biggest matches with our extended highlights.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "17744",
+      "type": "PLAYLIST",
+      "title": "RUGBY WORLD CUP 1999 | WALES",
+      "description": "Rugby World Cup 1999 hosted some of the greatest players to ever grace the game of rugby. From Lomu to Dominici, it was a tournament that produced iconic moments aplenty. Re-live our extended highlights packages from RWC 1999.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "17745",
+      "type": "PLAYLIST",
+      "title": "RUGBY WORLD CUP 1995 | SOUTH AFRICA",
+      "description": "A tournament that turned out to be far more than just the rugby on the pitch, Rugby World Cup 1995 was a seminal moment in sport, culture and politics for host nation South Africa. Re-live the tournament with our extended highlights packages.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "17746",
+      "type": "PLAYLIST",
+      "title": "RUGBY WORLD CUP 2003 | AUSTRALIA",
+      "description": "Australia played host to Rugby World Cup 2003, a tournament full of surprises and a first ever RWC win for England. Re-live some of the best action with our extended highlights packages.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "20592",
+      "type": "PLAYLIST",
+      "title": "Stronger Than You Think",
+      "description": "Join Jodie Ounsley and Ashleigh Wilmot for a podcast celebrating athletes who have faced adversity in their careers. Hosted by two women who have been there and done that, this is the essential podcast for sports fans.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "22810",
+      "type": "PLAYLIST",
+      "title": "RUGBY WORLD CUP 2023 | FRANCE",
+      "description": "A second Rugby World Cup in France saw record breakers South Africa lift the Webb Ellis Cup for the fourth time in their history, with Siya Kolisi being the second captain ever to lift the coveted trophy twice. Enjoy some of the best match-ups from another action-packed tournament.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "27282",
+      "type": "PLAYLIST",
+      "title": "The Vaults",
+      "description": "Releasing the greatest games in Rugby World Cup history from the archives.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "30151",
+      "type": "PLAYLIST",
+      "title": "Rugby Rising Locker Room",
+      "description": "In Rugby Rising Locker Room in partnership with Mastercard, Maud and Sadia chat to a range of stars from across the women's rugby world.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "31660",
+      "type": "PLAYLIST",
+      "title": "Whistle Watch",
+      "description": "Rugby officiating demystified! Nigel Owens offers expert analysis, law explanations, and a unique look at the game's biggest calls.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "31661",
+      "type": "PLAYLIST",
+      "title": "Official Rugby World Cup 2025 Podcast",
+      "description": "Get ready for some chaotic fun, unfiltered anecdotes and questionable tangents as hosts Betty Glover and Anne Onwusiri chat with some of the biggest guests in the game throughout the 2025 Rugby World Cup, breaking down everything that makes rugby great.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "31712",
+      "type": "PLAYLIST",
+      "title": "Kick Offs & Kick Ons 2025",
+      "description": "Matt Giteau, Drew Mitchell and Adam Ashley-Cooper are joined by special guests weekly as they break down the happenings of the week!",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "32331",
+      "type": "PLAYLIST",
+      "title": "Women's Rugby World Cup 2025 | England",
+      "description": "Catch all of the action from the Women's Rugby World Cup 2025 in England! ",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "34007",
+      "type": "PLAYLIST",
+      "title": "Tests of Time",
+      "description": "The greatest rugby matches throughout history, remixed and remastered for your viewing pleasure - welcome to Tests of Time.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "34008",
+      "type": "PLAYLIST",
+      "title": "Cape Town SVNS 2025 | HSBC SVNS 2025/26",
+      "description": "Catch up on the thrilling second leg of the SVNS series from Cape Town!",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "34098",
+      "type": "PLAYLIST",
+      "title": "Ups & Unders",
+      "description": "Join the KOKO team count down some of the best (and worst) moments from rugby history.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "34379",
+      "type": "PLAYLIST",
+      "title": "SVNS 3 2026 | HSBC SVNS 2025/26",
+      "description": "Catch all of the action from SVNS 3 in Dubai! ",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "34537",
+      "type": "PLAYLIST",
+      "title": "Singapore SVNS 2026 | HSBC SVNS 2025/26",
+      "description": "SVNS 1 is back for 2026, as the teams head to South East Asia for SVNS Singapore! ",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "34662",
+      "type": "PLAYLIST",
+      "title": "Perth SVNS 2026 | HSBC SVNS 2025/26",
+      "description": "The SVNS series moves on to Perth. Catch up on all the action on RugbyPass TV!",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "34665",
+      "type": "PLAYLIST",
+      "title": "Codehoppers",
+      "description": "The KOKO Show chat about some of rugby's best multi-code stars! ",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "34696",
+      "type": "PLAYLIST",
+      "title": "Kick Offs & Kick Ons 2026",
+      "description": "The boys are back for 2026! Matt Giteau, Drew Mitchell and Adam Ashley-Cooper are joined by special guests weekly as they break down everything rugby.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "34697",
+      "type": "PLAYLIST",
+      "title": "Aotearoa Rugby Pod",
+      "description": "Join James, Bryn and Ross as they dissect the world of rugby each week on the Aotearoa Rugby Pod!",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "34728",
+      "type": "PLAYLIST",
+      "title": "Nairobi SVNS 2 2026 | HSBC SVNS 2026",
+      "description": "SVNS heads to Kenya for the first time, with the inaugural SVNS 2 tournament in Nairobi! ",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "34990",
+      "type": "PLAYLIST",
+      "title": "Vancouver SVNS 2026 | HSBC SVNS 2025/26",
+      "description": "The SVNS series has moved to the Northern Hemisphere to play their penultimate tournament in Vancouver. Catch all the uncut moments here on RugbyPassTV!",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "35057",
+      "type": "PLAYLIST",
+      "title": "New York SVNS 2026 | HSBC SVNS 2025/26",
+      "description": "The final round of the SVNS series is in New York! Where the Sports Illustrated Stadium will be hosting it's first SVNS tournament! Catch all the uncut moments here on RugbyPassTV!",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "35133",
+      "type": "PLAYLIST",
+      "title": "Montevideo SVNS 2 2026 | HSBC SVNS 2 2025/26",
+      "description": "Watch all the SVNS 2 action from Montevideo here on RugbyPassTV!",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "35185",
+      "type": "PLAYLIST",
+      "title": "Sao Paulo SVNS 2 2026 | HSBC SVNS 2 2025/26",
+      "description": "Watch all the SVNS 2 action from Sao Paulo here on RugbyPassTV!",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "35359",
+      "type": "PLAYLIST",
+      "title": "Hong Kong SVNS | HSBC SVNS World Championship 2026",
+      "description": "The iconic Hong Kong SVNS is ringing in 50 years in 2026! Catch up on all with replays from EVERY game of the opening tournament of the HSBC SVNS World Championships! ",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "35895",
+      "type": "PLAYLIST",
+      "title": "Valladolid | HSBC SVNS World Championship 2026",
+      "description": "There's a first time for everything as the SVNS circuit is in Spain, Valladolid hosted at the Estadio José Zorrilla! Catch ALL the REPLAYS from the second tournament of the HSBC SVNS Championship!",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "36008",
+      "type": "PLAYLIST",
+      "title": "Bordeaux | HSBC SVNS World Championsip 2026",
+      "description": "It is crunch time in France as the SVNS season reaches it's finale in Bordeaux! Watch all the replays here on RugbyPassTV!",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "36357",
+      "type": "PLAYLIST",
+      "title": "Nations Championship 2026 | Replays",
+      "description": "Watch all the Nations Championships action as the Northern and Southern sides collide for Rugby's greatest Hemisphere!",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "36358",
+      "type": "PLAYLIST",
+      "title": "Nations Championship 2026 | Match Highlights",
+      "description": "Watch the best and vital moments of the Nations Championships as the best North and South sids collide for Rugby supremacy!",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "36360",
+      "type": "PLAYLIST",
+      "title": "Nations Cup 2026 | Replays",
+      "description": "Watch all the Nations Cup action here on RugbyPassTV!",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "36361",
+      "type": "PLAYLIST",
+      "title": "Nations Cup 2026 | Match Highlights",
+      "description": "Watch all match highlights from the Nations Cup 2026!",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "36548",
+      "type": "PLAYLIST",
+      "title": "NPC 2026 | Replays",
+      "description": "Catch up on all the action from the 2026 NPC, as 14 of New Zealand's top provincial rugby sides clash for regional supremacy!",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "36657",
+      "type": "PLAYLIST",
+      "title": "Rugby's Greatest Rivalry 2026",
+      "description": "The heavyweights of World Rugby clash in Rugby's Greatest Rivalry as New Zealand tour South Africa for the first time in 30 years.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "37546",
+      "type": "PLAYLIST",
+      "title": "WXV Global Series Challenger 2026",
+      "description": "Watch all the exciting upcoming nations battle it out in WXV Glohbal Series Challenger!",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "37547",
+      "type": "PLAYLIST",
+      "title": "WXV Global Series 2026 | Replays",
+      "description": "Watch all the full match replays from the WXV! Can the Red Roses retain their title? Will the Black Ferns show their dominance? Can last years WC runner up Canada show their class? Watch it all here on RugbyPassTV! ",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "37548",
+      "type": "PLAYLIST",
+      "title": "WXV Global Series 2026 | Highlights",
+      "description": "Catch up quickly on the WXV Global Series 2026 here on RugbyPassTV!  ",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "39673",
+      "type": "PLAYLIST",
+      "title": "Rugby Europe Super Cup 2026-2027",
+      "description": "The Rugby Europe Super Cup is back for the 2026-2027 season, with 5 teams going head-to-head.",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "39674",
+      "type": "PLAYLIST",
+      "title": "World Rugby U20 Challenger | Santiago 2026",
+      "description": "8 teams head to Chile to contest the World Rugby U20 Challenger!",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "40196",
+      "type": "PLAYLIST",
+      "title": "Hong Kong China Rugby Premiership",
+      "description": "Catch the best teams in Hong Kong China clash in the Premiership! ",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "40560",
+      "type": "PLAYLIST",
+      "title": "Buttery Bros x USA Rugby",
+      "description": "The Buttery Bros take on some of Rugby's biggest challenges, with the help of USA Rugby!",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "231184",
+      "type": "SECTION_LINK",
+      "title": "SOUTH AFRICA",
+      "description": "Missing translation",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "231185",
+      "type": "SECTION_LINK",
+      "title": "ENGLAND",
+      "description": "Missing translation",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "231186",
+      "type": "SECTION_LINK",
+      "title": "RUGBY EUROPE",
+      "description": "Missing translation",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "231187",
+      "type": "SECTION_LINK",
+      "title": "ASIA RUGBY",
+      "description": "Missing translation",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "231188",
+      "type": "SECTION_LINK",
+      "title": "FRANCE",
+      "description": "Missing translation",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "231189",
+      "type": "SECTION_LINK",
+      "title": "IRELAND",
+      "description": "Missing translation",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "231190",
+      "type": "SECTION_LINK",
+      "title": "SCOTLAND",
+      "description": "Missing translation",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "231191",
+      "type": "SECTION_LINK",
+      "title": "WALES",
+      "description": "Missing translation",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "231192",
+      "type": "SECTION_LINK",
+      "title": "AUSTRALIA",
+      "description": "Missing translation",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "231193",
+      "type": "SECTION_LINK",
+      "title": "NEW ZEALAND",
+      "description": "Missing translation",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "231194",
+      "type": "SECTION_LINK",
+      "title": "RUGBY AFRICA",
+      "description": "Missing translation",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "231195",
+      "type": "SECTION_LINK",
+      "title": "RUGBY AMERICAS NORTH",
+      "description": "Missing translation",
+      "accessLevel": "GRANTED"
+    },
+    {
+      "id": "1001235",
+      "type": "VOD",
+      "title": "South Africa v New Zealand | Test 3 | Rugby's Greatest Rivalry 2026 | Full Match Replay",
+      "description": "It's the third and final test of the series being played in South Africa and it is the Springboks v All Blacks at the FNB Stadium! Currently at one a piece can the Springboks build on momentum or will the All Blacks fight back and flip the series on it's head again?",
+      "publishedDate": "2026-09-05T17:56:21Z",
+      "duration": 9942,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1001343",
+      "type": "VOD",
+      "title": "South Africa v New Zealand | Test 3 | Rugby's Greatest Rivalry 2026 | Match Highlights",
+      "description": "Rugby's Greatest Rivalry has it's last South African fixture in South Africa at the FNB Stadium! Watch all the defining moments of test 3 between the Springboks and All Blacks in what has been a tight series so far. ",
+      "publishedDate": "2026-09-05T20:39:07Z",
+      "duration": 486,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1001613",
+      "type": "VOD",
+      "title": "Argentina v Australia | Men's International 2026 | Match Highlights",
+      "description": "Argentina take on the Wallabies for the second time around and only lost down to some last minute heroics. Can Argentina get revenge or will the Wallabies prove too strong again? ",
+      "publishedDate": "2026-09-06T12:59:34Z",
+      "duration": 516,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1011153",
+      "type": "VOD",
+      "title": "Scotland v Canada | WXV Global Series 2026 | Full Match Replay",
+      "description": "Scotland welcomes Canada for this thrilling WXV Global Series contest. Both unions are looking to make a fast start to the series, making this a must-watch encounter from start to finish.",
+      "publishedDate": "2026-09-12T17:37:40Z",
+      "duration": 8333,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1011651",
+      "type": "VOD",
+      "title": "South Africa v New Zealand | Test 4 | Rugby's Greatest Rivalry 2026 | Match Highlights",
+      "description": "Rugby's Greatest Rivalry goes Stateside! South Africa and New Zealand clash for the final time in 2026 in Baltimore, with the series decider.",
+      "publishedDate": "2026-09-13T09:48:55Z",
+      "duration": 502,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1011758",
+      "type": "VOD",
+      "title": "South Africa v New Zealand | Test 4 | Rugby's Greatest Rivalry 2026 | Full Match Replay",
+      "description": "The Springboks and All Blacks clash for the final time in Rugby's Greatest Rivalry, as the tour heads Stateside to Baltimore! ",
+      "publishedDate": "2026-09-14T07:08:52Z",
+      "duration": 9219,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1020517",
+      "type": "VOD",
+      "title": "France v Australia | WXV Global Series 2026 | Full Match Replay",
+      "description": "The atmosphere will be electric as France welcomes a dangerous Australia side. It will take incredible discipline and defensive grit to weather the inevitable attacking storms.",
+      "publishedDate": "2026-09-19T18:49:14Z",
+      "duration": 9344,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1020529",
+      "type": "VOD",
+      "title": "Scotland v New Zealand | WXV Global Series 2026 | Full Match Replay",
+      "description": "Tactical wits will be matched just as fiercely as physical strength when Scotland plays New Zealand. Both backlines are primed to exploit any defensive lapses with expansive, offloading rugby.",
+      "publishedDate": "2026-09-19T19:01:41Z",
+      "duration": 8894,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1021082",
+      "type": "VOD",
+      "title": "Ireland v USA | WXV Global Series 2026 | Full Match Replay",
+      "description": "A fascinating clash of playing styles awaits as Ireland tests their systems against USA. Whoever manages the pressure better in the final quarter will undoubtedly claim the spoils.",
+      "publishedDate": "2026-09-20T15:20:14Z",
+      "duration": 8515,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1033270",
+      "type": "VOD",
+      "title": "All Blacks v Wallabies | Men's International | Full Match Replay",
+      "description": "The Wallabies head to New Zealand's fortress, desperate to end a number of unwanted streaks. ",
+      "publishedDate": "2026-10-10T08:28:54Z",
+      "duration": 7809,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1034781",
+      "type": "VOD",
+      "title": "What Rugby Fans Don't See: Ben O'Keeffe on Life Under Pressure | ARP Extra",
+      "description": "What happens when the pressure of rugby’s biggest matches follows you home? Ben O’Keeffe joins the Aotearoa Rugby Pod for a deeply personal conversation about the moments that have tested him, the toll criticism has taken and the people who have helped him through his toughest times. From World Cup pressure to the fallout surrounding Rassie Erasmus’ infamous Lions tour video, Ben opens up about the human side of refereeing that fans rarely get to see. For tools to help you with your mental health: https://www.mindsetengage.co.nz/",
+      "publishedDate": "2026-10-14T08:53:07Z",
+      "duration": 1256,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1036275",
+      "type": "VOD",
+      "title": "Wallabies v All Blacks | Men’s International | Match Highlights",
+      "description": "The Wallabies and All Blacks put on a show in Sydney!",
+      "publishedDate": "2026-10-17T07:46:32Z",
+      "duration": 526,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1039897",
+      "type": "VOD",
+      "title": "Canada v England | WXV Global Series 2026 | Full Match Replay",
+      "description": "Ottawa's TD Place hosts the second Test between Canada and England in the WXV Global Series. The series concludes here, all 80 minutes.",
+      "publishedDate": "2026-10-24T07:26:42Z",
+      "duration": 7870,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1040556",
+      "type": "VOD",
+      "title": "USA v Italy | WXV Global Series 2026 | Full Match Replay",
+      "description": "Nashville's GEODIS Park hosts the second Test between USA and Italy, opening a doubleheader with the men's national side play later at the arena! ",
+      "publishedDate": "2026-10-25T07:51:36Z",
+      "duration": 7383,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1040607",
+      "type": "VOD",
+      "title": "Japan v Fiji | Men's International | Full Match Replay",
+      "description": "Japan host Fiji a fortnight before both sides return to Nations Championship action in Europe. A Pacific meeting, all 80 minutes.",
+      "publishedDate": "2026-10-25T11:03:00Z",
+      "duration": 6926,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1041606",
+      "type": "VOD",
+      "title": "KOKO Show | 27th October | LES KISS IN STUDIO! THE WALLABIES BOSS ANSWERS THE BIG QUESTIONS!",
+      "description": "THIS IS A BIG ONE, KOKO FAMILY! We've had legends, larrikins, World Cup winners and some of the biggest names in rugby grace the KOKO couch, but this week we've landed the BIG KAHUNA himself! The man holding the keys to Australian rugby's future, the man tasked with rebuilding the Wallabies into a world-beating force, and quite possibly the most important bloke in Australian rugby right now… WALLABIES HEAD COACH LES KISS!\n",
+      "publishedDate": "2026-10-27T10:35:09Z",
+      "duration": 4064,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1042766",
+      "type": "VOD",
+      "title": "The Rugby Odds: Rassie v Player Welfare, Nations Cup Calendar Assault, Canada Again, Saints to Aints, USA Success?",
+      "description": "There were great moments in rugby this week, in all corners of the globe. From an un-Saintly fracas in Leicester, to Sophie De Goede & Canada stunning England - again - in the explosive WXV, to Fiji beating Eddie Jones in Tokyo, our \"odd\" collection of panel pundits sorts through it all in just over 20 minutes.",
+      "publishedDate": "2026-10-29T09:13:54Z",
+      "duration": 1704,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1042811",
+      "type": "VOD",
+      "title": "We tried the fitness test that makes professional athletes cry!",
+      "description": "Professional rugby players can cover more ground in a single match than football and basketball players combined. But with all that running, tackling and contact, how do strength & conditioning coaches make sure they’re fit enough for the challenge?\n\nThe Buttery Bros put rugby’s fitness test to the test.",
+      "publishedDate": "2026-11-05T16:01:06Z",
+      "duration": 825,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1043765",
+      "type": "VOD",
+      "title": "USA v England | WXV Global Series 2026 | Full Match Replay",
+      "description": "The USA close out their WXV Global Series campaign in New Jersey, taking on an England side desperate to bounce back from their losses to Canada.",
+      "publishedDate": "2026-10-31T08:07:33Z",
+      "duration": 8114,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1044726",
+      "type": "VOD",
+      "title": "What Can Stop South Africa Winning the Nations Championship? | Aotearoa Rugby Pod | Episode 38 ",
+      "description": "South Africa are favourites to win the Nations Championship, but their toughest challenges may still lie ahead. \n\nCan France or Ireland derail the Springboks, and what needs to happen for the All Blacks to reach the final?\n\nRoss Karl and Bryn Hall break down the contenders, Scotland's chance to make history against New Zealand, and the crucial clashes that could decide the championship.\n",
+      "publishedDate": "2026-11-02T08:33:12Z",
+      "duration": 3651,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1045104",
+      "type": "VOD",
+      "title": "How Scotland Could Break the All Blacks Hoodoo | ARP Extra",
+      "description": "Scotland have never beaten the All Blacks. But after years of close calls, could this be the test where the story changes?\n\nRoss Karl and Bryn Hall examine the pressure points that could decide Scotland v New Zealand — and why the All Blacks should not take this one lightly.",
+      "publishedDate": "2026-11-03T11:02:13Z",
+      "duration": 775,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1045130",
+      "type": "VOD",
+      "title": "KOKO Show | November 3rd |  SWING LOW, SWEET REVENGE! WALLABIES HEAD NORTH FOR ENGLAND SHOWDOWN + STEPHEN HOILES JOINS KOKO",
+      "description": "It's crunch time for Australian rugby! The Wallabies have landed in London for a MASSIVE showdown with England at Twickenham, and this is much more than just another Test match!\n\nWith the 2027 Rugby World Cup fast approaching, Les Kiss and his men desperately need to make a statement against an English side that's beaten Australia eight times in their last ten meetings. Can the Wallabies silence the Poms on their own turf, or are we heading for another bloody English nightmare?\n\nThe boys dissect Les Kiss's squad selections, debate Australia's chances across the Northern Hemisphere tour and ask whether this weekend could be a defining moment in the Wallabies' World Cup preparations. Plus, Australia A absolutely towel up the USA 52–0!\n\nThis week we're joined by former Wallaby, Waratahs legend and professional shit-stirrer Stephen Hoiles! From coaching in America to returning to the Tahs alongside Michael Cheika, Hoilesy gives us the inside word on Australian rugby, his playing days with the boys and a few filthy stories that probably should've stayed in the dressing room!\n",
+      "publishedDate": "2026-11-03T14:54:48Z",
+      "duration": 4900,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1045446",
+      "type": "VOD",
+      "title": "The Kiwi Preparing to Beat the All Blacks | Fergus Burke | ARP Extra",
+      "description": "Born in New Zealand. Now preparing to help Scotland beat the All Blacks. What does Fergus Burke know about the challenge ahead—and why does this Scottish team believe?\n\nBurke joins the Aotearoa Rugby Pod to discuss Scotland’s opportunity, his journey from the Crusaders to Saracens, and what he’s learned playing alongside Owen Farrell, Richie Mo’unga and Finn Russell.",
+      "publishedDate": "2026-11-04T09:21:20Z",
+      "duration": 1168,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1045476",
+      "type": "VOD",
+      "title": "Aoife Wafer | RugbyPass Top 50 | #5",
+      "description": "Still only 23, Wafer’s growing list of accolades is mind-boggling. In her first PWR campaign since joining Harlequins, the Ireland back-row scored seven tries and was named the club’s players’ player of the year while also earning a team of the season nod. Quins duly named her club captain ahead of her second year in the English top flight. At international level, Wafer’s calendar year ended quietly due to injury - she only featured against the USA in WXV and missed out against Japan and South Africa. Earlier in the year though, Wafer’s form was sufficiently strong for Ireland for the No.8 to again be crowned Women's Six Nations Player of the Championship and become the first woman to win the award in consecutive campaigns. ",
+      "publishedDate": "2026-11-06T13:01:06Z",
+      "duration": 54,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1045477",
+      "type": "VOD",
+      "title": "Meg Jones | RugbyPass Top 50 | #1",
+      "description": "The Wales-born England centre has been a vital cog in the Red Roses machine over their last few years of dominance, particularly during their Women's Rugby World Cup win last year. Her performance against France in the semi-final inspired the Red Roses to get over the line and her try-scoring, tackle-thumping performances have made her a firm fan favourite. Her influence in the England side has only elevated further since she was given the captaincy at the start of this year and she has more than stepped up to the plate. It is clear her team-mates would follow her anywhere and her speeches post-match, shared on social media, show exactly why. The 30-year-old is not only an inspirational presence on the pitch but off it too, being incredibly open about grief, fertility and mental health.",
+      "publishedDate": "2026-11-06T13:01:06Z",
+      "duration": 216,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1045478",
+      "type": "VOD",
+      "title": "Sylvia Brunt | RugbyPass Top 50 | #8",
+      "description": "The dynamic inside centre from Auckland dominated senior club rugby aged 16 and was selected for Rugby World Cup 2021 [played in 2022] two years later as the youngest member of the winning squad at 18. Since 2023, she has played 31 of 33 possible Tests. Highlights include her 83rd-minute try to secure a 27-27 draw against Canada in 2025 and her player-of-the-match display in the 40-0 demolition of Ireland at Women's Rugby World Cup 2025 in Brighton. In 2026, she featured in nine Tests, scoring a try in the 48-15 win against the USA. Is there any woman who breaks more tackles than Brunt? At 22, she is already among New Zealand’s most capped midfield backs of all time with 40 and was named in World Rugby Women's 15s Dream Team of the Year 2026.",
+      "publishedDate": "2026-11-06T13:00:06Z",
+      "duration": 224,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1045479",
+      "type": "VOD",
+      "title": "Pauline Bourdon Sansus | RugbyPass Top 50 | #4",
+      "description": "Legend, leader, trailblazer and one of the greatest players to have ever graced the Test scene. The France scrum-half has the power, precision and knack of entangling even the tightest opposition defence, carving out a path for the Les Bleues even when there appears to be no space available. Bourdon Sansus has an extraordinary vision of the game, sensing opportunities where others see none and complementing that awareness with a level of passing few can rival. The 30-year-old was one of France’s standout performers at Women’s Rugby World Cup 2025 and 2026 Women’s Six Nations, and that’s unlikely to change in the foreseeable future. ",
+      "publishedDate": "2026-11-06T13:00:06Z",
+      "duration": 232,      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1045480",
+      "type": "VOD",
+      "title": "Sadia Kabeya | RugbyPass Top 50 | #10",
+      "description": "Sadia Kabeya is a player that does plenty of unseen work but provides exactly what England need in crunch moments. She is a tackle machine and integral to the Red Roses defence, which is exactly why she was player of the final in Women's Rugby World Cup 2025. It takes a special player to take Marlie Packer's number seven shirt, especially with Packer's form still impeccable, but Kabeya more than deserves her place. Her ability to read the game is second to none and aged just 24, she has an abundance of experience with 37 caps. The Loughborough flanker has already competed in two Women's Rugby World Cups and is surely one of the first names that will come to the mind of British and Irish Lions head coach Jo Yapp for the inaugural women's tour to New Zealand next year. Considering how good Kabeya is already, it is a scary prospect for opponents what she will become in the years to come.",
+      "publishedDate": "2026-11-06T13:00:06Z",
+      "duration": 238,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1045481",
+      "type": "VOD",
+      "title": "Braxton Sorenson-McGee | RugbyPass Top 50 | #7",
+      "description": "The 2025 World Rugby Women's 15s Breakthrough Player of the Year was a force of nature on attack at Women's Rugby World Cup 2025, leading in tries (11), points (69), metres gained (550) and clean breaks (15). The momentum continued in 2026. A stint with the Black Ferns Sevens saw Sorensen-McGee win an HSBC SVNS Series title, helping the Black Ferns Sevens to 30 wins in a row. In XVs, she helped the Blues win their third consecutive Super Rugby Aupiki title. She rejoined the Black Ferns in August and scored tries in the wins against Australia (66-19), South Africa (52-20) and France (31-12). In WXV Global Series, the 20-year-old full-back landed 13 goals from 16 attempts, slotting in seamlessly as a replacement for previous kicker Renee Holmes, and was named in the Women's 15s Dream Team of the Year 2026.",
+      "publishedDate": "2026-11-06T13:00:06Z",
+      "duration": 236,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1045482",
+      "type": "VOD",
+      "title": "Ellie Kildunne | RugbyPass Top 50 | #6",
+      "description": "Kildunne is the face of this all-conquering Red Roses team and that is down to her game-changing moments. The full-back's two tries against France in the Women's Rugby World Cup semi-final last year were moments of sheer brilliance that put England out of reach of Le Bleues. Her score in the final was breathtaking. England needed momentum back and Kildunne provided it, evading multiple defenders to run half the pitch to score. Her dazzling running, leaving Canadian defenders on the floor watching her, is one of the iconic images of that day. Her performances saw her finish runner-up in the BBC's Sports Personality of the Year award and helped to grow the popularity of the sport. Alongside Meg Jones and Jess Breach, she has also made the cowboy hat synonymous with this England team with their rodeo try celebration.",
+      "publishedDate": "2026-11-06T13:00:06Z",
+      "duration": 235,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1045483",
+      "type": "VOD",
+      "title": "Kaipo Olsen-Baker | RugbyPass Top 50 | #9",
+      "description": "The Black Ferns Player of the Year in 2024 has an enormous appetite for work and is arguably the most damaging ball-carrying loose forward in women's rugby. Just ask Canada. In the Pacific Four Series in April, Olsen-Baker scored two tries and charged over 200 metres in a brutal 36-14 revenge win after their 2025 Rugby World Cup semi-final defeat. In Super Rugby Aupiki 2026, Olsen-Baker scored a try in all six round-robin games and made more tackles (136) and carries (108) than any player in the competition. She has won 17 of her 23 Tests and has just been crowned World Rugby Women's 15s Player of the Year 2026 after an exceptional season.",
+      "publishedDate": "2026-11-06T13:00:06Z",
+      "duration": 238,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1045484",
+      "type": "VOD",
+      "title": "Sophie de Goede | RugbyPass Top 50 | #2",
+      "description": "Canada’s answer to legendary Australia World Cup-winning captain John Eales in the men’s game, a lock forward who can also kick goals, De Goede has become one of international rugby’s most respected players, with a skill-set which equips her to seemingly play in every position. A multiple PWR-title winner with Saracens - most recently being involved in their 2026 title - De Goede’s versatility to play in the second row and at loose forward is combined with her skill from the kicking tee, becoming Canada’s all-time leading points-scorer. The Canadian forward delivered on the international stage at the 2025 Rugby World Cup, finishing as the third-highest points scorer with 61, and helping Canada make it to the final. Crowned the 2025 World Rugby Player of the Year, she has just been named in the Women's 15s Dream Team for a third straight year, and fourth in all.",
+      "publishedDate": "2026-11-06T13:01:06Z",
+      "duration": 231,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1045485",
+      "type": "VOD",
+      "title": "Zoe Harrison | RugbyPass Top 50 | #3",
+      "description": "Harrison has been in and around the starting fly-half jersey for the Red Roses since her first cap back in 2017 but over the last two years in particular, she has made it her own. She manages the players around her superbly well and her goalkicking has been a real standout. During the 2026 Women's Six Nations, the Saracens star only missed two of 31 shots at goal, which made her England's most successful kicker across the women's and men's competitions. She is not immune to the pressure of course, missing a late penalty against New Zealand in September with the scores level, only to then pull off a superb intercept to score the winning try in the 81st minute and seal victory. The 28-year-old is only growing as a player with each game and is essential to England's continued success.",
+      "publishedDate": "2026-11-06T13:01:06Z",
+      "duration": 237,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1046132",
+      "type": "VOD",
+      "title": " MLR Weekly: Global Rugby Academy Exec Grant Keenan re MLR Pipeline, USA Rugby, MLR News, WXC Recap",
+      "description": "Team USA's women and men had performances to forget in their double header vs England and Australia XV, respectively, but MLR Weekly is bound to review them first. But with an eye on the future, and development of future stars, Grant Keenan of the Crusaders Global Academy offers hope for young players.\n\nAlso Included:\n- Rugby Morning's Coffee Break with John Fitzpatrick: USA Rugby Men's tough fortnight & MLR news.\n- Wendy Young with WXV recap and what's ahead USA Women.\n- College Rugby Corner with Zach Lanning of The College Rugby Show",
+      "publishedDate": "2026-11-05T07:54:58Z",
+      "duration": 1711,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1046138",
+      "type": "VOD",
+      "title": " TRO: Nations Cup Coaches Firings? Zebo re Rassie, WXV, USA Rugby Struggles, Week's Best & Toughest",
+      "description": "The Nations Championship & Cup are back in play. Is that at the peril of the URC, Premiership and Top14? Moreover, can a Nations Champions or Cup coach get fired as per their performance? Also the Red Roses demonstrated that reports of their demise were premature - and did it on American soil. Plus, the USA face cold, hard facts, S.A. \"story\" ends, and Simon Zebo's \"what if\" scenarios for Irish Rugby. Our eclectically odd panel weighs in on all, offering insight, honest truths, and predictions.",
+      "publishedDate": "2026-11-05T07:56:10Z",
+      "duration": 1704,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1047989",
+      "type": "VOD",
+      "title": "Romania v Tonga | Nations Cup 2026 | Round 4 | Full Match Replay",
+      "description": "Bucharest opens the November block of the World Rugby Nations Cup, with Romania hosting Tonga at the Arcul de Triumf. Every minute of the Round 4 opener from the Romanian capital.",
+      "publishedDate": "2026-11-06T18:45:56Z",
+      "duration": 7436,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048000",
+      "type": "VOD",
+      "title": "Romania v Tonga | Nations Cup 2026 | Round 4 | Match Highlights",
+      "description": "Tonga's visit to Romania restarts the World Rugby Nations Cup after the July window. The best of the action from Bucharest, cut down for a quick watch.",
+      "publishedDate": "2026-11-06T19:08:00Z",
+      "duration": 851,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048094",
+      "type": "VOD",
+      "title": "Ireland v Argentina | Nations Championship 2026 | Round 4 | Match Highlights",
+      "description": "Argentina return to Dublin to face Ireland, a fixture with a long Rugby World Cup history. The defining phases of Round 4 at the Aviva Stadium, in a short watch.",
+      "publishedDate": "2026-11-06T22:42:46Z",
+      "duration": 906,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048095",
+      "type": "VOD",
+      "title": "Ireland v Argentina | Nations Championship 2026 | Round 4 | Full Match Replay",
+      "description": "Ireland welcome Argentina to the Aviva Stadium as the inaugural Nations Championship returns for its November rounds. Watch the full 80 minutes of a Friday night Test in Dublin.",
+      "publishedDate": "2026-11-06T22:41:20Z",
+      "duration": 8689,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048299",
+      "type": "VOD",
+      "title": "Italy v South Africa | Nations Championship 2026 | Round 4 | Full Match Replay",
+      "description": "Italy play their first home match of the Nations Championship, hosting world champions South Africa at the Allianz Stadium in Turin. The complete Test from northern Italy.",
+      "publishedDate": "2026-11-07T14:04:38Z",
+      "duration": 8094,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048302",
+      "type": "VOD",
+      "title": "Rugby Africa Women's Sevens | SVNS 3 Qualifier | Day 1 | Full Day Replay",
+      "description": "Twelve nations open the Rugby Africa Women's Sevens at the RFUEA Ground in Nairobi, with a place at SVNS 3 in Dubai on offer. The full opening day, every match.",
+      "publishedDate": "2026-11-07T14:13:47Z",
+      "duration": 29226,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048305",
+      "type": "VOD",
+      "title": "Italy v South Africa | Nations Championship 2026 | Round 4 | Match Highlights",
+      "description": "Turin hosts international rugby for a third straight November as South Africa take on Italy. The standout moments from the Allianz Stadium, in a few minutes.",
+      "publishedDate": "2026-11-07T14:32:54Z",
+      "duration": 736,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048366",
+      "type": "VOD",
+      "title": "Georgia v Canada | Nations Cup 2026 | Round 4 | Full Match Replay",
+      "description": "Georgia, unbeaten in the July rounds, open their November campaign at home to Canada in Tbilisi. Watch the full match from Round 4 of the World Rugby Nations Cup.",
+      "publishedDate": "2026-11-07T16:31:26Z",
+      "duration": 8218,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048390",
+      "type": "VOD",
+      "title": "Scotland v New Zealand | Nations Championship 2026 | Round 4 | Full Match Replay",
+      "description": "Scotland host New Zealand at Murrayfield in Round 4 of the inaugural Nations Championship, one of the marquee Tests of the November window. All 80 minutes from Edinburgh.\n",
+      "publishedDate": "2026-11-07T16:53:45Z",
+      "duration": 8986,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048408",
+      "type": "VOD",
+      "title": "Spain v Uruguay | Nations Cup 2026 | Round 4 | Full Match Replay",
+      "description": "Spain and Uruguay, both bound for Rugby World Cup 2027, meet in Round 4 of the World Rugby Nations Cup. Uncut from first whistle to last as two nations build towards Australia.",
+      "publishedDate": "2026-11-07T17:13:14Z",
+      "duration": 7264,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048411",
+      "type": "VOD",
+      "title": "Scotland v New Zealand | Nations Championship 2026 | Round 4 | Match Highlights",
+      "description": "Edinburgh welcomes New Zealand for a Round 4 Test against Scotland at Murrayfield. The moments that shaped the contest, condensed for a fast catch-up.",
+      "publishedDate": "2026-11-07T17:36:06Z",
+      "duration": 732,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048426",
+      "type": "VOD",
+      "title": "Portugal v Chile | Nations Cup 2026 | Round 4 | Full Match Replay",
+      "description": "Portugal host Chile at the Estadio Nacional in Lisbon for Round 4 of the World Rugby Nations Cup. The full contest between two sides who both featured at Rugby World Cup 2023.",
+      "publishedDate": "2026-11-07T17:26:20Z",
+      "duration": 8134,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048427",
+      "type": "VOD",
+      "title": "Zimbabwe v Samoa | Nations Cup 2026 | Round 4 | Full Match Replay",
+      "description": "Zimbabwe take their World Rugby Nations Cup campaign to Wakefield in England to meet Samoa. The whole match from a Round 4 fixture played on neutral ground.",
+      "publishedDate": "2026-11-07T17:32:08Z",
+      "duration": 7962,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048430",
+      "type": "VOD",
+      "title": "Georgia v Canada | Nations Cup 2026 | Round 4 | Match Highlights",
+      "description": " Canada travel to the Georgian capital for Round 4 of the World Rugby Nations Cup. The essential passages of play from Tbilisi, in one short package.",
+      "publishedDate": "2026-11-07T17:34:11Z",
+      "duration": 926,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048457",
+      "type": "VOD",
+      "title": "Spain v Uruguay | Nations Cup 2026 | Round 4 | Match Highlights",
+      "description": "Uruguay take on Spain in Round 4 with a World Cup year on the horizon for both sides. The match at a glance.",
+      "publishedDate": "2026-11-07T18:21:10Z",
+      "duration": 606,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048469",
+      "type": "VOD",
+      "title": "Portugal v Chile | Nations Cup 2026 | Round 4 | Match Highlights",
+      "description": "Chile make the trip to Lisbon to face Portugal at the Estadio Nacional. The key moments from Round 4 of the World Rugby Nations Cup.",
+      "publishedDate": "2026-11-07T18:23:15Z",
+      "duration": 895,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048473",
+      "type": "VOD",
+      "title": "Zimbabwe v Samoa | Nations Cup 2026 | Round 4 | Match Highlights",
+      "description": "West Yorkshire stages a meeting of two Rugby World Cup 2027 qualifiers as Samoa face Zimbabwe. The main talking points from Wakefield, in this highlights video.",
+      "publishedDate": "2026-11-07T18:25:07Z",
+      "duration": 903,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048496",
+      "type": "VOD",
+      "title": "Wales v Japan | Nations Championship 2026 | Round 4 | Full Match Replay",
+      "description": "Wales welcome Japan to the Principality Stadium for Round 4 of the Nations Championship. Watch the Test in full from Cardiff on a busy Saturday of international rugby.",
+      "publishedDate": "2026-11-07T19:09:17Z",
+      "duration": 8257,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048544",
+      "type": "VOD",
+      "title": "Wales v Japan | Nations Championship 2026 | Round 4 | Match Highlights",
+      "description": "Cardiff hosts Japan's Round 4 Nations Championship visit to Wales. The highlights from the Principality Stadium, trimmed to the moments that matter.",
+      "publishedDate": "2026-11-07T20:33:34Z",
+      "duration": 905,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048616",
+      "type": "VOD",
+      "title": "France v Fiji | Nations Championship 2026 | Round 4 | Full Match Replay",
+      "description": "France host Fiji in Lyon to close a full Saturday of Round 4 Nations Championship action. Eighty minutes from the Groupama Stadium, start to finish.",
+      "publishedDate": "2026-11-07T22:38:10Z",
+      "duration": 7818,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048625",
+      "type": "VOD",
+      "title": "France v Fiji | Nations Championship 2026 | Round 4 | Match Highlights",
+      "description": "Lyon welcomes Fiji for a Saturday night Test against France. The best passages from the Groupama Stadium, in a tight highlights package.",
+      "publishedDate": "2026-11-07T22:54:15Z",
+      "duration": 878,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048805",
+      "type": "VOD",
+      "title": " Rugby Africa Women's Sevens | SVNS 3 Qualifier | Day 2",
+      "description": "Nairobi hosts the final day of the Rugby Africa Women's Sevens, with an SVNS 3 spot in Dubai still to be decided. The complete second day from the RFUEA Ground.",
+      "publishedDate": "2026-11-08T16:58:41Z",
+      "duration": 32112,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1048998",
+      "type": "VOD",
+      "title": "Hong Kong China v USA | Nations Cup 2026 | Round 4 | Full Match Replay",
+      "description": "Hong Kong China meet USA in Bourg-en-Bresse, France, with the Americans top of their pool after July. The full match from Round 4 of the World Rugby Nations Cup.",
+      "publishedDate": "2026-11-08T16:57:31Z",
+      "duration": 7304,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1049012",
+      "type": "VOD",
+      "title": "Hong Kong China v USA | Nations Cup 2026 | Round 4 | Match Highlights",
+      "description": "USA continue their World Rugby Nations Cup campaign against Hong Kong China on French soil. The pick of the action from Bourg-en-Bresse.",
+      "publishedDate": "2026-11-08T17:26:43Z",
+      "duration": 666,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1049025",
+      "type": "VOD",
+      "title": "England v Australia | Nations Championship 2026 | Round 4 | Full Match Replay",
+      "description": " England and Australia close Round 4 of the inaugural Nations Championship at Allianz Stadium, Twickenham. A Sunday Test between old rivals!",
+      "publishedDate": "2026-11-08T17:38:09Z",
+      "duration": 8528,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1049029",
+      "type": "VOD",
+      "title": "England v Australia | Nations Championship 2026 | Round 4 | Match Highlights",
+      "description": "Twickenham hosts the final match of Round 4 as Australia take on England. The moments worth a second look from a Sunday in London.",
+      "publishedDate": "2026-11-08T17:53:34Z",
+      "duration": 861,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1049420",
+      "type": "VOD",
+      "title": "Could the All Blacks Go Unbeaten and Still Miss the Final? | Aotearoa Rugby Pod | Episode 39",
+      "description": "The All Blacks are winning, but could they still miss the Nations Championship final?\n\nAfter an impressive attacking display against Scotland, New Zealand's path to the final remains uncertain. Bryn Hall and James Parsons unpack the All Blacks' improvement, the selection dilemmas ahead of Wales, and why South Africa's dominance could change everything.\n\nPlus, Ireland's resurgence, France's chances against the Springboks, and the crucial matches that could decide who makes the final.",
+      "publishedDate": "2026-11-09T10:17:39Z",
+      "duration": 4791,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1049630",
+      "type": "VOD",
+      "title": "KOKO Show | November 10th | 45 POINTS AND NO ANSWERS! HOW DO THE WALLABIES BOUNCE BACK?",
+      "description": "The Wallabies have been absolutely battered at Twickenham, going down 45–22 to England in a crushing defeat that has left Australian rugby with some serious questions to answer! Three straight losses, 40+ points conceded in three consecutive Tests for the first time in history, and a home Rugby World Cup fast approaching. The pressure is mounting on Les Kiss and his Wallabies, but how the hell do they turn things around?\n",
+      "publishedDate": "2026-11-10T09:34:51Z",
+      "duration": 3832,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1050106",
+      "type": "VOD",
+      "title": "Has Damian McKenzie Changed the All Blacks' World Cup Plans? | ARP Extra",
+      "description": "Damian McKenzie was expected to play fullback. \n\nNow, he's potentially changed the All Blacks' plans for the 2027 Rugby World Cup.\n\nWith Beauden Barrett thriving alongside him, where does that leave Richie Mo'unga and Ruben Love?\n\nBryn Hall and James Parsons examine the unexpected selection dilemma facing Dave Rennie — and why the race for the No. 10 jersey is becoming increasingly fascinating.",
+      "publishedDate": "2026-11-11T09:34:01Z",
+      "duration": 592,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1050600",
+      "type": "VOD",
+      "title": "The Rugby Odds: Winger Pollock, Barrett Bias, No French 10, Is Nations Rugby bad? USA's Must-Win, Top Faux-Teen",
+      "description": "Round 4 of Nations Championship & Cup are in the books and our odd pew of pundits offers analysis, opinion, condemnations, and outlandish predictions. All in 24 minutes.\n\n",
+      "publishedDate": "2026-11-12T09:21:16Z",
+      "duration": 1702,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1050606",
+      "type": "VOD",
+      "title": " What France Needs to Dethrone the Springboks | Boks Watch | ARP Extra",
+      "description": "The Springboks have sent another warning to the rugby world. But can France find a way to stop them?\n\nWith Antoine Dupont pulling the strings and a huge physical battle looming, where can France expose South Africa — and what could the result mean for the All Blacks' Nations Championship hopes?\n\nRoss Karl, Bryn Hall and James Parsons break it down on Boks Watch. ",
+      "publishedDate": "2026-11-12T10:32:24Z",
+      "duration": 1585,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1050746",
+      "type": "VOD",
+      "title": " MLR Weekly: Rugby Divas re MLR, USA Rugby, Buffalo Interest, College Corner",
+      "description": "With MLR stars full-on in the World Rugby Nations Cup, and news out of Buffalo, MLR Weekly needed to call in the Rugby Divas (or legends, really) Ben Holden and Will Hooley to offer insight and thoughts with host Matt McCarthy.",
+      "publishedDate": "2026-11-13T14:26:07Z",
+      "duration": 1711,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1051130",
+      "type": "VOD",
+      "title": "New laws in action as Nations Championship and Cup returns! | Whistle Watch presented by Emirates",
+      "description": "The Nations Cup and Nations Championship both returned with a bang over the weekend. Angus Bell became the first Test player punished for new protocols around hip drop tackles while a few decisions in Dublin and Paris certainly caused plenty of consternation. Nigel Owens and Jamie Robert sat down to discuss all the major calls from the weekend that was.",
+      "publishedDate": "2026-11-13T11:56:59Z",
+      "duration": 1549,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1051364",
+      "type": "VOD",
+      "title": "France v South Africa | Nations Championship 2026 | Round 5 | Full Match Replay",
+      "description": "France and South Africa meet in a thriller under the lights in Paris!",
+      "publishedDate": "2026-11-13T22:48:03Z",
+      "duration": 9013,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1051376",
+      "type": "VOD",
+      "title": "France v South Africa | Nations Championship 2026 | Round 5 | Match Highlights",
+      "description": "Catch up on the action as France look to snap South Africa's 21 year old record for wins in France! ",
+      "publishedDate": "2026-11-13T23:23:06Z",
+      "duration": 847,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "510014",
+      "type": "VOD",
+      "title": "England v Wales - RWC2015",
+      "description": "England vs. Wales | RWC2015 | Match Highlights",
+      "publishedDate": "2023-08-21T08:40:45Z",
+      "duration": 740,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "510047",
+      "type": "VOD",
+      "title": "New Zealand v Australia - RWC2011 Semi Final",
+      "description": "New Zealand vs. Australia | RWC2011 Semi-Final | Match Highlights",
+      "publishedDate": "2023-08-21T08:31:54Z",
+      "duration": 491,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "510389",
+      "type": "VOD",
+      "title": "Australia v New Zealand - RWC 2015 Final",
+      "description": "New Zealand vs. Australia | RWC2015 Final | Match Highlights",
+      "publishedDate": "2023-08-21T08:43:55Z",
+      "duration": 778,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "511813",
+      "type": "VOD",
+      "title": "England vs Wales - RWC2003 Quarter Final",
+      "description": "England vs. Wales | RWC2003 Quarter-Final | Match Highlights",
+      "publishedDate": "2023-08-23T15:41:55Z",
+      "duration": 569,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "511845",
+      "type": "VOD",
+      "title": "Australia vs New Zealand - RWC2003 Semi Final",
+      "description": "Australia vs. New Zealand | RWC2003 Semi-Final | Match Highlights",
+      "publishedDate": "2023-08-23T15:43:51Z",
+      "duration": 590,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "520297",
+      "type": "VOD",
+      "title": "Family Faith Footy - A Pasifika Rugby Story",
+      "description": "Celebrating Pasifika rugby players and their communities. A story about small islands, big dreams and the sacrifices made by many to produce some of the world’s greatest players. Made with the support of NZ On Air.",
+      "publishedDate": "2023-09-21T07:27:37Z",
+      "duration": 5413,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "526146",
+      "type": "VOD",
+      "title": "Japan vs Samoa | RWC 2023 | Full Match Replay",
+      "description": "Watch the Full Match Replay from Japan vs Samoa at the 2023 Rugby World Cup.",
+      "publishedDate": "2023-09-28T23:27:31Z",
+      "duration": 8705,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "530017",
+      "type": "VOD",
+      "title": "Ireland vs Scotland | RWC 2023 Full Match Replay",
+      "description": "Watch the Full Match Replay from Ireland vs Scotland at the 2023 Rugby World Cup.",
+      "publishedDate": "2023-10-07T21:26:59Z",
+      "duration": 9022,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "578207",
+      "type": "VOD",
+      "title": "WHISTLEBLOWERS",
+      "description": "Whistleblowers exposes the hidden world of Rugby World Cup referees, revealing the intense pressure, mental health challenges, and personal sacrifices behind their crucial yet often overlooked role in the game.",
+      "publishedDate": "2026-08-05T07:53:20Z",
+      "duration": 4673,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "606918",
+      "type": "VOD",
+      "title": "Abbie Ward: A Bump in the Road",
+      "description": "The remarkable journey of an England rugby player as she battles back to the professional game just 17 weeks after the birth of her baby in July 2023 - and then to secure her place back in England’s Six Nations squad for 2024.",
+      "publishedDate": "2025-02-10T11:30:27Z",
+      "duration": 3266,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "714732",
+      "type": "VOD",
+      "title": "Tradition not redemption | Scotland v USA",
+      "description": "Last time Scotland played in the USA and they lost to the Eagles. Now, six years later, we go inside the Scotland team as they will rematch for the first time.",
+      "publishedDate": "2024-10-31T17:29:55Z",
+      "duration": 1237,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "747980",
+      "type": "VOD",
+      "title": "Lomu: The Lost Tapes",
+      "description": "Featuring never-before-seen footage, Jonah Lomu shares his story and how he escaped gang violence to become the planet's most iconic rugby player.",
+      "publishedDate": "2025-02-01T09:00:06Z",
+      "duration": 3968,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "806841",
+      "type": "VOD",
+      "title": "Top 10 Best Lions Tries of the 2000s",
+      "description": "Catch up on ten of the very best tries scored by the British and Irish Lions in the 2000s!",
+      "publishedDate": "2025-05-29T14:36:55Z",
+      "duration": 358,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "806849",
+      "type": "VOD",
+      "title": "Top 10 Moments from the 2005 Lions Tour",
+      "description": "Sit back and enjoy these classic British and Iris Lions tour moments from the 2005 tour of New Zealand!",
+      "publishedDate": "2025-05-29T14:44:03Z",
+      "duration": 885,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "806854",
+      "type": "VOD",
+      "title": "Top 10 Moments from the 2013 Lions Tour",
+      "description": "The British and Irish Lions were in Australia for the 2013 tour and it yet again produced a number of magical moments both on and off the field.",
+      "publishedDate": "2025-05-29T15:01:13Z",
+      "duration": 821,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "806856",
+      "type": "VOD",
+      "title": "Top 10 Moments from the 2009 Lions tour",
+      "description": "The British and Irish Lions were back in South Africa to face the Springboks in 2009, and as always, there was plenty going on both on and off the field!",
+      "publishedDate": "2025-05-29T15:08:06Z",
+      "duration": 808,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "808532",
+      "type": "VOD",
+      "title": "Top 10 Moments from the 2017 Lions tour",
+      "description": "The British and Irish Lions took on New Zealand in 2017 - here's a look at the most memorable moments from an epic tour.",
+      "publishedDate": "2025-06-02T12:08:27Z",
+      "duration": 936,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "808900",
+      "type": "VOD",
+      "title": "South Africa v British & Irish Lions | 2009 | Second Test | The Vaults",
+      "description": "Watch the Full Match Replay from the second test South Africa and the British & Irish Lions in 2009, in what is often regarded as one of the best matches of all time.",
+      "publishedDate": "2025-06-13T14:43:42Z",
+      "duration": 7221,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "809158",
+      "type": "VOD",
+      "title": "South Africa v British & Irish Lions | 1997 | Second Test | The Vaults",
+      "description": "Watch the Full Match Replay of the second test match between South Africa and the British & Irish Lions from the 1997 series.",
+      "publishedDate": "2025-06-13T14:50:22Z",
+      "duration": 11979,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "809179",
+      "type": "VOD",
+      "title": "New Zealand v British & Irish Lions | 2005 | Second Test | The Vaults",
+      "description": "Watch the Full Match Replay of the second test match between New Zealand and the British & Irish Lions from the 2005 series. Dan Carter had an incredible performance in a game that is widely regarded as the most complete performance from a fly-half in the games' history.",
+      "publishedDate": "2025-06-13T14:54:49Z",
+      "duration": 7772,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "809180",
+      "type": "VOD",
+      "title": "New Zealand v British & Irish Lions | 2017 | First Test | The Vaults",
+      "description": "Watch the Full Match Replay of the opening test match between New Zealand and the British & Irish Lions from the 2017 series.",
+      "publishedDate": "2025-06-13T14:51:43Z",
+      "duration": 7690,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "809185",
+      "type": "VOD",
+      "title": "South Africa v British & Irish Lions | 2021 | Second Test | The Vaults",
+      "description": "Watch the Full Match Replay of the second test match between South Africa and the British & Irish Lions from the 2021 series.",
+      "publishedDate": "2025-06-13T14:49:04Z",
+      "duration": 8157,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "809186",
+      "type": "VOD",
+      "title": "New Zealand v British & Irish Lions | 2017 | Second Test | The Vaults",
+      "description": "Watch the Full Match Replay of the second test match between New Zealand and the British & Irish Lions from the 2017 series.",
+      "publishedDate": "2025-06-13T14:52:26Z",
+      "duration": 7417,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "809190",
+      "type": "VOD",
+      "title": "New Zealand v British & Irish Lions | 2017 | Third Test | The Vaults",
+      "description": "Watch the Full Match Replay of the deciding test match between New Zealand and the British & Irish Lions from the 2017 series.",
+      "publishedDate": "2025-06-13T14:53:07Z",
+      "duration": 9326,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "809222",
+      "type": "VOD",
+      "title": "South Africa v British & Irish Lions | 2021 | First Test | The Vaults",
+      "description": "Watch the Full Match Replay of the first test match between South Africa and the British & Irish Lions from the 2021 series.",
+      "publishedDate": "2025-06-13T14:47:13Z",
+      "duration": 7896,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "809223",
+      "type": "VOD",
+      "title": "South Africa v British & Irish Lions | 2021 | Third Test | The Vaults",
+      "description": "Watch the Full Match Replay of the deciding test match between South Africa and the British & Irish Lions from the 2021 series.",
+      "publishedDate": "2025-06-13T14:46:11Z",
+      "duration": 9117,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "812194",
+      "type": "VOD",
+      "title": "Top tackles in Lions Tests",
+      "description": "From Josh Lewsey to George North, here's a look at some of the greatest tackles made for the British and Irish Lions in Test matches.",
+      "publishedDate": "2025-06-12T13:20:13Z",
+      "duration": 583,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "815136",
+      "type": "VOD",
+      "title": "Pollock Loses Bill, Players Meet Their Roommates & Training in Portugal | Ep 1: The Ultimate Test",
+      "description": "Join us for an exclusive look behind the scenes with the British & Irish Lions in episode one of The Ultimate Test. In this episode, watch the players meet up in Dublin and then we head to Portugal for our pre tour training camp, see Henry Pollock united with Bill the Lion and much more.",
+      "publishedDate": "2025-06-18T10:22:05Z",
+      "duration": 1134,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "815680",
+      "type": "VOD",
+      "title": "Are these the greatest ever Lions tries?",
+      "description": "From Matt Dawson's famous dummy to Liam Williams sparking a worldie, here's a look at ten of the very best tries scored by the British & Irish Lions.",
+      "publishedDate": "2025-06-19T09:39:42Z",
+      "duration": 503,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "815690",
+      "type": "VOD",
+      "title": "The best kicks and skills from the Lions",
+      "description": "Bringing the best of four teams together, the British & Irish Lions have always been blessed with an abundance of skill. Here's a look at some of their most memorable moments over the years.",
+      "publishedDate": "2025-06-19T10:08:35Z",
+      "duration": 922,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "815720",
+      "type": "VOD",
+      "title": "Are these the best ever Lions performances?",
+      "description": "With a number of new Lions on each tour, here's a look at some of the best ever debut performances over the years!",
+      "publishedDate": "2025-06-19T11:21:53Z",
+      "duration": 766,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "816288",
+      "type": "VOD",
+      "title": "British & Irish Lions vs Argentina | Full Match Replay",
+      "description": "Watch the Full Match as the British & Irish Lions take on Argentina in their first match of the 2025 Campaign.",
+      "publishedDate": "2025-06-20T21:27:52Z",
+      "duration": 7897,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "819097",
+      "type": "VOD",
+      "title": "Touchdown in Dublin, The Red Sea Returns & We Prepare to Face Argentina | Ep 2: The Ultimate Test",
+      "description": "Join us for an exclusive look behind the scenes with the British & Irish Lions in episode Two of The Ultimate Test. In this episode, all of the British & Irish Lions players meet, we land in Dublin after our training camp in Portugal and we prepare to face Argentina at the Aviva Stadium, Dublin.",
+      "publishedDate": "2025-06-26T08:22:24Z",
+      "duration": 1115,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "819615",
+      "type": "VOD",
+      "title": "Lions Share | Episode 1",
+      "description": "Before the Lions hit the field in Australia for the first time on their historic 2025 tour, go behind the scenes with the Lions Share, exclusive content on RugbyPass!",
+      "publishedDate": "2025-06-27T17:11:13Z",
+      "duration": 1055,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "820951",
+      "type": "VOD",
+      "title": "Western Force vs British & Irish Lions | Full Match Replay",
+      "description": "The Western Force host the British & Irish Lions in the first clash on Australian soil for 2025.",
+      "publishedDate": "2025-06-28T12:02:30Z",
+      "duration": 7119,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "823747",
+      "type": "VOD",
+      "title": "Queensland Reds vs British & Irish Lions | Full Match Replay",
+      "description": "Catch up on the action from Brisbane as the British & Irish Lions take on the Queensland Reds.",
+      "publishedDate": "2025-07-02T11:58:30Z",
+      "duration": 7214,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "824149",
+      "type": "VOD",
+      "title": "Arriving Down Under, Avoiding Jet Lag & Our First Game In Australia | Ep 3: The Ultimate Test",
+      "description": "Join us for an exclusive look behind the scenes with the British & Irish Lions in episode Three of The Ultimate Test. In this episode, we land in Australia & get ready in the run up to our game against Western Force.",
+      "publishedDate": "2025-07-03T16:44:07Z",
+      "duration": 1161,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "824523",
+      "type": "VOD",
+      "title": "Lions Share | Episode 2",
+      "description": "Go behind the scenes of the Tour with Lions Share, as the boys hit the ground in Australia.",
+      "publishedDate": "2025-07-04T09:25:09Z",
+      "duration": 858,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "825009",
+      "type": "VOD",
+      "title": "New South Wales Waratahs vs British & Irish Lions | Full Match Replay",
+      "description": "Catch the action from Sydney as the British & Irish Lions take on the NSW Waratahs.",
+      "publishedDate": "2025-07-05T12:08:21Z",
+      "duration": 7684,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "826767",
+      "type": "VOD",
+      "title": "A Double Match Week, Trying New Sports & Exits And Arrivals In Camp | Ep 4: The Ultimate Test",
+      "description": "Join us for an exclusive look behind the scenes with the British & Irish Lions in episode Four of The Ultimate Test. In this episode, we prepare for a double match week & we see players leave camp due to injury and new players arrive.",
+      "publishedDate": "2025-07-09T10:07:45Z",
+      "duration": 1347,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "826792",
+      "type": "VOD",
+      "title": "ACT Brumbies vs British & Irish Lions | Full Match Replay",
+      "description": "The Lions tour heads to Canberra as the ACT Brumbies take on the British & Irish Lions.",
+      "publishedDate": "2025-07-09T12:04:36Z",
+      "duration": 7542,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "827328",
+      "type": "VOD",
+      "title": "Lions Share | Episode 3",
+      "description": "Join Finlay Bealham, Pierre Schoeman and Ben Earl for Episode 3 of the Lions Share.",
+      "publishedDate": "2025-07-10T16:17:21Z",
+      "duration": 1051,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "828190",
+      "type": "VOD",
+      "title": "AUNZ Invitational XV vs British & Irish Lions | Full Match Replay",
+      "description": "The British & Irish Lions head to Adelaide as they take on the AUNZ Invitational XV.",
+      "publishedDate": "2025-07-12T12:06:45Z",
+      "duration": 7548,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "831903",
+      "type": "VOD",
+      "title": "Lions Share | Episode 4",
+      "description": "Jump into the Lion's Den with Henry Pollock, Josh van der Flier and Finn Russell to go behind the scenes of the Lions tour so far.",
+      "publishedDate": "2025-07-17T15:03:11Z",
+      "duration": 1025,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "833849",
+      "type": "VOD",
+      "title": "Australia vs British & Irish Lions | First Test | Full Match Replay",
+      "description": "Catch up on all the drama of the first Test of the 2025 Lions series between the Wallabies and the British & Irish Lions in Brisbane.",
+      "publishedDate": "2025-07-22T11:31:08Z",
+      "duration": 9176,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "833855",
+      "type": "VOD",
+      "title": "First Nations & Pasifika XV vs British & Irish Lions | Full Match Replay",
+      "description": "Catch up on all the action from the historic match between a Kurtley Beale-led First Nations & Pasifika XV and the touring British & Irish Lions.",
+      "publishedDate": "2025-07-22T12:16:41Z",
+      "duration": 7473,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "834589",
+      "type": "VOD",
+      "title": "Fines Committee Get Busy, Finn Talks Kicking & Another Double Match Week | Ep 5: The Ultimate Test",
+      "description": "Join us for an exclusive look behind the scenes with The British & Irish Lions in episode Five of The Ultimate Test. In this episode, we prepare for another double match week, the team's fine committee get to work & we look ahead to our Test matches against Australia.",
+      "publishedDate": "2025-07-24T11:14:04Z",
+      "duration": 1359,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "834611",
+      "type": "VOD",
+      "title": "The First Test, Visiting The Great Barrier Reef & Poetry with Pierre | Ep 6: The Ultimate Test",
+      "description": "Join us for an exclusive look behind the scenes with The British & Irish Lions in episode six of The Ultimate Test. In this episode, we prepare Our First Test Match against Australia, Henry Pollock, Duhan van der Merwe & Josh van der Flier visit The Great Barrier Reef & we see new arrivals in camp, as well as a spot of poetry with Pierre Schoeman.",
+      "publishedDate": "2025-07-24T12:47:18Z",
+      "duration": 1474,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "834630",
+      "type": "VOD",
+      "title": "Lions Share | Episode 5",
+      "description": "It's a Front Row takeover in Episode 5 of the Lions Share, as Jamie George, Andrew Porter and Ellis Genge take you behind the scenes of the Tour of Australia.",
+      "publishedDate": "2025-07-24T14:00:29Z",
+      "duration": 1233,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "836909",
+      "type": "VOD",
+      "title": "Australia vs British & Irish Lions | Second Test | Full Match Replay",
+      "description": "Relive the action from Melbourne as the Wallabies and British & Irish Lions met in a pulsating second test.",
+      "publishedDate": "2025-07-29T11:13:04Z",
+      "duration": 8029,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "837744",
+      "type": "VOD",
+      "title": "Lions Share | Episode 6",
+      "description": "Go behind the scenes of a massive test week in Melbourne, as Jac Morgan, Hugo Keenan and Tom Curry host Episode 6 of the Lions Share.",
+      "publishedDate": "2025-07-31T13:52:40Z",
+      "duration": 749,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "837985",
+      "type": "VOD",
+      "title": "Historic Lions Series win at the MCG | Ep 7: The Ultimate Test",
+      "description": "Join us for an exclusive look behind the scenes with The British & Irish Lions in episode seven of The Ultimate Test. In this episode, we face The First Nations & Pasifika and we take you behind the scenes as we prepare for The Second Test against Australia.",
+      "publishedDate": "2025-08-01T09:31:58Z",
+      "duration": 1537,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "840205",
+      "type": "VOD",
+      "title": "Australia vs British & Irish Lions | Third Test | Full Match Replay",
+      "description": "Catch up on all the drama and reaction from the third and final Test  of the Lions series, taking place in Sydney.",
+      "publishedDate": "2025-08-05T12:01:58Z",
+      "duration": 10840,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "849015",
+      "type": "VOD",
+      "title": "The Greatest 80",
+      "description": "On the eve of the biggest Women's Rugby World Cup, join five members of the New Zealand Black Ferns World Cup winning side to relive what was The Greatest 80.",
+      "publishedDate": "2025-08-27T09:00:06Z",
+      "duration": 2858,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "851930",
+      "type": "VOD",
+      "title": "An Inspirational Journey | Race to the Women's Rugby World Cup",
+      "description": "Lexi Chambers, five-time world record holder and ChildFund Rugby Ambassador completes an inspirational challenge of 10 ultramarathons in 10 days using a non-sport wheelchair to deliver the whistle for the opening game of Women's Rugby World Cup 2025 in Sunderland, all while raising funds for ChildFund Rugby!",
+      "publishedDate": "2025-09-15T15:40:41Z",
+      "duration": 764,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "851952",
+      "type": "VOD",
+      "title": "All 87 tries from Match week 2 of Rugby World Cup 2025",
+      "description": "After an EPIC match week 2 of Rugby World Cup 2025, why not rewatch all the tries from the weekend! Including New Zealand's Portia Woodman-Wickliffe and England's Jess Breach scoring their 50th test tries, Australian youngster Caitlyn Halse, Fiji's Loraini Senivutu, South Africa's Ayanda Malinga, Scotland's Emma Orr and France's Pauline Bourdon Sansus scoring screamers! Also potentially the moment of Match Week 2 as Brazil's Bianca Silva scoring their first EVER Rugby World Cup try!",
+      "publishedDate": "2025-09-15T16:29:13Z",
+      "duration": 3684,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "854668",
+      "type": "VOD",
+      "title": "USA v Samoa | Rugby World Cup 2025 | Highlights",
+      "description": "Watch the highlights as USA face Samoa at the York Community Stadium in Pool A of Rugby World Cup 2025.",
+      "publishedDate": "2025-09-06T15:16:38Z",
+      "duration": 278,      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "854687",
+      "type": "VOD",
+      "title": "USA v Samoa | Rugby World Cup 2025 | Full Match Replay",
+      "description": "Watch the full match replay as USA face Samoa at the York Community Stadium in Pool A of Rugby World Cup 2025.",
+      "publishedDate": "2025-09-06T15:35:59Z",
+      "duration": 8880,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "854695",
+      "type": "VOD",
+      "title": "USA v Samoa | Rugby World Cup 2025 | Extended Highlights",
+      "description": "Watch the extended highlights as USA face Samoa at the York Community Stadium in Pool A of Rugby World Cup 2025.",
+      "publishedDate": "2025-09-06T16:05:54Z",
+      "duration": 741,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "854711",
+      "type": "VOD",
+      "title": "Wales v Fiji | Rugby World Cup 2025 | Highlights",
+      "description": "Watch the highlights as Wales took on Fiji in the final Pool B match at Women's Rugby World Cup 2025.",
+      "publishedDate": "2025-09-06T16:18:16Z",
+      "duration": 244,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "854717",
+      "type": "VOD",
+      "title": "Wales v Fiji | Rugby World Cup 2025 | Extended Highlights",
+      "description": "Watch the extended highligths as Wales and Fiji went head-to-head in Pool B of the 2025 Women's Rugby World Cup.",
+      "publishedDate": "2025-09-06T16:51:43Z",
+      "duration": 904,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "854720",
+      "type": "VOD",
+      "title": "Wales v Fiji | Rugby World Cup 2025 | Full Match Replay",
+      "description": "Watch the full match as Wales and Fiji met in the final match in Pool B at Women's Rugby World Cup 2025.",
+      "publishedDate": "2025-09-06T16:40:43Z",
+      "duration": 9413,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "854785",
+      "type": "VOD",
+      "title": "England v Australia | Rugby World Cup 2025 | Highlights",
+      "description": "Watch the highlights as England take on Australia at the Brighton & Hove Albion Stadium in Pool A of Rugby World Cup 2025",
+      "publishedDate": "2025-09-06T19:05:54Z",
+      "duration": 226,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "854800",
+      "type": "VOD",
+      "title": "England v Australia | Rugby World Cup 2025 | Full Match Replay",
+      "description": "Watch the full match replay as England take on Australia at the Brighton & Hove Albion Stadium in Pool A of Rugby World Cup 2025",
+      "publishedDate": "2025-09-06T19:10:41Z",
+      "duration": 9419,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "854806",
+      "type": "VOD",
+      "title": "England v Australia | Rugby World Cup 2025 | Extended Highlights",
+      "description": "Watch the extended highlights as England take on Australia at the Brighton & Hove Albion Stadium in Pool A of Rugby World Cup 2025",
+      "publishedDate": "2025-09-06T19:10:48Z",
+      "duration": 706,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "855201",
+      "type": "VOD",
+      "title": "Japan v Spain | Rugby World Cup 2025 | Highlights",
+      "description": "Watch the highlights as Japan and Spain faced off in Pool C of the 2025 Women's Rugby World Cup.",
+      "publishedDate": "2025-09-07T13:13:58Z",
+      "duration": 244,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "855207",
+      "type": "VOD",
+      "title": "Japan v Spain | Rugby World Cup 2025 | Full Match Replay",
+      "description": "Watch the full match as Japan and Spain went head-to-head in their final match at Women's Rugby World Cup 2025.",
+      "publishedDate": "2025-09-07T13:28:24Z",
+      "duration": 8697,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "855213",
+      "type": "VOD",
+      "title": "Japan v Spain | Rugby World Cup 2025 | Extended Highlights",
+      "description": "Watch the extended highlights as Japan and Spain clashed at Women's Rugby World Cup 2025.",
+      "publishedDate": "2025-09-07T13:55:38Z",
+      "duration": 908,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "855246",
+      "type": "VOD",
+      "title": "Italy v Brazil | Rugby World Cup 2025 | Highlights",
+      "description": "Watch the highlights as Italy took on Brazil at Franklin's Gardens, Northampton in Pool D at Rugby World Cup 2025",
+      "publishedDate": "2025-09-07T15:57:11Z",
+      "duration": 239,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "855251",
+      "type": "VOD",
+      "title": "Italy v Brazil | Rugby World Cup 2025 | Full Match Replay",
+      "description": "Watch the Full Match Replay as Italy took on Brazil at Franklin's Gardens, Northampton in Pool D at Rugby World Cup 2025",
+      "publishedDate": "2025-09-07T15:58:18Z",
+      "duration": 9463,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "855260",
+      "type": "VOD",
+      "title": "Italy v Brazil | Rugby World Cup 2025 | Extended Highlights",
+      "description": "Watch the extended highlights as Italy took on Brazil at Franklin's Gardens, Northampton in Pool D at Rugby World Cup 2025",
+      "publishedDate": "2025-09-07T16:17:05Z",
+      "duration": 862,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "855262",
+      "type": "VOD",
+      "title": "New Zealand v Ireland | Rugby World Cup 2025 | Highlights",
+      "description": "Watch the highlights as New Zealand and Ireland faced off for the top spot in Pool C of the 2025 Women's Rugby World Cup.",
+      "publishedDate": "2025-09-07T16:14:15Z",
+      "duration": 247,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "855277",
+      "type": "VOD",
+      "title": "New Zealand v Ireland | Rugby World Cup 2025 | Extended Highlights",
+      "description": "Watch the extended highlights as New Zealand and Ireland clashed in Pool C at the 2025 Women's Rugby World Cup.",
+      "publishedDate": "2025-09-07T16:49:11Z",
+      "duration": 907,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "855279",
+      "type": "VOD",
+      "title": "New Zealand v Ireland | Rugby World Cup 2025 | Full Match Replay",
+      "description": "Watch the full match as New Zealand and Ireland clashed at Women's Rugby World Cup 2025.",
+      "publishedDate": "2025-09-07T16:44:16Z",
+      "duration": 9449,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "855312",
+      "type": "VOD",
+      "title": "France v South Africa | Rugby World Cup 2025 | Highlights",
+      "description": "Watch the highlights as France and South Africa face each other in Pool D at Rugby World Cup 2025",
+      "publishedDate": "2025-09-07T19:53:15Z",
+      "duration": 263,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "855313",
+      "type": "VOD",
+      "title": "France v South Africa | Rugby World Cup 2025 | Full Match Replay",
+      "description": "Watch the full match replay as France and South Africa face each other in Pool D at Rugby World Cup 2025",
+      "publishedDate": "2025-09-07T19:54:27Z",
+      "duration": 9185,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "857343",
+      "type": "VOD",
+      "title": "New Zealand v South Africa | Rugby World Cup 2025 | Highlights",
+      "description": "Watch the highlights as New Zealand's Black Ferns took on South Africa's Springbok Women at Sandy Park, Exeter at Women's Rugby World Cup 2025.",
+      "publishedDate": "2025-09-13T14:41:10Z",
+      "duration": 263,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "857352",
+      "type": "VOD",
+      "title": "New Zealand v South Africa | Rugby World Cup 2025 | Full Match Replay",
+      "description": "Watch the full match replay as New Zealand's Black Ferns took on South Africa's Springbok Women at Sandy Park, Exeter at Women's Rugby World Cup 2025.",
+      "publishedDate": "2025-09-13T15:28:24Z",
+      "duration": 9610,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "857353",
+      "type": "VOD",
+      "title": "New Zealand v South Africa | Rugby World Cup 2025 | Extended Highlights",
+      "description": "Watch the highlights as New Zealand's Black Ferns took on South Africa's Springbok Women at Sandy Park, Exeter at Women's Rugby World Cup 2025.",
+      "publishedDate": "2025-09-13T15:49:34Z",
+      "duration": 793,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "857448",
+      "type": "VOD",
+      "title": "Canada v Australia | Rugby World Cup 2025 | Highlights",
+      "description": "Watch the highlights as Canada and Australia faced off in the quarter-finals at Women's Rugby World Cup 2025.",
+      "publishedDate": "2025-09-14T10:58:39Z",
+      "duration": 245,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "857471",
+      "type": "VOD",
+      "title": "Canada v Australia | Rugby World Cup 2025 | Full Match Replay",
+      "description": "Watch the full match as Canada and Australia went head-to-head in the quarter-finals of Women's Rugby World Cup 2025.",
+      "publishedDate": "2025-09-13T18:21:36Z",
+      "duration": 8833,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "857474",
+      "type": "VOD",
+      "title": "Canada v Australia | Rugby World Cup 2025 | Extended Highlights",
+      "description": "Watch the extended highlights of the quarter-final clash between Canada and Australia at Women's Rugby World Cup 2025.",
+      "publishedDate": "2025-09-13T18:54:29Z",
+      "duration": 908,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "857913",
+      "type": "VOD",
+      "title": "France v Ireland | Rugby World Cup 2025 | Highlights",
+      "description": "Watch the highlights as France take on Ireland in a thrilling quarter-final at Rugby World Cup 2025 at Sandy Park in Exeter.",
+      "publishedDate": "2025-09-14T15:47:38Z",
+      "duration": 274,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "857939",
+      "type": "VOD",
+      "title": "France v Ireland | Rugby World Cup 2025 | Full Match Replay",
+      "description": "Watch the highlights as France take on Ireland in a thrilling quarter-final at Rugby World Cup 2025 at Sandy Park in Exeter.",
+      "publishedDate": "2025-09-14T15:48:51Z",
+      "duration": 10337,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "857940",
+      "type": "VOD",
+      "title": "France v Ireland | Rugby World Cup 2025 | Extended Highlights",
+      "description": "Watch the highlights as France take on Ireland in a thrilling quarter-final at Rugby World Cup 2025 at Sandy Park in Exeter.",
+      "publishedDate": "2025-09-14T16:08:23Z",
+      "duration": 915,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "857967",
+      "type": "VOD",
+      "title": "England v Scotland | Rugby World Cup 2025 | Highlights",
+      "description": "Watch the highlights as the hosts, England, took on Scotland in the quarter-finals of Women's Rugby World Cup 2025.",
+      "publishedDate": "2025-09-14T17:24:51Z",
+      "duration": 245,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "858018",
+      "type": "VOD",
+      "title": "England v Scotland | Rugby World Cup 2025 | Extended Highlights",
+      "description": "Watch the extended highlights as England and Scotland went head-to-head in the quarter-finals at the 2025 Women's Rugby World Cup.",
+      "publishedDate": "2025-09-14T18:21:12Z",
+      "duration": 888,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "858025",
+      "type": "VOD",
+      "title": "England v Scotland | Rugby World Cup 2025 | Full Match Replay",
+      "description": "Watch the full match between England and Scotland in the quarter-finals of Women's Rugby World Cup 2025.",
+      "publishedDate": "2025-09-14T18:22:41Z",
+      "duration": 9380,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "858525",
+      "type": "VOD",
+      "title": "All 72 tries from Match Week 3 of Rugby World Cup 2025",
+      "description": "After an incredible match week 3 of Rugby World Cup 2025, why not rewatch all the tries from the weekend! Including New Zealand's revenge over Ireland in Brighton and England's Jess Breach 50th test, USA's big win over Samoa, Australia's quarter-final qualification and the Black Ferns scoring potentially the try of the tournament.",
+      "publishedDate": "2025-09-15T17:54:13Z",
+      "duration": 3065,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "858699",
+      "type": "VOD",
+      "title": "All 30 quarter-final try from Rugby World Cup 2025",
+      "description": "After a great weekend of quarter-final action, check out all 30 tries the round in this long-form video, including scores from New Zealand v South Africa, Canada v Australia, France v Ireland and England v Scotland at Sandy Park, Exeter and Ashton Gate Stadium, Bristol.",
+      "publishedDate": "2025-09-16T13:06:07Z",
+      "duration": 1814,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "858701",
+      "type": "VOD",
+      "title": "Every France Point from Rugby World Cup 2025 so far",
+      "description": "Ahead of this weekend's semi-finals, watch every France point from Rugby World Cup 2025 so far.",
+      "publishedDate": "2025-09-16T13:28:38Z",
+      "duration": 1544,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "858702",
+      "type": "VOD",
+      "title": "Every New Zealand Point from Rugby World Cup 2025 so far",
+      "description": "Ahead of this weekend's semi-finals, watch every Black Ferns point from Rugby World Cup 2025 so far.",
+      "publishedDate": "2025-09-16T13:27:43Z",
+      "duration": 1614,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "858703",
+      "type": "VOD",
+      "title": "Every Canada Point from Rugby World Cup 2025 so far",
+      "description": "Ahead of this weekend's semi-finals, watch every Canada point from Rugby World Cup 2025 so far.",
+      "publishedDate": "2025-09-16T13:26:54Z",
+      "duration": 1560,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "858704",
+      "type": "VOD",
+      "title": "Every England Point from Rugby World Cup 2025 so far",
+      "description": "Ahead of this weekend's semi-finals, watch every Red Roses point from Rugby World Cup 2025 so far.",
+      "publishedDate": "2025-09-16T13:26:09Z",
+      "duration": 1707,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "860252",
+      "type": "VOD",
+      "title": "New Zealand v Canada | Rugby World Cup 2025 | Highlights",
+      "description": "Watch the highlights as New Zealand take on Canada in the semi-final of Rugby World Cup 2025 at Ashton Gate Stadium, Bristol.",
+      "publishedDate": "2025-09-19T20:48:41Z",
+      "duration": 276,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "860271",
+      "type": "VOD",
+      "title": "New Zealand v Canada | Rugby World Cup 2025 | Full Match Replay",
+      "description": "Watch the full match replay as New Zealand take on Canada in the semi-final of Rugby World Cup 2025 at Ashton Gate Stadium, Bristol.",
+      "publishedDate": "2025-09-19T20:52:36Z",
+      "duration": 9047,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "860277",
+      "type": "VOD",
+      "title": "New Zealand v Canada | Rugby World Cup 2025 | Extended Highlights",
+      "description": "Watch the highlights as New Zealand take on Canada in the semi-final of Rugby World Cup 2025 at Ashton Gate Stadium, Bristol.",
+      "publishedDate": "2025-09-19T21:18:22Z",
+      "duration": 773,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "860585",
+      "type": "VOD",
+      "title": "France v England | Rugby World Cup 2025 | Highlights",
+      "description": "Watch the highlights as France face England in the semi-final of Rugby World Cup 2025 at Ashton Gate Stadium, Bristol.",
+      "publishedDate": "2025-09-20T17:19:55Z",
+      "duration": 267,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "860596",
+      "type": "VOD",
+      "title": "France v England | Rugby World Cup 2025 | Full Match Replay",
+      "description": "Watch the full match replay as France face England in the semi-final of Rugby World Cup 2025 at Ashton Gate Stadium, Bristol.",
+      "publishedDate": "2025-09-20T17:51:35Z",
+      "duration": 8883,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "860597",
+      "type": "VOD",
+      "title": "France v England | Rugby World Cup 2025 | Extended Highlights",
+      "description": "Watch the highlights as France face England in the semi-final of Rugby World Cup 2025 at Ashton Gate Stadium, Bristol.",
+      "publishedDate": "2025-09-20T18:32:18Z",
+      "duration": 722,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "860849",
+      "type": "VOD",
+      "title": "All 16 semi-final tries from Rugby World Cup 2025",
+      "description": "After an epic weekend of semi-final action, check out all 16 tries the round in this long-form video, including scores from Canada's Asia Hogan-Rochester, New Zealand Black Fern Braxton Sorensen-McGee, England Red Rose Ellie Kildunne and France's Nassira Konde, all from Ashton Gate Stadium, Bristol.",
+      "publishedDate": "2025-09-22T09:51:45Z",
+      "duration": 1058,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "863038",
+      "type": "VOD",
+      "title": "New Zealand v France | Rugby World Cup 2025 | Highlights",
+      "description": "Watch the highlights as New Zealand and France faced off in the Bronze Final at Women's Rugby World Cup 2025.",
+      "publishedDate": "2025-09-27T13:43:54Z",
+      "duration": 248,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "863065",
+      "type": "VOD",
+      "title": "New Zealand v France | Rugby World Cup 2025 | Extended Highlights",
+      "description": "Watch the extended highlights from the incredible showdown between New Zealand and France in the bronze final of Women's Rugby World Cup 2025.",
+      "publishedDate": "2025-09-27T14:41:04Z",
+      "duration": 908,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "863066",
+      "type": "VOD",
+      "title": "New Zealand v France | Rugby World Cup 2025 | Full Match Replay",
+      "description": "Watch the full match between New Zealand and France in the bronze final of Women's Rugby World Cup 2025.",
+      "publishedDate": "2025-09-27T14:23:47Z",
+      "duration": 8630,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "863178",
+      "type": "VOD",
+      "title": "Canada v England | Rugby World Cup 2025 | Highlights",
+      "description": "Watch the highlights as England faced Canada in the Women's Rugby World Cup 2025 Final.",
+      "publishedDate": "2025-09-27T18:38:11Z",
+      "duration": 245,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "863225",
+      "type": "VOD",
+      "title": "Canada v England | Rugby World Cup 2025 | Full Match Replay",
+      "description": "Watch the full thrilling Final as England and Canada faced off for the ultimate glory in the 2025 Women's Rugby World Cup Final.",
+      "publishedDate": "2025-09-27T19:17:14Z",
+      "duration": 10351,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "863227",
+      "type": "VOD",
+      "title": "Canada v England | Rugby World Cup 2025 | Extended Highlights",
+      "description": "Watch the extended highlights as England and Canada went head-to-head in an unforgettable match in the 2025 Women's Rugby World Cup Final.",
+      "publishedDate": "2025-09-27T19:40:33Z",
+      "duration": 908,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "865219",
+      "type": "VOD",
+      "title": "Every Braxton Sorensen-McGee Try! Rugby World Cup 2025 Top Try Scorer",
+      "description": "Watch all 11 tries from the Rugby World Cup 2025 try scorer, 18 year-old Black Fern Braxton Sorensen-McGee! The New Zealand sensation scored against Japan, Ireland, South Africa, Canada and France during the tournament hosted around England and will certainly be back for more in Australia at Women's Rugby World Cup 2029!",
+      "publishedDate": "2025-10-02T14:15:17Z",
+      "duration": 762,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "865227",
+      "type": "VOD",
+      "title": "Every England Try | Rugby World Cup 2025",
+      "description": "Rugby World Cup Champions England scored an astonishing 48 tries during the tournament, powering past a host of formidable opponents who simply couldn’t withstand their irresistible attacking play.\n\nRelive every moment of the brilliance that helped England lift the trophy on home soil and secure their place in rugby history.\n",
+      "publishedDate": "2025-10-06T14:00:10Z",
+      "duration": 2981,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "865994",
+      "type": "VOD",
+      "title": "All 294 Tries in One EPIC Video   | Every Rugby World Cup 2025 Try",
+      "description": "An incredible 294 tries were scored at Rugby World Cup 2025, with stars such as Ellie Kildunne, Braxton Sorensen-McGee and many more lighting up the tournament.\n\nWe’ve pulled together an epic compilation featuring every single try from this unforgettable competition — the perfect way to relive one of the most thrilling and captivating Rugby World Cups in history.\n",
+      "publishedDate": "2025-10-06T14:15:26Z",
+      "duration": 10676,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "868220",
+      "type": "VOD",
+      "title": "Every New Zealand Try | Rugby World Cup 2025",
+      "description": "From blistering counter-attacks to precision teamwork, this compilation captures every New Zealand try from one of the most entertaining tournaments in rugby history. Watch as Braxton Sorensen-McGee, Jorja Miller, and Portia Woodman-Wickliffe lead the charge — breaking tackles, creating moments of brilliance and proving why New Zealand remains one of the most feared attacking sides in world rugby.",
+      "publishedDate": "2025-10-09T10:41:43Z",
+      "duration": 1405,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "868258",
+      "type": "VOD",
+      "title": "Every France Try | Rugby World Cup 2025",
+      "description": "France certainly knows how to entertain, their classic French flair was on full display as they scored try after try at Women's Rugby World Cup 2025. Watch as Pauline Bourdon-Sansus, Gabrielle Vernier, Kelly Arbey and many more put on a try-scoring clinic. Their effort was enough to power them all the way to the bronze final, and they did it all with style.",
+      "publishedDate": "2025-10-10T08:02:55Z",
+      "duration": 1179,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "868884",
+      "type": "VOD",
+      "title": "Every hat trick from Rugby World Cup 2025",
+      "description": "The Rugby World Cup 2025 was packed with incredible attacking rugby, and this compilation brings together every hat-trick scored during the tournament.\n\nFrom Braxton Sorensen-McGee’s two hat-tricks for New Zealand to Julia Schell’s record-breaking six-try performance for Canada, the World Cup delivered unforgettable moments from the game’s most ruthless finishers.",
+      "publishedDate": "2025-10-11T11:01:06Z",
+      "duration": 1491,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "875691",
+      "type": "VOD",
+      "title": "Tests of Time: Ireland vs New Zealand - The absolute PEAK of sports history?",
+      "description": "You've never seen rugby like this before.\n\nOn 14 October 2023, Ireland and New Zealand's All Blacks played out one of the greatest matches of all time. Following over 100 years of dominance from New Zealand, Ireland had ignited the rivalry in recent years and headed into the 2023 World Cup quarter-final showdown as favourites on the back of three successive wins against the Men In Black. What unfolded was a fast, thrilling, heart-in-your-mouth spectacle that has to be seen to be believed.\n\nThe greatest rugby matches throughout history, remixed and remastered for your viewing pleasure - welcome to Tests of Time. ",
+      "publishedDate": "2025-10-29T18:00:22Z",
+      "duration": 3226,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "891957",
+      "type": "VOD",
+      "title": "Men's Rugby World Cup 2027 is coming...",
+      "description": "Men's Rugby World Cup 2027 is on the horizon \n",
+      "publishedDate": "2025-12-02T20:36:50Z",
+      "duration": 60,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "892159",
+      "type": "VOD",
+      "title": "Men's Rugby World Cup 2027 Draw | Full Programme",
+      "description": "Join us as we plot the journey to Men's Rugby World Cup 2027 with the Pool Draw from Australia! ",
+      "publishedDate": "2025-12-03T10:17:53Z",
+      "duration": 3900,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "892917",
+      "type": "VOD",
+      "title": " Tests of Time: France vs South Africa - Is this the GREATEST game ever played?",
+      "description": "This is rugby like never before.\n \nIt was 15 October 2023 when Rugby World Cup hosts France and reigning champions South Africa went to battle in one of the most ferocious matches played in history, in front of a braying French crowd, hungry for blood and fire. With the poster boy of the rugby world Antoine Dupont at the helm, France entered their home tournament with high hopes of upsetting the apple cart and securing a first World Cup title for a Northern Hemisphere side since 2003. The indomitable Springboks, however, had mastermind Rassie Erasmus playing puppet master in the shadows - what had he cooked up for Les Bleus? Tune in for the cinematic clash between two rugby superpowers that delivered all the drama and all the physicality you could ever hope to witness.\n \nFeaturing Murray Kinsella, Bernard Jackman, Rupert Cox, Daniel Gallan and Johnnie Beattie. The greatest rugby matches throughout history, remixed and remastered for your viewing pleasure - welcome to Tests of Time.",
+      "publishedDate": "2025-12-05T12:01:06Z",
+      "duration": 2971,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "898871",
+      "type": "VOD",
+      "title": "How the Red Roses made history | Behind the Scenes | Rugby World Cup 2025 Final | England v Canada",
+      "description": "As 2025 draws to a close, we go behind the scenes from one of the biggest events of the year, the Women's Rugby World Cup 2025 Final.\n\nSee how England's Red Roses defeated Canada at Allianz Stadium, Twickenham and made history as they won the trophy for the third time!",
+      "publishedDate": "2025-12-23T09:45:54Z",
+      "duration": 601,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "914998",
+      "type": "VOD",
+      "title": "Tests of Time: England v Australia - The night the rugby world stood still",
+      "description": "It's rugby - but not as you know it. Following a disastrous loss to Wales during the pool stages of the 2015 Rugby World Cup, England found themselves preparing for a do-or-die clash with Australia to avoid becoming the first-ever side to be knocked out of a home tournament. With Michael Cheika only recently taking over as head coach of Australia's Wallabies following a period of inner turmoil, it would take an unprecedented performance to etch their names into the history books. Who could have predicted what would unfold at Twickenham? Featuring Rupert Cox, Sean Maloney, Ben Coles and Neil Squires. \n\nThe greatest rugby matches throughout history, remixed and remastered for your viewing pleasure - welcome to Tests of Time.",
+      "publishedDate": "2026-02-03T18:00:06Z",
+      "duration": 3164,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "922838",
+      "type": "VOD",
+      "title": "Tests of Time: England v New Zealand - The most BRUTAL rugby match of all time",
+      "description": "On October 26th, 2019, at the International Stadium Yokohama, before a whistle was blown the tone was set - England formed a V-shape to receive the Haka. What followed was 80 minutes of suffocating line speed, relentless breakdown pressure, and tactical precision that dismantled the two-time reigning world champions. A game many call the most brutal, clinical, and complete performance of the professional era.",
+      "publishedDate": "2026-02-24T19:01:06Z",
+      "duration": 2989,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "931455",
+      "type": "VOD",
+      "title": "The Chase - Mark Wilson's Story",
+      "description": "Many players face challenges in life after rugby. For England and Newcastle's Mark Wilson, the flanker faced them head on, as The Chase explores his journey towards completing The Bob Graham Round.",
+      "publishedDate": "2026-03-11T16:00:39Z",
+      "duration": 2598,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "957951",
+      "type": "VOD",
+      "title": " O2 presents: England, Meet England | The behind-the-scenes story of the Red Roses' World Cup triumph",
+      "description": "An incredible team. An incredible story.\n\nThe Red Roses went into the 2025 Women's Rugby World Cup with the weight of expectation on their shoulders - and delivered. The embedded camera crew followed the Red Roses for the duration of the tournament, capturing the ups and downs of their journey and some of the stories and bigger issues that help make the team who they are.",
+      "publishedDate": "2026-05-19T16:22:02Z",
+      "duration": 3860,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978505",
+      "type": "VOD",
+      "title": "New Zealand v France | Nations Championship 2026 | Round 1 | Full Match Replay",
+      "description": "It's the start of the Nations Championships and it doesn't get much better than the All Blacks vs Les Bleus. Watch the Nations Championship era begin as the two go toe-to-toe in Christchurch!",
+      "publishedDate": "2026-07-04T09:36:45Z",
+      "duration": 7694,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978527",
+      "type": "VOD",
+      "title": "New Zealand v France | Nations Championship 2026 | Round 1 | Match Highlights",
+      "description": "All Blacks Edge Les Bleus in Dramatic Nations Championship Opener! Dave Rennie's tenure as All Blacks head coach kicks off with a hard-fought battle against Les Bleus. Watch the best moments here!",
+      "publishedDate": "2026-07-04T10:52:25Z",
+      "duration": 561,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978531",
+      "type": "VOD",
+      "title": "Japan v Italy | Nations Championship 2026 | Round 1 | Full Match Replay",
+      "description": "The 2026 Nations Championship heads to Tokyo as Japan welcomes Italy to Prince Chichibu Memorial Stadium for a crucial Round 1 encounter!",
+      "publishedDate": "2026-07-04T10:57:39Z",
+      "duration": 7878,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978551",
+      "type": "VOD",
+      "title": "Japan v Italy | Nations Championship 2026 | Round 1 | Match Highlights",
+      "description": "Neal Hatley's Japan and Gonzalo Quesada's Italy clash in the inaugural Nations Championship. With every point vital for the tournament standings, both sides left it all on the pitch in Tokyo!",
+      "publishedDate": "2026-07-04T11:49:54Z",
+      "duration": 488,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978566",
+      "type": "VOD",
+      "title": "Australia v Ireland | Nations Championship 2026 | Round 1 | Full Match Replay",
+      "description": "The Wallabies host Ireland in a prime-time clash at Allianz Stadium! Watch the official match as Joe Schmidt’s Wallabies side goes head-to-head with Andy Farrell’s Irish juggernauts.",
+      "publishedDate": "2026-07-04T12:30:20Z",
+      "duration": 7901,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978578",
+      "type": "VOD",
+      "title": "Australia v Ireland | Nations Championship 2026 | Round 1 | Match Highlights",
+      "description": "The stakes are incredibly high in Sydney as a sold-out Allianz Stadium plays host to a crucial Nations Championship opener. With Joe Schmidt beginning his final campaign at the helm of the Wallabies against his former side, and Dan Sheehan captaining a formidable Irish squad, the storylines were set for a classic.",
+      "publishedDate": "2026-07-04T12:54:53Z",
+      "duration": 520,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978615",
+      "type": "VOD",
+      "title": "Fiji v Wales | Nations Championship 2026 | Round 1 | Match Highlights",
+      "description": "Wales look to overcome Flying Fijians in Nations Championship Opener. The stakes are high as at this point is equal between the North and South the inaugural Nations Championship!",
+      "publishedDate": "2026-07-04T16:07:29Z",
+      "duration": 630,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978643",
+      "type": "VOD",
+      "title": "Fiji v Wales | Nations Championship 2026 | Round 1 | Full Match Replay",
+      "description": "The 2026 Nations Championship delivers another absolute cracker! Watch the official match highlights as Fiji and Wales go head-to-head in a high-scoring Round 1 thriller at Cardiff City Stadium.",
+      "publishedDate": "2026-07-04T17:27:47Z",
+      "duration": 8038,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978649",
+      "type": "VOD",
+      "title": "South Africa v England | Nations Championship 2026 | Round 1 | Full Match Replay",
+      "description": "The 2026 Nations Championship delivers a heavyweight clash in Johannesburg  Ellis Park! Cheslin Kolbe and Damian Willemse make their 50th test appearances for the Springboks. Can Jaime George and England squash the home crowd energy or will the Springboks prove too strong?",
+      "publishedDate": "2026-07-04T18:01:38Z",
+      "duration": 7962,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978654",
+      "type": "VOD",
+      "title": "South Africa v England | Nations Championship 2026 | Round 1 | Match Highlights",
+      "description": "The stakes were sky-high as one of rugby's fiercest rivalry is reignited at Ellis Park for the inaugural Nations Championship. England look to dig deep to keep the Boks at bay. Will the reigning world champions get the job done at home?",
+      "publishedDate": "2026-07-04T18:26:08Z",
+      "duration": 557,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978676",
+      "type": "VOD",
+      "title": "Uruguay v Georgia | Nations Cup 2026 | Round 1 | Full Match Replay",
+      "description": "Full Match Replay between Uruguay and Georgia.",
+      "publishedDate": "2026-07-04T20:00:46Z",
+      "duration": 8034,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978690",
+      "type": "VOD",
+      "title": "Uruguay v Georgia | Nations Cup 2026 | Round 1 | Match Highlights",
+      "description": "Full Match Highlights between Uruguay and Georgia.",
+      "publishedDate": "2026-07-04T20:18:20Z",
+      "duration": 892,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978704",
+      "type": "VOD",
+      "title": "Samoa v Hong Kong China | Nations Cup 2026 | Round 1 | Full Match Replay",
+      "description": "Samoa and Hong Kong China kick off their Nations Cup campaigns in Chile.",
+      "publishedDate": "2026-07-04T21:15:05Z",
+      "duration": 7656,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978707",
+      "type": "VOD",
+      "title": "Argentina v Scotland | Nations Championship 2026 | Round 1 | Full Match Replay",
+      "description": "Argentina and Scotland round out a MEGA day of international rugby, with the final clash of round 1 in the Nations Championship another classic!",
+      "publishedDate": "2026-07-04T21:20:19Z",
+      "duration": 7720,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978718",
+      "type": "VOD",
+      "title": "Samoa v Hong Kong China | Nations Cup 2026 | Round 1 | Match Highlights",
+      "description": "Catch up on the match action from Chile, as Samoa took on Hong Kong China to open their Nations Cup campaign.",
+      "publishedDate": "2026-07-04T22:08:29Z",
+      "duration": 897,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978719",
+      "type": "VOD",
+      "title": "Argentina v Scotland | Nations Championship 2026 | Round 1 | Match Highlights",
+      "description": "Argentina and Scotland meet in Cordoba in a high scoring thriller closing out round 1 of the Nations Championship.",
+      "publishedDate": "2026-07-04T22:08:01Z",
+      "duration": 529,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978856",
+      "type": "VOD",
+      "title": "Chile v Romania | Nations Cup 2026 | Round 1 | Full Match Replay",
+      "description": "Chile host Romania to open their Nations Cup campaign.",
+      "publishedDate": "2026-07-05T09:00:51Z",
+      "duration": 7810,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978857",
+      "type": "VOD",
+      "title": "Tonga v Zimbabwe | Nations Cup 2026 | Round 1 | Full Match Replay",
+      "description": "Tonga take on Zimbabwe in Colorado in round 1 of the Nations Cup.",
+      "publishedDate": "2026-07-05T08:57:08Z",
+      "duration": 7745,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978858",
+      "type": "VOD",
+      "title": "Canada v Spain | Nations Cup 2026 | Round 1 | Full Match Replay",
+      "description": "Canada and Spain meet in Edmonton with both sides wanting to get their Nations Cup campaign off to the best start possible.",
+      "publishedDate": "2026-07-05T09:00:25Z",
+      "duration": 7681,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978859",
+      "type": "VOD",
+      "title": "USA v Portugal | Nations Cup 2026 | Round 1 | Full Match Replay",
+      "description": "USA and Portugal meet in a dramatic match up to round out the action from the first weekend of the Nations Cup.",
+      "publishedDate": "2026-07-05T08:58:45Z",
+      "duration": 8199,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978869",
+      "type": "VOD",
+      "title": "Chile v Romania | Nations Cup 2026 | Round 1 | Match Highlights",
+      "description": "Full Match Highlights between Chile and Romania.",
+      "publishedDate": "2026-07-05T09:22:39Z",
+      "duration": 897,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978874",
+      "type": "VOD",
+      "title": "USA v Portugal | Nations Cup 2026 | Round 1 | Match Highlights",
+      "description": "Full Match Highlights between USA and Portugal.",
+      "publishedDate": "2026-07-05T09:26:13Z",
+      "duration": 828,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978875",
+      "type": "VOD",
+      "title": "Tonga v Zimbabwe | Nations Cup 2026 | Round 1 | Match Highlights",
+      "description": "Full Match Highlights between Tonga and Zimbabwe.",
+      "publishedDate": "2026-07-05T09:43:38Z",
+      "duration": 881,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "978876",
+      "type": "VOD",
+      "title": "Canada v Spain | Nations Cup 2026 | Round 1 | Match Highlights",
+      "description": "Full Match Highlights between Canda and Spain.",
+      "publishedDate": "2026-07-05T09:44:12Z",
+      "duration": 871,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980488",
+      "type": "VOD",
+      "title": "New Zealand v Italy | Nations Championship 2026 | Round 2 | Full Match Replay",
+      "description": "Italy travel to Wellington to take on the All Blacks, looking to get their Nations Championship campaign underway against the one team in the competition they have never beaten!",
+      "publishedDate": "2026-07-11T07:38:49Z",
+      "duration": 8386,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980497",
+      "type": "VOD",
+      "title": "New Zealand v Italy | Nations Championship 2026 | Round 2 | Match Highlights",
+      "description": "New Zealand and Italy meet in Wellington to kick off the second round of the Nations Championship!",
+      "publishedDate": "2026-07-11T08:24:15Z",
+      "duration": 480,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980527",
+      "type": "VOD",
+      "title": "Australia v France | Nations Championship 2026 | Round 2 | Full Match Replay",
+      "description": "Australia and France meet in Brisbane, with both sides desperate to pick up their first Nations Championship win!",
+      "publishedDate": "2026-07-11T09:48:57Z",
+      "duration": 7570,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980554",
+      "type": "VOD",
+      "title": "Australia v France | Nations Championship 2026 | Round 2 | Match Highlights",
+      "description": "Australia and France clash in a breathtaking end-to-end thriller in front of a sold out Suncorp Stadium! ",
+      "publishedDate": "2026-07-11T11:26:54Z",
+      "duration": 583,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980575",
+      "type": "VOD",
+      "title": "Japan v Ireland | Nations Championship 2026 | Round 2 | Full Match Replay",
+      "description": "Watch the Round 2 match in Newcastle as the unbeaten Japan take on the unbeaten Ireland! One has to give way to their perfect starts in the Nations Championship!",
+      "publishedDate": "2026-07-11T12:50:38Z",
+      "duration": 8448,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980581",
+      "type": "VOD",
+      "title": "Japan v Ireland | Nations Championship 2026 | Round 2 | Match Highlights",
+      "description": "Round 2 of the 2026 Nations Championship delivers a fantastic clash as Japan takes on Ireland! Andy Farrell’s men faced a fierce early challenge as they clashed with Japan!",
+      "publishedDate": "2026-07-11T12:57:07Z",
+      "duration": 482,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980602",
+      "type": "VOD",
+      "title": "Fiji v England | Nations Championship 2026 | Round 2 | Full Match Replay",
+      "description": "Round 2 of the 2026 Nations Championship brings international rugby to Everton's Hill Dickinson Stadium for the very first time! Watch the match replay as the Flying Fijians take on England in a high-stakes encounter.",
+      "publishedDate": "2026-07-11T16:05:52Z",
+      "duration": 9412,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980609",
+      "type": "VOD",
+      "title": "Fiji v England | Nations Championship 2026 | Round 2 | Match Highlights",
+      "description": "The pressure was massive heading into Liverpool as England looked to snap a frustrating losing streak against a fiercely dangerous Fijian side led by Tevita Ikanivere. Can England handle the pressure or will Fiji be emergent?",
+      "publishedDate": "2026-07-11T16:14:46Z",
+      "duration": 552,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980623",
+      "type": "VOD",
+      "title": "South Africa v Scotland | Nations Championship 2026 | Round 2 | Full Match Replay",
+      "description": "Round 2 of the 2026 Nations Championship delivers an absolute cracker at Loftus Versfeld! Watch the full match replay as the current world champions take on a resilient Scotland side in an intense thriller!",
+      "publishedDate": "2026-07-11T18:16:08Z",
+      "duration": 8443,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980625",
+      "type": "VOD",
+      "title": "South Africa v Scotland | Nations Championship 2026 | Round 2 | Match Highlights",
+      "description": "Pure entertainment in Pretoria! A spirited Scotland side take on the Springboks in their home ground Loftus Versfeld! Who will take all the glory in Round 2 of the Nations Championship?",
+      "publishedDate": "2026-07-11T18:37:31Z",
+      "duration": 480,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980639",
+      "type": "VOD",
+      "title": "Uruguay v Romania | Nations Cup 2026 | Round 2 | Full Match Replay",
+      "description": "Round 2 of the Nations Cup begins! Uruguay take on Romania in a fascinating encounter! ",
+      "publishedDate": "2026-07-11T19:25:14Z",
+      "duration": 7562,      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980649",
+      "type": "VOD",
+      "title": "Uruguay v Romania | Nations Cup 2026 | Round 2 | Match Highlights",
+      "description": "Watch the highlights of a thrilling Nations Cup Round 2 fixture between Uruguay and Romania ",
+      "publishedDate": "2026-07-11T20:13:57Z",
+      "duration": 886,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980739",
+      "type": "VOD",
+      "title": "Samoa v Georgia | Nations Cup 2026 | Round 2 | Full Match Replay",
+      "description": "A couple of the Nations Cup heavyweights clash, as Samoa take on Georgia!",
+      "publishedDate": "2026-07-12T00:36:39Z",
+      "duration": 7868,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980741",
+      "type": "VOD",
+      "title": "Argentina v Wales | Nations Championship 2026 | Round 2 | Full Match Replay",
+      "description": "Wales look to continue their winning run away from home in Argentina, for round 2 of the Nations Championship!",
+      "publishedDate": "2026-07-12T00:33:11Z",
+      "duration": 7909,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980744",
+      "type": "VOD",
+      "title": "Chile v Hong Kong China | Nations Cup 2026 | Round 2 | Full Match Replay",
+      "description": "Hong Kong China take on hosts Chile in the Nations Cup!",
+      "publishedDate": "2026-07-12T00:35:09Z",
+      "duration": 8107,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980750",
+      "type": "VOD",
+      "title": "Tonga v Spain | Nations Cup 2026 | Round 2 | Full Match Replay",
+      "description": "Tonga and Spain meet in Canada in the second round of the Nations Cup!",
+      "publishedDate": "2026-07-12T00:44:22Z",
+      "duration": 7539,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980752",
+      "type": "VOD",
+      "title": "Argentina v Wales | Nations Championship 2026 | Round 2 | Match Highlights",
+      "description": "Wales travel to Argentina in the second round of the Nations Championship!",
+      "publishedDate": "2026-07-12T00:46:33Z",
+      "duration": 487,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980757",
+      "type": "VOD",
+      "title": "Samoa v Georgia | Nations Cup 2026 | Round 2 | Match Highlights",
+      "description": "Samoa and Georgia face off in South America in the second round of the Nations Cup!",
+      "publishedDate": "2026-07-12T00:54:06Z",
+      "duration": 576,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980758",
+      "type": "VOD",
+      "title": "Chile v Hong Kong China | Nations Cup 2026 | Round 2 | Match Highlights",
+      "description": "Chile host Hong Kong China in the second round of the Nations Cup!",
+      "publishedDate": "2026-07-12T01:04:24Z",
+      "duration": 819,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980914",
+      "type": "VOD",
+      "title": "USA v Zimbabwe | Nations Cup 2026 | Round 2 | Full Match Replay",
+      "description": "Zimbabwe take on hosts USA in the latest round of the Nations Cup!",
+      "publishedDate": "2026-07-12T07:35:03Z",
+      "duration": 7976,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980916",
+      "type": "VOD",
+      "title": "Canada v Portugal | Nations Cup 2026 | Round 2 | Full Match Replay",
+      "description": "Portugal travel to Edmonton to take on Canada in the second round of the Nations Cup, looking to bounce back from a loss to the USA last week.",
+      "publishedDate": "2026-07-12T07:39:41Z",
+      "duration": 7442,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980932",
+      "type": "VOD",
+      "title": "USA v Zimbabwe | Nations Cup 2026 | Round 2 | Match Highlights",
+      "description": "Zimbabwe take on the USA in the second round of the 2026 Nations Cup",
+      "publishedDate": "2026-07-12T09:33:41Z",
+      "duration": 694,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980936",
+      "type": "VOD",
+      "title": "Tonga v Spain | Nations Cup 2026 | Round 2 | Match Highlights",
+      "description": "Tonga and Spain meet in Canada as they clash in the second round of the 2026 Nations Cup",
+      "publishedDate": "2026-07-12T09:34:23Z",
+      "duration": 698,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "980944",
+      "type": "VOD",
+      "title": "Canada v Portugal | Nations Cup 2026 | Round 2 | Match Highlights",
+      "description": "Portugal travel to Canada to take on the hosts in the second round of the 2026 Nations Cup",
+      "publishedDate": "2026-07-12T09:36:16Z",
+      "duration": 759,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982535",
+      "type": "VOD",
+      "title": "New Zealand v Ireland | Nations Championship 2026 | Round 3 | Full Match Replay",
+      "description": "Ireland travel to the fortress of Eden Park, looking to end the winning run of the All Blacks at their home venue.",
+      "publishedDate": "2026-07-18T09:46:27Z",
+      "duration": 8275,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982550",
+      "type": "VOD",
+      "title": "New Zealand v Ireland | Nations Championship 2026 | Round 3 | Match Highlights",
+      "description": "Catch up on the action from Eden Park as New Zealand host Ireland in the third round of the Nations Championship!",
+      "publishedDate": "2026-07-18T10:37:11Z",
+      "duration": 539,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982559",
+      "type": "VOD",
+      "title": "Japan v France | Nations Championship 2026 | Round 3 | Full Match Replay",
+      "description": "Japan host France in Tokyo in the latest round of the Nations Championship!",
+      "publishedDate": "2026-07-18T11:14:11Z",
+      "duration": 8056,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982572",
+      "type": "VOD",
+      "title": "Japan v France | Nations Championship 2026 | Round 3 | Match Highlights",
+      "description": "Japan host France in Round 3 of the Nations Championship in Tokyo!",
+      "publishedDate": "2026-07-18T12:15:16Z",
+      "duration": 484,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982585",
+      "type": "VOD",
+      "title": "Australia v Italy | Nations Championship 2026 | Round 3 | Full Match Replay",
+      "description": "Italy head west to Perth to take on the Wallabies in Round 3 of the Nations Championship!",
+      "publishedDate": "2026-07-18T12:41:19Z",
+      "duration": 8155,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982595",
+      "type": "VOD",
+      "title": "Australia v Italy | Nations Championship 2026 | Round 3 | Match Highlights",
+      "description": "Australia and Italy meet in Perth to contest the third round of the Nations Championship.",
+      "publishedDate": "2026-07-18T13:27:43Z",
+      "duration": 520,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982643",
+      "type": "VOD",
+      "title": "Fiji v Scotland | Nations Championship 2026 | Round 3 | Full Match Replay",
+      "description": "Watch as the Flying Fijians 'host' Scotland in a unique Nations Championship fixture at Scottish Gas Murrayfield. With Gregor Townsend fielding a heavily rotated Scottish side led by Stafford McDowall, and Fiji looking to unleash their devastating broken-field runners!",
+      "publishedDate": "2026-07-18T15:31:53Z",
+      "duration": 7975,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982670",
+      "type": "VOD",
+      "title": "Samoa v Romania | Nations Cup 2026 | Round 3 | Full Match Replay",
+      "description": "Watch as Samoa take on Romania in the 3rd Round of the Nations Cup 2026!",
+      "publishedDate": "2026-07-18T16:44:35Z",
+      "duration": 7315,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982672",
+      "type": "VOD",
+      "title": "Fiji v Scotland | Nations Championship 2026 | Round 3 | Match Highlights",
+      "description": "Dive into the match highlights from the Fiji versus Scotland battle at Scottish Gas Murrayfield. Expect breathtaking offloads, massive collisions, and a fiercely contested 80 minutes of end-to-end rugby.",
+      "publishedDate": "2026-07-18T16:53:13Z",
+      "duration": 183,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982691",
+      "type": "VOD",
+      "title": "South Africa v Wales | Nations Championship 2026 | Round 3 | Full Match Replay",
+      "description": "South Africa take on a resurgent Wales in Durban at Kings Park. Will the home crowd be the difference or will Wales emerge on top to shock the Springboks? Watch the full match here! ",
+      "publishedDate": "2026-07-18T18:00:39Z",
+      "duration": 7218,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982698",
+      "type": "VOD",
+      "title": "Samoa v Romania | Nations Cup 2026 | Round 3 | Match Highlights",
+      "description": "Watch the match highlights as Samoa take on Romania in the Nations Cup!",
+      "publishedDate": "2026-07-18T18:32:34Z",
+      "duration": 869,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982728",
+      "type": "VOD",
+      "title": "South Africa v Wales | Nations Championship 2026 | Round 3 | Match Highlights",
+      "description": "The atmosphere was electric at Kings Park as the Springboks took on Wales in front of a passionate home crowd. Watch the highlights as South Africa's world-renowned power game and attacking depth go head-to-head with Welsh resilience.",
+      "publishedDate": "2026-07-18T19:15:33Z",
+      "duration": 565,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982730",
+      "type": "VOD",
+      "title": "Uruguay v Hong Kong | Nations Cup 2026 | Round 3 | Full Match Replay",
+      "description": "Watch full match replay as Uruguay clash with Hong Kong in the Nations Cup 2026!",
+      "publishedDate": "2026-07-18T19:23:51Z",
+      "duration": 7965,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982731",
+      "type": "VOD",
+      "title": "Chile v Georgia | Nations Cup 2026 | Round 3 | Full Match Replay",
+      "description": "Watch the full match replay as Chile take on Georgia in the Nations Cup 2026!",
+      "publishedDate": "2026-07-18T19:28:43Z",
+      "duration": 8532,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982804",
+      "type": "VOD",
+      "title": "Argentina v England | Nations Championship 2026 | Round 3 | Full Match Replay",
+      "description": "It's a second dose of a historic rivalry in just one week, as Argentina host England in the Nations Championship.",
+      "publishedDate": "2026-07-18T21:59:25Z",
+      "duration": 9662,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982818",
+      "type": "VOD",
+      "title": "Chile v Georgia | Nations Cup 2026 | Round 3 | Match Highlights",
+      "description": "Chile host Georgia in Round 3 of the Nations Cup",
+      "publishedDate": "2026-07-19T09:16:49Z",
+      "duration": 899,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982982",
+      "type": "VOD",
+      "title": "Tonga v Portugal | Nations Cup 2026 | Round 3 | Full Match Replay",
+      "description": "Tonga and Portugal meet in Winnipeg to contest the third round of the Nations Cup!",
+      "publishedDate": "2026-07-19T07:46:36Z",
+      "duration": 8895,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982986",
+      "type": "VOD",
+      "title": "USA v Spain | Nations Cup 2026 | Round 3 | Full Match Replay",
+      "description": "USA host Spain to close out the July leg of the Nations Cup.",
+      "publishedDate": "2026-07-19T07:47:51Z",
+      "duration": 8195,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982987",
+      "type": "VOD",
+      "title": "Canada v Zimbabwe | Nations Cup 2026 | Round 3 | Full Match Replay",
+      "description": "Canada and Zimbabwe close out the international action for July in Winnipeg, in Round 3 of the Nations Cup.",
+      "publishedDate": "2026-07-19T07:51:28Z",
+      "duration": 11008,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "982997",
+      "type": "VOD",
+      "title": "Argentina v England | Nations Championship 2026 | Round 3 | Match Highlights",
+      "description": "England head to Argentina with both sides looking for their second win in the Nations Championship.",
+      "publishedDate": "2026-07-19T08:42:20Z",
+      "duration": 558,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "983001",
+      "type": "VOD",
+      "title": "Canada v Zimbabwe | Nations Cup 2026 | Round 3 | Match Highlights",
+      "description": "Canada host Zimbabwe to close out the Nations Cup in Winnipeg! ",
+      "publishedDate": "2026-07-19T08:51:42Z",
+      "duration": 684,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "983003",
+      "type": "VOD",
+      "title": "USA v Spain | Nations Cup 2026 | Round 3 | Match Highlights",
+      "description": "USA and Spain go head-to-head to round out the July leg of the Nations Cup.",
+      "publishedDate": "2026-07-19T09:00:51Z",
+      "duration": 789,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "983007",
+      "type": "VOD",
+      "title": "Uruguay v Hong Kong China | Nations Cup 2026 | Round 3 | Match Highlights",
+      "description": "Uruguay and Hong Kong China meet in a thriller! Catch up on all the action in the extended match highlights.",
+      "publishedDate": "2026-07-19T09:13:19Z",
+      "duration": 833,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "983014",
+      "type": "VOD",
+      "title": "Tonga v Portugal | Nations Cup 2026 | Round 3 | Match Highlights",
+      "description": "Tonga and Portugal clash in the latest round of the Nations Cup",
+      "publishedDate": "2026-07-19T09:26:24Z",
+      "duration": 884,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "988889",
+      "type": "VOD",
+      "title": "Stolen Buses, a Series Win & Marc Ellis’s Party Trick | South Africa ’96 | ARP Extra",
+      "description": "Thirty years after the All Blacks made history in South Africa, former All Blacks winger and master story teller Eric Rush takes us back to one of the wildest and most significant tours in New Zealand rugby history.\n\nHe shares brilliant stories from the 1996 tour: hostile crowds, sleepless hotels, a mysteriously missing kicking tee, Nelson Mandela’s powerful message to the team, Jonah Lomu and the unforgettable off-field antics of Mark Ellis.\n\nOh yeh .. and the rugby!",
+      "publishedDate": "2026-08-04T11:23:09Z",
+      "duration": 2222,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "989754",
+      "type": "VOD",
+      "title": "Stormers v All Blacks | Rugby's Greatest Rivalry 2026 | Match Highlights",
+      "description": "The All Blacks take on the Stormers to open Rugby's Greatest Rivalry in Cape Town!",
+      "publishedDate": "2026-08-11T11:15:05Z",
+      "duration": 1100,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "989760",
+      "type": "VOD",
+      "title": "Stormers v All Blacks | Rugby’s Greatest Rivalry 2026 | Full Match Replay",
+      "description": "Catch up on the opening match of the historic 2026 All Blacks tour of South Africa, as they take on a strong Stormers side in Cape Town. ",
+      "publishedDate": "2026-08-07T19:37:40Z",
+      "duration": 8963,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "990803",
+      "type": "VOD",
+      "title": "Sharks v All Blacks | Rugby's Greatest Rivalry 2026 | Full Match Replay",
+      "description": "The Sharks host the All Blacks in the second clash of the Rugby's Greates Rivalry tour, hoping to go one better than the Stormers managed last week!",
+      "publishedDate": "2026-08-11T20:28:29Z",
+      "duration": 8830,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "990808",
+      "type": "VOD",
+      "title": "Sharks v All Blacks | Rugby's Greatest Rivalry 2026 | Extended Highlights",
+      "description": "The Sharks and Ma'a Nonu take on the All Blacks in the second match of the Rugby's Greatest Rivalry tour.",
+      "publishedDate": "2026-08-11T20:45:17Z",
+      "duration": 910,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "991918",
+      "type": "VOD",
+      "title": "Bulls v All Blacks | Rugby's Greatest Rivalry 2026 | Full Match Replay",
+      "description": "It's matchday at Loftus Versfeld in Pretoria, and the pressure is on as Bulls clash with All Blacks. This game could go right down to the wire, given the recent form of both starting XVs. Settle in for what promises to be a classic game.",
+      "publishedDate": "2026-08-15T19:32:47Z",
+      "duration": 8969,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "991922",
+      "type": "VOD",
+      "title": "Bulls v All Blacks | Rugby's Greatest Rivalry 2026 | Match Highlights",
+      "description": "It's all to play for at Loftus Versfeld and it is up to the Bulls to try slow down the unstoppable force of the All Blacks so far in their tour to South Africa. Watch the crucial moments and see who took the glory!",
+      "publishedDate": "2026-08-15T19:43:34Z",
+      "duration": 897,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "994708",
+      "type": "VOD",
+      "title": "South Africa v New Zealand | Test 1 | Rugby’s Greatest Rivalry 2026 | Full Match Replay",
+      "description": "Springboks will be looking to put on a show for their fans against a determined All Blacks outfit at Ellis Park. With incredible depth in both squads, this matchup promises to be a phenomenal start to Rugby's Greatest Rivalry!",
+      "publishedDate": "2026-08-22T17:32:07Z",
+      "duration": 8277,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "994743",
+      "type": "VOD",
+      "title": "South Africa v New Zealand | Test 1 | Rugby’s Greatest Rivalry 2026 | Match Highlights",
+      "description": "The current World Champions host the mighty All Blacks at Ellis Park in Test 1 of Rugby's Greatest Rivalry. Who takes the first game in an arena with high altitude with high stakes on the line?",
+      "publishedDate": "2026-08-22T18:59:32Z",
+      "duration": 507,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "995803",
+      "type": "VOD",
+      "title": "Lions v All Blacks | Rugby's Greatest Rivalry 2026 | Match Highlights",
+      "description": "The All Blacks have been rampant in South Africa after defeating all franchises and the Springboks. Can they continue their form against the Lions?",
+      "publishedDate": "2026-08-25T19:41:37Z",
+      "duration": 1033,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "995951",
+      "type": "VOD",
+      "title": "Lions v All Blacks | Rugby's Greatest Rivalry 2026 | Full Match Replay",
+      "description": "The All Blacks have been dominant in the Rugby's Greatest Rivalry series so far by defeating all franchise teams and the World Champions, Springboks. Can they keep their good form or will the Lions shock the most in form nation in the world?",
+      "publishedDate": "2026-08-26T08:27:54Z",
+      "duration": 8719,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "997544",
+      "type": "VOD",
+      "title": "South Africa v New Zealand | Test 2 | Rugby's Greatest Rivalry 2026 | Full Match Replay",
+      "description": "With the All Blacks still undefeated in the series the Springboks look to bounce back and change the momentum at the DHL Stadium in Cape Town. Rugby fans are in for a treat as Springboks and All Blacks lock horns for Test two of the Rugby's Greatest Rivalry. ",
+      "publishedDate": "2026-08-29T17:28:08Z",
+      "duration": 8275,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "997688",
+      "type": "VOD",
+      "title": "South Africa v New Zealand | Test 2 | Rugby's Greatest Rivalry 2026 | Match Highlights",
+      "description": "The All Blacks currently lead the Springboks in the series after the last fixture at Ellis Park. Can the All Blacks continue their momentum or will the Springboks halt their charge? Watch the defining moments at the DHL Stadium in Cape Town! ",
+      "publishedDate": "2026-09-03T12:21:29Z",
+      "duration": 502,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "998659",
+      "type": "VOD",
+      "title": "Did the Boks Find the Formula? | ARP x Behind the Ruck | ARP Extra",
+      "description": "The Greatest Rivalry is locked at 1–1 — so it’s time to take some receipts. Aotearoa Rugby Pod and Behind the Ruck reunite to break down the Springboks’ response in test two and ask the big question: have South Africa found the formula to beat the All Blacks? James Parsons, Bryn Hall and Ross Karl go head-to-head with Rudi Paige and Juan de Jongh over what changed, where the two teams now sit, and what each side needs to do in test three. Plus, we revisit our combined All Blacks-Springboks XVs, debate the selection changes that could swing the decider, and finish with some very different predictions.\n",
+      "publishedDate": "2026-09-02T13:43:22Z",
+      "duration": 3197,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    }
+  ]
+}
