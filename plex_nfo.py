@@ -14,6 +14,7 @@ import re
 import tarfile
 import xml.etree.ElementTree as ET
 from collections import defaultdict
+from datetime import timedelta
 from zoneinfo import ZoneInfo
 
 from icalendar import Calendar
@@ -43,9 +44,79 @@ def xml_bytes(tag, fields):
     return ET.tostring(root, encoding="utf-8", xml_declaration=True) + b"\n"
 
 
+
+def rugby_observations(path):
+    if not path.exists():
+        return []
+    data = json.loads(path.read_text(encoding="utf-8"))
+    if data.get("source") != "rugbypass" or not isinstance(data.get("records"), list):
+        raise ValueError("Invalid RugbyPass catalogue JSON")
+    return data["records"]
+
+
+def normal_team(value):
+    aliases = {"allblacks": "newzealand", "wallabies": "australia",
+               "springboks": "southafrica"}
+    key = re.sub(r"[^a-z0-9]", "", value.casefold())
+    return aliases.get(key, key)
+
+
+def replay_observation(record):
+    if record.get("type") != "VOD":
+        return None
+    parts = [p.strip() for p in record.get("title", "").replace("\\xa0", " ").split("|")]
+    if len(parts) < 3 or "full match replay" not in parts[-1].lower():
+        return None
+    teams = VERSUS.split(parts[0], maxsplit=1)
+    round_name = next((ROUND.search(p) for p in parts if ROUND.search(p)), None)
+    comp = next((p for p in parts if "nations championship" in p.casefold()), None)
+    if len(teams) != 2 or round_name is None or not comp:
+        return None
+    pub = record.get("publishedDate")
+    if not isinstance(pub, str):
+        return None
+    try:
+        pub_date = dt.datetime.fromisoformat(pub.replace("Z", "+00:00")).date()
+    except ValueError:
+        return None
+    return (normal_team(teams[0]), normal_team(teams[1]), pub_date,
+            int(round_name.group(1)), str(record["id"]))
+
+
+def resolve_round(kickoff, home, away, observations):
+    # Match replay publication dates to fixtures, allowing a one-day calendar
+    # difference and preserving competition/team identity. Never pick ties.
+    date = kickoff.date()
+    candidates = [r for r in observations if r[0] == normal_team(home) and
+                  r[1] == normal_team(away) and
+                  abs((r[2] - date).days) <= 1]
+    if len({(r[3], r[4]) for r in candidates}) == 1:
+        return candidates[0][3], candidates[0][4]
+    return None, None
+
+
+def infer_week_round(kickoff, observations):
+    # A round may span several days; infer only from observations for the
+    # same tournament and week, never from publication order alone.
+    week_start = kickoff.date() - timedelta(days=kickoff.weekday())
+    rounds = {r[3] for r in observations
+              if abs((r[2] - week_start).days) <= 7 and
+              0 <= (r[2] - week_start).days <= 7}
+    return next(iter(rounds)) if len(rounds) == 1 else None
+
+
+
 def build(config, source_dir, now):
     output = {}
-    manifest = {"schema_version": 1, "generated_at": now.isoformat(), "fixtures": []}
+    manifest = {"schema_version": 2, "generated_at": now.isoformat(), "fixtures": []}
+    observations = [r for record in rugby_observations(source_dir.parent / "data" / "rugbypass.json")
+                    if (r := replay_observation(record)) is not None]
+    previous = source_dir / "rugby-metadata-manifest.json"
+    old_assignments = {}
+    if previous.exists():
+        old_data = json.loads(previous.read_text(encoding="utf-8"))
+        if old_data.get("schema_version") == 2:
+            old_assignments = {f["id"]: f for f in old_data.get("fixtures", [])}
     for entry in config["calendars"] + config.get("plex_sources", []):
         if entry.get("type") == "prem":
             calendar = fetch_prem(entry["url"], comp_id=entry["compId"], season=entry["season"])
@@ -69,8 +140,17 @@ def build(config, source_dir, now):
             description = str(event.get("DESCRIPTION", ""))
             round_match = ROUND.search(description)
             if entry.get("type") == "world-rugby":
-                round_no = 1  # No real rounds: one chronological season per calendar year.
                 year = kickoff.astimezone(UK).year
+                if entry["slug"] == "rugby-nations":
+                    assigned = old_assignments.get(f"{entry['slug']}:{event.get('UID', '')}")
+                    replay_round, _ = resolve_round(kickoff, teams[0], teams[1], observations)
+                    round_no = assigned["round"] if assigned else (
+                        replay_round or infer_week_round(kickoff, observations))
+                    if round_no is None:
+                        # Do not publish speculative episode numbering.
+                        continue
+                else:
+                    round_no = 1
             else:
                 if not round_match:
                     continue
@@ -80,7 +160,7 @@ def build(config, source_dir, now):
                 year = season_year(kickoff)
             grouped[(year, round_no)].append((kickoff.astimezone(dt.timezone.utc), str(event.get("UID", "")), teams, event))
         for (year, round_no), matches in sorted(grouped.items()):
-            show = f"{slug(entry['slug'])}_{year}"
+            show = {"rugby-nations": "Rugby_Nations"}.get(entry["slug"], slug(entry["slug"]))
             # Keep show identifiers stable and filesystem-safe.
             show_dir = f"{show}/"
             output[show_dir + "tvshow.nfo"] = xml_bytes("tvshow", [
@@ -91,16 +171,30 @@ def build(config, source_dir, now):
             matches.sort(key=lambda x: (x[0], slug(x[2][0]), slug(x[2][1]), x[1]))
             if len(matches) > 99:
                 raise ValueError(f"More than 99 matches in {show} round {round_no}")
-            for number, (kickoff, uid, teams, event) in enumerate(matches, 1):
+            used = {f["episode"] % 100 for f in old_assignments.values()
+                    if f.get("competition") == entry["slug"] and f.get("season") == year
+                    and f.get("round") == round_no}
+            next_number = 1
+            for kickoff, uid, teams, event in matches:
                 home, away = (s.strip() for s in teams)
-                prefix = f"{show}-s{round_no:02d}e{number:02d}"
-                basename = f"{prefix}-{kickoff.astimezone(UK):%Y%m%d}-{slug(home)}_v_{slug(away)}"
-                relative = f"{show_dir}Season_{round_no:02d}/{basename}.nfo"
+                fixture_id = f"{entry['slug']}:{uid}"
+                prior = old_assignments.get(fixture_id)
+                if prior and prior.get("round") == round_no:
+                    number = prior["episode"] % 100
+                else:
+                    while next_number in used:
+                        next_number += 1
+                    number = next_number
+                    used.add(number)
+                episode = round_no * 100 + number
+                prefix = f"{show}-s{year}e{episode:03d}"
+                basename = f"{prefix}-{slug(home)}_v_{slug(away)}_{kickoff.astimezone(UK):%Y%m%d}"
+                relative = f"{show_dir}Season_{year}/{basename}.nfo"
                 venue = str(event.get("LOCATION", "")).strip()
                 fields = [
                     ("title", f"{home} vs {away}"),
-                    ("season", round_no),
-                    ("episode", number),
+                    ("season", year),
+                    ("episode", episode),
                     ("aired", kickoff.astimezone(UK).date().isoformat()),
                     ("plot", (str(event.get("DESCRIPTION", entry["name"])) if entry.get("type") == "world-rugby" else f"{entry['name']}, Round {round_no}") + (f". Venue: {venue}" if venue else "")),
                 ]
@@ -110,9 +204,12 @@ def build(config, source_dir, now):
                     "competition": entry["slug"],
                     "season": year,
                     "round": round_no,
-                    "episode": number,
+                    "episode": episode,
                     "kickoff_utc": kickoff.isoformat(),
                     "home": home, "away": away,
+                    "venue": venue,
+                    "rugbypass_id": resolve_round(kickoff, home, away, observations)[1]
+                        if entry["slug"] == "rugby-nations" else None,
                     "nfo": relative,
                 })
     if not manifest["fixtures"]:
