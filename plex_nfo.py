@@ -171,7 +171,7 @@ def build(config, source_dir, now):
                 raise ValueError(f"More than 99 matches in {show} round {round_no}")
             used = {f["episode"] % 100 for f in old_assignments.values()
                     if f.get("competition") == entry["slug"] and f.get("season") == year
-                    and f.get("round") == round_no}
+                    and f.get("round") == round_no and isinstance(f.get("episode"), int)}
             next_number = 1
             for kickoff, uid, teams, event in matches:
                 home, away = (s.strip() for s in teams)
