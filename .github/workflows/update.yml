@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: python -m unittest test_world_rugby.py
+      - run: python -m unittest test_world_rugby.py test_plex_nfo.py
       - run: python filter.py
       - name: Build Plex NFO metadata
         id: plex
