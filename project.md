@@ -78,3 +78,16 @@ The prior schema 2 manifest is reused to keep assigned episode numbers stable.
 writes sibling NFO files after successful downloads, and supports standalone
 NFO creation by fixture ID. The legacy tarball remains published for
 compatibility; generating local NFOs does not depend on it.
+
+## Catalogue history and conservative numbering
+The RugbyPass exporter merges the newest featured-home snapshot with previously
+discovered VODs by (type, ID), including records from the destination calendar
+Git checkout. The previous archived recording is not deleted simply because it
+disappears from the homepage. LIVE cards are snapshots and can disappear.
+
+Nations Championship fixtures without an explicit matching replay round remain
+in the published manifest with null round, episode, and NFO path. No weekly
+round inference is used. New matches in a round are numbered by calendar
+kickoff UTC, with team/UID tie-breakers; previously committed episode IDs
+remain reserved across subsequent runs, including when fixture order changes.
+NFO files are only generated for assigned fixtures.
