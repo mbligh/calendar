@@ -58,3 +58,23 @@ Use an explicit, one-off migration for each affected calendar:
 Different UIDs may temporarily appear as separate events in subscribers until
 calendar clients refresh. Keep this migration procedure separate from routine
 merging; do not add broad fuzzy deduplication to `filter.py`.
+
+## RugbyPass episode metadata
+The authenticated RugbyPass catalogue is exported on `slagg` using
+`rugbypass --export-catalog FILE --calendar-repo PATH`, which commits
+`data/rugbypass.json` into this repository. This file is source observation
+data only, never credentials or media URLs.
+
+`plex_nfo.py` reconciles Nations Championship full-match replay titles,
+rounds, teams and publication dates against score-free ICS fixtures, with
+one-day calendar tolerance. Ambiguous observations do not produce associations.
+The canonical `docs/rugby-metadata-manifest.json` has schema version 2:
+season is calendar year, episode is round * 100 + the stable ordinal within
+that round, and NFO paths use the same convention as media downloads.
+The prior schema 2 manifest is reused to keep assigned episode numbers stable.
+
+`mbligh/tools/rugbypass` uses the published fixture manifest to choose
+`/data/sports/<Show>/Season_<Year>/<Show>-s<Year>e<Episode>-...`,
+writes sibling NFO files after successful downloads, and supports standalone
+NFO creation by fixture ID. The legacy tarball remains published for
+compatibility; generating local NFOs does not depend on it.
