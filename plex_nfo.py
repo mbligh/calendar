@@ -64,7 +64,7 @@ def normal_team(value):
 def replay_observation(record):
     if record.get("type") != "VOD":
         return None
-    parts = [p.strip() for p in record.get("title", "").replace("\\xa0", " ").split("|")]
+    parts = [p.strip() for p in record.get("title", "").replace("\xa0", " ").split("|")]
     if len(parts) < 3 or "full match replay" not in parts[-1].lower():
         return None
     teams = VERSUS.split(parts[0], maxsplit=1)
