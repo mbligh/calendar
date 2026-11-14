@@ -1,8 +1,17 @@
 {
   "schema_version": 1,
   "source": "rugbypass",
-  "generated_at": "2026-11-14T01:07:19.945855+00:00",
+  "generated_at": "2026-11-14T12:26:19.806693+00:00",
   "sections": [
+    {
+      "exid": "eFkM",
+      "name": "Live now",
+      "type": "LIVE",
+      "item_types": {
+        "LIVE": 1
+      },
+      "count": 1
+    },
     {
       "exid": "etUE",
       "name": "Watch Live",
@@ -822,6 +831,16 @@
       "onlinePlayback": "AVAILABLE"
     },
     {
+      "id": "1026519",
+      "type": "VOD",
+      "title": "England v New Zealand | WXV Global Series 2026 | Full Match Replay",
+      "description": "A heavy-hitting spectacle is guaranteed as England and New Zealand bring their rivalry to the WXV Global Series stage. Watch for absolute dominance at the set-piece and relentless breakdown pressure to dictate the tempo.",
+      "publishedDate": "2026-09-26T16:41:06Z",
+      "duration": 8266,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
       "id": "1033270",
       "type": "VOD",
       "title": "All Blacks v Wallabies | Men's International | Full Match Replay",
@@ -842,6 +861,26 @@
       "onlinePlayback": "AVAILABLE"
     },
     {
+      "id": "1036236",
+      "type": "VOD",
+      "title": "Canada v England | WXV Global Series 2026 | Extended Highlights",
+      "description": "It's a thriller in Toronto! Canada host England in the WXV Global Series!",
+      "publishedDate": "2026-10-17T06:03:24Z",
+      "duration": 746,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1036263",
+      "type": "VOD",
+      "title": "Wallabies v All Blacks  | Men’s International | Full Match Replay",
+      "description": "The Wallabies will look to bounce back in front of a bumper crowd in Sydney as they host the All Blacks in the second Bledisloe test.\n",
+      "publishedDate": "2026-10-17T07:38:37Z",
+      "duration": 8199,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
       "id": "1036275",
       "type": "VOD",
       "title": "Wallabies v All Blacks | Men’s International | Match Highlights",
@@ -858,6 +897,16 @@
       "description": "Ottawa's TD Place hosts the second Test between Canada and England in the WXV Global Series. The series concludes here, all 80 minutes.",
       "publishedDate": "2026-10-24T07:26:42Z",
       "duration": 7870,
+      "accessLevel": "GRANTED",
+      "onlinePlayback": "AVAILABLE"
+    },
+    {
+      "id": "1040554",
+      "type": "VOD",
+      "title": "Zimbabwe v Namibia | Men's International | Full Match Replay",
+      "description": "Zimbabwe host Namibia in a southern African Test, two weeks before Zimbabwe return to Nations Cup action against Samoa. ",
+      "publishedDate": "2026-10-25T07:43:01Z",
+      "duration": 8303,
       "accessLevel": "GRANTED",
       "onlinePlayback": "AVAILABLE"
     },
@@ -908,16 +957,6 @@
       "description": "Professional rugby players can cover more ground in a single match than football and basketball players combined. But with all that running, tackling and contact, how do strength & conditioning coaches make sure they’re fit enough for the challenge?\n\nThe Buttery Bros put rugby’s fitness test to the test.",
       "publishedDate": "2026-11-05T16:01:06Z",
       "duration": 825,
-      "accessLevel": "GRANTED",
-      "onlinePlayback": "AVAILABLE"
-    },
-    {
-      "id": "1043765",
-      "type": "VOD",
-      "title": "USA v England | WXV Global Series 2026 | Full Match Replay",
-      "description": "The USA close out their WXV Global Series campaign in New Jersey, taking on an England side desperate to bounce back from their losses to Canada.",
-      "publishedDate": "2026-10-31T08:07:33Z",
-      "duration": 8114,
       "accessLevel": "GRANTED",
       "onlinePlayback": "AVAILABLE"
     },
@@ -997,7 +1036,8 @@
       "title": "Pauline Bourdon Sansus | RugbyPass Top 50 | #4",
       "description": "Legend, leader, trailblazer and one of the greatest players to have ever graced the Test scene. The France scrum-half has the power, precision and knack of entangling even the tightest opposition defence, carving out a path for the Les Bleues even when there appears to be no space available. Bourdon Sansus has an extraordinary vision of the game, sensing opportunities where others see none and complementing that awareness with a level of passing few can rival. The 30-year-old was one of France’s standout performers at Women’s Rugby World Cup 2025 and 2026 Women’s Six Nations, and that’s unlikely to change in the foreseeable future. ",
       "publishedDate": "2026-11-06T13:00:06Z",
-      "duration": 232,      "accessLevel": "GRANTED",
+      "duration": 232,
+      "accessLevel": "GRANTED",
       "onlinePlayback": "AVAILABLE"
     },
     {
@@ -1996,7 +2036,8 @@
       "title": "USA v Samoa | Rugby World Cup 2025 | Highlights",
       "description": "Watch the highlights as USA face Samoa at the York Community Stadium in Pool A of Rugby World Cup 2025.",
       "publishedDate": "2025-09-06T15:16:38Z",
-      "duration": 278,      "accessLevel": "GRANTED",
+      "duration": 278,
+      "accessLevel": "GRANTED",
       "onlinePlayback": "AVAILABLE"
     },
     {
@@ -2995,7 +3036,8 @@
       "title": "Uruguay v Romania | Nations Cup 2026 | Round 2 | Full Match Replay",
       "description": "Round 2 of the Nations Cup begins! Uruguay take on Romania in a fascinating encounter! ",
       "publishedDate": "2026-07-11T19:25:14Z",
-      "duration": 7562,      "accessLevel": "GRANTED",
+      "duration": 7562,
+      "accessLevel": "GRANTED",
       "onlinePlayback": "AVAILABLE"
     },
     {
