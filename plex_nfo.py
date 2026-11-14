@@ -14,7 +14,6 @@ import re
 import tarfile
 import xml.etree.ElementTree as ET
 from collections import defaultdict
-from datetime import timedelta
 from zoneinfo import ZoneInfo
 
 from icalendar import Calendar
@@ -95,17 +94,6 @@ def resolve_round(kickoff, home, away, observations):
     return None, None
 
 
-def infer_week_round(kickoff, observations):
-    # A round may span several days; infer only from observations for the
-    # same tournament and week, never from publication order alone.
-    week_start = kickoff.date() - timedelta(days=kickoff.weekday())
-    rounds = {r[3] for r in observations
-              if abs((r[2] - week_start).days) <= 7 and
-              0 <= (r[2] - week_start).days <= 7}
-    return next(iter(rounds)) if len(rounds) == 1 else None
-
-
-
 def build(config, source_dir, now):
     output = {}
     manifest = {"schema_version": 2, "generated_at": now.isoformat(), "fixtures": []}
@@ -144,10 +132,20 @@ def build(config, source_dir, now):
                 if entry["slug"] == "rugby-nations":
                     assigned = old_assignments.get(f"{entry['slug']}:{event.get('UID', '')}")
                     replay_round, _ = resolve_round(kickoff, teams[0], teams[1], observations)
-                    round_no = assigned["round"] if assigned else (
-                        replay_round or infer_week_round(kickoff, observations))
+                    round_no = (assigned["round"] if assigned and
+                                assigned.get("episode") is not None and
+                                assigned.get("round") is not None else replay_round)
                     if round_no is None:
-                        # Do not publish speculative episode numbering.
+                        # Publish the fixture without fabricating a round/episode.
+                        manifest["fixtures"].append({
+                            "id": f"{entry['slug']}:{event.get('UID', '')}",
+                            "competition": entry["slug"], "season": year,
+                            "round": None, "episode": None,
+                            "kickoff_utc": kickoff.astimezone(dt.timezone.utc).isoformat(),
+                            "home": teams[0].strip(), "away": teams[1].strip(),
+                            "venue": str(event.get("LOCATION", "")).strip(),
+                            "rugbypass_id": None, "nfo": None,
+                        })
                         continue
                 else:
                     round_no = 1
@@ -179,7 +177,7 @@ def build(config, source_dir, now):
                 home, away = (s.strip() for s in teams)
                 fixture_id = f"{entry['slug']}:{uid}"
                 prior = old_assignments.get(fixture_id)
-                if prior and prior.get("round") == round_no:
+                if prior and prior.get("round") == round_no and prior.get("episode") is not None:
                     number = prior["episode"] % 100
                 else:
                     while next_number in used:
@@ -214,7 +212,8 @@ def build(config, source_dir, now):
                 })
     if not manifest["fixtures"]:
         raise ValueError("No round-numbered fixtures found; refusing to publish empty metadata")
-    manifest["fixtures"].sort(key=lambda x: x["nfo"])
+    manifest["fixtures"].sort(key=lambda x: (x["competition"], x["season"],
+                                               x["kickoff_utc"], x["id"]))
     manifest["files"] = {p: hashlib.sha256(data).hexdigest() for p, data in sorted(output.items())}
     return output, manifest
 
