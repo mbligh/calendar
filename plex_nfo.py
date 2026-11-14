@@ -206,8 +206,10 @@ def build(config, source_dir, now):
                     "kickoff_utc": kickoff.isoformat(),
                     "home": home, "away": away,
                     "venue": venue,
-                    "rugbypass_id": resolve_round(kickoff, home, away, observations)[1]
-                        if entry["slug"] == "rugby-nations" else None,
+                    "rugbypass_id": (
+                        resolve_round(kickoff, home, away, observations)[1]
+                        or (prior.get("rugbypass_id") if prior else None)
+                    ) if entry["slug"] == "rugby-nations" else None,
                     "nfo": relative,
                 })
     if not manifest["fixtures"]:
