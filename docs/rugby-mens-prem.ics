@@ -7,36 +7,43 @@ BEGIN:VEVENT
 SUMMARY:Bristol Bears vs Gloucester
 DTSTART:20270417T140000Z
 DTEND:20270417T160000Z
-DTSTAMP:20260731T090020Z
+DTSTAMP:20261111T090000Z
 UID:00fc397522076eb5786caef7af2a12d5
-SEQUENCE:0
-DESCRIPTION:Match between Bristol Bears and Gloucester Rugby\n\nSource: th
- esportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090020Z
+SEQUENCE:1794387600
+DESCRIPTION:Bristol Bears vs Gloucester Rugby in the English Premiership a
+ t Ashton Gate\, England.\n\nWant more matches?\n\nBristol Bears\, every co
+ mpetition:\nhttps://www.rugbyfixture.com/team/bristol-rugby\n\nGloucester 
+ Rugby\, every competition:\nhttps://www.rugbyfixture.com/team/gloucester
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Ashton Gate\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Saracens vs Gloucester
 DTSTART:20270529T140000Z
 DTEND:20270529T160000Z
-DTSTAMP:20260731T090022Z
+DTSTAMP:20261111T090000Z
 UID:021c2e2dba2f90c649660fcf245e5c2a
-SEQUENCE:0
-DESCRIPTION:Match between Saracens and Gloucester Rugby\n\nSource: thespor
- tsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090022Z
+SEQUENCE:1794387600
+DESCRIPTION:Saracens vs Gloucester Rugby in the English Premiership at Sto
+ neX Stadium\, England.\n\nWant more matches?\n\nSaracens\, every competiti
+ on:\nhttps://www.rugbyfixture.com/team/saracens\n\nGloucester Rugby\, ever
+ y competition:\nhttps://www.rugbyfixture.com/team/gloucester
+LAST-MODIFIED:20261111T090000Z
 LOCATION:StoneX Stadium\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bristol Bears vs Newcastle
 DTSTART:20261226T150000Z
 DTEND:20261226T170000Z
-DTSTAMP:20261105T090016Z
+DTSTAMP:20261111T090000Z
 UID:02fbaffe7733682d2e0b95bdd156de99
-SEQUENCE:0
-DESCRIPTION:Match between Bristol Bears and Newcastle Red Bulls\n\nSource:
-  thesportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20261105T090016Z
+SEQUENCE:1794387600
+DESCRIPTION:Bristol Bears vs Newcastle Red Bulls in the English Premiershi
+ p at Ashton Gate\, England.\n\nWant more matches?\n\nBristol Bears\, every
+  competition:\nhttps://www.rugbyfixture.com/team/bristol-rugby\n\nNewcastl
+ e Red Bulls\, every competition:\nhttps://www.rugbyfixture.com/team/newcas
+ tle-falcons
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Ashton Gate\, England
 END:VEVENT
 BEGIN:VEVENT
@@ -67,12 +74,14 @@ BEGIN:VEVENT
 SUMMARY:Exeter Chiefs vs Bristol Bears
 DTSTART:20270123T150000Z
 DTEND:20270123T170000Z
-DTSTAMP:20260731T090019Z
+DTSTAMP:20261111T090000Z
 UID:062121326a120d90fa759e6d271eedfe
-SEQUENCE:0
-DESCRIPTION:Match between Exeter Chiefs and Bristol Bears\n\nSource: thesp
- ortsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090019Z
+SEQUENCE:1794387600
+DESCRIPTION:Exeter Chiefs vs Bristol Bears in the English Premiership at S
+ andy Park\, England.\n\nWant more matches?\n\nExeter Chiefs\, every compet
+ ition:\nhttps://www.rugbyfixture.com/team/exeter-chiefs\n\nBristol Bears\,
+  every competition:\nhttps://www.rugbyfixture.com/team/bristol-rugby
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Sandy Park\, England
 END:VEVENT
 BEGIN:VEVENT
@@ -91,24 +100,30 @@ BEGIN:VEVENT
 SUMMARY:Northampton Saints vs Sale Sharks
 DTSTART:20270103T150000Z
 DTEND:20270103T170000Z
-DTSTAMP:20260731T090019Z
+DTSTAMP:20261111T090000Z
 UID:0e5cfb89afa598ce7574b6ae6bc27888
-SEQUENCE:0
-DESCRIPTION:Match between Northampton Saints and Sale Sharks\n\nSource: th
- esportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090019Z
+SEQUENCE:1794387600
+DESCRIPTION:Northampton Saints vs Sale Sharks in the English Premiership a
+ t Franklin's Gardens\, England.\n\nWant more matches?\n\nNorthampton Saint
+ s\, every competition:\nhttps://www.rugbyfixture.com/team/northampton-sain
+ ts\n\nSale Sharks\, every competition:\nhttps://www.rugbyfixture.com/team/
+ sale-sharks
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Franklin's Gardens\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Newcastle vs Exeter Chiefs
 DTSTART:20270424T140000Z
 DTEND:20270424T160000Z
-DTSTAMP:20260731T090020Z
+DTSTAMP:20261111T090000Z
 UID:12d0df62a04752fbd90fbad176b7a725
-SEQUENCE:0
-DESCRIPTION:Match between Newcastle Red Bulls and Exeter Chiefs\n\nSource:
-  thesportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090020Z
+SEQUENCE:1794387600
+DESCRIPTION:Newcastle Red Bulls vs Exeter Chiefs in the English Premiershi
+ p at Kingston Park\, England.\n\nWant more matches?\n\nNewcastle Red Bulls
+ \, every competition:\nhttps://www.rugbyfixture.com/team/newcastle-falcons
+ \n\nExeter Chiefs\, every competition:\nhttps://www.rugbyfixture.com/team/
+ exeter-chiefs
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Kingston Park\, England
 END:VEVENT
 BEGIN:VEVENT
@@ -127,48 +142,58 @@ BEGIN:VEVENT
 SUMMARY:Northampton Saints vs Bristol Bears
 DTSTART:20270605T140000Z
 DTEND:20270605T160000Z
-DTSTAMP:20260731T090022Z
+DTSTAMP:20261111T090000Z
 UID:1448ec0f104710ea58428df9b7edfe6a
-SEQUENCE:0
-DESCRIPTION:Match between Northampton Saints and Bristol Bears\n\nSource: 
- thesportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090022Z
+SEQUENCE:1794387600
+DESCRIPTION:Northampton Saints vs Bristol Bears in the English Premiership
+  at Franklin's Gardens\, England.\n\nWant more matches?\n\nNorthampton Sai
+ nts\, every competition:\nhttps://www.rugbyfixture.com/team/northampton-sa
+ ints\n\nBristol Bears\, every competition:\nhttps://www.rugbyfixture.com/t
+ eam/bristol-rugby
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Franklin's Gardens\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Saracens vs Leicester Tigers
 DTSTART:20270417T140000Z
 DTEND:20270417T160000Z
-DTSTAMP:20260731T090020Z
+DTSTAMP:20261111T090000Z
 UID:15eda6c9a01554380e3ed6a4c96bf6b3
-SEQUENCE:0
-DESCRIPTION:Match between Saracens and Leicester Tigers\n\nSource: thespor
- tsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090020Z
+SEQUENCE:1794387600
+DESCRIPTION:Saracens vs Leicester Tigers in the English Premiership at Sto
+ neX Stadium\, England.\n\nWant more matches?\n\nSaracens\, every competiti
+ on:\nhttps://www.rugbyfixture.com/team/saracens\n\nLeicester Tigers\, ever
+ y competition:\nhttps://www.rugbyfixture.com/team/leicester-tigers
+LAST-MODIFIED:20261111T090000Z
 LOCATION:StoneX Stadium\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Gloucester vs Northampton Saints
 DTSTART:20270424T140000Z
 DTEND:20270424T160000Z
-DTSTAMP:20260731T090021Z
+DTSTAMP:20261111T090000Z
 UID:1d25097669e495d8b53c0f67016417e4
-SEQUENCE:0
-DESCRIPTION:Match between Gloucester Rugby and Northampton Saints\n\nSourc
- e: thesportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090021Z
+SEQUENCE:1794387600
+DESCRIPTION:Gloucester Rugby vs Northampton Saints in the English Premiers
+ hip at Kingsholm Stadium\, England.\n\nWant more matches?\n\nGloucester Ru
+ gby\, every competition:\nhttps://www.rugbyfixture.com/team/gloucester\n\n
+ Northampton Saints\, every competition:\nhttps://www.rugbyfixture.com/team
+ /northampton-saints
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Kingsholm Stadium\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Saracens vs Bath
 DTSTART:20270102T150500Z
 DTEND:20270102T170500Z
-DTSTAMP:20260731T090018Z
+DTSTAMP:20261111T090000Z
 UID:248405a1204a079660d20d8bbd8d4645
-SEQUENCE:0
-DESCRIPTION:Match between Saracens and Bath Rugby\n\nSource: thesportsdb.c
- om\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090018Z
+SEQUENCE:1794387600
+DESCRIPTION:Saracens vs Bath Rugby in the English Premiership at StoneX St
+ adium\, England.\n\nWant more matches?\n\nSaracens\, every competition:\nh
+ ttps://www.rugbyfixture.com/team/saracens\n\nBath Rugby\, every competitio
+ n:\nhttps://www.rugbyfixture.com/team/bath-rugby
+LAST-MODIFIED:20261111T090000Z
 LOCATION:StoneX Stadium\, England
 END:VEVENT
 BEGIN:VEVENT
@@ -187,72 +212,88 @@ BEGIN:VEVENT
 SUMMARY:Northampton Saints vs Leicester Tigers
 DTSTART:20270508T140000Z
 DTEND:20270508T160000Z
-DTSTAMP:20260731T090021Z
+DTSTAMP:20261111T090000Z
 UID:298474b17de399017729aecbe29d4a71
-SEQUENCE:0
-DESCRIPTION:Match between Northampton Saints and Leicester Tigers\n\nSourc
- e: thesportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090021Z
+SEQUENCE:1794387600
+DESCRIPTION:Northampton Saints vs Leicester Tigers in the English Premiers
+ hip at Franklin's Gardens\, England.\n\nWant more matches?\n\nNorthampton 
+ Saints\, every competition:\nhttps://www.rugbyfixture.com/team/northampton
+ -saints\n\nLeicester Tigers\, every competition:\nhttps://www.rugbyfixture
+ .com/team/leicester-tigers
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Franklin's Gardens\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Gloucester vs Sale Sharks
 DTSTART:20270508T140000Z
 DTEND:20270508T160000Z
-DTSTAMP:20260731T090021Z
+DTSTAMP:20261111T090000Z
 UID:2a3468e0f47048c8e7870b18cb808f6c
-SEQUENCE:0
-DESCRIPTION:Match between Gloucester Rugby and Sale Sharks\n\nSource: thes
- portsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090021Z
+SEQUENCE:1794387600
+DESCRIPTION:Gloucester Rugby vs Sale Sharks in the English Premiership at 
+ Kingsholm Stadium\, England.\n\nWant more matches?\n\nGloucester Rugby\, e
+ very competition:\nhttps://www.rugbyfixture.com/team/gloucester\n\nSale Sh
+ arks\, every competition:\nhttps://www.rugbyfixture.com/team/sale-sharks
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Kingsholm Stadium\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Leicester Tigers vs Sale Sharks
 DTSTART:20261219T150500Z
 DTEND:20261219T170500Z
-DTSTAMP:20260731T090017Z
+DTSTAMP:20261111T090000Z
 UID:2f57e3f587fa01b2fbb2f94d82922367
-SEQUENCE:0
-DESCRIPTION:Match between Leicester Tigers and Sale Sharks\n\nSource: thes
- portsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090017Z
+SEQUENCE:1794387600
+DESCRIPTION:Leicester Tigers vs Sale Sharks in the English Premiership at 
+ Welford Road\, England.\n\nWant more matches?\n\nLeicester Tigers\, every 
+ competition:\nhttps://www.rugbyfixture.com/team/leicester-tigers\n\nSale S
+ harks\, every competition:\nhttps://www.rugbyfixture.com/team/sale-sharks
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Welford Road\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Exeter Chiefs vs Leicester Tigers
 DTSTART:20270529T140000Z
 DTEND:20270529T160000Z
-DTSTAMP:20260731T090022Z
+DTSTAMP:20261111T090000Z
 UID:2f5cb0b5eb9c9bd811164362a189d8a5
-SEQUENCE:0
-DESCRIPTION:Match between Exeter Chiefs and Leicester Tigers\n\nSource: th
- esportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090022Z
+SEQUENCE:1794387600
+DESCRIPTION:Exeter Chiefs vs Leicester Tigers in the English Premiership a
+ t Sandy Park\, England.\n\nWant more matches?\n\nExeter Chiefs\, every com
+ petition:\nhttps://www.rugbyfixture.com/team/exeter-chiefs\n\nLeicester Ti
+ gers\, every competition:\nhttps://www.rugbyfixture.com/team/leicester-tig
+ ers
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Sandy Park\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Harlequins vs Northampton Saints
 DTSTART:20261228T170000Z
 DTEND:20261228T190000Z
-DTSTAMP:20260731T090018Z
+DTSTAMP:20261111T090000Z
 UID:3166af9c9517141e9083e04c15bdd3a4
-SEQUENCE:0
-DESCRIPTION:Match between Harlequins and Northampton Saints\n\nSource: the
- sportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090018Z
+SEQUENCE:1794387600
+DESCRIPTION:Harlequins vs Northampton Saints in the English Premiership at
+  Twickenham Stoop\, England.\n\nWant more matches?\n\nHarlequins\, every c
+ ompetition:\nhttps://www.rugbyfixture.com/team/harlequins\n\nNorthampton S
+ aints\, every competition:\nhttps://www.rugbyfixture.com/team/northampton-
+ saints
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Twickenham Stoop\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Gloucester vs Exeter Chiefs
 DTSTART:20270605T140000Z
 DTEND:20270605T160000Z
-DTSTAMP:20260731T090022Z
+DTSTAMP:20261111T090000Z
 UID:354a7b63953c2ec3699243d7524cc36c
-SEQUENCE:0
-DESCRIPTION:Match between Gloucester Rugby and Exeter Chiefs\n\nSource: th
- esportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090022Z
+SEQUENCE:1794387600
+DESCRIPTION:Gloucester Rugby vs Exeter Chiefs in the English Premiership a
+ t Kingsholm Stadium\, England.\n\nWant more matches?\n\nGloucester Rugby\,
+  every competition:\nhttps://www.rugbyfixture.com/team/gloucester\n\nExete
+ r Chiefs\, every competition:\nhttps://www.rugbyfixture.com/team/exeter-ch
+ iefs
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Kingsholm Stadium\, England
 END:VEVENT
 BEGIN:VEVENT
@@ -271,24 +312,30 @@ BEGIN:VEVENT
 SUMMARY:Leicester Tigers vs Newcastle
 DTSTART:20270320T150000Z
 DTEND:20270320T170000Z
-DTSTAMP:20260731T090019Z
+DTSTAMP:20261111T090000Z
 UID:4140c33d4adf8a589504f32dd0bcddf3
-SEQUENCE:0
-DESCRIPTION:Match between Leicester Tigers and Newcastle Red Bulls\n\nSour
- ce: thesportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090019Z
+SEQUENCE:1794387600
+DESCRIPTION:Leicester Tigers vs Newcastle Red Bulls in the English Premier
+ ship at Welford Road\, England.\n\nWant more matches?\n\nLeicester Tigers
+ \, every competition:\nhttps://www.rugbyfixture.com/team/leicester-tigers
+ \n\nNewcastle Red Bulls\, every competition:\nhttps://www.rugbyfixture.com
+ /team/newcastle-falcons
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Welford Road\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bath vs Newcastle
 DTSTART:20270417T140000Z
 DTEND:20270417T160000Z
-DTSTAMP:20260731T090020Z
+DTSTAMP:20261111T090000Z
 UID:45b95d8a3f836f53e94a2dd3d1bf54bf
-SEQUENCE:0
-DESCRIPTION:Match between Bath Rugby and Newcastle Red Bulls\n\nSource: th
- esportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090020Z
+SEQUENCE:1794387600
+DESCRIPTION:Bath Rugby vs Newcastle Red Bulls in the English Premiership a
+ t The Recreation Ground Bath\, England.\n\nWant more matches?\n\nBath Rugb
+ y\, every competition:\nhttps://www.rugbyfixture.com/team/bath-rugby\n\nNe
+ wcastle Red Bulls\, every competition:\nhttps://www.rugbyfixture.com/team/
+ newcastle-falcons
+LAST-MODIFIED:20261111T090000Z
 LOCATION:The Recreation Ground Bath\, England
 END:VEVENT
 BEGIN:VEVENT
@@ -307,48 +354,59 @@ BEGIN:VEVENT
 SUMMARY:Sale Sharks vs Gloucester
 DTSTART:20261226T173000Z
 DTEND:20261226T193000Z
-DTSTAMP:20260731T090018Z
+DTSTAMP:20261111T090000Z
 UID:4b58452848a3565595c4046f54adefaf
-SEQUENCE:0
-DESCRIPTION:Match between Sale Sharks and Gloucester Rugby\n\nSource: thes
- portsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090018Z
+SEQUENCE:1794387600
+DESCRIPTION:Sale Sharks vs Gloucester Rugby in the English Premiership at 
+ CorpAcq Stadium\, England.\n\nWant more matches?\n\nSale Sharks\, every co
+ mpetition:\nhttps://www.rugbyfixture.com/team/sale-sharks\n\nGloucester Ru
+ gby\, every competition:\nhttps://www.rugbyfixture.com/team/gloucester
+LAST-MODIFIED:20261111T090000Z
 LOCATION:CorpAcq Stadium\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Newcastle vs Gloucester
 DTSTART:20270515T140000Z
 DTEND:20270515T160000Z
-DTSTAMP:20260731T090021Z
+DTSTAMP:20261111T090000Z
 UID:4da73bfdf350e3dd9ed6adae2bbba3d1
-SEQUENCE:0
-DESCRIPTION:Match between Newcastle Red Bulls and Gloucester Rugby\n\nSour
- ce: thesportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090021Z
+SEQUENCE:1794387600
+DESCRIPTION:Newcastle Red Bulls vs Gloucester Rugby in the English Premier
+ ship at Kingston Park\, England.\n\nWant more matches?\n\nNewcastle Red Bu
+ lls\, every competition:\nhttps://www.rugbyfixture.com/team/newcastle-falc
+ ons\n\nGloucester Rugby\, every competition:\nhttps://www.rugbyfixture.com
+ /team/gloucester
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Kingston Park\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bath vs Gloucester
 DTSTART:20270320T150000Z
 DTEND:20270320T170000Z
-DTSTAMP:20260731T090019Z
+DTSTAMP:20261111T090000Z
 UID:514e0a0e37f35018316b805d3ccb8102
-SEQUENCE:0
-DESCRIPTION:Match between Bath Rugby and Gloucester Rugby\n\nSource: thesp
- ortsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090019Z
+SEQUENCE:1794387600
+DESCRIPTION:Bath Rugby vs Gloucester Rugby in the English Premiership at T
+ he Recreation Ground Bath\, England.\n\nWant more matches?\n\nBath Rugby\,
+  every competition:\nhttps://www.rugbyfixture.com/team/bath-rugby\n\nGlouc
+ ester Rugby\, every competition:\nhttps://www.rugbyfixture.com/team/glouce
+ ster
+LAST-MODIFIED:20261111T090000Z
 LOCATION:The Recreation Ground Bath\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sale Sharks vs Leicester Tigers
 DTSTART:20270123T150000Z
 DTEND:20270123T170000Z
-DTSTAMP:20260731T090019Z
+DTSTAMP:20261111T090000Z
 UID:55c3b1a08459b3b9161f244a99bf1001
-SEQUENCE:0
-DESCRIPTION:Match between Sale Sharks and Leicester Tigers\n\nSource: thes
- portsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090019Z
+SEQUENCE:1794387600
+DESCRIPTION:Sale Sharks vs Leicester Tigers in the English Premiership at 
+ CorpAcq Stadium\, England.\n\nWant more matches?\n\nSale Sharks\, every co
+ mpetition:\nhttps://www.rugbyfixture.com/team/sale-sharks\n\nLeicester Tig
+ ers\, every competition:\nhttps://www.rugbyfixture.com/team/leicester-tige
+ rs
+LAST-MODIFIED:20261111T090000Z
 LOCATION:CorpAcq Stadium\, England
 END:VEVENT
 BEGIN:VEVENT
@@ -367,72 +425,86 @@ BEGIN:VEVENT
 SUMMARY:Exeter Chiefs vs Sale Sharks
 DTSTART:20270417T140000Z
 DTEND:20270417T160000Z
-DTSTAMP:20260731T090020Z
+DTSTAMP:20261111T090000Z
 UID:5eb3faa6620a69929f8407e3cf36e657
-SEQUENCE:0
-DESCRIPTION:Match between Exeter Chiefs and Sale Sharks\n\nSource: thespor
- tsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090020Z
+SEQUENCE:1794387600
+DESCRIPTION:Exeter Chiefs vs Sale Sharks in the English Premiership at San
+ dy Park\, England.\n\nWant more matches?\n\nExeter Chiefs\, every competit
+ ion:\nhttps://www.rugbyfixture.com/team/exeter-chiefs\n\nSale Sharks\, eve
+ ry competition:\nhttps://www.rugbyfixture.com/team/sale-sharks
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Sandy Park\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sale Sharks vs Bath
 DTSTART:20270327T150000Z
 DTEND:20270327T170000Z
-DTSTAMP:20260731T090020Z
+DTSTAMP:20261111T090000Z
 UID:5ef61e6a2384bd2073fcf23d6446c1eb
-SEQUENCE:0
-DESCRIPTION:Match between Sale Sharks and Bath Rugby\n\nSource: thesportsd
- b.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090020Z
+SEQUENCE:1794387600
+DESCRIPTION:Sale Sharks vs Bath Rugby in the English Premiership at CorpAc
+ q Stadium\, England.\n\nWant more matches?\n\nSale Sharks\, every competit
+ ion:\nhttps://www.rugbyfixture.com/team/sale-sharks\n\nBath Rugby\, every 
+ competition:\nhttps://www.rugbyfixture.com/team/bath-rugby
+LAST-MODIFIED:20261111T090000Z
 LOCATION:CorpAcq Stadium\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Newcastle vs Northampton Saints
 DTSTART:20270529T140000Z
 DTEND:20270529T160000Z
-DTSTAMP:20260731T090022Z
+DTSTAMP:20261111T090000Z
 UID:5f61f7dc2082bc840dee616e673711e2
-SEQUENCE:0
-DESCRIPTION:Match between Newcastle Red Bulls and Northampton Saints\n\nSo
- urce: thesportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090022Z
+SEQUENCE:1794387600
+DESCRIPTION:Newcastle Red Bulls vs Northampton Saints in the English Premi
+ ership at Kingston Park\, England.\n\nWant more matches?\n\nNewcastle Red 
+ Bulls\, every competition:\nhttps://www.rugbyfixture.com/team/newcastle-fa
+ lcons\n\nNorthampton Saints\, every competition:\nhttps://www.rugbyfixture
+ .com/team/northampton-saints
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Kingston Park\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Harlequins vs Leicester Tigers
 DTSTART:20261205T150500Z
 DTEND:20261205T170500Z
-DTSTAMP:20260731T090017Z
+DTSTAMP:20261111T090000Z
 UID:5f8bceb652b7a96e29da1c3c18179848
-SEQUENCE:0
-DESCRIPTION:Match between Harlequins and Leicester Tigers\n\nSource: thesp
- ortsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090017Z
+SEQUENCE:1794387600
+DESCRIPTION:Harlequins vs Leicester Tigers in the English Premiership at T
+ wickenham Stoop\, England.\n\nWant more matches?\n\nHarlequins\, every com
+ petition:\nhttps://www.rugbyfixture.com/team/harlequins\n\nLeicester Tiger
+ s\, every competition:\nhttps://www.rugbyfixture.com/team/leicester-tigers
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Twickenham Stoop\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sale Sharks vs Saracens
 DTSTART:20270424T140000Z
 DTEND:20270424T160000Z
-DTSTAMP:20260731T090020Z
+DTSTAMP:20261111T090000Z
 UID:67c61d6a72a0b6814ee8fa7593f651ac
-SEQUENCE:0
-DESCRIPTION:Match between Sale Sharks and Saracens\n\nSource: thesportsdb.
- com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090020Z
+SEQUENCE:1794387600
+DESCRIPTION:Sale Sharks vs Saracens in the English Premiership at CorpAcq 
+ Stadium\, England.\n\nWant more matches?\n\nSale Sharks\, every competitio
+ n:\nhttps://www.rugbyfixture.com/team/sale-sharks\n\nSaracens\, every comp
+ etition:\nhttps://www.rugbyfixture.com/team/saracens
+LAST-MODIFIED:20261111T090000Z
 LOCATION:CorpAcq Stadium\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bath vs Northampton Saints
 DTSTART:20270123T150000Z
 DTEND:20270123T170000Z
-DTSTAMP:20260731T090019Z
+DTSTAMP:20261111T090000Z
 UID:6a6255aa7be0f7c137f6f97f3697357a
-SEQUENCE:0
-DESCRIPTION:Match between Bath Rugby and Northampton Saints\n\nSource: the
- sportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090019Z
+SEQUENCE:1794387600
+DESCRIPTION:Bath Rugby vs Northampton Saints in the English Premiership at
+  The Recreation Ground Bath\, England.\n\nWant more matches?\n\nBath Rugby
+ \, every competition:\nhttps://www.rugbyfixture.com/team/bath-rugby\n\nNor
+ thampton Saints\, every competition:\nhttps://www.rugbyfixture.com/team/no
+ rthampton-saints
+LAST-MODIFIED:20261111T090000Z
 LOCATION:The Recreation Ground Bath\, England
 END:VEVENT
 BEGIN:VEVENT
@@ -451,36 +523,43 @@ BEGIN:VEVENT
 SUMMARY:Sale Sharks vs Exeter Chiefs
 DTSTART:20261206T150000Z
 DTEND:20261206T170000Z
-DTSTAMP:20260731T090017Z
+DTSTAMP:20261111T090000Z
 UID:7b8f9b2f7f7707d38afe1ec3db24eba9
-SEQUENCE:0
-DESCRIPTION:Match between Sale Sharks and Exeter Chiefs\n\nSource: thespor
- tsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090017Z
+SEQUENCE:1794387600
+DESCRIPTION:Sale Sharks vs Exeter Chiefs in the English Premiership at Cor
+ pAcq Stadium\, England.\n\nWant more matches?\n\nSale Sharks\, every compe
+ tition:\nhttps://www.rugbyfixture.com/team/sale-sharks\n\nExeter Chiefs\, 
+ every competition:\nhttps://www.rugbyfixture.com/team/exeter-chiefs
+LAST-MODIFIED:20261111T090000Z
 LOCATION:CorpAcq Stadium\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bristol Bears vs Saracens
 DTSTART:20270508T140000Z
 DTEND:20270508T160000Z
-DTSTAMP:20260731T090021Z
+DTSTAMP:20261111T090000Z
 UID:7c5cac62142bc28d8c0e9a12875df282
-SEQUENCE:0
-DESCRIPTION:Match between Bristol Bears and Saracens\n\nSource: thesportsd
- b.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090021Z
+SEQUENCE:1794387600
+DESCRIPTION:Bristol Bears vs Saracens in the English Premiership at Ashton
+  Gate\, England.\n\nWant more matches?\n\nBristol Bears\, every competitio
+ n:\nhttps://www.rugbyfixture.com/team/bristol-rugby\n\nSaracens\, every co
+ mpetition:\nhttps://www.rugbyfixture.com/team/saracens
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Ashton Gate\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Newcastle vs Bristol Bears
 DTSTART:20270327T150000Z
 DTEND:20270327T170000Z
-DTSTAMP:20260731T090020Z
+DTSTAMP:20261111T090000Z
 UID:7d114aa28e9385ccac708653465f473a
-SEQUENCE:0
-DESCRIPTION:Match between Newcastle Red Bulls and Bristol Bears\n\nSource:
-  thesportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090020Z
+SEQUENCE:1794387600
+DESCRIPTION:Newcastle Red Bulls vs Bristol Bears in the English Premiershi
+ p at Kingston Park\, England.\n\nWant more matches?\n\nNewcastle Red Bulls
+ \, every competition:\nhttps://www.rugbyfixture.com/team/newcastle-falcons
+ \n\nBristol Bears\, every competition:\nhttps://www.rugbyfixture.com/team/
+ bristol-rugby
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Kingston Park\, England
 END:VEVENT
 BEGIN:VEVENT
@@ -499,180 +578,218 @@ BEGIN:VEVENT
 SUMMARY:Newcastle vs Bath
 DTSTART:20261218T194500Z
 DTEND:20261218T214500Z
-DTSTAMP:20260731T090017Z
+DTSTAMP:20261111T090000Z
 UID:815c3a6720d1981bd8b24e02c7ecb23c
-SEQUENCE:0
-DESCRIPTION:Match between Newcastle Red Bulls and Bath Rugby\n\nSource: th
- esportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090017Z
+SEQUENCE:1794387600
+DESCRIPTION:Newcastle Red Bulls vs Bath Rugby in the English Premiership a
+ t Kingston Park\, England.\n\nWant more matches?\n\nNewcastle Red Bulls\, 
+ every competition:\nhttps://www.rugbyfixture.com/team/newcastle-falcons\n
+ \nBath Rugby\, every competition:\nhttps://www.rugbyfixture.com/team/bath-
+ rugby
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Kingston Park\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Leicester Tigers vs Exeter Chiefs
 DTSTART:20270102T173000Z
 DTEND:20270102T193000Z
-DTSTAMP:20260731T090018Z
+DTSTAMP:20261111T090000Z
 UID:887fb2d4deb122f6dac6a344f19090ff
-SEQUENCE:0
-DESCRIPTION:Match between Leicester Tigers and Exeter Chiefs\n\nSource: th
- esportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090018Z
+SEQUENCE:1794387600
+DESCRIPTION:Leicester Tigers vs Exeter Chiefs in the English Premiership a
+ t Welford Road\, England.\n\nWant more matches?\n\nLeicester Tigers\, ever
+ y competition:\nhttps://www.rugbyfixture.com/team/leicester-tigers\n\nExet
+ er Chiefs\, every competition:\nhttps://www.rugbyfixture.com/team/exeter-c
+ hiefs
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Welford Road\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Harlequins vs Gloucester
 DTSTART:20270123T150000Z
 DTEND:20270123T170000Z
-DTSTAMP:20260731T090019Z
+DTSTAMP:20261111T090000Z
 UID:88e69ffc5c84dfdbd3d8aca38c748c0f
-SEQUENCE:0
-DESCRIPTION:Match between Harlequins and Gloucester Rugby\n\nSource: thesp
- ortsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090019Z
+SEQUENCE:1794387600
+DESCRIPTION:Harlequins vs Gloucester Rugby in the English Premiership at T
+ wickenham Stoop\, England.\n\nWant more matches?\n\nHarlequins\, every com
+ petition:\nhttps://www.rugbyfixture.com/team/harlequins\n\nGloucester Rugb
+ y\, every competition:\nhttps://www.rugbyfixture.com/team/gloucester
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Twickenham Stoop\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Leicester Tigers vs Bristol Bears
 DTSTART:20270515T140000Z
 DTEND:20270515T160000Z
-DTSTAMP:20260731T090021Z
+DTSTAMP:20261111T090000Z
 UID:8c147abd9a80a932bd5a34459bc96553
-SEQUENCE:0
-DESCRIPTION:Match between Leicester Tigers and Bristol Bears\n\nSource: th
- esportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090021Z
+SEQUENCE:1794387600
+DESCRIPTION:Leicester Tigers vs Bristol Bears in the English Premiership a
+ t Welford Road\, England.\n\nWant more matches?\n\nLeicester Tigers\, ever
+ y competition:\nhttps://www.rugbyfixture.com/team/leicester-tigers\n\nBris
+ tol Bears\, every competition:\nhttps://www.rugbyfixture.com/team/bristol-
+ rugby
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Welford Road\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Exeter Chiefs vs Saracens
 DTSTART:20261227T150500Z
 DTEND:20261227T170500Z
-DTSTAMP:20260731T090018Z
+DTSTAMP:20261111T090000Z
 UID:8caad4e6a52eee9df312f93a0451fc1f
-SEQUENCE:0
-DESCRIPTION:Match between Exeter Chiefs and Saracens\n\nSource: thesportsd
- b.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090018Z
+SEQUENCE:1794387600
+DESCRIPTION:Exeter Chiefs vs Saracens in the English Premiership at Sandy 
+ Park\, England.\n\nWant more matches?\n\nExeter Chiefs\, every competition
+ :\nhttps://www.rugbyfixture.com/team/exeter-chiefs\n\nSaracens\, every com
+ petition:\nhttps://www.rugbyfixture.com/team/saracens
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Sandy Park\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Gloucester vs Bristol Bears
 DTSTART:20270101T194500Z
 DTEND:20270101T214500Z
-DTSTAMP:20260731T090018Z
+DTSTAMP:20261111T090000Z
 UID:92c03053cd76afd3e6c1bedc03012c0f
-SEQUENCE:0
-DESCRIPTION:Match between Gloucester Rugby and Bristol Bears\n\nSource: th
- esportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090018Z
+SEQUENCE:1794387600
+DESCRIPTION:Gloucester Rugby vs Bristol Bears in the English Premiership a
+ t Kingsholm Stadium\, England.\n\nWant more matches?\n\nGloucester Rugby\,
+  every competition:\nhttps://www.rugbyfixture.com/team/gloucester\n\nBrist
+ ol Bears\, every competition:\nhttps://www.rugbyfixture.com/team/bristol-r
+ ugby
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Kingsholm Stadium\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Newcastle vs Harlequins
 DTSTART:20270102T173000Z
 DTEND:20270102T193000Z
-DTSTAMP:20260731T090018Z
+DTSTAMP:20261111T090000Z
 UID:95091066989650593ab3aefba8a20a80
-SEQUENCE:0
-DESCRIPTION:Match between Newcastle Red Bulls and Harlequins\n\nSource: th
- esportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090018Z
+SEQUENCE:1794387600
+DESCRIPTION:Newcastle Red Bulls vs Harlequins in the English Premiership a
+ t Kingston Park\, England.\n\nWant more matches?\n\nNewcastle Red Bulls\, 
+ every competition:\nhttps://www.rugbyfixture.com/team/newcastle-falcons\n
+ \nHarlequins\, every competition:\nhttps://www.rugbyfixture.com/team/harle
+ quins
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Kingston Park\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bath vs Harlequins
 DTSTART:20270515T140000Z
 DTEND:20270515T160000Z
-DTSTAMP:20260731T090021Z
+DTSTAMP:20261111T090000Z
 UID:991e2707fe319775c709d98be1fcdd95
-SEQUENCE:0
-DESCRIPTION:Match between Bath Rugby and Harlequins\n\nSource: thesportsdb
- .com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090021Z
+SEQUENCE:1794387600
+DESCRIPTION:Bath Rugby vs Harlequins in the English Premiership at The Rec
+ reation Ground Bath\, England.\n\nWant more matches?\n\nBath Rugby\, every
+  competition:\nhttps://www.rugbyfixture.com/team/bath-rugby\n\nHarlequins
+ \, every competition:\nhttps://www.rugbyfixture.com/team/harlequins
+LAST-MODIFIED:20261111T090000Z
 LOCATION:The Recreation Ground Bath\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bath vs Leicester Tigers
 DTSTART:20261226T150500Z
 DTEND:20261226T170500Z
-DTSTAMP:20261105T090016Z
+DTSTAMP:20261111T090000Z
 UID:99542594e9061bd6b8e9c96ac03bd67c
-SEQUENCE:0
-DESCRIPTION:Match between Bath Rugby and Leicester Tigers\n\nSource: thesp
- ortsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20261105T090016Z
+SEQUENCE:1794387600
+DESCRIPTION:Bath Rugby vs Leicester Tigers in the English Premiership at T
+ he Recreation Ground Bath\, England.\n\nWant more matches?\n\nBath Rugby\,
+  every competition:\nhttps://www.rugbyfixture.com/team/bath-rugby\n\nLeice
+ ster Tigers\, every competition:\nhttps://www.rugbyfixture.com/team/leices
+ ter-tigers
+LAST-MODIFIED:20261111T090000Z
 LOCATION:The Recreation Ground Bath\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Exeter Chiefs vs Bath
 DTSTART:20270508T140000Z
 DTEND:20270508T160000Z
-DTSTAMP:20260731T090021Z
+DTSTAMP:20261111T090000Z
 UID:a0750bb59cf99a9324849214853106bc
-SEQUENCE:0
-DESCRIPTION:Match between Exeter Chiefs and Bath Rugby\n\nSource: thesport
- sdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090021Z
+SEQUENCE:1794387600
+DESCRIPTION:Exeter Chiefs vs Bath Rugby in the English Premiership at Sand
+ y Park\, England.\n\nWant more matches?\n\nExeter Chiefs\, every competiti
+ on:\nhttps://www.rugbyfixture.com/team/exeter-chiefs\n\nBath Rugby\, every
+  competition:\nhttps://www.rugbyfixture.com/team/bath-rugby
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Sandy Park\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Saracens vs Northampton Saints
 DTSTART:20261205T173000Z
 DTEND:20261205T193000Z
-DTSTAMP:20260731T090017Z
+DTSTAMP:20261111T090000Z
 UID:a0a856b143a9aae0ce17ca6a47dc92c8
-SEQUENCE:0
-DESCRIPTION:Match between Saracens and Northampton Saints\n\nSource: thesp
- ortsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090017Z
+SEQUENCE:1794387600
+DESCRIPTION:Saracens vs Northampton Saints in the English Premiership at S
+ toneX Stadium\, England.\n\nWant more matches?\n\nSaracens\, every competi
+ tion:\nhttps://www.rugbyfixture.com/team/saracens\n\nNorthampton Saints\, 
+ every competition:\nhttps://www.rugbyfixture.com/team/northampton-saints
+LAST-MODIFIED:20261111T090000Z
 LOCATION:StoneX Stadium\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Gloucester vs Newcastle
 DTSTART:20261205T150000Z
 DTEND:20261205T170000Z
-DTSTAMP:20260731T090017Z
+DTSTAMP:20261111T090000Z
 UID:a7e29634f76f50d3b552785f480828d5
-SEQUENCE:0
-DESCRIPTION:Match between Gloucester Rugby and Newcastle Red Bulls\n\nSour
- ce: thesportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090017Z
+SEQUENCE:1794387600
+DESCRIPTION:Gloucester Rugby vs Newcastle Red Bulls in the English Premier
+ ship at Kingsholm Stadium\, England.\n\nWant more matches?\n\nGloucester R
+ ugby\, every competition:\nhttps://www.rugbyfixture.com/team/gloucester\n
+ \nNewcastle Red Bulls\, every competition:\nhttps://www.rugbyfixture.com/t
+ eam/newcastle-falcons
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Kingsholm Stadium\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bristol Bears vs Sale Sharks
 DTSTART:20270320T150000Z
 DTEND:20270320T170000Z
-DTSTAMP:20260731T090019Z
+DTSTAMP:20261111T090000Z
 UID:ab68625a3816dde597a832b827d544dc
-SEQUENCE:0
-DESCRIPTION:Match between Bristol Bears and Sale Sharks\n\nSource: thespor
- tsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090019Z
+SEQUENCE:1794387600
+DESCRIPTION:Bristol Bears vs Sale Sharks in the English Premiership at Ash
+ ton Gate\, England.\n\nWant more matches?\n\nBristol Bears\, every competi
+ tion:\nhttps://www.rugbyfixture.com/team/bristol-rugby\n\nSale Sharks\, ev
+ ery competition:\nhttps://www.rugbyfixture.com/team/sale-sharks
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Ashton Gate\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sale Sharks vs Newcastle
 DTSTART:20270605T140000Z
 DTEND:20270605T160000Z
-DTSTAMP:20260731T090022Z
+DTSTAMP:20261111T090000Z
 UID:ae687d243235e40db83a39084ff025c0
-SEQUENCE:0
-DESCRIPTION:Match between Sale Sharks and Newcastle Red Bulls\n\nSource: t
- hesportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090022Z
+SEQUENCE:1794387600
+DESCRIPTION:Sale Sharks vs Newcastle Red Bulls in the English Premiership 
+ at CorpAcq Stadium\, England.\n\nWant more matches?\n\nSale Sharks\, every
+  competition:\nhttps://www.rugbyfixture.com/team/sale-sharks\n\nNewcastle 
+ Red Bulls\, every competition:\nhttps://www.rugbyfixture.com/team/newcastl
+ e-falcons
+LAST-MODIFIED:20261111T090000Z
 LOCATION:CorpAcq Stadium\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Harlequins vs Sale Sharks
 DTSTART:20270529T140000Z
 DTEND:20270529T160000Z
-DTSTAMP:20260731T090022Z
+DTSTAMP:20261111T090000Z
 UID:af22b9b18f7ea3698647d3315eca4302
-SEQUENCE:0
-DESCRIPTION:Match between Harlequins and Sale Sharks\n\nSource: thesportsd
- b.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090022Z
+SEQUENCE:1794387600
+DESCRIPTION:Harlequins vs Sale Sharks in the English Premiership at Twicke
+ nham Stoop\, England.\n\nWant more matches?\n\nHarlequins\, every competit
+ ion:\nhttps://www.rugbyfixture.com/team/harlequins\n\nSale Sharks\, every 
+ competition:\nhttps://www.rugbyfixture.com/team/sale-sharks
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Twickenham Stoop\, England
 END:VEVENT
 BEGIN:VEVENT
@@ -691,60 +808,73 @@ BEGIN:VEVENT
 SUMMARY:Gloucester vs Saracens
 DTSTART:20261219T150000Z
 DTEND:20261219T170000Z
-DTSTAMP:20260731T090017Z
+DTSTAMP:20261111T090000Z
 UID:b70b57df622f191f9b093e21454b23de
-SEQUENCE:0
-DESCRIPTION:Match between Gloucester Rugby and Saracens\n\nSource: thespor
- tsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090017Z
+SEQUENCE:1794387600
+DESCRIPTION:Gloucester Rugby vs Saracens in the English Premiership at Kin
+ gsholm Stadium\, England.\n\nWant more matches?\n\nGloucester Rugby\, ever
+ y competition:\nhttps://www.rugbyfixture.com/team/gloucester\n\nSaracens\,
+  every competition:\nhttps://www.rugbyfixture.com/team/saracens
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Kingsholm Stadium\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Harlequins vs Newcastle
 DTSTART:20270508T140000Z
 DTEND:20270508T160000Z
-DTSTAMP:20260731T090021Z
+DTSTAMP:20261111T090000Z
 UID:b9304827f9251567614b3a39fbe9550a
-SEQUENCE:0
-DESCRIPTION:Match between Harlequins and Newcastle Red Bulls\n\nSource: th
- esportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090021Z
+SEQUENCE:1794387600
+DESCRIPTION:Harlequins vs Newcastle Red Bulls in the English Premiership a
+ t Twickenham Stoop\, England.\n\nWant more matches?\n\nHarlequins\, every 
+ competition:\nhttps://www.rugbyfixture.com/team/harlequins\n\nNewcastle Re
+ d Bulls\, every competition:\nhttps://www.rugbyfixture.com/team/newcastle-
+ falcons
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Twickenham Stoop\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bristol Bears vs Bath
 DTSTART:20270529T140000Z
 DTEND:20270529T160000Z
-DTSTAMP:20260731T090021Z
+DTSTAMP:20261111T090000Z
 UID:bb9970b8d899f9b7cdcaf86755c63493
-SEQUENCE:0
-DESCRIPTION:Match between Bristol Bears and Bath Rugby\n\nSource: thesport
- sdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090021Z
+SEQUENCE:1794387600
+DESCRIPTION:Bristol Bears vs Bath Rugby in the English Premiership at Asht
+ on Gate\, England.\n\nWant more matches?\n\nBristol Bears\, every competit
+ ion:\nhttps://www.rugbyfixture.com/team/bristol-rugby\n\nBath Rugby\, ever
+ y competition:\nhttps://www.rugbyfixture.com/team/bath-rugby
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Ashton Gate\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Northampton Saints vs Saracens
 DTSTART:20270327T150000Z
 DTEND:20270327T170000Z
-DTSTAMP:20260731T090020Z
+DTSTAMP:20261111T090000Z
 UID:bff5f3856cea7391fe5b87031f7638a4
-SEQUENCE:0
-DESCRIPTION:Match between Northampton Saints and Saracens\n\nSource: thesp
- ortsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090020Z
+SEQUENCE:1794387600
+DESCRIPTION:Northampton Saints vs Saracens in the English Premiership at F
+ ranklin's Gardens\, England.\n\nWant more matches?\n\nNorthampton Saints\,
+  every competition:\nhttps://www.rugbyfixture.com/team/northampton-saints
+ \n\nSaracens\, every competition:\nhttps://www.rugbyfixture.com/team/sarac
+ ens
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Franklin's Gardens\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sale Sharks vs Northampton Saints
 DTSTART:20270515T140000Z
 DTEND:20270515T160000Z
-DTSTAMP:20260731T090021Z
+DTSTAMP:20261111T090000Z
 UID:c800c72ae675f92a81379449c4ab94fb
-SEQUENCE:0
-DESCRIPTION:Match between Sale Sharks and Northampton Saints\n\nSource: th
- esportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090021Z
+SEQUENCE:1794387600
+DESCRIPTION:Sale Sharks vs Northampton Saints in the English Premiership a
+ t CorpAcq Stadium\, England.\n\nWant more matches?\n\nSale Sharks\, every 
+ competition:\nhttps://www.rugbyfixture.com/team/sale-sharks\n\nNorthampton
+  Saints\, every competition:\nhttps://www.rugbyfixture.com/team/northampto
+ n-saints
+LAST-MODIFIED:20261111T090000Z
 LOCATION:CorpAcq Stadium\, England
 END:VEVENT
 BEGIN:VEVENT
@@ -763,48 +893,57 @@ BEGIN:VEVENT
 SUMMARY:Leicester Tigers vs Harlequins
 DTSTART:20270605T140000Z
 DTEND:20270605T160000Z
-DTSTAMP:20260731T090022Z
+DTSTAMP:20261111T090000Z
 UID:c98b02ab6a1913087b4e2f6633bca4ad
-SEQUENCE:0
-DESCRIPTION:Match between Leicester Tigers and Harlequins\n\nSource: thesp
- ortsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090022Z
+SEQUENCE:1794387600
+DESCRIPTION:Leicester Tigers vs Harlequins in the English Premiership at W
+ elford Road\, England.\n\nWant more matches?\n\nLeicester Tigers\, every c
+ ompetition:\nhttps://www.rugbyfixture.com/team/leicester-tigers\n\nHarlequ
+ ins\, every competition:\nhttps://www.rugbyfixture.com/team/harlequins
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Welford Road\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Northampton Saints vs Exeter Chiefs
 DTSTART:20261219T173000Z
 DTEND:20261219T193000Z
-DTSTAMP:20260731T090017Z
+DTSTAMP:20261111T090000Z
 UID:ca60fb9980cdf91afdfead67d4bdb83a
-SEQUENCE:0
-DESCRIPTION:Match between Northampton Saints and Exeter Chiefs\n\nSource: 
- thesportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090017Z
+SEQUENCE:1794387600
+DESCRIPTION:Northampton Saints vs Exeter Chiefs in the English Premiership
+  at Franklin's Gardens\, England.\n\nWant more matches?\n\nNorthampton Sai
+ nts\, every competition:\nhttps://www.rugbyfixture.com/team/northampton-sa
+ ints\n\nExeter Chiefs\, every competition:\nhttps://www.rugbyfixture.com/t
+ eam/exeter-chiefs
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Franklin's Gardens\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Newcastle vs Saracens
 DTSTART:20270123T150000Z
 DTEND:20270123T170000Z
-DTSTAMP:20260731T090019Z
+DTSTAMP:20261111T090000Z
 UID:cace924c2b504ce5359f112d0ca1006f
-SEQUENCE:0
-DESCRIPTION:Match between Newcastle Red Bulls and Saracens\n\nSource: thes
- portsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090019Z
+SEQUENCE:1794387600
+DESCRIPTION:Newcastle Red Bulls vs Saracens in the English Premiership at 
+ Kingston Park\, England.\n\nWant more matches?\n\nNewcastle Red Bulls\, ev
+ ery competition:\nhttps://www.rugbyfixture.com/team/newcastle-falcons\n\nS
+ aracens\, every competition:\nhttps://www.rugbyfixture.com/team/saracens
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Kingston Park\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Saracens vs Exeter Chiefs
 DTSTART:20270515T140000Z
 DTEND:20270515T160000Z
-DTSTAMP:20260731T090021Z
+DTSTAMP:20261111T090000Z
 UID:cd5331fbbc60509792a00b7e3ce4626a
-SEQUENCE:0
-DESCRIPTION:Match between Saracens and Exeter Chiefs\n\nSource: thesportsd
- b.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090021Z
+SEQUENCE:1794387600
+DESCRIPTION:Saracens vs Exeter Chiefs in the English Premiership at StoneX
+  Stadium\, England.\n\nWant more matches?\n\nSaracens\, every competition:
+ \nhttps://www.rugbyfixture.com/team/saracens\n\nExeter Chiefs\, every comp
+ etition:\nhttps://www.rugbyfixture.com/team/exeter-chiefs
+LAST-MODIFIED:20261111T090000Z
 LOCATION:StoneX Stadium\, England
 END:VEVENT
 BEGIN:VEVENT
@@ -823,36 +962,43 @@ BEGIN:VEVENT
 SUMMARY:Harlequins vs Exeter Chiefs
 DTSTART:20270327T150000Z
 DTEND:20270327T170000Z
-DTSTAMP:20260731T090019Z
+DTSTAMP:20261111T090000Z
 UID:d45535d561a87c18ce4a30160687aa47
-SEQUENCE:0
-DESCRIPTION:Match between Harlequins and Exeter Chiefs\n\nSource: thesport
- sdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090019Z
+SEQUENCE:1794387600
+DESCRIPTION:Harlequins vs Exeter Chiefs in the English Premiership at Twic
+ kenham Stoop\, England.\n\nWant more matches?\n\nHarlequins\, every compet
+ ition:\nhttps://www.rugbyfixture.com/team/harlequins\n\nExeter Chiefs\, ev
+ ery competition:\nhttps://www.rugbyfixture.com/team/exeter-chiefs
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Twickenham Stoop\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Northampton Saints vs Harlequins
 DTSTART:20270417T140000Z
 DTEND:20270417T160000Z
-DTSTAMP:20260731T090020Z
+DTSTAMP:20261111T090000Z
 UID:d5e3da14ead75cac994008e8fcca5da6
-SEQUENCE:0
-DESCRIPTION:Match between Northampton Saints and Harlequins\n\nSource: the
- sportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090020Z
+SEQUENCE:1794387600
+DESCRIPTION:Northampton Saints vs Harlequins in the English Premiership at
+  Franklin's Gardens\, England.\n\nWant more matches?\n\nNorthampton Saints
+ \, every competition:\nhttps://www.rugbyfixture.com/team/northampton-saint
+ s\n\nHarlequins\, every competition:\nhttps://www.rugbyfixture.com/team/ha
+ rlequins
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Franklin's Gardens\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bath vs Saracens
 DTSTART:20270605T140000Z
 DTEND:20270605T160000Z
-DTSTAMP:20260731T090022Z
+DTSTAMP:20261111T090000Z
 UID:d7d00caa9754c5ec20dc5e72de81b415
-SEQUENCE:0
-DESCRIPTION:Match between Bath Rugby and Saracens\n\nSource: thesportsdb.c
- om\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090022Z
+SEQUENCE:1794387600
+DESCRIPTION:Bath Rugby vs Saracens in the English Premiership at The Recre
+ ation Ground Bath\, England.\n\nWant more matches?\n\nBath Rugby\, every c
+ ompetition:\nhttps://www.rugbyfixture.com/team/bath-rugby\n\nSaracens\, ev
+ ery competition:\nhttps://www.rugbyfixture.com/team/saracens
+LAST-MODIFIED:20261111T090000Z
 LOCATION:The Recreation Ground Bath\, England
 END:VEVENT
 BEGIN:VEVENT
@@ -871,84 +1017,101 @@ BEGIN:VEVENT
 SUMMARY:Leicester Tigers vs Bath
 DTSTART:20270424T140000Z
 DTEND:20270424T160000Z
-DTSTAMP:20260731T090020Z
+DTSTAMP:20261111T090000Z
 UID:ea5a7a6f1f1f32b4fdba432663d1c65f
-SEQUENCE:0
-DESCRIPTION:Match between Leicester Tigers and Bath Rugby\n\nSource: thesp
- ortsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090020Z
+SEQUENCE:1794387600
+DESCRIPTION:Leicester Tigers vs Bath Rugby in the English Premiership at W
+ elford Road\, England.\n\nWant more matches?\n\nLeicester Tigers\, every c
+ ompetition:\nhttps://www.rugbyfixture.com/team/leicester-tigers\n\nBath Ru
+ gby\, every competition:\nhttps://www.rugbyfixture.com/team/bath-rugby
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Welford Road\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Harlequins vs Bristol Bears
 DTSTART:20270424T140000Z
 DTEND:20270424T160000Z
-DTSTAMP:20260731T090021Z
+DTSTAMP:20261111T090000Z
 UID:ecdbd2c75498a0c2e997535243a50447
-SEQUENCE:0
-DESCRIPTION:Match between Harlequins and Bristol Bears\n\nSource: thesport
- sdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090021Z
+SEQUENCE:1794387600
+DESCRIPTION:Harlequins vs Bristol Bears in the English Premiership at Twic
+ kenham Stoop\, England.\n\nWant more matches?\n\nHarlequins\, every compet
+ ition:\nhttps://www.rugbyfixture.com/team/harlequins\n\nBristol Bears\, ev
+ ery competition:\nhttps://www.rugbyfixture.com/team/bristol-rugby
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Twickenham Stoop\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Exeter Chiefs vs Northampton Saints
 DTSTART:20270320T150000Z
 DTEND:20270320T170000Z
-DTSTAMP:20260731T090019Z
+DTSTAMP:20261111T090000Z
 UID:f2ddef2c757ef4527c4f38e0944c6c2b
-SEQUENCE:0
-DESCRIPTION:Match between Exeter Chiefs and Northampton Saints\n\nSource: 
- thesportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090019Z
+SEQUENCE:1794387600
+DESCRIPTION:Exeter Chiefs vs Northampton Saints in the English Premiership
+  at Sandy Park\, England.\n\nWant more matches?\n\nExeter Chiefs\, every c
+ ompetition:\nhttps://www.rugbyfixture.com/team/exeter-chiefs\n\nNorthampto
+ n Saints\, every competition:\nhttps://www.rugbyfixture.com/team/northampt
+ on-saints
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Sandy Park\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bristol Bears vs Harlequins
 DTSTART:20261220T150000Z
 DTEND:20261220T170000Z
-DTSTAMP:20260731T090017Z
+DTSTAMP:20261111T090000Z
 UID:f6f8fe3737eb20c1123e475d654c1622
-SEQUENCE:0
-DESCRIPTION:Match between Bristol Bears and Harlequins\n\nSource: thesport
- sdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090017Z
+SEQUENCE:1794387600
+DESCRIPTION:Bristol Bears vs Harlequins in the English Premiership at Asht
+ on Gate\, England.\n\nWant more matches?\n\nBristol Bears\, every competit
+ ion:\nhttps://www.rugbyfixture.com/team/bristol-rugby\n\nHarlequins\, ever
+ y competition:\nhttps://www.rugbyfixture.com/team/harlequins
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Ashton Gate\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Gloucester vs Leicester Tigers
 DTSTART:20270327T150000Z
 DTEND:20270327T170000Z
-DTSTAMP:20260731T090019Z
+DTSTAMP:20261111T090000Z
 UID:f9e307b3eefe85ad1be5731c20cb2220
-SEQUENCE:0
-DESCRIPTION:Match between Gloucester Rugby and Leicester Tigers\n\nSource:
-  thesportsdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090019Z
+SEQUENCE:1794387600
+DESCRIPTION:Gloucester Rugby vs Leicester Tigers in the English Premiershi
+ p at Kingsholm Stadium\, England.\n\nWant more matches?\n\nGloucester Rugb
+ y\, every competition:\nhttps://www.rugbyfixture.com/team/gloucester\n\nLe
+ icester Tigers\, every competition:\nhttps://www.rugbyfixture.com/team/lei
+ cester-tigers
+LAST-MODIFIED:20261111T090000Z
 LOCATION:Kingsholm Stadium\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Bath vs Bristol Bears
 DTSTART:20261204T194500Z
 DTEND:20261204T214500Z
-DTSTAMP:20260731T090017Z
+DTSTAMP:20261111T090000Z
 UID:fd1e543530d241d03ecc43322ad848e2
-SEQUENCE:0
-DESCRIPTION:Match between Bath Rugby and Bristol Bears\n\nSource: thesport
- sdb.com\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090017Z
+SEQUENCE:1794387600
+DESCRIPTION:Bath Rugby vs Bristol Bears in the English Premiership at The 
+ Recreation Ground Bath\, England.\n\nWant more matches?\n\nBath Rugby\, ev
+ ery competition:\nhttps://www.rugbyfixture.com/team/bath-rugby\n\nBristol 
+ Bears\, every competition:\nhttps://www.rugbyfixture.com/team/bristol-rugb
+ y
+LAST-MODIFIED:20261111T090000Z
 LOCATION:The Recreation Ground Bath\, England
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Saracens vs Harlequins
 DTSTART:20270320T150000Z
 DTEND:20270320T170000Z
-DTSTAMP:20260731T090019Z
+DTSTAMP:20261111T090000Z
 UID:feabae5b4f050f9b82ccdbd42fca51a2
-SEQUENCE:0
-DESCRIPTION:Match between Saracens and Harlequins\n\nSource: thesportsdb.c
- om\nPowered by https://rugbyfixture.com
-LAST-MODIFIED:20260731T090019Z
+SEQUENCE:1794387600
+DESCRIPTION:Saracens vs Harlequins in the English Premiership at StoneX St
+ adium\, England.\n\nWant more matches?\n\nSaracens\, every competition:\nh
+ ttps://www.rugbyfixture.com/team/saracens\n\nHarlequins\, every competitio
+ n:\nhttps://www.rugbyfixture.com/team/harlequins
+LAST-MODIFIED:20261111T090000Z
 LOCATION:StoneX Stadium\, England
 END:VEVENT
 END:VCALENDAR
