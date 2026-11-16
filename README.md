@@ -70,7 +70,9 @@ ICS snapshots**. It publishes:
 - [rugby-metadata-manifest.json](https://mbligh.github.io/calendar/rugby-metadata-manifest.json):
   fixture IDs, filenames and SHA-256 checksums.
 
-NFOs contain neutral team names, kickoff date, venue, and round number,
+NFOs contain neutral team names, kickoff date, venue, and round number;
+episode titles include the local match date as `YYYY/MM/DD` (for example,
+`France vs South Africa - 2026/11/13`),
 and a `<showtitle>` element required by Plex 1.43.5 to import episode titles reliably.
 The `nfo_showtitle` calendar setting optionally overrides the display name (for
 example, Rugby Nations Championships); it is also published in the fixture

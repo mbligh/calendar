@@ -191,7 +191,7 @@ def build(config, source_dir, now):
                 relative = f"{show_dir}Season_{year}/{basename}.nfo"
                 venue = str(event.get("LOCATION", "")).strip()
                 fields = [
-                    ("title", f"{home} vs {away}"),
+                    ("title", f"{home} vs {away} - {kickoff.astimezone(UK):%Y/%m/%d}"),
                     ("showtitle", showtitle),
                     ("season", year),
                     ("episode", episode),

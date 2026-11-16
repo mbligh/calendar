@@ -5,6 +5,8 @@
 - Rugby calendars prevent score spoilers by freezing accepted events at kickoff.
 - Generate Plex rugby NFO metadata from neutral fixture details, including a
   stable `<showtitle>` in episode NFOs and the fixture manifest for the downloader.
+  Episode titles append the match date in `YYYY/MM/DD` using Europe/London
+  time, consistent with the existing `aired` field.
 - Mirror New Jersey hunter paces from Find a Hunter Pace daily, updating only
   when event data changes. Include locations, organizer links and contacts;
   handle duplicate entries, reschedules, cancellations and source removals.

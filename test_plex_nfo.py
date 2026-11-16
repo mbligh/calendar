@@ -94,8 +94,11 @@ class RugbyPassRoundTests(unittest.TestCase):
             by_id = {f["id"]: f for f in manifest["fixtures"]}
             fixture = by_id["rugby-nations:early"]
             self.assertEqual(fixture["showtitle"], "Rugby Nations Championships")
-            self.assertEqual(ET.fromstring(output[fixture["nfo"]]).findtext("showtitle"),
-                             "Rugby Nations Championships")
+            nfo = ET.fromstring(output[fixture["nfo"]])
+            self.assertEqual(nfo.findtext("showtitle"), "Rugby Nations Championships")
+            self.assertEqual(nfo.findtext("title"),
+                             "France vs South Africa - 2026/11/13")
+            self.assertEqual(nfo.findtext("aired"), "2026-11-13")
             self.assertEqual(by_id["rugby-nations:early"]["episode"], 501)
             self.assertEqual(by_id["rugby-nations:late"]["episode"], 502)
             self.assertIsNone(by_id["rugby-nations:future"]["episode"])
