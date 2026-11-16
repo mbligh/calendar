@@ -11,6 +11,7 @@
     {
       "slug": "rugby-nations",
       "name": "Rugby Nations",
+      "nfo_showtitle": "Rugby Nations Championships",
       "type": "world-rugby",
       "group": "nations"
     },

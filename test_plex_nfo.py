@@ -5,6 +5,7 @@ import unittest
 import json
 import tempfile
 from pathlib import Path
+import xml.etree.ElementTree as ET
 from icalendar import Calendar
 from filter import start_time
 from zoneinfo import ZoneInfo
@@ -86,10 +87,15 @@ class RugbyPassRoundTests(unittest.TestCase):
             (data / "rugbypass.json").write_text(
                 json.dumps({"source": "rugbypass", "records": records}))
             config = {"calendars": [{"slug": "rugby-nations", "name": "Rugby Nations",
+                                    "nfo_showtitle": "Rugby Nations Championships",
                                     "type": "world-rugby"}]}
             now = dt.datetime(2026, 11, 14, tzinfo=dt.timezone.utc)
-            _, manifest = build(config, docs, now)
+            output, manifest = build(config, docs, now)
             by_id = {f["id"]: f for f in manifest["fixtures"]}
+            fixture = by_id["rugby-nations:early"]
+            self.assertEqual(fixture["showtitle"], "Rugby Nations Championships")
+            self.assertEqual(ET.fromstring(output[fixture["nfo"]]).findtext("showtitle"),
+                             "Rugby Nations Championships")
             self.assertEqual(by_id["rugby-nations:early"]["episode"], 501)
             self.assertEqual(by_id["rugby-nations:late"]["episode"], 502)
             self.assertIsNone(by_id["rugby-nations:future"]["episode"])

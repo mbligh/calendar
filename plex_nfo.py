@@ -106,6 +106,7 @@ def build(config, source_dir, now):
         if old_data.get("schema_version") == 2:
             old_assignments = {f["id"]: f for f in old_data.get("fixtures", [])}
     for entry in config["calendars"] + config.get("plex_sources", []):
+        showtitle = entry.get("nfo_showtitle", entry["name"])
         if entry.get("type") == "prem":
             calendar = fetch_prem(entry["url"], comp_id=entry["compId"], season=entry["season"])
         else:
@@ -139,7 +140,7 @@ def build(config, source_dir, now):
                         # Publish the fixture without fabricating a round/episode.
                         manifest["fixtures"].append({
                             "id": f"{entry['slug']}:{event.get('UID', '')}",
-                            "competition": entry["slug"], "season": year,
+                            "competition": entry["slug"], "showtitle": showtitle, "season": year,
                             "round": None, "episode": None,
                             "kickoff_utc": kickoff.astimezone(dt.timezone.utc).isoformat(),
                             "home": teams[0].strip(), "away": teams[1].strip(),
@@ -191,6 +192,7 @@ def build(config, source_dir, now):
                 venue = str(event.get("LOCATION", "")).strip()
                 fields = [
                     ("title", f"{home} vs {away}"),
+                    ("showtitle", showtitle),
                     ("season", year),
                     ("episode", episode),
                     ("aired", kickoff.astimezone(UK).date().isoformat()),
@@ -200,6 +202,7 @@ def build(config, source_dir, now):
                 manifest["fixtures"].append({
                     "id": f"{entry['slug']}:{uid}",
                     "competition": entry["slug"],
+                    "showtitle": showtitle,
                     "season": year,
                     "round": round_no,
                     "episode": episode,
