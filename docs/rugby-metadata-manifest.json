@@ -3115,7 +3115,7 @@
       "episode": 122,
       "home": "Portugal",
       "id": "rugby-womens-intl:world-rugby-f0f37952-8ef8-4846-b0ad-31c6ed88b460@mbligh.github.io",
-      "kickoff_utc": "2026-11-30T00:00:00+00:00",
+      "kickoff_utc": "2026-11-30T18:30:00+00:00",
       "nfo": "rugby_womens_intl/Season_2026/rugby_womens_intl-s2026e122-Portugal_v_Georgia_20261130.nfo",
       "round": 1,
       "rugbypass_id": null,
@@ -3866,6 +3866,6 @@
       "venue": "Mattioli Woods Welford Road"
     }
   ],
-  "generated_at": "2026-11-17T03:53:27.484059+00:00",
+  "generated_at": "2026-11-17T13:26:15.643549+00:00",
   "schema_version": 2
 }
