@@ -250,6 +250,10 @@
     "rugby_womens_pwr/Season_2026/rugby_womens_pwr-s2026e802-Saracens_v_Exeter_Chiefs_20270116.nfo": "0e230e452dac392f801feb2523def4cc24f26fac5bfb77272b10ff8ce6f238fe",
     "rugby_womens_pwr/Season_2026/rugby_womens_pwr-s2026e803-Trailfinders_Women_v_Sale_Sharks_20270116.nfo": "7928b41aae235622f11ecfa94858bd99fa12f9c49b03655e04625956be217b74",
     "rugby_womens_pwr/Season_2026/rugby_womens_pwr-s2026e804-Leicester_Tigers_v_Gloucester_Hartpury_20270117.nfo": "461c20cd9217e263a4e53aa42d24411b9cae5583202687bc30d1043571a88f1c",
+    "rugby_womens_pwr/Season_2026/rugby_womens_pwr-s2026e901-Sale_Sharks_v_Leicester_Tigers_20270123.nfo": "5e066a3c35870bae7d4d058da7cfa36487a01fcc79f8df7276ff59836fb2efcc",
+    "rugby_womens_pwr/Season_2026/rugby_womens_pwr-s2026e902-Harlequins_v_Saracens_20270123.nfo": "157247330fbc572d41999fbe3c6acb42f1eb2b22a08d7ee650e4ee5e4a86edc4",
+    "rugby_womens_pwr/Season_2026/rugby_womens_pwr-s2026e903-Exeter_Chiefs_v_Bristol_Bears_20270124.nfo": "f44a5fe9983c832c5c8204e98ce72bf6a1cef08e1f8a8a91198385e210a6d353",
+    "rugby_womens_pwr/Season_2026/rugby_womens_pwr-s2026e904-Gloucester_Hartpury_v_Trailfinders_Women_20270124.nfo": "2ca9fa4a20fe1b5cda835287076d90ff657bf454916caa1970e8cc4e52d9a291",
     "rugby_womens_pwr/tvshow.nfo": "17a3319f805f1b44be4789a8051f627b7850f54f0f909669af0d82d987b50205"
   },
   "fixtures": [
@@ -3864,8 +3868,64 @@
       "season": 2026,
       "showtitle": "Rugby Womens PWR",
       "venue": "Mattioli Woods Welford Road"
+    },
+    {
+      "away": "Leicester Tigers",
+      "competition": "rugby-womens-pwr",
+      "episode": 901,
+      "home": "Sale Sharks",
+      "id": "rugby-womens-pwr:pwr-295067@mbligh.github.io",
+      "kickoff_utc": "2027-01-23T13:00:00+00:00",
+      "nfo": "rugby_womens_pwr/Season_2026/rugby_womens_pwr-s2026e901-Sale_Sharks_v_Leicester_Tigers_20270123.nfo",
+      "round": 9,
+      "rugbypass_id": null,
+      "season": 2026,
+      "showtitle": "Rugby Womens PWR",
+      "venue": ""
+    },
+    {
+      "away": "Saracens",
+      "competition": "rugby-womens-pwr",
+      "episode": 902,
+      "home": "Harlequins",
+      "id": "rugby-womens-pwr:pwr-295069@mbligh.github.io",
+      "kickoff_utc": "2027-01-23T15:00:00+00:00",
+      "nfo": "rugby_womens_pwr/Season_2026/rugby_womens_pwr-s2026e902-Harlequins_v_Saracens_20270123.nfo",
+      "round": 9,
+      "rugbypass_id": null,
+      "season": 2026,
+      "showtitle": "Rugby Womens PWR",
+      "venue": "Twickenham Stoop"
+    },
+    {
+      "away": "Bristol Bears",
+      "competition": "rugby-womens-pwr",
+      "episode": 903,
+      "home": "Exeter Chiefs",
+      "id": "rugby-womens-pwr:pwr-295068@mbligh.github.io",
+      "kickoff_utc": "2027-01-24T13:00:00+00:00",
+      "nfo": "rugby_womens_pwr/Season_2026/rugby_womens_pwr-s2026e903-Exeter_Chiefs_v_Bristol_Bears_20270124.nfo",
+      "round": 9,
+      "rugbypass_id": null,
+      "season": 2026,
+      "showtitle": "Rugby Womens PWR",
+      "venue": "Sandy Park"
+    },
+    {
+      "away": "Trailfinders Women",
+      "competition": "rugby-womens-pwr",
+      "episode": 904,
+      "home": "Gloucester Hartpury",
+      "id": "rugby-womens-pwr:pwr-295066@mbligh.github.io",
+      "kickoff_utc": "2027-01-24T15:00:00+00:00",
+      "nfo": "rugby_womens_pwr/Season_2026/rugby_womens_pwr-s2026e904-Gloucester_Hartpury_v_Trailfinders_Women_20270124.nfo",
+      "round": 9,
+      "rugbypass_id": null,
+      "season": 2026,
+      "showtitle": "Rugby Womens PWR",
+      "venue": "Kingsholm Stadium"
     }
   ],
-  "generated_at": "2026-11-18T04:20:19.710861+00:00",
+  "generated_at": "2026-11-18T13:58:11.355000+00:00",
   "schema_version": 2
 }
