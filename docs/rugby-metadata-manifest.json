@@ -102,6 +102,8 @@
     "rugby_mens_intl/Season_2026/rugby_mens_intl-s2026e135-NC_Northern_2_v_Southern_2_20261128.nfo": "b42ce7ecb12ed6c4451d2339fdfa751c2226bc87c4afbfc74b9b6c1cef3bf19b",
     "rugby_mens_intl/Season_2026/rugby_mens_intl-s2026e136-NC_Northern_4_v_Southern_4_20261129.nfo": "702221d68808de75fa0372649c2e09019a4c16600edc9320ecd2c7adab49851c",
     "rugby_mens_intl/Season_2026/rugby_mens_intl-s2026e137-NC_Northern_1_v_Southern_1_20261129.nfo": "5be2f26200ea79d4854b4fc868f7113da63a9321e79519678b1cd8ac7464a0d2",
+    "rugby_mens_intl/Season_2026/rugby_mens_intl-s2026e138-Tunisia_v_Switzerland_20261121.nfo": "5112dd93d13233170f487aa4f1b6e391dbfb15f21a97ac3a578326c7f0893f1c",
+    "rugby_mens_intl/Season_2026/rugby_mens_intl-s2026e139-Tunisia_v_Poland_20261124.nfo": "e27d3cec646f89b71c3152eb17ed189d59362fe111d7117140c9876cb721faae",
     "rugby_mens_intl/Season_2027/rugby_mens_intl-s2027e101-6N_Ireland_v_England_20270205.nfo": "ea0d7b9b86931b86dbc0744c4270bca4c1a068bb436e9fa2286a5aedd9933f75",
     "rugby_mens_intl/Season_2027/rugby_mens_intl-s2027e102-6N_Scotland_v_Italy_20270206.nfo": "26212c784532b9095c6e506d5b15b9d1201f4e9283b02e188c9afd00442fb63e",
     "rugby_mens_intl/Season_2027/rugby_mens_intl-s2027e103-6N_France_v_Wales_20270206.nfo": "93a7830d8537c15de8a2435f4649ee0b0bdc6bcec95c7b19c3a747767f6eb702",
@@ -1294,6 +1296,20 @@
       "venue": "Murrayfield, Edinburgh, Scotland"
     },
     {
+      "away": "Switzerland",
+      "competition": "rugby-mens-intl",
+      "episode": 138,
+      "home": "Tunisia",
+      "id": "rugby-mens-intl:world-rugby-5a1d780c-1346-40b5-99ec-10f75eadf26c@mbligh.github.io",
+      "kickoff_utc": "2026-11-21T14:00:00+00:00",
+      "nfo": "rugby_mens_intl/Season_2026/rugby_mens_intl-s2026e138-Tunisia_v_Switzerland_20261121.nfo",
+      "round": 1,
+      "rugbypass_id": null,
+      "season": 2026,
+      "showtitle": "Rugby Mens Intl",
+      "venue": "Stade El Menzah"
+    },
+    {
       "away": "\ud83c\uddf3\ud83c\uddff New Zealand",
       "competition": "rugby-mens-intl",
       "episode": 124,
@@ -1390,6 +1406,20 @@
       "season": 2026,
       "showtitle": "Rugby Mens Intl",
       "venue": "Stade de France, Paris"
+    },
+    {
+      "away": "Poland",
+      "competition": "rugby-mens-intl",
+      "episode": 139,
+      "home": "Tunisia",
+      "id": "rugby-mens-intl:world-rugby-7e4ca0bc-c21d-48b9-9cec-ee8c68464612@mbligh.github.io",
+      "kickoff_utc": "2026-11-24T14:00:00+00:00",
+      "nfo": "rugby_mens_intl/Season_2026/rugby_mens_intl-s2026e139-Tunisia_v_Poland_20261124.nfo",
+      "round": 1,
+      "rugbypass_id": null,
+      "season": 2026,
+      "showtitle": "Rugby Mens Intl",
+      "venue": "Stade El Menzah"
     },
     {
       "away": "Southern 6",
@@ -2747,7 +2777,7 @@
       "rugbypass_id": null,
       "season": 2026,
       "showtitle": "Rugby Nations Championships",
-      "venue": "TBC"
+      "venue": "Allianz Stadium"
     },
     {
       "away": "STH 3rd",
@@ -2761,7 +2791,7 @@
       "rugbypass_id": null,
       "season": 2026,
       "showtitle": "Rugby Nations Championships",
-      "venue": "TBC"
+      "venue": "Allianz Stadium"
     },
     {
       "away": "STH 5th",
@@ -2775,7 +2805,7 @@
       "rugbypass_id": null,
       "season": 2026,
       "showtitle": "Rugby Nations Championships",
-      "venue": "TBC"
+      "venue": "Allianz Stadium"
     },
     {
       "away": "STH 2nd",
@@ -2789,7 +2819,7 @@
       "rugbypass_id": null,
       "season": 2026,
       "showtitle": "Rugby Nations Championships",
-      "venue": "TBC"
+      "venue": "Allianz Stadium"
     },
     {
       "away": "STH 4th",
@@ -2803,7 +2833,7 @@
       "rugbypass_id": null,
       "season": 2026,
       "showtitle": "Rugby Nations Championships",
-      "venue": "TBC"
+      "venue": "Allianz Stadium"
     },
     {
       "away": "STH 1st",
@@ -2817,7 +2847,7 @@
       "rugbypass_id": null,
       "season": 2026,
       "showtitle": "Rugby Nations Championships",
-      "venue": "TBC"
+      "venue": "Allianz Stadium"
     },
     {
       "away": "England",
@@ -3926,6 +3956,6 @@
       "venue": "Kingsholm Stadium"
     }
   ],
-  "generated_at": "2026-11-19T13:06:06.334037+00:00",
+  "generated_at": "2026-11-19T21:33:59.161120+00:00",
   "schema_version": 2
 }
