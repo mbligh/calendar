@@ -263,7 +263,7 @@ SUMMARY:Gloucester Hartpury vs Trailfinders Women
 DTSTART:20270124T150000Z
 DTEND:20270124T170000Z
 UID:pwr-295066@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 9
+DESCRIPTION:Premiership Women's Rugby — Round 9\\nWatch on: TNT
 LOCATION:Kingsholm Stadium
 END:VEVENT
 BEGIN:VEVENT
@@ -278,7 +278,7 @@ SUMMARY:Exeter Chiefs vs Bristol Bears
 DTSTART:20270124T130000Z
 DTEND:20270124T150000Z
 UID:pwr-295068@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 9
+DESCRIPTION:Premiership Women's Rugby — Round 9\\nWatch on: Youtube
 LOCATION:Sandy Park
 END:VEVENT
 BEGIN:VEVENT
@@ -286,7 +286,7 @@ SUMMARY:Harlequins vs Saracens
 DTSTART:20270123T150000Z
 DTEND:20270123T170000Z
 UID:pwr-295069@mbligh.github.io
-DESCRIPTION:Premiership Women's Rugby — Round 9
+DESCRIPTION:Premiership Women's Rugby — Round 9\\nWatch on: iPlayer
 LOCATION:Twickenham Stoop
 END:VEVENT
 BEGIN:VEVENT
