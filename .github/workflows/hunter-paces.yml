@@ -13,17 +13,12 @@ on:
   workflow_dispatch:
 permissions:
   contents: write
-  pages: write
-  id-token: write
 concurrency:
   group: calendar-update
   cancel-in-progress: false
 jobs:
   update:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-python@v6
@@ -41,11 +36,5 @@ jobs:
             git commit -m "Update NJ hunter pace calendar"
             git push
           fi
-      # Explicit deployment: commits made with GITHUB_TOKEN do not trigger
-      # the branch-based Pages build. Publish all calendars in docs together.
-      - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: docs
-      - uses: actions/deploy-pages@v4
-        id: deployment
+      # Pages is already configured to publish main/docs automatically.
+      # Do not upload/deploy a second Pages artifact from this workflow.
