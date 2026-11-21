@@ -100,6 +100,7 @@ def build_source(records, series):
     seen = set()
     valid = 0
     cancelled = 0
+    skipped_unscheduled = 0
     for ep in records:
         uid = uid_for(ep, series)
         if uid in seen:
@@ -109,11 +110,21 @@ def build_source(records, series):
             calendar.add("x-wr-cancelled-uid", uid)
             cancelled += 1
             continue
-        calendar.add_component(event_from_episode(ep, series))
+        try:
+            component = event_from_episode(ep, series)
+        except ValueError as exc:
+            if "lacks a schedule" not in str(exc):
+                raise
+            # TBC fixtures must not acquire invented dates. Existing
+            # previously published entries are retained by filter.merge.
+            skipped_unscheduled += 1
+            continue
+        calendar.add_component(component)
         valid += 1
     if not valid and not cancelled:
         raise ValueError(f"Refusing empty Atlas source for {series}")
-    return calendar, {"source_fixtures": valid, "explicit_cancellations": cancelled}
+    return calendar, {"source_fixtures": valid, "explicit_cancellations": cancelled,
+                      "skipped_unscheduled": skipped_unscheduled}
 
 
 def plan(database, config, output_dir, *, series=None, now=None):
@@ -144,7 +155,10 @@ def plan(database, config, output_dir, *, series=None, now=None):
         prior = events(previous) if previous else {}
         # Detect loss, not merely changes in serialized layout.
         removed = set(prior) - set(after)
-        cancelled = {str(x) for x in source.get("x-wr-cancelled-uid", [])}
+        flagged = source.get("x-wr-cancelled-uid", [])
+        if not isinstance(flagged, list):
+            flagged = [flagged]
+        cancelled = {str(x) for x in flagged}
         if removed - {(uid, "") for uid in cancelled}:
             raise ValueError(f"Unexpected removal of prior events in {slug}")
         payload = merged.to_ical()
