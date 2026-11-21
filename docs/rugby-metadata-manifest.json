@@ -14,6 +14,8 @@
     "Rugby_Nations/Season_2026/Rugby_Nations-s2026e506-Scotland_v_Australia_20261115.nfo": "03b745ed41be30ce80aca24f72f9a9d76328216742f3c513b6b0c57e521e74ea",
     "Rugby_Nations/Season_2026/Rugby_Nations-s2026e601-England_v_New_Zealand_20261121.nfo": "b8de4de82b83ecb4f8fc9de6e867076178c16893e5f2583f252a9dbcacd8819e",
     "Rugby_Nations/Season_2026/Rugby_Nations-s2026e602-Scotland_v_Japan_20261121.nfo": "d25953f827060c33a651154a6299cf2be38a37b04acc96b1918f9b942afde93f",
+    "Rugby_Nations/Season_2026/Rugby_Nations-s2026e603-Ireland_v_South_Africa_20261121.nfo": "1595ba34990d67ee8a13f183a361ca0d0fa5f99feae9b78a82189d258804a397",
+    "Rugby_Nations/Season_2026/Rugby_Nations-s2026e604-Italy_v_Fiji_20261121.nfo": "2d0477b47914c91edf77a227ce262f5ca8c09d320be9cf5175e75c7491fb5e7c",
     "Rugby_Nations/tvshow.nfo": "88bb9ce732d6c8d92b31a32797daac4b0636c6795796c4d5f59780baf11d615f",
     "gallagher_prem/Season_2026/gallagher_prem-s2026e1001-Harlequins_v_Gloucester_Rugby_20270122.nfo": "683df6950d2bc93afaf7fa3c830b30255607745c2ed6ef080bb7ee3b0ef8b313",
     "gallagher_prem/Season_2026/gallagher_prem-s2026e1002-Bath_Rugby_v_Northampton_Saints_20270123.nfo": "f0a3e1f2b0039e1832d0195b2059b668c669f55104d28de3dc9ef942344082de",
@@ -2714,13 +2716,13 @@
     {
       "away": "Fiji",
       "competition": "rugby-nations",
-      "episode": null,
+      "episode": 604,
       "home": "Italy",
       "id": "rugby-nations:world-rugby-02df3cf8-3d55-418f-a141-29fec4e3d5c8@mbligh.github.io",
       "kickoff_utc": "2026-11-21T16:40:00+00:00",
-      "nfo": null,
-      "round": null,
-      "rugbypass_id": null,
+      "nfo": "Rugby_Nations/Season_2026/Rugby_Nations-s2026e604-Italy_v_Fiji_20261121.nfo",
+      "round": 6,
+      "rugbypass_id": "1054321",
       "season": 2026,
       "showtitle": "Rugby Nations Championships",
       "venue": "Bluenergy Stadium"
@@ -2728,13 +2730,13 @@
     {
       "away": "South Africa",
       "competition": "rugby-nations",
-      "episode": null,
+      "episode": 603,
       "home": "Ireland",
       "id": "rugby-nations:world-rugby-ad54e7f4-c786-4ff1-abb9-97233e4e9423@mbligh.github.io",
       "kickoff_utc": "2026-11-21T16:40:00+00:00",
-      "nfo": null,
-      "round": null,
-      "rugbypass_id": null,
+      "nfo": "Rugby_Nations/Season_2026/Rugby_Nations-s2026e603-Ireland_v_South_Africa_20261121.nfo",
+      "round": 6,
+      "rugbypass_id": "1054322",
       "season": 2026,
       "showtitle": "Rugby Nations Championships",
       "venue": "Aviva Stadium"
@@ -2768,10 +2770,10 @@
       "venue": "Principality Stadium"
     },
     {
-      "away": "STH 6th",
+      "away": "Fiji",
       "competition": "rugby-nations",
       "episode": null,
-      "home": "NTH 6th",
+      "home": "Italy",
       "id": "rugby-nations:world-rugby-e7d020c9-fe59-405e-ab5e-39696c8ce9b7@mbligh.github.io",
       "kickoff_utc": "2026-11-27T16:40:00+00:00",
       "nfo": null,
@@ -2782,10 +2784,10 @@
       "venue": "Allianz Stadium"
     },
     {
-      "away": "STH 3rd",
+      "away": "Australia",
       "competition": "rugby-nations",
       "episode": null,
-      "home": "NTH 3rd",
+      "home": "Ireland",
       "id": "rugby-nations:world-rugby-b1d07ba6-de16-4c54-99c1-fbc145c18c75@mbligh.github.io",
       "kickoff_utc": "2026-11-27T20:10:00+00:00",
       "nfo": null,
@@ -2796,10 +2798,10 @@
       "venue": "Allianz Stadium"
     },
     {
-      "away": "STH 5th",
+      "away": "Japan",
       "competition": "rugby-nations",
       "episode": null,
-      "home": "NTH 5th",
+      "home": "Wales",
       "id": "rugby-nations:world-rugby-2920bb4c-fd91-4204-a5e1-4b02dad492eb@mbligh.github.io",
       "kickoff_utc": "2026-11-28T13:10:00+00:00",
       "nfo": null,
@@ -2810,10 +2812,10 @@
       "venue": "Allianz Stadium"
     },
     {
-      "away": "STH 2nd",
+      "away": "New Zealand",
       "competition": "rugby-nations",
       "episode": null,
-      "home": "NTH 2nd",
+      "home": "England",
       "id": "rugby-nations:world-rugby-92fc4306-b5bf-44b6-a061-6cc412c9f0bc@mbligh.github.io",
       "kickoff_utc": "2026-11-28T16:40:00+00:00",
       "nfo": null,
@@ -2824,10 +2826,10 @@
       "venue": "Allianz Stadium"
     },
     {
-      "away": "STH 4th",
+      "away": "Argentina",
       "competition": "rugby-nations",
       "episode": null,
-      "home": "NTH 4th",
+      "home": "Scotland",
       "id": "rugby-nations:world-rugby-01dcdaf6-4559-45e7-a55c-b50390bafe2a@mbligh.github.io",
       "kickoff_utc": "2026-11-29T13:10:00+00:00",
       "nfo": null,
@@ -2838,10 +2840,10 @@
       "venue": "Allianz Stadium"
     },
     {
-      "away": "STH 1st",
+      "away": "South Africa",
       "competition": "rugby-nations",
       "episode": null,
-      "home": "NTH 1st",
+      "home": "France",
       "id": "rugby-nations:world-rugby-bbe9b401-9955-4147-a612-d6d9d2ea469e@mbligh.github.io",
       "kickoff_utc": "2026-11-29T16:40:00+00:00",
       "nfo": null,
@@ -3958,6 +3960,6 @@
       "venue": "Kingsholm Stadium"
     }
   ],
-  "generated_at": "2026-11-21T18:26:02.605263+00:00",
+  "generated_at": "2026-11-21T22:41:01.780397+00:00",
   "schema_version": 2
 }
