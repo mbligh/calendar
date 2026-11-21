@@ -125,3 +125,49 @@ Pages, since bot commits do not trigger branch-based Pages builds. It shares
 concurrency with the rugby workflow to avoid simultaneous repository writes.
 
 Local use: `python hunter_paces`; regression checks: `python test_hunter_paces`.
+
+
+## Atlas-backed rugby calendars (opt-in preview)
+
+Rugby fixture scheduling, numbering, and canonical NFO creation now live in
+[mbligh/pvr](https://github.com/mbligh/pvr/tree/main/schedulers).
+This repository has an **opt-in consumer** called `export_atlas` that reads
+`pvr.episodes` from MongoDB Atlas and generates ICS snapshots using the
+existing freeze-at-kickoff merge rules.
+
+**On slagg**, where Atlas is already allowlisted:
+
+```sh
+cd ~/calendar
+git pull
+sudo apt install python3-pymongo python3-icalendar
+
+# Read-only preview against the current published snapshots:
+python3 export_atlas --series rugby-nations
+python3 export_atlas --series rugby-womens-intl
+
+# Write locally only after reviewing output; not enabled in cron/Actions:
+python3 export_atlas --series rugby-nations --apply
+git diff -- docs/rugby-nations.ics
+```
+
+`export_atlas` reads `MONGODB_URI` or `~/.mongodb/pvr` and defaults to
+the `pvr` database. It never downloads recordings, modifies Atlas,
+commits to git, or publishes calendars itself. Missing or malformed
+series data aborts before any output is changed.
+
+The exporter preserves original calendar UIDs by deriving them from the
+suffix of the canonical PVR episode ID (`series-id:original-uid`).
+Historical accepted events remain frozen even if later Atlas metadata
+changes. Existing events absent from Atlas remain; only an explicitly
+cancelled Atlas fixture can remove one. Unscheduled fixtures are skipped
+rather than assigned invented kickoff times. Event text uses only neutral
+teams, date, round, and venue: source scores and outcomes are never copied.
+
+**Production remains unchanged:** GitHub Actions still runs `filter.py`
+and `plex_nfo.py` hourly. Do not commit exported ICS as the new source
+until we compare the future events/UIDs and switch off the duplicate
+provider fetches; the next normal action could otherwise regenerate the
+old source's calendar. WXV separation is similarly gated on the dedicated
+PVR scheduler fixture migration.
+
