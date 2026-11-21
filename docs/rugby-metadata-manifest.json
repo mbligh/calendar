@@ -12,6 +12,8 @@
     "Rugby_Nations/Season_2026/Rugby_Nations-s2026e504-England_v_Japan_20261114.nfo": "c0e060147a1a972470b1c4e7d5687e2b3c3bf582a0598be69626ddfd7f39170f",
     "Rugby_Nations/Season_2026/Rugby_Nations-s2026e505-Ireland_v_Fiji_20261114.nfo": "ff5b6972f829f86995ef1c7f9f2305ba3993227f929a29d0af68ba8a8c7ed818",
     "Rugby_Nations/Season_2026/Rugby_Nations-s2026e506-Scotland_v_Australia_20261115.nfo": "03b745ed41be30ce80aca24f72f9a9d76328216742f3c513b6b0c57e521e74ea",
+    "Rugby_Nations/Season_2026/Rugby_Nations-s2026e601-England_v_New_Zealand_20261121.nfo": "b8de4de82b83ecb4f8fc9de6e867076178c16893e5f2583f252a9dbcacd8819e",
+    "Rugby_Nations/Season_2026/Rugby_Nations-s2026e602-Scotland_v_Japan_20261121.nfo": "d25953f827060c33a651154a6299cf2be38a37b04acc96b1918f9b942afde93f",
     "Rugby_Nations/tvshow.nfo": "88bb9ce732d6c8d92b31a32797daac4b0636c6795796c4d5f59780baf11d615f",
     "gallagher_prem/Season_2026/gallagher_prem-s2026e1001-Harlequins_v_Gloucester_Rugby_20270122.nfo": "683df6950d2bc93afaf7fa3c830b30255607745c2ed6ef080bb7ee3b0ef8b313",
     "gallagher_prem/Season_2026/gallagher_prem-s2026e1002-Bath_Rugby_v_Northampton_Saints_20270123.nfo": "f0a3e1f2b0039e1832d0195b2059b668c669f55104d28de3dc9ef942344082de",
@@ -2620,7 +2622,7 @@
       "kickoff_utc": "2026-11-14T11:40:00+00:00",
       "nfo": "Rugby_Nations/Season_2026/Rugby_Nations-s2026e502-Italy_v_Argentina_20261114.nfo",
       "round": 5,
-      "rugbypass_id": null,
+      "rugbypass_id": "1051549",
       "season": 2026,
       "showtitle": "Rugby Nations Championships",
       "venue": "Stadio Luigi Ferraris"
@@ -2634,7 +2636,7 @@
       "kickoff_utc": "2026-11-14T14:10:00+00:00",
       "nfo": "Rugby_Nations/Season_2026/Rugby_Nations-s2026e503-Wales_v_New_Zealand_20261114.nfo",
       "round": 5,
-      "rugbypass_id": null,
+      "rugbypass_id": "1051578",
       "season": 2026,
       "showtitle": "Rugby Nations Championships",
       "venue": "Principality Stadium"
@@ -2648,7 +2650,7 @@
       "kickoff_utc": "2026-11-14T16:40:00+00:00",
       "nfo": "Rugby_Nations/Season_2026/Rugby_Nations-s2026e504-England_v_Japan_20261114.nfo",
       "round": 5,
-      "rugbypass_id": null,
+      "rugbypass_id": "1051635",
       "season": 2026,
       "showtitle": "Rugby Nations Championships",
       "venue": "Allianz Stadium"
@@ -2662,7 +2664,7 @@
       "kickoff_utc": "2026-11-14T20:10:00+00:00",
       "nfo": "Rugby_Nations/Season_2026/Rugby_Nations-s2026e505-Ireland_v_Fiji_20261114.nfo",
       "round": 5,
-      "rugbypass_id": null,
+      "rugbypass_id": "1051710",
       "season": 2026,
       "showtitle": "Rugby Nations Championships",
       "venue": "Aviva Stadium"
@@ -2676,7 +2678,7 @@
       "kickoff_utc": "2026-11-15T15:10:00+00:00",
       "nfo": "Rugby_Nations/Season_2026/Rugby_Nations-s2026e506-Scotland_v_Australia_20261115.nfo",
       "round": 5,
-      "rugbypass_id": null,
+      "rugbypass_id": "1051997",
       "season": 2026,
       "showtitle": "Rugby Nations Championships",
       "venue": "Murrayfield"
@@ -2684,13 +2686,13 @@
     {
       "away": "Japan",
       "competition": "rugby-nations",
-      "episode": null,
+      "episode": 602,
       "home": "Scotland",
       "id": "rugby-nations:world-rugby-14c0eb4c-be38-4d23-a25e-cc897a440bff@mbligh.github.io",
       "kickoff_utc": "2026-11-21T14:10:00+00:00",
-      "nfo": null,
-      "round": null,
-      "rugbypass_id": null,
+      "nfo": "Rugby_Nations/Season_2026/Rugby_Nations-s2026e602-Scotland_v_Japan_20261121.nfo",
+      "round": 6,
+      "rugbypass_id": "1054206",
       "season": 2026,
       "showtitle": "Rugby Nations Championships",
       "venue": "Murrayfield"
@@ -2698,13 +2700,13 @@
     {
       "away": "New Zealand",
       "competition": "rugby-nations",
-      "episode": null,
+      "episode": 601,
       "home": "England",
       "id": "rugby-nations:world-rugby-3642431c-f6c3-421d-8fba-8171e12e05e0@mbligh.github.io",
       "kickoff_utc": "2026-11-21T14:10:00+00:00",
-      "nfo": null,
-      "round": null,
-      "rugbypass_id": null,
+      "nfo": "Rugby_Nations/Season_2026/Rugby_Nations-s2026e601-England_v_New_Zealand_20261121.nfo",
+      "round": 6,
+      "rugbypass_id": "1054204",
       "season": 2026,
       "showtitle": "Rugby Nations Championships",
       "venue": "Allianz Stadium"
@@ -3956,6 +3958,6 @@
       "venue": "Kingsholm Stadium"
     }
   ],
-  "generated_at": "2026-11-21T17:31:17.883509+00:00",
+  "generated_at": "2026-11-21T17:42:33.009168+00:00",
   "schema_version": 2
 }
