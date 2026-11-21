@@ -46,8 +46,13 @@ class RugbyPassRoundTests(unittest.TestCase):
                         if (r := replay_observation(item)) is not None]
         self.assertGreater(len(observations), 0)
         cal = Calendar.from_ical((root / "docs" / "rugby-nations.ics").read_bytes())
+        # The teams also meet on 29 November in the same competition.
+        # Select the fixture associated with the 13 November replay;
+        # team names alone do not identify a unique fixture.
         fixtures = [e for e in cal.walk("VEVENT")
-                    if str(e.get("SUMMARY", "")) == "France vs South Africa"]
+                    if str(e.get("SUMMARY", "")) == "France vs South Africa"
+                    and start_time(e, ZoneInfo("Europe/London")).date()
+                        == dt.date(2026, 11, 13)]
         self.assertEqual(len(fixtures), 1)
         kickoff = start_time(fixtures[0], ZoneInfo("Europe/London"))
         self.assertEqual(resolve_round(kickoff, "France", "South Africa", observations),
