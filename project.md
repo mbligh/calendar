@@ -94,3 +94,25 @@ round inference is used. New matches in a round are numbered by calendar
 kickoff UTC, with team/UID tie-breakers; previously committed episode IDs
 remain reserved across subsequent runs, including when fixture order changes.
 NFO files are only generated for assigned fixtures.
+
+
+## Planned Atlas-to-calendar publisher transition
+
+mbligh/pvr now owns fixture creation in `schedulers/`, separate from
+`indexers/` and `downloaders/`. The opt-in `export_atlas` command
+reads the stable `pvr.episodes` IDs and produces ICS snapshots through
+the established freeze-at-kickoff merge. The action remains on its
+original independent fetch/numbering workflow for now, so the source
+migration can be reviewed before eliminating duplicate fixture logic.
+
+Run `python3 export_atlas --series rugby-nations` on `slagg` to preview
+with the existing Atlas allowlist and `~/.mongodb/pvr` credentials;
+`--apply` only writes local `docs/<slug>.ics`, not git or Atlas.
+See README.md for details. Existing calendar UIDs and frozen past fixtures
+are preserved; no new historical events are manufactured.
+
+A later cutover must stop the hourly rugby fetching and NFO-generation
+steps in `.github/workflows/update.yml`, replace them with publication
+of the checked Atlas-derived snapshots from the allowlisted host, and
+retain the independent hunter-paces workflow. Do not disable the old
+publisher until the new metadata output has been verified.
