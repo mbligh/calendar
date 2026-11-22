@@ -129,6 +129,10 @@ def main():
     args.output.mkdir(parents=True, exist_ok=True)
     failures = 0
     for entry in config["calendars"]:
+        # Atlas-only feeds are built by build_rugby_calendars on the
+        # allowlisted host, not scraped by the legacy hourly updater.
+        if entry.get("type") == "atlas":
+            continue
         slug = entry["slug"]
         path = args.output / (slug + ".ics")
         url = entry.get("url")
