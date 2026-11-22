@@ -205,7 +205,8 @@ def plan(database, config, output_dir, *, series=None, now=None):
     # WXV was formerly published in Rugby Womens Intl. Both feeds must
     # migrate together so no frozen historical fixture disappears.
     old_intl = read_existing(pathlib.Path(output_dir) / (INTL + ".ics"))
-    if old_intl is not None and any(wxv_legacy_event(ev) for ev in old_intl.walk("VEVENT")):
+    if (set(selected) & {INTL, WXV}) and old_intl is not None and any(
+            wxv_legacy_event(ev) for ev in old_intl.walk("VEVENT")):
         if INTL not in selected or WXV not in selected:
             raise ValueError("WXV split requires exporting rugby-womens-intl and rugby-womens-wxv together")
         previous_by_series[INTL], previous_by_series[WXV], moved = split_published_wxv(
