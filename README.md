@@ -131,7 +131,7 @@ Local use: `python hunter_paces`; regression checks: `python test_hunter_paces`.
 
 Rugby fixture scheduling, numbering, and canonical NFO creation now live in
 [mbligh/pvr](https://github.com/mbligh/pvr/tree/main/schedulers).
-This repository has an **opt-in consumer** called `export_atlas` that reads
+This repository has an **opt-in consumer** called `build_rugby_calendars` that reads
 `pvr.episodes` from MongoDB Atlas and generates ICS snapshots using the
 existing freeze-at-kickoff merge rules.
 
@@ -143,15 +143,15 @@ git pull
 sudo apt install python3-pymongo python3-icalendar
 
 # Read-only preview against the current published snapshots:
-python3 export_atlas --series rugby-nations
-python3 export_atlas --series rugby-womens-intl
+python3 build_rugby_calendars --series rugby-nations
+python3 build_rugby_calendars --series rugby-womens-intl
 
 # Write locally only after reviewing output; not enabled in cron/Actions:
-python3 export_atlas --series rugby-nations --apply
+python3 build_rugby_calendars --series rugby-nations --apply
 git diff -- docs/rugby-nations.ics
 ```
 
-`export_atlas` reads `MONGODB_URI` or `~/.mongodb/pvr` and defaults to
+`build_rugby_calendars` reads `MONGODB_URI` or `~/.mongodb/pvr` and defaults to
 the `pvr` database. It never downloads recordings, modifies Atlas,
 commits to git, or publishes calendars itself. Missing or malformed
 series data aborts before any output is changed.
@@ -171,3 +171,40 @@ provider fetches; the next normal action could otherwise regenerate the
 old source's calendar. WXV separation is similarly gated on the dedicated
 PVR scheduler fixture migration.
 
+## Atlas publication cutover
+
+`build_rugby_calendars` is the read-only-by-default consumer of canonical
+rugby fixtures in the `pvr.episodes` MongoDB Atlas collection. On the
+Atlas-allowlisted host `slagg`, first run the updated PVR scheduler:
+
+```sh
+cd ~/pvr && git pull && python3 import_rugby
+cd ~/calendar && git pull
+python3 build_rugby_calendars
+```
+
+The first run of the scheduler splits WXV into its own series and numbering,
+preserves old WXV fixture IDs as superseded migration history, and migrates
+any release associations. The calendar builder moves accepted historical
+WXV events from `rugby-womens-intl.ics` to `rugby-womens-wxv.ics`
+without changing their UIDs or frozen historical text.
+
+Only after inspecting the full preview, explicitly activate Atlas
+publication (one time):
+
+```sh
+python3 build_rugby_calendars --apply --publish --activate
+```
+
+That command writes the managed rugby ICS files, commits and pushes them
+and `.github/atlas-rugby-active`. The marker switches off the old
+hourly GitHub Actions rugby fetch/NFO generation; it does not affect
+the hunter-paces workflow. It is **not committed automatically** by code
+deployment. After activation, run `python3 import_rugby` and
+`python3 build_rugby_calendars --apply --publish` periodically on
+`slagg`. A cron job must be installed on that host separately; GitHub
+Actions runners are not given general access to Atlas.
+
+Preview and `--apply` never write Atlas. `--publish` requires `--apply`;
+`--activate` additionally requires all configured series to be exported.
+The legacy system remains active until that explicit handoff.
