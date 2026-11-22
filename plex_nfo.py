@@ -106,6 +106,8 @@ def build(config, source_dir, now):
         if old_data.get("schema_version") == 2:
             old_assignments = {f["id"]: f for f in old_data.get("fixtures", [])}
     for entry in config["calendars"] + config.get("plex_sources", []):
+        if entry.get("type") == "atlas":
+            continue
         showtitle = entry.get("nfo_showtitle", entry["name"])
         if entry.get("type") == "prem":
             calendar = fetch_prem(entry["url"], comp_id=entry["compId"], season=entry["season"])
