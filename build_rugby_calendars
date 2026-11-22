@@ -23,6 +23,7 @@ from zoneinfo import ZoneInfo
 
 from icalendar import Calendar, Event
 from filter import merge, events, read_existing
+from rugby_metadata import build as build_rugby_metadata, write as write_rugby_metadata
 
 ROOT = pathlib.Path(__file__).resolve().parent
 UTC = dt.timezone.utc
@@ -353,10 +354,31 @@ def main(argv=None):
         from pymongo import MongoClient
         with MongoClient(uri, serverSelectionTimeoutMS=15000) as client:
             client.admin.command("ping")
-            plans = run(client[args.database], config, args.output,
+            database = client[args.database]
+            metadata = None
+            # Compile the full compatibility archive before writing ICS.
+            # Partial --series exports leave the common manifest untouched.
+            if args.apply and not args.series:
+                canonical = list(database.episodes.find({
+                    "series_id": {"$regex": "^(rugby-|gallagher-prem$)"}
+                }))
+                old_json = args.output / "rugby-metadata-manifest.json"
+                old_tar = args.output / "rugby-metadata.tar.gz"
+                fallback = json.loads(old_json.read_text(encoding="utf-8")) if old_json.is_file() else None
+                archive = old_tar.read_bytes() if old_tar.is_file() else None
+                metadata = build_rugby_metadata(
+                    canonical, fallback_manifest=fallback,
+                    fallback_archive=archive)
+            plans = run(database, config, args.output,
                         series=args.series, apply=args.apply)
+        staged = list(plans)
+        if metadata is not None:
+            manifest, tarball, counts = metadata
+            targets = write_rugby_metadata(args.output, manifest, tarball)
+            staged += [{"path": target} for target in targets]
+            print(json.dumps({"metadata": counts, "mode": "apply"}, sort_keys=True))
         if args.publish:
-            result = publish_to_git(plans, activate=args.activate)
+            result = publish_to_git(staged, activate=args.activate)
             print(json.dumps({"publication": result, "activated": args.activate}))
     except (OSError, ValueError, KeyError, TypeError,
             subprocess.CalledProcessError, RuntimeError) as exc:
