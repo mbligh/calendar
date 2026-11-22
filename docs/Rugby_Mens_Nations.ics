@@ -8,7 +8,7 @@ SUMMARY:Scotland vs Argentina
 DTSTART:20261129T131000Z
 DTEND:20261129T151000Z
 UID:world-rugby-01dcdaf6-4559-45e7-a55c-b50390bafe2a@mbligh.github.io
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 7
 LOCATION:Allianz Stadium
 STATUS:CONFIRMED
 END:VEVENT
@@ -57,7 +57,7 @@ SUMMARY:Wales vs Japan
 DTSTART:20261128T131000Z
 DTEND:20261128T151000Z
 UID:world-rugby-2920bb4c-fd91-4204-a5e1-4b02dad492eb@mbligh.github.io
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 7
 LOCATION:Allianz Stadium
 STATUS:CONFIRMED
 END:VEVENT
@@ -122,7 +122,7 @@ SUMMARY:England vs New Zealand
 DTSTART:20261128T164000Z
 DTEND:20261128T184000Z
 UID:world-rugby-92fc4306-b5bf-44b6-a061-6cc412c9f0bc@mbligh.github.io
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 7
 LOCATION:Allianz Stadium
 STATUS:CONFIRMED
 END:VEVENT
@@ -139,7 +139,7 @@ SUMMARY:Ireland vs Australia
 DTSTART:20261127T201000Z
 DTEND:20261127T221000Z
 UID:world-rugby-b1d07ba6-de16-4c54-99c1-fbc145c18c75@mbligh.github.io
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 7
 LOCATION:Allianz Stadium
 STATUS:CONFIRMED
 END:VEVENT
@@ -156,7 +156,7 @@ SUMMARY:France vs South Africa
 DTSTART:20261129T164000Z
 DTEND:20261129T184000Z
 UID:world-rugby-bbe9b401-9955-4147-a612-d6d9d2ea469e@mbligh.github.io
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 7
 LOCATION:Allianz Stadium
 STATUS:CONFIRMED
 END:VEVENT
@@ -189,7 +189,7 @@ SUMMARY:Italy vs Fiji
 DTSTART:20261127T164000Z
 DTEND:20261127T184000Z
 UID:world-rugby-e7d020c9-fe59-405e-ab5e-39696c8ce9b7@mbligh.github.io
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 7
 LOCATION:Allianz Stadium
 STATUS:CONFIRMED
 END:VEVENT
