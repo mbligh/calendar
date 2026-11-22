@@ -51,7 +51,16 @@ jobs:
           git add -A docs/
           if ! git diff --cached --quiet; then
             git commit -m "Update spoiler-free calendars"
-            git push
+            for attempt in 1 2 3; do
+              git fetch origin main
+              git rebase origin/main
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+              sleep 2
+            done
+            echo "::error::Could not publish rugby calendars after three non-force pushes."
+            exit 1
           fi
       - name: Report Plex metadata failure
         if: steps.atlas.outputs.active != 'true' && steps.plex.outcome == 'failure'
