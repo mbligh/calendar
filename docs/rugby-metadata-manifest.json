@@ -978,10 +978,10 @@
       "venue": "Allianz Stadium"
     },
     {
-      "away": "\ud83c\udde6\ud83c\uddfa Australia",
+      "away": "🇦🇺 Australia",
       "competition": "Rugby_Mens_Intl",
       "episode": 101,
-      "home": "New Zealand \ud83c\uddf3\ud83c\uddff",
+      "home": "New Zealand 🇳🇿",
       "id": "Rugby_Mens_Intl:6r5jimspnf2teu16ntbrc4e2km@google.com",
       "kickoff_utc": "2026-10-10T06:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e101-New_Zealand_v_Australia_20261010.nfo",
@@ -992,10 +992,10 @@
       "venue": "Eden Park, 42 Reimers Avenue, Kingsland, Auckland 1024, New Zealand"
     },
     {
-      "away": "\ud83c\uddf3\ud83c\uddff New Zealand",
+      "away": "🇳🇿 New Zealand",
       "competition": "Rugby_Mens_Intl",
       "episode": 102,
-      "home": "Australia \ud83c\udde6\ud83c\uddfa",
+      "home": "Australia 🇦🇺",
       "id": "Rugby_Mens_Intl:2t19kgl4sj5rjjoulerv1th90p@google.com",
       "kickoff_utc": "2026-10-17T05:00:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e102-Australia_v_New_Zealand_20261017.nfo",
@@ -1090,10 +1090,10 @@
       "venue": "Recreation Ground"
     },
     {
-      "away": "\ud83c\udde6\ud83c\uddf7 Argentina",
+      "away": "🇦🇷 Argentina",
       "competition": "Rugby_Mens_Intl",
       "episode": 109,
-      "home": "NC: Ireland \u2618\ufe0f",
+      "home": "NC: Ireland ☘️",
       "id": "Rugby_Mens_Intl:CSVConvert180c444b845ea0d813d0750d2b49536e",
       "kickoff_utc": "2026-11-06T20:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e109-NC_Ireland_v_Argentina_20261106.nfo",
@@ -1104,10 +1104,10 @@
       "venue": "Aviva Stadium, Lansdowne Rd, Dublin 4, D04 K5F9, Ireland"
     },
     {
-      "away": "\ud83c\uddff\ud83c\udde6 South Africa",
+      "away": "🇿🇦 South Africa",
       "competition": "Rugby_Mens_Intl",
       "episode": 110,
-      "home": "NC: Italy \ud83c\uddee\ud83c\uddf9",
+      "home": "NC: Italy 🇮🇹",
       "id": "Rugby_Mens_Intl:s8b0b0uffgmlm77j4kr0dkdt14@google.com",
       "kickoff_utc": "2026-11-07T11:40:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e110-NC_Italy_v_South_Africa_20261107.nfo",
@@ -1118,10 +1118,10 @@
       "venue": "Allianz Stadium, Corso Gaetano Scirea, 50, 10151 Torino TO, Italy"
     },
     {
-      "away": "\ud83c\uddf3\ud83c\uddff New Zealand",
+      "away": "🇳🇿 New Zealand",
       "competition": "Rugby_Mens_Intl",
       "episode": 111,
-      "home": "NC: Scotland \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f",
+      "home": "NC: Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "id": "Rugby_Mens_Intl:CSVConvert3966029bc7d1004c2f95d141844749b0",
       "kickoff_utc": "2026-11-07T14:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e111-NC_Scotland_v_New_Zealand_20261107.nfo",
@@ -1132,10 +1132,10 @@
       "venue": "Scottish Gas Murrayfield Stadium, Roseburn St, Edinburgh EH12 5PJ, UK"
     },
     {
-      "away": "\ud83c\uddef\ud83c\uddf5 Japan",
+      "away": "🇯🇵 Japan",
       "competition": "Rugby_Mens_Intl",
       "episode": 112,
-      "home": "NC: Wales \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f",
+      "home": "NC: Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿",
       "id": "Rugby_Mens_Intl:vbb3itggc7tr3hksa248lv79oo@google.com",
       "kickoff_utc": "2026-11-07T16:40:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e112-NC_Wales_v_Japan_20261107.nfo",
@@ -1146,10 +1146,10 @@
       "venue": "Principality Stadium, Cardiff"
     },
     {
-      "away": "\ud83c\uddeb\ud83c\uddef Fiji",
+      "away": "🇫🇯 Fiji",
       "competition": "Rugby_Mens_Intl",
       "episode": 113,
-      "home": "NC: France \ud83c\uddeb\ud83c\uddf7",
+      "home": "NC: France 🇫🇷",
       "id": "Rugby_Mens_Intl:iji36pvvb5pajfcknsaf4f5mb4@google.com",
       "kickoff_utc": "2026-11-07T20:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e113-NC_France_v_Fiji_20261107.nfo",
@@ -1157,13 +1157,13 @@
       "rugbypass_id": null,
       "season": 2026,
       "showtitle": "Rugby Mens Intl",
-      "venue": "Groupama Stadium, 10 Av. Simone Veil, 69150 D\u00e9cines-Charpieu, France"
+      "venue": "Groupama Stadium, 10 Av. Simone Veil, 69150 Décines-Charpieu, France"
     },
     {
-      "away": "\ud83c\udde6\ud83c\uddfa Australia",
+      "away": "🇦🇺 Australia",
       "competition": "Rugby_Mens_Intl",
       "episode": 114,
-      "home": "NC: England \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+      "home": "NC: England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "id": "Rugby_Mens_Intl:CSVConvert8625ee0cf01ae703249f14369cb390b3",
       "kickoff_utc": "2026-11-08T15:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e114-NC_England_v_Australia_20261108.nfo",
@@ -1202,10 +1202,10 @@
       "venue": "Punjab Stadium"
     },
     {
-      "away": "\ud83c\uddff\ud83c\udde6 South Africa",
+      "away": "🇿🇦 South Africa",
       "competition": "Rugby_Mens_Intl",
       "episode": 117,
-      "home": "NC: France \ud83c\uddeb\ud83c\uddf7",
+      "home": "NC: France 🇫🇷",
       "id": "Rugby_Mens_Intl:CSVConvertb8e00a0b332aca369456aee3482e3603",
       "kickoff_utc": "2026-11-13T20:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e117-NC_France_v_South_Africa_20261113.nfo",
@@ -1216,10 +1216,10 @@
       "venue": "Stade de France, 93200 Saint-Denis, France"
     },
     {
-      "away": "\ud83c\udde6\ud83c\uddf7 Argentina",
+      "away": "🇦🇷 Argentina",
       "competition": "Rugby_Mens_Intl",
       "episode": 118,
-      "home": "NC: Italy \ud83c\uddee\ud83c\uddf9",
+      "home": "NC: Italy 🇮🇹",
       "id": "Rugby_Mens_Intl:4i7nosoufcb9vskb1urul4q5ko@google.com",
       "kickoff_utc": "2026-11-14T11:40:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e118-NC_Italy_v_Argentina_20261114.nfo",
@@ -1227,7 +1227,7 @@
       "rugbypass_id": null,
       "season": 2026,
       "showtitle": "Rugby Mens Intl",
-      "venue": "Luigi Ferraris Stadium, Via Giovanni de Pr\u00e0, 1, 16139 Genova GE, Italy"
+      "venue": "Luigi Ferraris Stadium, Via Giovanni de Prà, 1, 16139 Genova GE, Italy"
     },
     {
       "away": "Albania",
@@ -1244,10 +1244,10 @@
       "venue": "PFK Stadion"
     },
     {
-      "away": "\ud83c\uddf3\ud83c\uddff New Zealand",
+      "away": "🇳🇿 New Zealand",
       "competition": "Rugby_Mens_Intl",
       "episode": 120,
-      "home": "NC: Wales \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f",
+      "home": "NC: Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿",
       "id": "Rugby_Mens_Intl:8bnbv7jcivtdpt27qpl06fr6mo@google.com",
       "kickoff_utc": "2026-11-14T14:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e120-NC_Wales_v_New_Zealand_20261114.nfo",
@@ -1258,10 +1258,10 @@
       "venue": "Principality Stadium, Cardiff"
     },
     {
-      "away": "\ud83c\uddef\ud83c\uddf5 Japan",
+      "away": "🇯🇵 Japan",
       "competition": "Rugby_Mens_Intl",
       "episode": 121,
-      "home": "NC: England \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+      "home": "NC: England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "id": "Rugby_Mens_Intl:CSVConvert82b099bd2fec0045b23999e4323528a1",
       "kickoff_utc": "2026-11-14T16:40:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e121-NC_England_v_Japan_20261114.nfo",
@@ -1272,10 +1272,10 @@
       "venue": "Twickenham Stadium, London, England"
     },
     {
-      "away": "\ud83c\uddeb\ud83c\uddef Fiji",
+      "away": "🇫🇯 Fiji",
       "competition": "Rugby_Mens_Intl",
       "episode": 122,
-      "home": "NC: Ireland \u2618\ufe0f",
+      "home": "NC: Ireland ☘️",
       "id": "Rugby_Mens_Intl:b6lcms3n4qbt1970vcu3b9u92o@google.com",
       "kickoff_utc": "2026-11-14T20:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e122-NC_Ireland_v_Fiji_20261114.nfo",
@@ -1286,10 +1286,10 @@
       "venue": "Aviva Stadium, Dublin"
     },
     {
-      "away": "\ud83c\udde6\ud83c\uddfa Australia",
+      "away": "🇦🇺 Australia",
       "competition": "Rugby_Mens_Intl",
       "episode": 123,
-      "home": "NC: Scotland \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f",
+      "home": "NC: Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "id": "Rugby_Mens_Intl:CSVConvertcc538744538a6b6553ed956b1576d06f",
       "kickoff_utc": "2026-11-15T15:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e123-NC_Scotland_v_Australia_20261115.nfo",
@@ -1314,10 +1314,10 @@
       "venue": "Stade El Menzah"
     },
     {
-      "away": "\ud83c\uddf3\ud83c\uddff New Zealand",
+      "away": "🇳🇿 New Zealand",
       "competition": "Rugby_Mens_Intl",
       "episode": 124,
-      "home": "NC: England \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+      "home": "NC: England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "id": "Rugby_Mens_Intl:4fmjuu0ipkbu93h1bv1m69ok1s@google.com",
       "kickoff_utc": "2026-11-21T14:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e124-NC_England_v_New_Zealand_20261121.nfo",
@@ -1328,10 +1328,10 @@
       "venue": "Allianz Stadium, London"
     },
     {
-      "away": "\ud83c\uddef\ud83c\uddf5 Japan",
+      "away": "🇯🇵 Japan",
       "competition": "Rugby_Mens_Intl",
       "episode": 125,
-      "home": "NC: Scotland \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f",
+      "home": "NC: Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "id": "Rugby_Mens_Intl:CSVConvertb5baee1cac2d33629a130c98dc1fbd47",
       "kickoff_utc": "2026-11-21T14:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e125-NC_Scotland_v_Japan_20261121.nfo",
@@ -1342,10 +1342,10 @@
       "venue": "Murrayfield, Edinburgh, Scotland"
     },
     {
-      "away": "\ud83c\uddeb\ud83c\uddef Fiji",
+      "away": "🇫🇯 Fiji",
       "competition": "Rugby_Mens_Intl",
       "episode": 127,
-      "home": "NC: Italy \ud83c\uddee\ud83c\uddf9",
+      "home": "NC: Italy 🇮🇹",
       "id": "Rugby_Mens_Intl:8m4go4knq42tai5vv0vejcqfdk@google.com",
       "kickoff_utc": "2026-11-21T16:40:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e127-NC_Italy_v_Fiji_20261121.nfo",
@@ -1356,10 +1356,10 @@
       "venue": "Bluenergy Stadium, Piazzale Repubblica Argentina, 3, 33100 Udine UD, Italy"
     },
     {
-      "away": "\ud83c\uddff\ud83c\udde6 South Africa",
+      "away": "🇿🇦 South Africa",
       "competition": "Rugby_Mens_Intl",
       "episode": 126,
-      "home": "NC: Ireland \u2618\ufe0f",
+      "home": "NC: Ireland ☘️",
       "id": "Rugby_Mens_Intl:nirdd0538i7mfgcascb6g4gac4@google.com",
       "kickoff_utc": "2026-11-21T16:40:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e126-NC_Ireland_v_South_Africa_20261121.nfo",
@@ -1384,10 +1384,10 @@
       "venue": "Fundo La Querencia"
     },
     {
-      "away": "\ud83c\udde6\ud83c\uddfa Australia",
+      "away": "🇦🇺 Australia",
       "competition": "Rugby_Mens_Intl",
       "episode": 130,
-      "home": "NC: Wales \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f",
+      "home": "NC: Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿",
       "id": "Rugby_Mens_Intl:CSVConvertc36feb3889f4a2624d2238f12d7780eb",
       "kickoff_utc": "2026-11-21T20:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e130-NC_Wales_v_Australia_20261121.nfo",
@@ -1398,10 +1398,10 @@
       "venue": "Principality Stadium, Cardiff, Wales"
     },
     {
-      "away": "\ud83c\udde6\ud83c\uddf7 Argentina",
+      "away": "🇦🇷 Argentina",
       "competition": "Rugby_Mens_Intl",
       "episode": 129,
-      "home": "NC: France \ud83c\uddeb\ud83c\uddf7",
+      "home": "NC: France 🇫🇷",
       "id": "Rugby_Mens_Intl:or4jtorqkpss92677vojgrhtsg@google.com",
       "kickoff_utc": "2026-11-21T20:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e129-NC_France_v_Argentina_20261121.nfo",
@@ -1524,10 +1524,10 @@
       "venue": "Twickenham Stadium, London, England"
     },
     {
-      "away": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f England",
+      "away": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England",
       "competition": "Rugby_Mens_Intl",
       "episode": 101,
-      "home": "6N: Ireland \u2618\ufe0f",
+      "home": "6N: Ireland ☘️",
       "id": "Rugby_Mens_Intl:CSVConverte0cc5629d98a9d98ecb20440567a48ac",
       "kickoff_utc": "2027-02-05T20:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2027/Rugby_Mens_Intl-s2027e101-6N_Ireland_v_England_20270205.nfo",
@@ -1538,10 +1538,10 @@
       "venue": "Aviva Stadium, Dublin"
     },
     {
-      "away": "\ud83c\uddee\ud83c\uddf9 Italy",
+      "away": "🇮🇹 Italy",
       "competition": "Rugby_Mens_Intl",
       "episode": 102,
-      "home": "6N: Scotland \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f",
+      "home": "6N: Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "id": "Rugby_Mens_Intl:CSVConvert7f2878619254e8ac370469015436c8eb",
       "kickoff_utc": "2027-02-06T14:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2027/Rugby_Mens_Intl-s2027e102-6N_Scotland_v_Italy_20270206.nfo",
@@ -1552,10 +1552,10 @@
       "venue": "Murrayfield Stadium, Edinburgh"
     },
     {
-      "away": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f Wales",
+      "away": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales",
       "competition": "Rugby_Mens_Intl",
       "episode": 103,
-      "home": "6N: France \ud83c\uddeb\ud83c\uddf7",
+      "home": "6N: France 🇫🇷",
       "id": "Rugby_Mens_Intl:CSVConvertf7856e6f9da912f551fa91888128afe1",
       "kickoff_utc": "2027-02-06T16:40:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2027/Rugby_Mens_Intl-s2027e103-6N_France_v_Wales_20270206.nfo",
@@ -1566,10 +1566,10 @@
       "venue": "Stade de France, Saint-Denis"
     },
     {
-      "away": "\u2618\ufe0f Ireland",
+      "away": "☘️ Ireland",
       "competition": "Rugby_Mens_Intl",
       "episode": 104,
-      "home": "6N: Italy \ud83c\uddee\ud83c\uddf9",
+      "home": "6N: Italy 🇮🇹",
       "id": "Rugby_Mens_Intl:CSVConvert03dc924dbd49ce60b69e46a7fa23705d",
       "kickoff_utc": "2027-02-13T14:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2027/Rugby_Mens_Intl-s2027e104-6N_Italy_v_Ireland_20270213.nfo",
@@ -1580,10 +1580,10 @@
       "venue": "Stadio Olimpico, Rome"
     },
     {
-      "away": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f Wales",
+      "away": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales",
       "competition": "Rugby_Mens_Intl",
       "episode": 105,
-      "home": "6N: Scotland \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f",
+      "home": "6N: Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "id": "Rugby_Mens_Intl:CSVConvertf66a4652a45ce44f92b735e8e8c48780",
       "kickoff_utc": "2027-02-13T16:40:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2027/Rugby_Mens_Intl-s2027e105-6N_Scotland_v_Wales_20270213.nfo",
@@ -1594,10 +1594,10 @@
       "venue": "Murrayfield Stadium, Edinburgh"
     },
     {
-      "away": "\ud83c\uddeb\ud83c\uddf7 France",
+      "away": "🇫🇷 France",
       "competition": "Rugby_Mens_Intl",
       "episode": 106,
-      "home": "6N: England \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+      "home": "6N: England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "id": "Rugby_Mens_Intl:CSVConvert2340d2b87c6ac2ff38f4e9f6e6943ba8",
       "kickoff_utc": "2027-02-14T15:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2027/Rugby_Mens_Intl-s2027e106-6N_England_v_France_20270214.nfo",
@@ -1608,10 +1608,10 @@
       "venue": "Twickenham Stadium, 200 Whitton Rd, Twickenham TW2 7BA, UK"
     },
     {
-      "away": "\u2618\ufe0f Ireland",
+      "away": "☘️ Ireland",
       "competition": "Rugby_Mens_Intl",
       "episode": 107,
-      "home": "6N: Wales \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f",
+      "home": "6N: Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿",
       "id": "Rugby_Mens_Intl:CSVConvertfad24a77f4c9dc65242ecd3d8741ff0b",
       "kickoff_utc": "2027-02-20T14:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2027/Rugby_Mens_Intl-s2027e107-6N_Wales_v_Ireland_20270220.nfo",
@@ -1622,10 +1622,10 @@
       "venue": "Millennium Stadium, Cardiff"
     },
     {
-      "away": "\ud83c\uddee\ud83c\uddf9 Italy",
+      "away": "🇮🇹 Italy",
       "competition": "Rugby_Mens_Intl",
       "episode": 108,
-      "home": "6N: England \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+      "home": "6N: England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "id": "Rugby_Mens_Intl:CSVConvert8d74b5ded91568d618cfef45cf84c918",
       "kickoff_utc": "2027-02-20T16:40:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2027/Rugby_Mens_Intl-s2027e108-6N_England_v_Italy_20270220.nfo",
@@ -1650,10 +1650,10 @@
       "venue": "Sandy Park"
     },
     {
-      "away": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f Scotland",
+      "away": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland",
       "competition": "Rugby_Mens_Intl",
       "episode": 110,
-      "home": "6N: France \ud83c\uddeb\ud83c\uddf7",
+      "home": "6N: France 🇫🇷",
       "id": "Rugby_Mens_Intl:CSVConvertb322a17490dd56ecaba6111b1780fb63",
       "kickoff_utc": "2027-02-21T15:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2027/Rugby_Mens_Intl-s2027e110-6N_France_v_Scotland_20270221.nfo",
@@ -1678,10 +1678,10 @@
       "venue": "Kingsholm"
     },
     {
-      "away": "\u2618\ufe0f Ireland",
+      "away": "☘️ Ireland",
       "competition": "Rugby_Mens_Intl",
       "episode": 112,
-      "home": "6N: Scotland \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f",
+      "home": "6N: Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "id": "Rugby_Mens_Intl:CSVConvertf68e48113933696de9dcb6f11465be5c",
       "kickoff_utc": "2027-03-05T20:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2027/Rugby_Mens_Intl-s2027e112-6N_Scotland_v_Ireland_20270305.nfo",
@@ -1692,10 +1692,10 @@
       "venue": "Murrayfield Stadium, Edinburgh"
     },
     {
-      "away": "\ud83c\uddeb\ud83c\uddf7 France",
+      "away": "🇫🇷 France",
       "competition": "Rugby_Mens_Intl",
       "episode": 113,
-      "home": "6N: Italy \ud83c\uddee\ud83c\uddf9",
+      "home": "6N: Italy 🇮🇹",
       "id": "Rugby_Mens_Intl:CSVConvert2ef4355e2a090362eccac7c0d3ee0635",
       "kickoff_utc": "2027-03-06T14:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2027/Rugby_Mens_Intl-s2027e113-6N_Italy_v_France_20270306.nfo",
@@ -1706,10 +1706,10 @@
       "venue": "Stadio Olimpico, Rome"
     },
     {
-      "away": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f England",
+      "away": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England",
       "competition": "Rugby_Mens_Intl",
       "episode": 114,
-      "home": "6N: Wales \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f",
+      "home": "6N: Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿",
       "id": "Rugby_Mens_Intl:CSVConvert9148121b0abd2029fb2d47563d907db7",
       "kickoff_utc": "2027-03-06T16:40:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2027/Rugby_Mens_Intl-s2027e114-6N_Wales_v_England_20270306.nfo",
@@ -1720,10 +1720,10 @@
       "venue": "Millennium Stadium, Cardiff"
     },
     {
-      "away": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f Wales",
+      "away": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales",
       "competition": "Rugby_Mens_Intl",
       "episode": 115,
-      "home": "6N: Italy \ud83c\uddee\ud83c\uddf9",
+      "home": "6N: Italy 🇮🇹",
       "id": "Rugby_Mens_Intl:CSVConvert14bdb21d0dd2c87064d840818272c9d3",
       "kickoff_utc": "2027-03-13T14:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2027/Rugby_Mens_Intl-s2027e115-6N_Italy_v_Wales_20270313.nfo",
@@ -1734,10 +1734,10 @@
       "venue": "Stadio Olimpico, Rome"
     },
     {
-      "away": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f Scotland",
+      "away": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland",
       "competition": "Rugby_Mens_Intl",
       "episode": 116,
-      "home": "6N: England \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+      "home": "6N: England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "id": "Rugby_Mens_Intl:CSVConverta137ed24ef46b1d8324be00c901786ec",
       "kickoff_utc": "2027-03-13T16:40:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2027/Rugby_Mens_Intl-s2027e116-6N_England_v_Scotland_20270313.nfo",
@@ -1748,10 +1748,10 @@
       "venue": "Twickenham Stadium, London"
     },
     {
-      "away": "\ud83c\uddeb\ud83c\uddf7 France",
+      "away": "🇫🇷 France",
       "competition": "Rugby_Mens_Intl",
       "episode": 117,
-      "home": "6N: Ireland \u2618\ufe0f",
+      "home": "6N: Ireland ☘️",
       "id": "Rugby_Mens_Intl:CSVConvertd3547c8c5d0fdeb6560d4da62fa6b715",
       "kickoff_utc": "2027-03-13T20:10:00+00:00",
       "nfo": "Rugby_Mens_Intl/Season_2027/Rugby_Mens_Intl-s2027e117-6N_Ireland_v_France_20270313.nfo",
@@ -2882,10 +2882,10 @@
       "venue": "Stadium Australia"
     },
     {
-      "away": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f Scotland",
+      "away": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland",
       "competition": "Rugby_Womens_Intl",
       "episode": 103,
-      "home": "\u2640\ufe0fAustralia \ud83c\udde6\ud83c\uddfa",
+      "home": "♀️Australia 🇦🇺",
       "id": "Rugby_Womens_Intl:ll61d5nfti872uejb9rq1oqrko@google.com",
       "kickoff_utc": "2026-10-17T02:00:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2026/Rugby_Womens_Intl-s2026e103-Australia_v_Scotland_20261017.nfo",
@@ -2910,10 +2910,10 @@
       "venue": "FMG Stadium"
     },
     {
-      "away": "\ud83c\uddee\ud83c\uddf9 Italy",
+      "away": "🇮🇹 Italy",
       "competition": "Rugby_Womens_Intl",
       "episode": 105,
-      "home": "\u2640\ufe0fUSA \ud83c\uddfa\ud83c\uddf8",
+      "home": "♀️USA 🇺🇸",
       "id": "Rugby_Womens_Intl:6pvu963g64ibaaelocee2uoun0@google.com",
       "kickoff_utc": "2026-10-17T20:00:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2026/Rugby_Womens_Intl-s2026e105-USA_v_Italy_20261017.nfo",
@@ -2966,10 +2966,10 @@
       "venue": "GIO Stadium"
     },
     {
-      "away": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f Wales",
+      "away": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales",
       "competition": "Rugby_Womens_Intl",
       "episode": 109,
-      "home": "\u2640\ufe0fJapan \ud83c\uddef\ud83c\uddf5",
+      "home": "♀️Japan 🇯🇵",
       "id": "Rugby_Womens_Intl:h324cqpouis0lo2g94gtpnf8dg@google.com",
       "kickoff_utc": "2026-10-23T15:00:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2026/Rugby_Womens_Intl-s2026e109-Japan_v_Wales_20261023.nfo",
@@ -2977,7 +2977,7 @@
       "rugbypass_id": null,
       "season": 2026,
       "showtitle": "Rugby Womens Intl",
-      "venue": "Chichibunomiya Rugby Stadium, 2-ch\u014dme-8-35 Kitaaoyama, Minato City, Tokyo 107-0061, Japan"
+      "venue": "Chichibunomiya Rugby Stadium, 2-chōme-8-35 Kitaaoyama, Minato City, Tokyo 107-0061, Japan"
     },
     {
       "away": "England",
@@ -3162,10 +3162,10 @@
       "venue": "CAR Rugby do Jamor"
     },
     {
-      "away": "\ud83c\uddeb\ud83c\uddf7 France",
+      "away": "🇫🇷 France",
       "competition": "Rugby_Womens_Intl",
       "episode": 101,
-      "home": "\u2640\ufe0f Italy \ud83c\uddee\ud83c\uddf9",
+      "home": "♀️ Italy 🇮🇹",
       "id": "Rugby_Womens_Intl:10g8qieudmsge18gh5b4je7hk0@google.com",
       "kickoff_utc": "2027-04-10T11:30:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e101-Italy_v_France_20270410.nfo",
@@ -3176,10 +3176,10 @@
       "venue": "Stadio Sergio Lanfranchi, Parma"
     },
     {
-      "away": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f England",
+      "away": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England",
       "competition": "Rugby_Womens_Intl",
       "episode": 102,
-      "home": "\u2640\ufe0f Wales \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f",
+      "home": "♀️ Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿",
       "id": "Rugby_Womens_Intl:6m2m9lfi6lhnctn9vvu2cjo32g@google.com",
       "kickoff_utc": "2027-04-10T13:45:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e102-Wales_v_England_20270410.nfo",
@@ -3190,10 +3190,10 @@
       "venue": "Principality Stadium, Cardiff"
     },
     {
-      "away": "\u2618\ufe0f Ireland",
+      "away": "☘️ Ireland",
       "competition": "Rugby_Womens_Intl",
       "episode": 103,
-      "home": "\u2640\ufe0f Scotland \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f",
+      "home": "♀️ Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "id": "Rugby_Womens_Intl:qud8ks4nl0mg1rnih76fjr0g14@google.com",
       "kickoff_utc": "2027-04-10T16:00:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e103-Scotland_v_Ireland_20270410.nfo",
@@ -3204,10 +3204,10 @@
       "venue": "Hive Stadium, Edinburgh"
     },
     {
-      "away": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f Wales",
+      "away": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales",
       "competition": "Rugby_Womens_Intl",
       "episode": 104,
-      "home": "\u2640\ufe0f Italy \ud83c\uddee\ud83c\uddf9",
+      "home": "♀️ Italy 🇮🇹",
       "id": "Rugby_Womens_Intl:vtjrm9sgplga24lthfsikvt8qs@google.com",
       "kickoff_utc": "2027-04-17T11:15:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e104-Italy_v_Wales_20270417.nfo",
@@ -3218,10 +3218,10 @@
       "venue": "Stadio Sergio Lanfranchi, Parma"
     },
     {
-      "away": "\ud83c\uddeb\ud83c\uddf7 France",
+      "away": "🇫🇷 France",
       "competition": "Rugby_Womens_Intl",
       "episode": 105,
-      "home": "\u2640\ufe0f Ireland \u2618\ufe0f",
+      "home": "♀️ Ireland ☘️",
       "id": "Rugby_Womens_Intl:dls0n980rpt0fk0g5h78no5cpk@google.com",
       "kickoff_utc": "2027-04-17T13:30:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e105-Ireland_v_France_20270417.nfo",
@@ -3232,10 +3232,10 @@
       "venue": "Aviva Stadium, Dublin"
     },
     {
-      "away": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f Scotland",
+      "away": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland",
       "competition": "Rugby_Womens_Intl",
       "episode": 106,
-      "home": "\u2640\ufe0f England \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+      "home": "♀️ England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "id": "Rugby_Womens_Intl:a1e3ct2me70dljv7mso8uc7n18@google.com",
       "kickoff_utc": "2027-04-17T15:45:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e106-England_v_Scotland_20270417.nfo",
@@ -3246,10 +3246,10 @@
       "venue": "Allianz Stadium, Twickenham"
     },
     {
-      "away": "\ud83c\udde6\ud83c\uddfa Australia",
+      "away": "🇦🇺 Australia",
       "competition": "Rugby_Womens_Intl",
       "episode": 107,
-      "home": "\u2640\ufe0f USA \ud83c\uddfa\ud83c\uddf8",
+      "home": "♀️ USA 🇺🇸",
       "id": "Rugby_Womens_Intl:dteqnfhpe53obllgn1aci7231c@google.com",
       "kickoff_utc": "2027-04-17T18:00:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e107-USA_v_Australia_20270417.nfo",
@@ -3260,10 +3260,10 @@
       "venue": "Dignity Health Sports Park, Carson"
     },
     {
-      "away": "\u2618\ufe0f Ireland",
+      "away": "☘️ Ireland",
       "competition": "Rugby_Womens_Intl",
       "episode": 108,
-      "home": "\u2640\ufe0f Wales \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f",
+      "home": "♀️ Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿",
       "id": "Rugby_Womens_Intl:69ucq1tic1jko1uanmi99uvqrk@google.com",
       "kickoff_utc": "2027-04-24T11:30:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e108-Wales_v_Ireland_20270424.nfo",
@@ -3274,10 +3274,10 @@
       "venue": "Rodney Parade, Newport"
     },
     {
-      "away": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f Scotland",
+      "away": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland",
       "competition": "Rugby_Womens_Intl",
       "episode": 109,
-      "home": "\u2640\ufe0f France \ud83c\uddeb\ud83c\uddf7",
+      "home": "♀️ France 🇫🇷",
       "id": "Rugby_Womens_Intl:3gnlfehmf42flq4a0bijgs36m8@google.com",
       "kickoff_utc": "2027-04-24T13:45:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e109-France_v_Scotland_20270424.nfo",
@@ -3288,10 +3288,10 @@
       "venue": "Stade Jean-Bouin, Paris"
     },
     {
-      "away": "\ud83c\uddf3\ud83c\uddff New Zealand",
+      "away": "🇳🇿 New Zealand",
       "competition": "Rugby_Womens_Intl",
       "episode": 110,
-      "home": "\u2640\ufe0f Canada \ud83c\udde8\ud83c\udde6",
+      "home": "♀️ Canada 🇨🇦",
       "id": "Rugby_Womens_Intl:754fe7la1vh3vh29ketgm6g5cc@google.com",
       "kickoff_utc": "2027-04-24T14:30:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e110-Canada_v_New_Zealand_20270424.nfo",
@@ -3302,10 +3302,10 @@
       "venue": "Commonwealth Stadium, Edmonton"
     },
     {
-      "away": "\ud83c\uddee\ud83c\uddf9 Italy",
+      "away": "🇮🇹 Italy",
       "competition": "Rugby_Womens_Intl",
       "episode": 111,
-      "home": "\u2640\ufe0f England \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+      "home": "♀️ England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "id": "Rugby_Womens_Intl:l1l8cg3e6ei3s1iq8f4f01er8c@google.com",
       "kickoff_utc": "2027-04-24T16:00:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e111-England_v_Italy_20270424.nfo",
@@ -3316,10 +3316,10 @@
       "venue": "Allianz Stadium, Twickenham"
     },
     {
-      "away": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f Wales",
+      "away": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales",
       "competition": "Rugby_Womens_Intl",
       "episode": 112,
-      "home": "\u2640\ufe0f France \ud83c\uddeb\ud83c\uddf7",
+      "home": "♀️ France 🇫🇷",
       "id": "Rugby_Womens_Intl:68ak3g6vj9lrg7ssap17qk6gtg@google.com",
       "kickoff_utc": "2027-05-08T11:30:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e112-France_v_Wales_20270508.nfo",
@@ -3330,10 +3330,10 @@
       "venue": "Stade des Alpes, Grenoble"
     },
     {
-      "away": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f England",
+      "away": "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England",
       "competition": "Rugby_Womens_Intl",
       "episode": 113,
-      "home": "\u2640\ufe0f Ireland \u2618\ufe0f",
+      "home": "♀️ Ireland ☘️",
       "id": "Rugby_Womens_Intl:rmr4jl0gcr06710us3tlmthla0@google.com",
       "kickoff_utc": "2027-05-08T13:45:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e113-Ireland_v_England_20270508.nfo",
@@ -3344,10 +3344,10 @@
       "venue": "Aviva Stadium, Dublin"
     },
     {
-      "away": "\ud83c\uddee\ud83c\uddf9 Italy",
+      "away": "🇮🇹 Italy",
       "competition": "Rugby_Womens_Intl",
       "episode": 114,
-      "home": "\u2640\ufe0f Scotland \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f",
+      "home": "♀️ Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "id": "Rugby_Womens_Intl:a0dsmbagusndodthq6bu87dqok@google.com",
       "kickoff_utc": "2027-05-08T16:00:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e114-Scotland_v_Italy_20270508.nfo",
@@ -3358,10 +3358,10 @@
       "venue": "Hive Stadium, Edinburgh"
     },
     {
-      "away": "\u2618\ufe0f Ireland",
+      "away": "☘️ Ireland",
       "competition": "Rugby_Womens_Intl",
       "episode": 115,
-      "home": "\u2640\ufe0f Italy \ud83c\uddee\ud83c\uddf9",
+      "home": "♀️ Italy 🇮🇹",
       "id": "Rugby_Womens_Intl:cgkl2dcde6oegjc1em96ku2frc@google.com",
       "kickoff_utc": "2027-05-15T11:15:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e115-Italy_v_Ireland_20270515.nfo",
@@ -3372,10 +3372,10 @@
       "venue": "Stadio Sergio Lanfranchi, Parma"
     },
     {
-      "away": "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc77\udb40\udc6c\udb40\udc73\udb40\udc7f Wales",
+      "away": "🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales",
       "competition": "Rugby_Womens_Intl",
       "episode": 116,
-      "home": "\u2640\ufe0f Scotland \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc73\udb40\udc63\udb40\udc74\udb40\udc7f",
+      "home": "♀️ Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "id": "Rugby_Womens_Intl:abnqrj2uvkfm2jnq2e71kb2h58@google.com",
       "kickoff_utc": "2027-05-15T13:30:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e116-Scotland_v_Wales_20270515.nfo",
@@ -3386,10 +3386,10 @@
       "venue": "Hive Stadium, Edinburgh"
     },
     {
-      "away": "\ud83c\uddeb\ud83c\uddf7 France",
+      "away": "🇫🇷 France",
       "competition": "Rugby_Womens_Intl",
       "episode": 117,
-      "home": "\u2640\ufe0f England \ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
+      "home": "♀️ England 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "id": "Rugby_Womens_Intl:osj99vvmtvo4ltkkt8v0nd0k9s@google.com",
       "kickoff_utc": "2027-05-15T15:45:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e117-England_v_France_20270515.nfo",
@@ -3400,10 +3400,10 @@
       "venue": "Allianz Stadium, Twickenham"
     },
     {
-      "away": "\ud83e\udd81 B&I Lions",
+      "away": "🦁 B&I Lions",
       "competition": "Rugby_Womens_Intl",
       "episode": 118,
-      "home": "\u2640\ufe0fBlack Ferns XV \ud83c\uddf3\ud83c\uddff",
+      "home": "♀️Black Ferns XV 🇳🇿",
       "id": "Rugby_Womens_Intl:c4rjap9i70o3cb9n6sr3gb9k61gm2b9p61j30bb56pi3ic9kcgr3apj674@google.com",
       "kickoff_utc": "2027-09-04T10:30:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e118-Black_Ferns_XV_v_B_I_Lions_20270904.nfo",
@@ -3411,13 +3411,13 @@
       "rugbypass_id": null,
       "season": 2027,
       "showtitle": "Rugby Womens Intl",
-      "venue": "Semenoff Stadium, 51 Okara Drive, Whang\u0101rei 0148, New Zealand"
+      "venue": "Semenoff Stadium, 51 Okara Drive, Whangārei 0148, New Zealand"
     },
     {
-      "away": "\ud83e\udd81 B&I Lions",
+      "away": "🦁 B&I Lions",
       "competition": "Rugby_Womens_Intl",
       "episode": 119,
-      "home": "\u2640\ufe0fNew Zealand \ud83c\uddf3\ud83c\uddff",
+      "home": "♀️New Zealand 🇳🇿",
       "id": "Rugby_Womens_Intl:6hh38or1copm6bb3clgjib9k60qjibb170r68b9g6li66dj268p30d9p6k@google.com",
       "kickoff_utc": "2027-09-11T09:30:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e119-New_Zealand_v_B_I_Lions_20270911.nfo",
@@ -3428,10 +3428,10 @@
       "venue": "Go Media Stadium, 2 Beasley Avenue, Penrose, Auckland 1061, New Zealand"
     },
     {
-      "away": "\ud83e\udd81 B&I Lions",
+      "away": "🦁 B&I Lions",
       "competition": "Rugby_Womens_Intl",
       "episode": 120,
-      "home": "\u2640\ufe0fInvitational XV \ud83c\udf0f",
+      "home": "♀️Invitational XV 🌏",
       "id": "Rugby_Womens_Intl:68o36chj6koj4b9jcpj6ab9kcgs62bb264s3cbb5ccpmcdb3ccrjgopk6s@google.com",
       "kickoff_utc": "2027-09-14T09:30:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e120-Invitational_XV_v_B_I_Lions_20270914.nfo",
@@ -3442,10 +3442,10 @@
       "venue": "FMG Stadium Waikato, 128 Seddon Road, Frankton, Hamilton 3204, New Zealand"
     },
     {
-      "away": "\ud83e\udd81 B&I Lions",
+      "away": "🦁 B&I Lions",
       "competition": "Rugby_Womens_Intl",
       "episode": 121,
-      "home": "\u2640\ufe0fNew Zealand \ud83c\uddf3\ud83c\uddff",
+      "home": "♀️New Zealand 🇳🇿",
       "id": "Rugby_Womens_Intl:ckrj2phpclijab9l64p68b9k6or34b9p70ojebb374rm2p9pcpgm2dr370@google.com",
       "kickoff_utc": "2027-09-18T09:30:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e121-New_Zealand_v_B_I_Lions_20270918.nfo",
@@ -3456,10 +3456,10 @@
       "venue": "Sky Stadium, 105 Waterloo Quay, Pipitea, Wellington 6011, New Zealand"
     },
     {
-      "away": "\ud83e\udd81 B&I Lions",
+      "away": "🦁 B&I Lions",
       "competition": "Rugby_Womens_Intl",
       "episode": 122,
-      "home": "\u2640\ufe0fNew Zealand \ud83c\uddf3\ud83c\uddff",
+      "home": "♀️New Zealand 🇳🇿",
       "id": "Rugby_Womens_Intl:c4rm4c1l68sm8b9jckq30b9kcgpm2b9ochj62bb26hh68p9m6cpmcpb26s@google.com",
       "kickoff_utc": "2027-09-25T09:30:00+00:00",
       "nfo": "Rugby_Womens_Intl/Season_2027/Rugby_Womens_Intl-s2027e122-New_Zealand_v_B_I_Lions_20270925.nfo",

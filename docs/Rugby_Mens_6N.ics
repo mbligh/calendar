@@ -7,213 +7,138 @@ BEGIN:VEVENT
 SUMMARY:Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs 🇮🇹 Italy
 DTSTART:20270206T141000Z
 DTEND:20270206T161000Z
-DTSTAMP:20261111T090000Z
 UID:0f5ba9d0dc78f33aaa0a1569d76398b7
-SEQUENCE:1794387600
-DESCRIPTION:Scotland vs Italy in the Six Nations at Murrayfield\, Scotland
- .\n\nWant more matches?\n\nScotland\, every competition:\nhttps://www.rugb
- yfixture.com/team/scotland\n\nItaly\, every competition:\nhttps://www.rugb
- yfixture.com/team/italy
-LAST-MODIFIED:20261111T090000Z
+DESCRIPTION:Spoiler-free rugby fixture
 LOCATION:Murrayfield\, Scotland
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs 🏴󠁧󠁢󠁳󠁣󠁴
  󠁿 Scotland
 DTSTART:20270313T164000Z
 DTEND:20270313T184000Z
-DTSTAMP:20261111T090000Z
 UID:2156a377e2d262e8532800bbdf945800
-SEQUENCE:1794387600
-DESCRIPTION:England vs Scotland in the Six Nations at Twickenham Stadium\,
-  England.\n\nWant more matches?\n\nEngland\, every competition:\nhttps://w
- ww.rugbyfixture.com/team/england\n\nScotland\, every competition:\nhttps:/
- /www.rugbyfixture.com/team/scotland
-LAST-MODIFIED:20261111T090000Z
+DESCRIPTION:Spoiler-free rugby fixture
 LOCATION:Twickenham Stadium\, England
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs 🇮🇪 Ireland
 DTSTART:20270305T201000Z
 DTEND:20270305T221000Z
-DTSTAMP:20261111T090000Z
 UID:2b7f51249c69077301870f286fbf76a8
-SEQUENCE:1794387600
-DESCRIPTION:Scotland vs Ireland in the Six Nations at Murrayfield\, Scotla
- nd.\n\nWant more matches?\n\nScotland\, every competition:\nhttps://www.ru
- gbyfixture.com/team/scotland\n\nIreland\, every competition:\nhttps://www.
- rugbyfixture.com/team/ireland
-LAST-MODIFIED:20261111T090000Z
+DESCRIPTION:Spoiler-free rugby fixture
 LOCATION:Murrayfield\, Scotland
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Italy 🇮🇹 vs 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales
 DTSTART:20270313T141000Z
 DTEND:20270313T161000Z
-DTSTAMP:20261111T090000Z
 UID:4c8eb6badadb7aa03b33733f1b597cf5
-SEQUENCE:1794387600
-DESCRIPTION:Italy vs Wales in the Six Nations at Stadio Olimpico\, Italy.
- \n\nWant more matches?\n\nItaly\, every competition:\nhttps://www.rugbyfix
- ture.com/team/italy\n\nWales\, every competition:\nhttps://www.rugbyfixtur
- e.com/team/wales
-LAST-MODIFIED:20261111T090000Z
+DESCRIPTION:Spoiler-free rugby fixture
 LOCATION:Stadio Olimpico\, Italy
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:France 🇫🇷 vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland
 DTSTART:20270221T151000Z
 DTEND:20270221T171000Z
-DTSTAMP:20261111T090000Z
 UID:5b1284af57086c0b819894bde06f9d43
-SEQUENCE:1794387600
-DESCRIPTION:France vs Scotland in the Six Nations at Stade de France\, Fra
- nce.\n\nWant more matches?\n\nFrance\, every competition:\nhttps://www.rug
- byfixture.com/team/france\n\nScotland\, every competition:\nhttps://www.ru
- gbyfixture.com/team/scotland
-LAST-MODIFIED:20261111T090000Z
+DESCRIPTION:Spoiler-free rugby fixture
 LOCATION:Stade de France\, France
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Italy 🇮🇹 vs 🇮🇪 Ireland
 DTSTART:20270213T141000Z
 DTEND:20270213T161000Z
-DTSTAMP:20261111T090000Z
 UID:657e1e9c9e187282af472d17deb9dc24
-SEQUENCE:1794387600
-DESCRIPTION:Italy vs Ireland in the Six Nations at Stadio Olimpico\, Italy
- .\n\nWant more matches?\n\nItaly\, every competition:\nhttps://www.rugbyfi
- xture.com/team/italy\n\nIreland\, every competition:\nhttps://www.rugbyfix
- ture.com/team/ireland
-LAST-MODIFIED:20261111T090000Z
+DESCRIPTION:Spoiler-free rugby fixture
 LOCATION:Stadio Olimpico\, Italy
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿 vs 🏴󠁧󠁢󠁥󠁮󠁧󠁿
   England
 DTSTART:20270306T164000Z
 DTEND:20270306T184000Z
-DTSTAMP:20261111T090000Z
 UID:670fff1750fec4c5c40bbc22a7051df4
-SEQUENCE:1794387600
-DESCRIPTION:Wales vs England in the Six Nations at Principality Stadium\, 
- Wales.\n\nWant more matches?\n\nWales\, every competition:\nhttps://www.ru
- gbyfixture.com/team/wales\n\nEngland\, every competition:\nhttps://www.rug
- byfixture.com/team/england
-LAST-MODIFIED:20261111T090000Z
+DESCRIPTION:Spoiler-free rugby fixture
 LOCATION:Principality Stadium\, Wales
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿 vs 🇮🇪 Ireland
 DTSTART:20270220T141000Z
 DTEND:20270220T161000Z
-DTSTAMP:20261111T090000Z
 UID:70a2124e555cb9c147c2cfa935184b36
-SEQUENCE:1794387600
-DESCRIPTION:Wales vs Ireland in the Six Nations at Principality Stadium\, 
- Wales.\n\nWant more matches?\n\nWales\, every competition:\nhttps://www.ru
- gbyfixture.com/team/wales\n\nIreland\, every competition:\nhttps://www.rug
- byfixture.com/team/ireland
-LAST-MODIFIED:20261111T090000Z
+DESCRIPTION:Spoiler-free rugby fixture
 LOCATION:Principality Stadium\, Wales
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Italy 🇮🇹 vs 🇫🇷 France
 DTSTART:20270306T141000Z
 DTEND:20270306T161000Z
-DTSTAMP:20261111T090000Z
 UID:71fd6bf3a917992c32425606b3ae04d5
-SEQUENCE:1794387600
-DESCRIPTION:Italy vs France in the Six Nations at Stadio Olimpico\, Italy.
- \n\nWant more matches?\n\nItaly\, every competition:\nhttps://www.rugbyfix
- ture.com/team/italy\n\nFrance\, every competition:\nhttps://www.rugbyfixtu
- re.com/team/france
-LAST-MODIFIED:20261111T090000Z
+DESCRIPTION:Spoiler-free rugby fixture
 LOCATION:Stadio Olimpico\, Italy
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ireland 🇮🇪 vs 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England
 DTSTART:20270205T201000Z
 DTEND:20270205T221000Z
-DTSTAMP:20261111T090000Z
 UID:78046275ae9812177988ed6989b9c248
-SEQUENCE:1794387600
-DESCRIPTION:Ireland vs England in the Six Nations at Aviva Stadium\, Irela
- nd.\n\nWant more matches?\n\nIreland\, every competition:\nhttps://www.rug
- byfixture.com/team/ireland\n\nEngland\, every competition:\nhttps://www.ru
- gbyfixture.com/team/england
-LAST-MODIFIED:20261111T090000Z
+DESCRIPTION:Spoiler-free rugby fixture
 LOCATION:Aviva Stadium\, Ireland
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs 🇫🇷 France
 DTSTART:20270214T151000Z
 DTEND:20270214T171000Z
-DTSTAMP:20261111T090000Z
 UID:813c40df159defa2ed47be4d77dff164
-SEQUENCE:1794387600
-DESCRIPTION:England vs France in the Six Nations at Twickenham Stadium\, E
- ngland.\n\nWant more matches?\n\nEngland\, every competition:\nhttps://www
- .rugbyfixture.com/team/england\n\nFrance\, every competition:\nhttps://www
- .rugbyfixture.com/team/france
-LAST-MODIFIED:20261111T090000Z
+DESCRIPTION:Spoiler-free rugby fixture
 LOCATION:Twickenham Stadium\, England
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs 🏴󠁧󠁢󠁷󠁬󠁳
  󠁿 Wales
 DTSTART:20270213T164000Z
 DTEND:20270213T184000Z
-DTSTAMP:20261111T090000Z
 UID:85330caa9bb77ed631133c0a0a5a36ac
-SEQUENCE:1794387600
-DESCRIPTION:Scotland vs Wales in the Six Nations at Murrayfield\, Scotland
- .\n\nWant more matches?\n\nScotland\, every competition:\nhttps://www.rugb
- yfixture.com/team/scotland\n\nWales\, every competition:\nhttps://www.rugb
- yfixture.com/team/wales
-LAST-MODIFIED:20261111T090000Z
+DESCRIPTION:Spoiler-free rugby fixture
 LOCATION:Murrayfield\, Scotland
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:France 🇫🇷 vs 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales
 DTSTART:20270206T164000Z
 DTEND:20270206T184000Z
-DTSTAMP:20261111T090000Z
 UID:8ddd9ebcd8c75a5dce4fd39753891199
-SEQUENCE:1794387600
-DESCRIPTION:France vs Wales in the Six Nations at Stade de France\, France
- .\n\nWant more matches?\n\nFrance\, every competition:\nhttps://www.rugbyf
- ixture.com/team/france\n\nWales\, every competition:\nhttps://www.rugbyfix
- ture.com/team/wales
-LAST-MODIFIED:20261111T090000Z
+DESCRIPTION:Spoiler-free rugby fixture
 LOCATION:Stade de France\, France
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs 🇮🇹 Italy
 DTSTART:20270220T164000Z
 DTEND:20270220T184000Z
-DTSTAMP:20261111T090000Z
 UID:b56bbac5ba06ff45c19b35c1921b6c3e
-SEQUENCE:1794387600
-DESCRIPTION:England vs Italy in the Six Nations at Twickenham Stadium\, En
- gland.\n\nWant more matches?\n\nEngland\, every competition:\nhttps://www.
- rugbyfixture.com/team/england\n\nItaly\, every competition:\nhttps://www.r
- ugbyfixture.com/team/italy
-LAST-MODIFIED:20261111T090000Z
+DESCRIPTION:Spoiler-free rugby fixture
 LOCATION:Twickenham Stadium\, England
+STATUS:CONFIRMED
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ireland 🇮🇪 vs 🇫🇷 France
 DTSTART:20270313T201000Z
 DTEND:20270313T221000Z
-DTSTAMP:20261111T090000Z
 UID:f1c07c9d1fe95e789fa8fdc6a2038bcb
-SEQUENCE:1794387600
-DESCRIPTION:Ireland vs France in the Six Nations at Aviva Stadium\, Irelan
- d.\n\nWant more matches?\n\nIreland\, every competition:\nhttps://www.rugb
- yfixture.com/team/ireland\n\nFrance\, every competition:\nhttps://www.rugb
- yfixture.com/team/france
-LAST-MODIFIED:20261111T090000Z
+DESCRIPTION:Spoiler-free rugby fixture
 LOCATION:Aviva Stadium\, Ireland
+STATUS:CONFIRMED
 END:VEVENT
 END:VCALENDAR
