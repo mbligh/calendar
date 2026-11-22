@@ -25,7 +25,11 @@ sequences change only when event properties change. Invalid or empty pages
 fail before writing. The dedicated daily workflow commits changed ICS and
 explicitly deploys all of `docs/` using Pages Actions. Both workflows share a
 concurrency group. `test_hunter_paces` checks parsing and snapshot semantics.
-No database is needed: committed ICS files are the persistent state.
+Previously no database was needed: committed ICS files were the persistent
+state. Under the Atlas-backed rugby builder, MongoDB `pvr.episodes` is
+authoritative for fixture metadata, while committed ICS files retain the
+published, frozen calendar history. The independent hunter-paces feed
+continues to operate without a database.
 
 The Gallagher PREM Plex source uses the Cortex/InCrowd RugbyViz match API.
 The updater accepts optional `PREM_APP_ID`, `PREM_API_KEY`, and `PREM_REALM`
@@ -154,3 +158,11 @@ Actions runners are not given general access to Atlas.
 Preview and `--apply` never write Atlas. `--publish` requires `--apply`;
 `--activate` additionally requires all configured series to be exported.
 The legacy system remains active until that explicit handoff.
+
+Atlas full-series builds also regenerate
+`docs/rugby-metadata-manifest.json` and `docs/rugby-metadata.tar.gz`
+from the canonical NFO XML stored in PVR. Legacy-only competitions absent
+from Atlas (currently Gallagher PREM) are carried forward unchanged from
+the previous static archive; these remain compatibility snapshots rather
+than current fixture fetches. The migration to Atlas must be completed for
+those competitions before their legacy metadata can update automatically.
