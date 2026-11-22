@@ -22,7 +22,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
-      - run: python -m unittest test_world_rugby.py test_plex_nfo.py test_build_rugby_calendars.py
+      - run: python -m unittest test_world_rugby.py test_plex_nfo.py test_build_rugby_calendars.py test_rugby_metadata.py
       - name: Detect Atlas rugby publication handoff
         id: atlas
         run: |
