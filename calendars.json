@@ -41,6 +41,12 @@
       "group": "womens-intl"
     },
     {
+      "slug": "rugby-womens-wxv",
+      "name": "Rugby Womens WXV",
+      "type": "atlas",
+      "library_dir": "Rugby_Womens_WXV"
+    },
+    {
       "slug": "rugby-womens-pwr",
       "name": "Rugby Womens PWR",
       "type": "pwr",
