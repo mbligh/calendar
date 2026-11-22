@@ -101,6 +101,7 @@ def build(config, source_dir, now):
                     if (r := replay_observation(record)) is not None]
     previous = source_dir / "rugby-metadata-manifest.json"
     old_assignments = {}
+    old_data = None
     if previous.exists():
         old_data = json.loads(previous.read_text(encoding="utf-8"))
         if old_data.get("schema_version") == 2:
@@ -222,6 +223,13 @@ def build(config, source_dir, now):
     manifest["fixtures"].sort(key=lambda x: (x["competition"], x["season"],
                                                x["kickoff_utc"], x["id"]))
     manifest["files"] = {p: hashlib.sha256(data).hexdigest() for p, data in sorted(output.items())}
+    # Avoid rewriting the manifest and compressed tarball every hour when
+    # the authoritative fixture data and actual NFO bytes are identical.
+    # This also avoids GitHub Actions rebase conflicts against code commits.
+    if (old_data and old_data.get("schema_version") == 2 and
+            old_data.get("fixtures") == manifest["fixtures"] and
+            old_data.get("files") == manifest["files"]):
+        manifest["generated_at"] = old_data.get("generated_at", manifest["generated_at"])
     return output, manifest
 
 
