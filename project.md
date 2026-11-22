@@ -99,13 +99,13 @@ NFO files are only generated for assigned fixtures.
 ## Planned Atlas-to-calendar publisher transition
 
 mbligh/pvr now owns fixture creation in `schedulers/`, separate from
-`indexers/` and `downloaders/`. The opt-in `export_atlas` command
+`indexers/` and `downloaders/`. The opt-in `build_rugby_calendars` command
 reads the stable `pvr.episodes` IDs and produces ICS snapshots through
 the established freeze-at-kickoff merge. The action remains on its
 original independent fetch/numbering workflow for now, so the source
 migration can be reviewed before eliminating duplicate fixture logic.
 
-Run `python3 export_atlas --series rugby-nations` on `slagg` to preview
+Run `python3 build_rugby_calendars --series rugby-nations` on `slagg` to preview
 with the existing Atlas allowlist and `~/.mongodb/pvr` credentials;
 `--apply` only writes local `docs/<slug>.ics`, not git or Atlas.
 See README.md for details. Existing calendar UIDs and frozen past fixtures
@@ -116,3 +116,41 @@ steps in `.github/workflows/update.yml`, replace them with publication
 of the checked Atlas-derived snapshots from the allowlisted host, and
 retain the independent hunter-paces workflow. Do not disable the old
 publisher until the new metadata output has been verified.
+
+## Atlas publication cutover
+
+`build_rugby_calendars` is the read-only-by-default consumer of canonical
+rugby fixtures in the `pvr.episodes` MongoDB Atlas collection. On the
+Atlas-allowlisted host `slagg`, first run the updated PVR scheduler:
+
+```sh
+cd ~/pvr && git pull && python3 import_rugby
+cd ~/calendar && git pull
+python3 build_rugby_calendars
+```
+
+The first run of the scheduler splits WXV into its own series and numbering,
+preserves old WXV fixture IDs as superseded migration history, and migrates
+any release associations. The calendar builder moves accepted historical
+WXV events from `rugby-womens-intl.ics` to `rugby-womens-wxv.ics`
+without changing their UIDs or frozen historical text.
+
+Only after inspecting the full preview, explicitly activate Atlas
+publication (one time):
+
+```sh
+python3 build_rugby_calendars --apply --publish --activate
+```
+
+That command writes the managed rugby ICS files, commits and pushes them
+and `.github/atlas-rugby-active`. The marker switches off the old
+hourly GitHub Actions rugby fetch/NFO generation; it does not affect
+the hunter-paces workflow. It is **not committed automatically** by code
+deployment. After activation, run `python3 import_rugby` and
+`python3 build_rugby_calendars --apply --publish` periodically on
+`slagg`. A cron job must be installed on that host separately; GitHub
+Actions runners are not given general access to Atlas.
+
+Preview and `--apply` never write Atlas. `--publish` requires `--apply`;
+`--activate` additionally requires all configured series to be exported.
+The legacy system remains active until that explicit handoff.
