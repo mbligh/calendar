@@ -60,7 +60,7 @@ and public Google Calendar ID.
 3. Confirm that `docs/*.ics` are committed to the default branch.
 4. Settings → Pages → Deploy from a branch → `main` → `/docs` → Save.
 
-## Plex rugby metadata (experimental)
+## Plex rugby metadata (legacy static compatibility)
 
 The hourly updater also runs `plex_nfo.py` against the **existing spoiler-free
 ICS snapshots**. It publishes:
@@ -152,8 +152,11 @@ git diff -- docs/rugby-nations.ics
 ```
 
 `build_rugby_calendars` reads `MONGODB_URI` or `~/.mongodb/pvr` and defaults to
-the `pvr` database. It never downloads recordings, modifies Atlas,
-commits to git, or publishes calendars itself. Missing or malformed
+the `pvr` database. It never downloads recordings or modifies Atlas. Preview and `--apply`
+only read Atlas; `--apply` writes local calendars and a compatibility
+NFO manifest/archive for all-series runs. `--apply --publish` also commits
+and pushes the generated files, while `--activate` enables the one-time
+publisher handoff. Missing or malformed
 series data aborts before any output is changed.
 
 The exporter preserves original calendar UIDs by deriving them from the
@@ -208,3 +211,11 @@ Actions runners are not given general access to Atlas.
 Preview and `--apply` never write Atlas. `--publish` requires `--apply`;
 `--activate` additionally requires all configured series to be exported.
 The legacy system remains active until that explicit handoff.
+
+Atlas full-series builds also regenerate
+`docs/rugby-metadata-manifest.json` and `docs/rugby-metadata.tar.gz`
+from the canonical NFO XML stored in PVR. Legacy-only competitions absent
+from Atlas (currently Gallagher PREM) are carried forward unchanged from
+the previous static archive; these remain compatibility snapshots rather
+than current fixture fetches. The migration to Atlas must be completed for
+those competitions before their legacy metadata can update automatically.
