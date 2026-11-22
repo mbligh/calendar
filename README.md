@@ -219,3 +219,19 @@ from Atlas (currently Gallagher PREM) are carried forward unchanged from
 the previous static archive; these remain compatibility snapshots rather
 than current fixture fetches. The migration to Atlas must be completed for
 those competitions before their legacy metadata can update automatically.
+
+### Recurring publisher on slagg (after activation)
+
+Install this in the user's `crontab -e` on `slagg` after the initial
+`--activate` publish has succeeded:
+
+```cron
+17 4 * * * cd /home/mbligh/pvr && /usr/bin/git pull --ff-only && /usr/bin/python3 import_rugby && cd /home/mbligh/calendar && /usr/bin/python3 build_rugby_calendars --apply --publish >> /home/mbligh/rugby-calendar-publish.log 2>&1
+```
+
+The PVR scheduler refreshes authoritative fixtures/episode numbers first;
+the calendar builder then refreshes ICS files and the compatible NFO
+archive, commits only changed managed metadata, and pushes to GitHub Pages.
+Do not install the cron entry until the first WXV migration and full
+Atlas-derived preview are verified. The cron is **not installed by this
+repository**. The independent hunter-paces Actions workflow remains active.
