@@ -6,8 +6,8 @@ belong in mbligh/pvr/schedulers/. Existing docs/*.ics snapshots are merged
 using the repository's established freeze-at-kickoff policy.
 
 Run on an Atlas-allowed host (slagg), never expose Atlas to hosted runners:
-    python3 build_rugby_calendars --series rugby-mens-intl
-    python3 build_rugby_calendars --series rugby-mens-intl --apply
+    python3 build_rugby_calendars --series Rugby_Mens_Intl
+    python3 build_rugby_calendars --series Rugby_Mens_Intl --apply
 """
 import argparse
 import copy
@@ -29,8 +29,8 @@ ROOT = pathlib.Path(__file__).resolve().parent
 UTC = dt.timezone.utc
 CANCELLED = {"cancelled", "canceled"}
 SUPERSEDED = "superseded"
-INTL = "rugby-womens-intl"
-WXV = "rugby-womens-wxv"
+INTL = "Rugby_Womens_Intl"
+WXV = "Rugby_Womens_WXV"
 UID_BAD = re.compile(r"[\r\n\x00]")
 DEFAULT_SECONDS = 2 * 60 * 60
 
@@ -140,7 +140,7 @@ def build_source(records, series):
 
 def wxv_legacy_event(event):
     """Only migrate events whose frozen original description says WXV."""
-    return event.name == "VEVENT" and str(event.get("DESCRIPTION", "")).strip().upper().startswith("WXV ")
+    return event.name == "VEVENT" and bool(re.fullmatch(r"WXV(?: GLOBAL SERIES)?(?: 20\d{2})?", str(event.get("DESCRIPTION", "")).strip(), re.I))
 
 
 def split_published_wxv(previous_intl, previous_wxv, wxv_rows):
@@ -210,7 +210,7 @@ def plan(database, config, output_dir, *, series=None, now=None):
     if (set(selected) & {INTL, WXV}) and old_intl is not None and any(
             wxv_legacy_event(ev) for ev in old_intl.walk("VEVENT")):
         if INTL not in selected or WXV not in selected:
-            raise ValueError("WXV split requires exporting rugby-womens-intl and rugby-womens-wxv together")
+            raise ValueError("WXV split requires exporting Rugby_Womens_Intl and Rugby_Womens_WXV together")
         previous_by_series[INTL], previous_by_series[WXV], moved = split_published_wxv(
             previous_by_series[INTL], previous_by_series[WXV],
             rows_by_series[WXV])
@@ -240,6 +240,8 @@ def plan(database, config, output_dir, *, series=None, now=None):
         payload = merged.to_ical()
         plans.append({
             "series": slug, "path": path, "bytes": payload,
+            "legacy_path": (pathlib.Path(output_dir) / (entry["legacy_slug"] + ".ics"))
+                           if entry.get("legacy_slug") else None,
             "unchanged": path.is_file() and path.read_bytes() == payload,
             "published_events": len(after),
             "previous_events": len(original),
@@ -257,7 +259,9 @@ def write_plans(plans):
     try:
         for item in plans:
             path = item["path"]
-            if item["unchanged"]:
+            if item["unchanged"] and (item["legacy_path"] is None or
+                                      item["legacy_path"].is_file() and
+                                      item["legacy_path"].read_bytes() == item["bytes"]):
                 continue
             path.parent.mkdir(parents=True, exist_ok=True)
             with tempfile.NamedTemporaryFile(prefix=".atlas-rugby-",
@@ -267,6 +271,15 @@ def write_plans(plans):
                 stage.flush()
                 os.fsync(stage.fileno())
                 tempfiles.append((pathlib.Path(stage.name), path))
+            alias = item["legacy_path"]
+            if alias is not None and (not alias.is_file() or alias.read_bytes() != item["bytes"]):
+                with tempfile.NamedTemporaryFile(prefix=".atlas-rugby-alias-",
+                                                 suffix=".ics", dir=alias.parent,
+                                                 delete=False) as stage:
+                    stage.write(item["bytes"])
+                    stage.flush()
+                    os.fsync(stage.fileno())
+                    tempfiles.append((pathlib.Path(stage.name), alias))
         for temp, target in tempfiles:
             os.replace(temp, target)
     finally:
@@ -281,7 +294,7 @@ def run(database, config, output_dir, *, series=None, apply=False,
         write_plans(plans)
     for item in plans:
         report = {key: value for key, value in item.items()
-                  if key not in ("bytes", "path")}
+                  if key not in ("bytes", "path", "legacy_path")}
         report.update(mode="apply" if apply else "preview",
                       path=str(item["path"]))
         print(json.dumps(report, sort_keys=True), file=stream)
@@ -300,6 +313,7 @@ def publish_to_git(plans, *, activate=False, execute=subprocess.run):
     if branch != "main":
         raise ValueError("Publishing requires the calendar repository main branch")
     staged = [str(item["path"]) for item in plans]
+    staged.extend(str(item["legacy_path"]) for item in plans if item.get("legacy_path"))
     if activate:
         if len(plans) == 0:
             raise ValueError("Cannot activate an empty calendar publication")
@@ -360,7 +374,7 @@ def main(argv=None):
             # Partial --series exports leave the common manifest untouched.
             if args.apply and not args.series:
                 canonical = list(database.episodes.find({
-                    "series_id": {"$regex": "^(rugby-|gallagher-prem$)"}
+                    "series_id": {"$regex": "^(rugby-|Gallagher_PREM$)"}
                 }))
                 old_json = args.output / "rugby-metadata-manifest.json"
                 old_tar = args.output / "rugby-metadata.tar.gz"

@@ -105,7 +105,17 @@ def build(config, source_dir, now):
     if previous.exists():
         old_data = json.loads(previous.read_text(encoding="utf-8"))
         if old_data.get("schema_version") == 2:
-            old_assignments = {f["id"]: f for f in old_data.get("fixtures", [])}
+            legacy = {e["legacy_slug"]: e["slug"]
+                      for e in config["calendars"] + config.get("plex_sources", [])
+                      if e.get("legacy_slug")}
+            for f in old_data.get("fixtures", []):
+                item = dict(f)
+                old = item["competition"]
+                newer = legacy.get(old, old)
+                if newer != old:
+                    item["competition"] = newer
+                    item["id"] = newer + item["id"][len(old):]
+                old_assignments[item["id"]] = item
     for entry in config["calendars"] + config.get("plex_sources", []):
         if entry.get("type") == "atlas":
             continue
@@ -133,7 +143,7 @@ def build(config, source_dir, now):
             round_match = ROUND.search(description)
             if entry.get("type") == "world-rugby":
                 year = kickoff.astimezone(UK).year
-                if entry["slug"] == "rugby-nations":
+                if entry["slug"] == "Rugby_Mens_Nations":
                     assigned = old_assignments.get(f"{entry['slug']}:{event.get('UID', '')}")
                     replay_round, _ = resolve_round(kickoff, teams[0], teams[1], observations)
                     round_no = (assigned["round"] if assigned and
@@ -162,7 +172,7 @@ def build(config, source_dir, now):
                 year = season_year(kickoff)
             grouped[(year, round_no)].append((kickoff.astimezone(dt.timezone.utc), str(event.get("UID", "")), teams, event))
         for (year, round_no), matches in sorted(grouped.items()):
-            show = {"rugby-nations": "Rugby_Nations"}.get(entry["slug"], slug(entry["slug"]))
+            show = entry["slug"]
             # Keep show identifiers stable and filesystem-safe.
             show_dir = f"{show}/"
             output[show_dir + "tvshow.nfo"] = xml_bytes("tvshow", [
@@ -215,7 +225,7 @@ def build(config, source_dir, now):
                     "rugbypass_id": (
                         resolve_round(kickoff, home, away, observations)[1]
                         or (prior.get("rugbypass_id") if prior else None)
-                    ) if entry["slug"] == "rugby-nations" else None,
+                    ) if entry["slug"] == "Rugby_Mens_Nations" else None,
                     "nfo": relative,
                 })
     if not manifest["fixtures"]:

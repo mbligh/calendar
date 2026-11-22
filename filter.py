@@ -135,6 +135,7 @@ def main():
             continue
         slug = entry["slug"]
         path = args.output / (slug + ".ics")
+        alias = args.output / (entry["legacy_slug"] + ".ics") if entry.get("legacy_slug") else None
         url = entry.get("url")
         if not url and entry.get("type") != "world-rugby":
             url = "https://calendar.google.com/calendar/ical/" + urllib.parse.quote(entry["id"], safe="") + "/public/basic.ics"
@@ -150,6 +151,8 @@ def main():
                 print(f"{slug}: updated ({len(events(result))} events)")
             else:
                 print(f"{slug}: unchanged ({len(events(result))} events)")
+            if alias is not None and (not alias.is_file() or alias.read_bytes() != payload):
+                alias.write_bytes(payload)
         except Exception as exc:
             failures += 1
             print(f"{slug}: ERROR: {exc}", file=sys.stderr)

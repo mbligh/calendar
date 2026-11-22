@@ -8,11 +8,11 @@ post-match scores from appearing in subscribed calendars.
 After enabling GitHub Pages (Settings → Pages → Deploy from a branch,
 branch `main`, folder `/docs`), use these ICS URLs:
 
-- [Rugby Mens Intl](https://mbligh.github.io/calendar/rugby-mens-intl.ics)
-- [Rugby Mens Prem](https://mbligh.github.io/calendar/rugby-mens-prem.ics)
-- [Rugby Mens 6N](https://mbligh.github.io/calendar/rugby-mens-6n.ics)
-- [Rugby Womens 6N](https://mbligh.github.io/calendar/rugby-womens-6n.ics)
-- [Rugby Womens Intl](https://mbligh.github.io/calendar/rugby-womens-intl.ics)
+- [Rugby Mens Intl](https://mbligh.github.io/calendar/Rugby_Mens_Intl.ics)
+- [Rugby Mens Prem](https://mbligh.github.io/calendar/Rugby_Mens_Prem.ics)
+- [Rugby Mens 6N](https://mbligh.github.io/calendar/Rugby_Mens_6N.ics)
+- [Rugby Womens 6N](https://mbligh.github.io/calendar/Rugby_Womens_6N.ics)
+- [Rugby Womens Intl](https://mbligh.github.io/calendar/Rugby_Womens_Intl.ics)
 
 These links won't work until the initial updater run succeeds and Pages is enabled.
 
@@ -143,12 +143,12 @@ git pull
 sudo apt install python3-pymongo python3-icalendar
 
 # Read-only preview against the current published snapshots:
-python3 build_rugby_calendars --series rugby-nations
-python3 build_rugby_calendars --series rugby-womens-intl
+python3 build_rugby_calendars --series Rugby_Mens_Nations
+python3 build_rugby_calendars --series Rugby_Womens_Intl
 
 # Write locally only after reviewing output; not enabled in cron/Actions:
-python3 build_rugby_calendars --series rugby-nations --apply
-git diff -- docs/rugby-nations.ics
+python3 build_rugby_calendars --series Rugby_Mens_Nations --apply
+git diff -- docs/Rugby_Mens_Nations.ics
 ```
 
 `build_rugby_calendars` reads `MONGODB_URI` or `~/.mongodb/pvr` and defaults to
@@ -189,7 +189,7 @@ python3 build_rugby_calendars
 The first run of the scheduler splits WXV into its own series and numbering,
 preserves old WXV fixture IDs as superseded migration history, and migrates
 any release associations. The calendar builder moves accepted historical
-WXV events from `rugby-womens-intl.ics` to `rugby-womens-wxv.ics`
+WXV events from `Rugby_Womens_Intl.ics` to `Rugby_Womens_WXV.ics`
 without changing their UIDs or frozen historical text.
 
 Only after inspecting the full preview, explicitly activate Atlas
@@ -235,3 +235,10 @@ archive, commits only changed managed metadata, and pushes to GitHub Pages.
 Do not install the cron entry until the first WXV migration and full
 Atlas-derived preview are verified. The cron is **not installed by this
 repository**. The independent hunter-paces Actions workflow remains active.
+
+## Canonical feed names
+
+Primary ICS filenames use media directory names, e.g.
+Rugby_Mens_Nations.ics and Rugby_Womens_WXV.ics. Older hyphenated public
+URLs remain updated compatibility aliases with unchanged event UIDs. Atlas
+must first be migrated on slagg using mbligh/pvr/migrate_series_ids --apply.

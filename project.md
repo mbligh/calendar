@@ -109,7 +109,7 @@ the established freeze-at-kickoff merge. The action remains on its
 original independent fetch/numbering workflow for now, so the source
 migration can be reviewed before eliminating duplicate fixture logic.
 
-Run `python3 build_rugby_calendars --series rugby-nations` on `slagg` to preview
+Run `python3 build_rugby_calendars --series Rugby_Mens_Nations` on `slagg` to preview
 with the existing Atlas allowlist and `~/.mongodb/pvr` credentials;
 `--apply` only writes local `docs/<slug>.ics`, not git or Atlas.
 See README.md for details. Existing calendar UIDs and frozen past fixtures
@@ -136,7 +136,7 @@ python3 build_rugby_calendars
 The first run of the scheduler splits WXV into its own series and numbering,
 preserves old WXV fixture IDs as superseded migration history, and migrates
 any release associations. The calendar builder moves accepted historical
-WXV events from `rugby-womens-intl.ics` to `rugby-womens-wxv.ics`
+WXV events from `Rugby_Womens_Intl.ics` to `Rugby_Womens_WXV.ics`
 without changing their UIDs or frozen historical text.
 
 Only after inspecting the full preview, explicitly activate Atlas
@@ -166,3 +166,10 @@ from Atlas (currently Gallagher PREM) are carried forward unchanged from
 the previous static archive; these remain compatibility snapshots rather
 than current fixture fetches. The migration to Atlas must be completed for
 those competitions before their legacy metadata can update automatically.
+
+## Canonical series identifiers
+
+The media directory name is the single series slug (Rugby_Mens_Nations,
+Rugby_Womens_WXV, etc.). Old public .ics URLs are compatibility aliases
+only; calendar UIDs remain unchanged. Migrate Atlas on slagg before enabling
+the new publisher.

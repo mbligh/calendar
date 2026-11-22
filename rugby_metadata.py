@@ -10,6 +10,7 @@ import gzip
 import hashlib
 import io
 import json
+import json
 import pathlib
 import re
 import tarfile
@@ -39,6 +40,10 @@ def build(records, *, now=None, fallback_manifest=None, fallback_archive=None):
     A canonical NFO file must have a safe path and matching identity.
     """
     now = aware(now) or dt.datetime.now(dt.timezone.utc)
+    config = json.loads((pathlib.Path(__file__).parent / "calendars.json").read_text())
+    old_to_new = {e["legacy_slug"]: e["slug"]
+                  for e in config["calendars"] + config.get("plex_sources", [])
+                  if e.get("legacy_slug")}
     rows = []
     blobs = {}
     ids = set()
@@ -48,7 +53,7 @@ def build(records, *, now=None, fallback_manifest=None, fallback_archive=None):
     for ep in records:
         series = ep.get("series_id")
         if not isinstance(series, str) or not (
-                series.startswith("rugby-") or series == "gallagher-prem"):
+                series.startswith("Rugby_") or series == "Gallagher_PREM"):
             continue
         canonical_series.add(series)
         if ep.get("status") in ("superseded", "cancelled", "canceled"):
@@ -112,7 +117,13 @@ def build(records, *, now=None, fallback_manifest=None, fallback_archive=None):
             raise ValueError("Legacy manifest/archive pair is incomplete")
         with tarfile.open(fileobj=io.BytesIO(fallback_archive), mode="r:gz") as old_tar:
             for item in fallback_manifest.get("fixtures", []):
+                item = dict(item)
                 comp = item.get("competition")
+                if comp in old_to_new:
+                    newer = old_to_new[comp]
+                    item["competition"] = newer
+                    item["id"] = newer + item["id"][len(comp):]
+                    comp = newer
                 if comp in canonical_series:
                     continue
                 fid = item.get("id")

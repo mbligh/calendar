@@ -45,7 +45,7 @@ class RugbyPassRoundTests(unittest.TestCase):
         observations = [r for item in rugby_observations(root / "data" / "rugbypass.json")
                         if (r := replay_observation(item)) is not None]
         self.assertGreater(len(observations), 0)
-        cal = Calendar.from_ical((root / "docs" / "rugby-nations.ics").read_bytes())
+        cal = Calendar.from_ical((root / "docs" / "Rugby_Mens_Nations.ics").read_bytes())
         # The teams also meet on 29 November in the same competition.
         # Select the fixture associated with the 13 November replay;
         # team names alone do not identify a unique fixture.
@@ -80,7 +80,7 @@ class RugbyPassRoundTests(unittest.TestCase):
                                                   tzinfo=dt.timezone.utc))
                 event.add("description", "Nations Championship 2026")
                 cal.add_component(event)
-            (docs / "rugby-nations.ics").write_bytes(cal.to_ical())
+            (docs / "Rugby_Mens_Nations.ics").write_bytes(cal.to_ical())
             records = []
             for uid, home, away, stamp in [
                 ("later", "England", "Japan", "2026-11-14T08:00:00Z"),
@@ -91,23 +91,23 @@ class RugbyPassRoundTests(unittest.TestCase):
                     "publishedDate": stamp})
             (data / "rugbypass.json").write_text(
                 json.dumps({"source": "rugbypass", "records": records}))
-            config = {"calendars": [{"slug": "rugby-nations", "name": "Rugby Nations",
+            config = {"calendars": [{"slug": "Rugby_Mens_Nations", "name": "Rugby Nations",
                                     "nfo_showtitle": "Rugby Nations Championships",
                                     "type": "world-rugby"}]}
             now = dt.datetime(2026, 11, 14, tzinfo=dt.timezone.utc)
             output, manifest = build(config, docs, now)
             by_id = {f["id"]: f for f in manifest["fixtures"]}
-            fixture = by_id["rugby-nations:early"]
+            fixture = by_id["Rugby_Mens_Nations:early"]
             self.assertEqual(fixture["showtitle"], "Rugby Nations Championships")
             nfo = ET.fromstring(output[fixture["nfo"]])
             self.assertEqual(nfo.findtext("showtitle"), "Rugby Nations Championships")
             self.assertEqual(nfo.findtext("title"),
                              "France vs South Africa - 2026/11/13")
             self.assertEqual(nfo.findtext("aired"), "2026-11-13")
-            self.assertEqual(by_id["rugby-nations:early"]["episode"], 501)
-            self.assertEqual(by_id["rugby-nations:late"]["episode"], 502)
-            self.assertIsNone(by_id["rugby-nations:future"]["episode"])
-            self.assertIsNone(by_id["rugby-nations:future"]["round"])
+            self.assertEqual(by_id["Rugby_Mens_Nations:early"]["episode"], 501)
+            self.assertEqual(by_id["Rugby_Mens_Nations:late"]["episode"], 502)
+            self.assertIsNone(by_id["Rugby_Mens_Nations:future"]["episode"])
+            self.assertIsNone(by_id["Rugby_Mens_Nations:future"]["round"])
             (docs / "rugby-metadata-manifest.json").write_text(json.dumps(manifest))
             # Newly discovered earlier-kickoff fixture does not renumber old IDs.
             _, second = build(config, docs, now)

@@ -15,7 +15,7 @@ UTC = dt.timezone.utc
 NOW = dt.datetime(2026, 11, 21, 16, tzinfo=UTC)
 
 
-def fixture(series="rugby-womens-wxv", episode=101, path=None):
+def fixture(series="Rugby_Womens_WXV", episode=101, path=None):
     library = "Rugby_Womens_WXV"
     name = path or f"{library}/Season_2026/{library}-s2026e{episode:03d}-Canada_v_England_20261017.nfo"
     return {
@@ -33,8 +33,8 @@ def fixture(series="rugby-womens-wxv", episode=101, path=None):
 
 def old_legacy_payload():
     item = {
-        "id": "gallagher-prem:prem-123@mbligh.github.io",
-        "competition": "gallagher-prem",
+        "id": "Gallagher_PREM:prem-123@mbligh.github.io",
+        "competition": "Gallagher_PREM",
         "season": 2026, "episode": 101, "round": 1,
         "kickoff_utc": "2026-09-25T18:45:00+00:00",
         "home": "Harlequins", "away": "Bath Rugby", "venue": "Twickenham",
@@ -62,7 +62,7 @@ class AtlasMetadataTests(unittest.TestCase):
         self.assertEqual(contents["schema_version"], 2)
         self.assertEqual(len(contents["fixtures"]), 1)
         row = contents["fixtures"][0]
-        self.assertEqual(row["competition"], "rugby-womens-wxv")
+        self.assertEqual(row["competition"], "Rugby_Womens_WXV")
         self.assertEqual(row["episode"], 101)
         self.assertEqual(row["rugbypass_id"], "1011153")
         with tarfile.open(fileobj=io.BytesIO(archive), mode="r:gz") as tar:
@@ -77,8 +77,8 @@ class AtlasMetadataTests(unittest.TestCase):
 
     def test_existing_wxv_legacy_intl_record_is_excluded(self):
         active = fixture()
-        old = dict(active, _id="rugby-womens-intl:world-rugby-test@mbligh.github.io",
-                   series_id="rugby-womens-intl", status="superseded")
+        old = dict(active, _id="Rugby_Womens_Intl:world-rugby-test@mbligh.github.io",
+                   series_id="Rugby_Womens_Intl", status="superseded")
         manifest, _, counts = meta.build([active, old], now=NOW)
         self.assertEqual(len(json.loads(manifest)["fixtures"]), 1)
         self.assertEqual(counts["legacy_only_retained"], 0)
@@ -92,7 +92,7 @@ class AtlasMetadataTests(unittest.TestCase):
         self.assertEqual(len(manifest["fixtures"]), 2)
         self.assertEqual(report["legacy_only_retained"], 1)
         names = {f["competition"] for f in manifest["fixtures"]}
-        self.assertEqual(names, {"rugby-womens-wxv", "gallagher-prem"})
+        self.assertEqual(names, {"Rugby_Womens_WXV", "Gallagher_PREM"})
         with tarfile.open(fileobj=io.BytesIO(tarball), mode="r:gz") as tar:
             oldpath = original["fixtures"][0]["nfo"]
             self.assertEqual(tar.extractfile(oldpath).read(), b"<episodedetails/>")

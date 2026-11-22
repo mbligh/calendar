@@ -15,10 +15,10 @@ CLI = importlib.machinery.SourceFileLoader(
     "calendar_build_rugby_calendars", str(ROOT / "build_rugby_calendars")).load_module()
 UTC = dt.timezone.utc
 NOW = dt.datetime(2026, 11, 21, 12, tzinfo=UTC)
-SLUG = "rugby-mens-intl"
-WOMEN = "rugby-womens-pwr"
-WXV = "rugby-womens-wxv"
-INTL = "rugby-womens-intl"
+SLUG = "Rugby_Mens_Intl"
+WOMEN = "Rugby_Womens_PWR"
+WXV = "Rugby_Womens_WXV"
+INTL = "Rugby_Womens_Intl"
 CONFIG = {"timezone": "America/New_York", "calendars": [
     {"slug": SLUG, "name": "Rugby Mens Intl"},
     {"slug": WOMEN, "name": "Rugby Womens PWR"},
@@ -275,7 +275,7 @@ class AtlasCalendarExportTests(unittest.TestCase):
             return SimpleNamespace(returncode=0, stdout="feature")
         with patch.object(CLI, "ROOT", root), self.assertRaisesRegex(
                 ValueError, "main branch"):
-            CLI.publish_to_git([{"path": self.directory / "rugby-mens-intl.ics"}],
+            CLI.publish_to_git([{"path": self.directory / "Rugby_Mens_Intl.ics"}],
                                execute=execute)
         self.assertEqual(len(called), 1)
 
