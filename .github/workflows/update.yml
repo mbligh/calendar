@@ -23,8 +23,19 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       - run: python -m unittest test_world_rugby.py test_plex_nfo.py test_build_rugby_calendars.py
-      - run: python filter.py
+      - name: Detect Atlas rugby publication handoff
+        id: atlas
+        run: |
+          if test -f .github/atlas-rugby-active; then
+            echo "active=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "active=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Legacy rugby calendar refresh
+        if: steps.atlas.outputs.active != 'true'
+        run: python filter.py
       - name: Build Plex NFO metadata
+        if: steps.atlas.outputs.active != 'true'
         id: plex
         continue-on-error: true
         env:
@@ -33,7 +44,7 @@ jobs:
           PREM_REALM: ${{ secrets.PREM_REALM }}
         run: python plex_nfo.py
       - name: Commit calendars and Plex metadata
-        if: success()
+        if: steps.atlas.outputs.active != 'true' && success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -43,7 +54,7 @@ jobs:
             git push
           fi
       - name: Report Plex metadata failure
-        if: steps.plex.outcome == 'failure'
+        if: steps.atlas.outputs.active != 'true' && steps.plex.outcome == 'failure'
         run: |
           echo "::error::Plex metadata could not be refreshed; existing publication retained."
           exit 1
