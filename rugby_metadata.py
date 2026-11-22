@@ -32,7 +32,7 @@ def tvshow_xml(showtitle):
     return ET.tostring(root, encoding="utf-8", xml_declaration=True) + b"\n"
 
 
-def build(records, *, now=None):
+def build(records, *, now=None, fallback_manifest=None, fallback_archive=None):
     """Return (manifest JSON bytes, tar.gz bytes, counts), all in memory.
 
     Unknown, cancelled or superseded fixtures never enter the published set.
@@ -43,11 +43,14 @@ def build(records, *, now=None):
     blobs = {}
     ids = set()
     keys = set()
+    canonical_series = set()
+    carried_legacy = 0
     for ep in records:
         series = ep.get("series_id")
         if not isinstance(series, str) or not (
                 series.startswith("rugby-") or series == "gallagher-prem"):
             continue
+        canonical_series.add(series)
         if ep.get("status") in ("superseded", "cancelled", "canceled"):
             continue
         eid = ep.get("_id")
@@ -100,6 +103,37 @@ def build(records, *, now=None):
             "rugbypass_id": (ep.get("external_ids") or {}).get("rugbypass"),
             "nfo": nfo_path,
         })
+    # Keep legacy-only canonical data for competitions not imported into
+    # Atlas yet (currently Gallagher PREM from its authenticated API).
+    # Never merge fallback fixtures for a series Atlas already owns, or the
+    # previously mixed women's/WXV calendar would be silently revived.
+    if fallback_manifest is not None:
+        if fallback_archive is None or fallback_manifest.get("schema_version") != 2:
+            raise ValueError("Legacy manifest/archive pair is incomplete")
+        with tarfile.open(fileobj=io.BytesIO(fallback_archive), mode="r:gz") as old_tar:
+            for item in fallback_manifest.get("fixtures", []):
+                comp = item.get("competition")
+                if comp in canonical_series:
+                    continue
+                fid = item.get("id")
+                if not isinstance(comp, str) or not isinstance(fid, str) or not fid.startswith(comp + ":"):
+                    raise ValueError("Invalid legacy-only fixture ID")
+                if fid in ids:
+                    raise ValueError(f"Duplicate canonical and legacy fixture {fid}")
+                ids.add(fid)
+                nfo_path = item.get("nfo")
+                if nfo_path is not None:
+                    if not isinstance(nfo_path, str) or not SAFE_PATH.fullmatch(nfo_path):
+                        raise ValueError(f"Unsafe legacy NFO path: {fid}")
+                    try:
+                        blobs[nfo_path] = old_tar.extractfile(nfo_path).read()
+                        tvpath = nfo_path.split("/", 1)[0] + "/tvshow.nfo"
+                        if tvpath not in blobs:
+                            blobs[tvpath] = old_tar.extractfile(tvpath).read()
+                    except (KeyError, AttributeError, OSError) as exc:
+                        raise ValueError(f"Legacy NFO absent from published archive: {fid}") from exc
+                rows.append(dict(item))
+                carried_legacy += 1
     if not rows:
         raise ValueError("Refusing to publish empty Atlas rugby manifest")
     rows.sort(key=lambda x: (x["competition"], x["season"], x["kickoff_utc"], x["id"]))
@@ -125,6 +159,7 @@ def build(records, *, now=None):
     return manifest_bytes, tar_data.getvalue(), {
         "fixtures": len(rows), "nfos": len(blobs),
         "numbered": sum(x["nfo"] is not None for x in rows),
+        "legacy_only_retained": carried_legacy,
     }
 
 
