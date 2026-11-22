@@ -8,7 +8,7 @@ SUMMARY:Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs 🇮🇹 Italy
 DTSTART:20270206T141000Z
 DTEND:20270206T161000Z
 UID:0f5ba9d0dc78f33aaa0a1569d76398b7
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 1
 LOCATION:Murrayfield\, Scotland
 STATUS:CONFIRMED
 END:VEVENT
@@ -18,7 +18,7 @@ SUMMARY:England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs 🏴󠁧󠁢󠁳󠁣󠁴
 DTSTART:20270313T164000Z
 DTEND:20270313T184000Z
 UID:2156a377e2d262e8532800bbdf945800
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 5
 LOCATION:Twickenham Stadium\, England
 STATUS:CONFIRMED
 END:VEVENT
@@ -27,7 +27,7 @@ SUMMARY:Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs 🇮🇪 Ireland
 DTSTART:20270305T201000Z
 DTEND:20270305T221000Z
 UID:2b7f51249c69077301870f286fbf76a8
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 4
 LOCATION:Murrayfield\, Scotland
 STATUS:CONFIRMED
 END:VEVENT
@@ -36,7 +36,7 @@ SUMMARY:Italy 🇮🇹 vs 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales
 DTSTART:20270313T141000Z
 DTEND:20270313T161000Z
 UID:4c8eb6badadb7aa03b33733f1b597cf5
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 5
 LOCATION:Stadio Olimpico\, Italy
 STATUS:CONFIRMED
 END:VEVENT
@@ -45,7 +45,7 @@ SUMMARY:France 🇫🇷 vs 🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland
 DTSTART:20270221T151000Z
 DTEND:20270221T171000Z
 UID:5b1284af57086c0b819894bde06f9d43
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 3
 LOCATION:Stade de France\, France
 STATUS:CONFIRMED
 END:VEVENT
@@ -54,7 +54,7 @@ SUMMARY:Italy 🇮🇹 vs 🇮🇪 Ireland
 DTSTART:20270213T141000Z
 DTEND:20270213T161000Z
 UID:657e1e9c9e187282af472d17deb9dc24
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 2
 LOCATION:Stadio Olimpico\, Italy
 STATUS:CONFIRMED
 END:VEVENT
@@ -64,7 +64,7 @@ SUMMARY:Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿 vs 🏴󠁧󠁢󠁥󠁮󠁧󠁿
 DTSTART:20270306T164000Z
 DTEND:20270306T184000Z
 UID:670fff1750fec4c5c40bbc22a7051df4
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 4
 LOCATION:Principality Stadium\, Wales
 STATUS:CONFIRMED
 END:VEVENT
@@ -73,7 +73,7 @@ SUMMARY:Wales 🏴󠁧󠁢󠁷󠁬󠁳󠁿 vs 🇮🇪 Ireland
 DTSTART:20270220T141000Z
 DTEND:20270220T161000Z
 UID:70a2124e555cb9c147c2cfa935184b36
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 3
 LOCATION:Principality Stadium\, Wales
 STATUS:CONFIRMED
 END:VEVENT
@@ -82,7 +82,7 @@ SUMMARY:Italy 🇮🇹 vs 🇫🇷 France
 DTSTART:20270306T141000Z
 DTEND:20270306T161000Z
 UID:71fd6bf3a917992c32425606b3ae04d5
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 4
 LOCATION:Stadio Olimpico\, Italy
 STATUS:CONFIRMED
 END:VEVENT
@@ -91,7 +91,7 @@ SUMMARY:Ireland 🇮🇪 vs 🏴󠁧󠁢󠁥󠁮󠁧󠁿 England
 DTSTART:20270205T201000Z
 DTEND:20270205T221000Z
 UID:78046275ae9812177988ed6989b9c248
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 1
 LOCATION:Aviva Stadium\, Ireland
 STATUS:CONFIRMED
 END:VEVENT
@@ -100,7 +100,7 @@ SUMMARY:England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs 🇫🇷 France
 DTSTART:20270214T151000Z
 DTEND:20270214T171000Z
 UID:813c40df159defa2ed47be4d77dff164
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 2
 LOCATION:Twickenham Stadium\, England
 STATUS:CONFIRMED
 END:VEVENT
@@ -110,7 +110,7 @@ SUMMARY:Scotland 🏴󠁧󠁢󠁳󠁣󠁴󠁿 vs 🏴󠁧󠁢󠁷󠁬󠁳
 DTSTART:20270213T164000Z
 DTEND:20270213T184000Z
 UID:85330caa9bb77ed631133c0a0a5a36ac
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 2
 LOCATION:Murrayfield\, Scotland
 STATUS:CONFIRMED
 END:VEVENT
@@ -119,7 +119,7 @@ SUMMARY:France 🇫🇷 vs 🏴󠁧󠁢󠁷󠁬󠁳󠁿 Wales
 DTSTART:20270206T164000Z
 DTEND:20270206T184000Z
 UID:8ddd9ebcd8c75a5dce4fd39753891199
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 1
 LOCATION:Stade de France\, France
 STATUS:CONFIRMED
 END:VEVENT
@@ -128,7 +128,7 @@ SUMMARY:England 🏴󠁧󠁢󠁥󠁮󠁧󠁿 vs 🇮🇹 Italy
 DTSTART:20270220T164000Z
 DTEND:20270220T184000Z
 UID:b56bbac5ba06ff45c19b35c1921b6c3e
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 3
 LOCATION:Twickenham Stadium\, England
 STATUS:CONFIRMED
 END:VEVENT
@@ -137,7 +137,7 @@ SUMMARY:Ireland 🇮🇪 vs 🇫🇷 France
 DTSTART:20270313T201000Z
 DTEND:20270313T221000Z
 UID:f1c07c9d1fe95e789fa8fdc6a2038bcb
-DESCRIPTION:Spoiler-free rugby fixture
+DESCRIPTION:Spoiler-free rugby fixture. Round 5
 LOCATION:Aviva Stadium\, Ireland
 STATUS:CONFIRMED
 END:VEVENT
