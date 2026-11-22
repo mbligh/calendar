@@ -242,3 +242,15 @@ Primary ICS filenames use media directory names, e.g.
 Rugby_Mens_Nations.ics and Rugby_Womens_WXV.ics. Older hyphenated public
 URLs remain updated compatibility aliases with unchanged event UIDs. Atlas
 must first be migrated on slagg using mbligh/pvr/migrate_series_ids --apply.
+
+## Men's Premiership official API handoff
+
+Rugby_Mens_Prem is now an Atlas-owned calendar and NFO series. PVR pulls
+the official public InCrowd RugbyViz match API directly; this repository
+neither fetches the public rugbyfixture.io Premiership ICS nor uses the
+previous Gallagher_PREM pseudo-series. During the first publish after
+the PVR importer cutover, the Rugby_Mens_Prem NFO metadata is generated
+from Atlas, with existing ICS UIDs preserved. Date-TBC fixtures remain
+unnumbered until the official feed confirms the kickoff. The old Gallagher
+PREM static NFO archive entries are ignored once the canonical
+Rugby_Mens_Prem episodes are present in Atlas.

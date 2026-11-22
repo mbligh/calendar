@@ -97,6 +97,42 @@ class AtlasMetadataTests(unittest.TestCase):
             oldpath = original["fixtures"][0]["nfo"]
             self.assertEqual(tar.extractfile(oldpath).read(), b"<episodedetails/>")
 
+    def test_canonical_mens_prem_supersedes_old_gallagher_archive(self):
+        prior, archive = old_legacy_payload()
+        official = fixture(
+            series="Rugby_Mens_Prem", episode=301,
+            path=("Rugby_Mens_Prem/Season_2026/"
+                  "Rugby_Mens_Prem-s2026e301-Canada_v_England_20261017.nfo"))
+        official["showtitle"] = "Rugby Mens Prem"
+        official["nfo"] = official["nfo"].replace(
+            "Rugby Womens WXV", "Rugby Mens Prem")
+        official["nfo"] = official["nfo"].replace(
+            "<episode>101</episode>", "<episode>301</episode>")
+        official["round"] = 3
+        body, tarball, counts = meta.build(
+            [official], now=NOW, fallback_manifest=prior,
+            fallback_archive=archive)
+        got = json.loads(body)
+        self.assertEqual(len(got["fixtures"]), 1)
+        self.assertEqual(got["fixtures"][0]["competition"], "Rugby_Mens_Prem")
+        self.assertEqual(got["fixtures"][0]["episode"], 301)
+        self.assertEqual(counts["legacy_only_retained"], 0)
+        with tarfile.open(fileobj=io.BytesIO(tarball), mode="r:gz") as tf:
+            self.assertNotIn(prior["fixtures"][0]["nfo"], tf.getnames())
+
+    def test_prem_config_is_atlas_only(self):
+        settings = json.loads((pathlib.Path(__file__).parent /
+                              "calendars.json").read_text())
+        prem = next(e for e in settings["calendars"]
+                    if e["slug"] == "Rugby_Mens_Prem")
+        self.assertEqual(prem["type"], "atlas")
+        self.assertNotIn("url", prem)
+        self.assertFalse(any(e["slug"] == "Gallagher_PREM"
+                             for e in settings.get("plex_sources", [])))
+        publisher = (pathlib.Path(__file__).parent /
+                     "build_rugby_calendars").read_text()
+        self.assertIn('{"$regex": "^Rugby_"}', publisher)
+
     def test_reject_bad_paths_duplicate_identity_and_xml_mismatch(self):
         invalid = fixture(path="../../out.nfo")
         with self.assertRaisesRegex(ValueError, "unsafe canonical"):

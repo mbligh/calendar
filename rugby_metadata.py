@@ -124,7 +124,12 @@ def build(records, *, now=None, fallback_manifest=None, fallback_archive=None):
                     item["competition"] = newer
                     item["id"] = newer + item["id"][len(comp):]
                     comp = newer
-                if comp in canonical_series:
+                # Official PREM moved into Rugby_Mens_Prem in Atlas.
+                # An old Gallagher_PREM archive must not reintroduce
+                # the retired parallel namespace after cutover.
+                if comp in canonical_series or (
+                        comp == "Gallagher_PREM" and
+                        "Rugby_Mens_Prem" in canonical_series):
                     continue
                 fid = item.get("id")
                 if not isinstance(comp, str) or not isinstance(fid, str) or not fid.startswith(comp + ":"):

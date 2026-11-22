@@ -374,7 +374,7 @@ def main(argv=None):
             # Partial --series exports leave the common manifest untouched.
             if args.apply and not args.series:
                 canonical = list(database.episodes.find({
-                    "series_id": {"$regex": "^(rugby-|Gallagher_PREM$)"}
+                    "series_id": {"$regex": "^Rugby_"}
                 }))
                 old_json = args.output / "rugby-metadata-manifest.json"
                 old_tar = args.output / "rugby-metadata.tar.gz"

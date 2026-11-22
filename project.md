@@ -173,3 +173,13 @@ The media directory name is the single series slug (Rugby_Mens_Nations,
 Rugby_Womens_WXV, etc.). Old public .ics URLs are compatibility aliases
 only; calendar UIDs remain unchanged. Migrate Atlas on slagg before enabling
 the new publisher.
+
+## Gallagher PREM canonical Atlas handoff
+
+Rugby_Mens_Prem is sourced solely from the official public API in the PVR
+scheduler. The older public Premiership ICS source and parallel
+Gallagher_PREM pseudo-series are retired. The Atlas-backed publisher
+exports Rugby_Mens_Prem using the same UIDs and canonical NFOs.
+The rugby metadata query selects the new case-sensitive Rugby_ series IDs,
+not obsolete rugby- slugs, and excludes old Gallagher_PREM archive records
+when canonical Premiership episodes are present.
