@@ -144,6 +144,11 @@ def build(records, *, now=None, fallback_manifest=None, fallback_archive=None):
         "files": {path: hashlib.sha256(payload).hexdigest()
                   for path, payload in sorted(blobs.items())},
     }
+    if (fallback_manifest and
+            fallback_manifest.get("fixtures") == manifest["fixtures"] and
+            fallback_manifest.get("files") == manifest["files"]):
+        manifest["generated_at"] = fallback_manifest.get(
+            "generated_at", manifest["generated_at"])
     manifest_bytes = (json.dumps(manifest, indent=2, sort_keys=True,
                                  ensure_ascii=False) + "\n").encode("utf-8")
     tar_data = io.BytesIO()
