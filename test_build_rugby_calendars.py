@@ -5,6 +5,8 @@ import io
 import pathlib
 import tempfile
 import unittest
+from types import SimpleNamespace
+from unittest.mock import patch
 
 from icalendar import Calendar, Event
 
@@ -242,6 +244,40 @@ class AtlasCalendarExportTests(unittest.TestCase):
         source, report = CLI.build_source([self.docs[0], old], SLUG)
         self.assertEqual(report["superseded"], 1)
         self.assertEqual(len(source.walk("VEVENT")), 1)
+
+    def test_activation_commits_only_managed_feeds_and_switch_marker(self):
+        root = pathlib.Path(self.work.name)
+        (root / ".github").mkdir()
+        created = []
+        def execute(args, **kwargs):
+            created.append(list(args))
+            if args[:3] == ["git", "branch", "--show-current"]:
+                return SimpleNamespace(returncode=0, stdout="main")
+            if args[:3] == ["git", "diff", "--cached"]:
+                return SimpleNamespace(returncode=1)
+            return SimpleNamespace(returncode=0)
+        with patch.object(CLI, "ROOT", root):
+            outcome = CLI.publish_to_git(
+                [{"path": self.directory / (SLUG + ".ics")}],
+                activate=True, execute=execute)
+        self.assertEqual(outcome, "pushed")
+        self.assertTrue((root / ".github" / "atlas-rugby-active").exists())
+        self.assertEqual(created[1][:3], ["git", "add", "--"])
+        self.assertIn(str(root / ".github" / "atlas-rugby-active"), created[1])
+        self.assertEqual(created[-1], ["git", "push", "origin", "main"])
+        self.assertEqual(len([v for v in created if v[:2] == ["git", "commit"]]), 1)
+
+    def test_refuse_publish_from_non_main_branch(self):
+        root = pathlib.Path(self.work.name)
+        called = []
+        def execute(args, **kwargs):
+            called.append(args)
+            return SimpleNamespace(returncode=0, stdout="feature")
+        with patch.object(CLI, "ROOT", root), self.assertRaisesRegex(
+                ValueError, "main branch"):
+            CLI.publish_to_git([{"path": self.directory / "rugby-mens-intl.ics"}],
+                               execute=execute)
+        self.assertEqual(len(called), 1)
 
     def test_default_PyMongo_naive_UTC_is_interpreted_correctly(self):
         naive = self.future.replace(tzinfo=None)
