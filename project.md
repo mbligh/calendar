@@ -193,3 +193,10 @@ Championship snapshot. Atlas no longer supplies those international
 records. This is an explicit one-off migration, not a change to the
 normal missing-event retention or freeze-at-kickoff policy. The Nations
 Championship feed and unrelated international entries are unchanged.
+
+On 2026-11-26 the 15 legacy `6N:` entries were also removed from both
+men's international snapshots, after matching all teams and kickoffs
+one-to-one with the dedicated 2027 men's Six Nations feed. The PVR
+importer excludes both dedicated competition prefixes and the corresponding
+Atlas duplicates and snapshot were cleaned. The public index includes all
+eight configured rugby feeds and the hunter-paces feed.
