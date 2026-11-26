@@ -183,3 +183,13 @@ exports Rugby_Mens_Prem using the same UIDs and canonical NFOs.
 The rugby metadata query selects the new case-sensitive Rugby_ series IDs,
 not obsolete rugby- slugs, and excludes old Gallagher_PREM archive records
 when canonical Premiership episodes are present.
+
+## Men's Nations Championship calendar migration cleanup
+
+On 2026-11-26, the 24 legacy `NC:` entries (including six knockout
+placeholders) were removed from both men's international ICS snapshots
+because all 24 had a one-to-one counterpart in the dedicated Nations
+Championship snapshot. Atlas no longer supplies those international
+records. This is an explicit one-off migration, not a change to the
+normal missing-event retention or freeze-at-kickoff policy. The Nations
+Championship feed and unrelated international entries are unchanged.
