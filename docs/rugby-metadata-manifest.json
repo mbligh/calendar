@@ -92,7 +92,7 @@
     "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e116-Pakistan_v_Uzbekistan_20261113.nfo": "2127ed19965ca4f07d7ff7d9b095828ba42020c0996e3965a48695c409960274",
     "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e119-Slovakia_v_Albania_20261114.nfo": "2c199887a8ce2c3eb64334476e699a79f7294389b65e1febcd53c83938459a80",
     "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e128-Peru_v_Cayman_Islands_20261121.nfo": "9bf88816e589fcb81372bdbdec084ea2b163a26efcfb14c33f19e1e142789c1d",
-    "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e133-Rwanda_v_Burundi_20261128.nfo": "15b5b7857daf5507114ddcd23eab19d59f1fe27c1c69fbd8bee0996d7293fc3a",
+    "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e133-Rwanda_v_Burundi_20261128.nfo": "1a0377b478b96d6b7bfdf41df3d71c9fbe317b4beb889a0aaf8f89e53beb89f1",
     "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e138-Tunisia_v_Switzerland_20261121.nfo": "5112dd93d13233170f487aa4f1b6e391dbfb15f21a97ac3a578326c7f0893f1c",
     "Rugby_Mens_Intl/Season_2026/Rugby_Mens_Intl-s2026e139-Tunisia_v_Poland_20261124.nfo": "e27d3cec646f89b71c3152eb17ed189d59362fe111d7117140c9876cb721faae",
     "Rugby_Mens_Intl/Season_2027/Rugby_Mens_Intl-s2027e109-England_A_v_Ireland_XV_20270220.nfo": "62c97228d43df9268fc62eb3395668df5764993a235b172d7973365735bfea34",
@@ -2312,7 +2312,7 @@
       "rugbypass_id": null,
       "season": 2026,
       "showtitle": "Rugby Mens Intl",
-      "venue": "National Amahoro Stadium"
+      "venue": "Ntare Louisenlund Stadium"
     },
     {
       "away": "Ireland XV",
@@ -15391,6 +15391,6 @@
       "venue": "Athlone Sports Stadium"
     }
   ],
-  "generated_at": "2026-11-27T10:17:04.029683+00:00",
+  "generated_at": "2026-11-28T10:17:04.387328+00:00",
   "schema_version": 2
 }
